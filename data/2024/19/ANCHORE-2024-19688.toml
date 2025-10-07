@@ -1,0 +1,148 @@
+[security]
+id = "ANCHORE-2024-19688"
+allocated = 2025-10-15T14:17:04.861590Z
+
+[security.aliases]
+cve = [
+    "CVE-2024-37891",
+]
+gcve = [
+    "GCVE-0-2024-37891",
+]
+github = [
+    "GHSA-34jh-p97f-mpxf",
+]
+chainguard = [
+    "CGA-2qrm-4h49-w24j",
+    "CGA-2vvm-h2g8-jrwc",
+    "CGA-32mf-hm7c-cqmg",
+    "CGA-37xg-qrch-w8h8",
+    "CGA-3ggr-w55x-hf5j",
+    "CGA-4c69-m94v-gfxj",
+    "CGA-4jh7-mjvv-47gg",
+    "CGA-5v3j-934q-gj4m",
+    "CGA-64rf-gm8h-pg8g",
+    "CGA-688x-4mm6-g5vm",
+    "CGA-69g4-mv22-46cq",
+    "CGA-8f64-fgpv-jxj2",
+    "CGA-8gfq-vj73-fvmc",
+    "CGA-8hmh-fp2r-2hjj",
+    "CGA-8hq8-2689-rc8h",
+    "CGA-93cg-mjjq-g57x",
+    "CGA-9qf6-pmhg-66vf",
+    "CGA-cx62-9vw2-mmpq",
+    "CGA-grjq-jh3q-2p7g",
+    "CGA-gw94-w557-8qgw",
+    "CGA-gwpm-7fhq-3wh2",
+    "CGA-h28r-8q2c-xq96",
+    "CGA-j235-35vq-wrm8",
+    "CGA-j5cf-g6hv-ffrf",
+    "CGA-jqq5-p5w5-hr5j",
+    "CGA-m9q6-p3c8-wp58",
+    "CGA-mrr8-97mj-749q",
+    "CGA-q9mm-3wv2-78p3",
+    "CGA-r95r-75cj-jf9p",
+    "CGA-rqhm-766h-p289",
+    "CGA-vc35-fw59-66f9",
+    "CGA-vgvj-86h2-mvw3",
+    "CGA-vm4f-px9q-57qh",
+    "CGA-vwcx-7fqm-jggq",
+    "CGA-w3h9-h7jv-6q22",
+]
+almalinux = [
+    "ALSA-2024:4422",
+    "ALSA-2024:5309",
+    "ALSA-2024:6162",
+    "ALSA-2024:6309",
+    "ALSA-2024:6311",
+    "ALSA-2024:8842",
+    "ALSA-2024:8843",
+    "ALSA-2024:9457",
+    "ALSA-2024:9458",
+]
+debian = [
+    "DLA-3998-1",
+]
+redhat = [
+    "RHSA-2024:4422",
+    "RHSA-2024:4730",
+    "RHSA-2024:4744",
+    "RHSA-2024:4746",
+    "RHSA-2024:5041",
+    "RHSA-2024:5258",
+    "RHSA-2024:5309",
+    "RHSA-2024:5526",
+    "RHSA-2024:5622",
+    "RHSA-2024:5627",
+    "RHSA-2024:5633",
+    "RHSA-2024:6162",
+    "RHSA-2024:6239",
+    "RHSA-2024:6240",
+    "RHSA-2024:6309",
+    "RHSA-2024:6310",
+    "RHSA-2024:6311",
+    "RHSA-2024:6358",
+    "RHSA-2024:6765",
+    "RHSA-2024:7312",
+    "RHSA-2024:8035",
+    "RHSA-2024:8842",
+    "RHSA-2024:8843",
+    "RHSA-2024:8906",
+    "RHSA-2024:9457",
+    "RHSA-2024:9458",
+    "RHSA-2024:9922",
+    "RHSA-2024:9923",
+    "RHSA-2024:9985",
+]
+rockylinux = [
+    "RLSA-2024:8842",
+    "RLSA-2024:8843",
+    "RLSA-2024:9457",
+]
+suse = [
+    "SUSE-SU-2024:2320-1",
+    "SUSE-SU-2024:2662-1",
+    "SUSE-SU-2024:2879-1",
+    "SUSE-SU-2024:4020-1",
+    "SUSE-SU-2024:4021-1",
+    "SUSE-SU-2024:4029-1",
+    "SUSE-SU-2024:4358-1",
+]
+opensuse = [
+    "openSUSE-SU-2024:14055-1",
+]
+ubuntu = [
+    "USN-7084-1",
+    "USN-7084-2",
+]
+openeuler = [
+    "OESA-2024-1865",
+    "OESA-2024-1866",
+    "OESA-2024-1867",
+    "OESA-2024-1868",
+    "OESA-2024-1869",
+    "OESA-2024-1945",
+    "OESA-2024-1946",
+    "OESA-2024-1947",
+    "OESA-2024-2037",
+]
+amazonlinux = [
+    "ALAS2-2024-2652",
+    "ALAS2-2024-2653",
+    "ALAS2023-2024-729",
+    "ALAS2023-2024-730",
+    "ALAS2023-2024-747",
+    "ALAS2PYTHON3.8-2024-013",
+]
+oraclelinux = [
+    "ELSA-2024-12709",
+    "ELSA-2024-4422",
+    "ELSA-2024-5309",
+    "ELSA-2024-6162",
+    "ELSA-2024-6309",
+    "ELSA-2024-6311",
+    "ELSA-2024-8842",
+    "ELSA-2024-8843",
+    "ELSA-2024-9457",
+    "ELSA-2024-9458",
+]

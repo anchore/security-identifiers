@@ -1,0 +1,144 @@
+[security]
+id = "ANCHORE-2023-18388"
+allocated = 2025-10-15T14:16:42.883212Z
+
+[security.aliases]
+cve = [
+    "CVE-2023-20569",
+]
+gcve = [
+    "GCVE-0-2023-20569",
+]
+github = [
+    "GHSA-xr6c-7pfv-6vgf",
+]
+almalinux = [
+    "ALSA-2023:6595",
+    "ALSA-2023:7109",
+    "ALSA-2024:0113",
+]
+debian = [
+    "DLA-3525-1",
+    "DSA-5475-1",
+]
+redhat = [
+    "RHSA-2023:6595",
+    "RHSA-2023:7109",
+    "RHSA-2023:7244",
+    "RHSA-2023:7401",
+    "RHSA-2023:7513",
+    "RHSA-2023:7749",
+    "RHSA-2023:7782",
+    "RHSA-2024:0113",
+    "RHSA-2024:0134",
+    "RHSA-2024:0433",
+    "RHSA-2024:0439",
+    "RHSA-2024:0448",
+    "RHSA-2024:0449",
+    "RHSA-2024:0561",
+    "RHSA-2024:0724",
+    "RHSA-2024:2005",
+    "RHSA-2024:5255",
+]
+rockylinux = [
+    "RLSA-2024:0134",
+    "RXSA-2023:7749",
+]
+suse = [
+    "SUSE-SU-2023:3262-1",
+    "SUSE-SU-2023:3298-1",
+    "SUSE-SU-2023:3302-1",
+    "SUSE-SU-2023:3309-1",
+    "SUSE-SU-2023:3311-1",
+    "SUSE-SU-2023:3313-1",
+    "SUSE-SU-2023:3318-1",
+    "SUSE-SU-2023:3324-1",
+    "SUSE-SU-2023:3329-1",
+    "SUSE-SU-2023:3349-1",
+    "SUSE-SU-2023:3360-1",
+    "SUSE-SU-2023:3361-1",
+    "SUSE-SU-2023:3362-1",
+    "SUSE-SU-2023:3376-1",
+    "SUSE-SU-2023:3377-1",
+    "SUSE-SU-2023:3389-1",
+    "SUSE-SU-2023:3390-1",
+    "SUSE-SU-2023:3391-1",
+    "SUSE-SU-2023:3392-1",
+    "SUSE-SU-2023:3395-1",
+    "SUSE-SU-2023:3421-1",
+    "SUSE-SU-2023:3446-1",
+    "SUSE-SU-2023:3447-1",
+    "SUSE-SU-2023:3494-1",
+    "SUSE-SU-2023:3495-1",
+    "SUSE-SU-2023:3496-1",
+]
+opensuse = [
+    "openSUSE-SU-2024:13112-1",
+    "openSUSE-SU-2024:13113-1",
+    "openSUSE-SU-2024:13122-1",
+    "openSUSE-SU-2024:13704-1",
+    "openSUSE-SU-2025:14769-1",
+    "openSUSE-SU-2025:14770-1",
+    "openSUSE-SU-2025:14771-1",
+    "openSUSE-SU-2025:14772-1",
+    "openSUSE-SU-2025:14773-1",
+    "openSUSE-SU-2025:14774-1",
+    "openSUSE-SU-2025:14775-1",
+    "openSUSE-SU-2025:14776-1",
+    "openSUSE-SU-2025:14777-1",
+    "openSUSE-SU-2025:14778-1",
+    "openSUSE-SU-2025:14779-1",
+    "openSUSE-SU-2025:14780-1",
+    "openSUSE-SU-2025:14781-1",
+    "openSUSE-SU-2025:14782-1",
+    "openSUSE-SU-2025:14783-1",
+    "openSUSE-SU-2025:14784-1",
+    "openSUSE-SU-2025:14785-1",
+    "openSUSE-SU-2025:14786-1",
+    "openSUSE-SU-2025:14787-1",
+    "openSUSE-SU-2025:14788-1",
+    "openSUSE-SU-2025:14789-1",
+    "openSUSE-SU-2025:14790-1",
+    "openSUSE-SU-2025:14791-1",
+    "openSUSE-SU-2025:14792-1",
+    "openSUSE-SU-2025:14793-1",
+    "openSUSE-SU-2025:14794-1",
+    "openSUSE-SU-2025:14795-1",
+    "openSUSE-SU-2025:14796-1",
+    "openSUSE-SU-2025:14797-1",
+    "openSUSE-SU-2025:14798-1",
+    "openSUSE-SU-2025:14799-1",
+    "openSUSE-SU-2025:14800-1",
+    "openSUSE-SU-2025:14801-1",
+    "openSUSE-SU-2025:14804-1",
+]
+ubuntu = [
+    "USN-6319-1",
+    "USN-6412-1",
+    "USN-6415-1",
+    "USN-6416-1",
+    "USN-6416-2",
+    "USN-6416-3",
+    "USN-6445-1",
+    "USN-6445-2",
+    "USN-6466-1",
+]
+amazonlinux = [
+    "ALAS2-2023-2179",
+    "ALAS2023-2023-285",
+    "ALAS2KERNEL-5.10-2023-038",
+    "ALAS2KERNEL-5.15-2023-025",
+    "ALAS2KERNEL-5.4-2023-050",
+]
+oraclelinux = [
+    "ELSA-2023-12712",
+    "ELSA-2023-12713",
+    "ELSA-2023-12714",
+    "ELSA-2023-12715",
+    "ELSA-2023-12874",
+    "ELSA-2023-12910",
+    "ELSA-2023-12911",
+    "ELSA-2023-6595",
+    "ELSA-2023-7109",
+    "ELSA-2023-7749",
+]

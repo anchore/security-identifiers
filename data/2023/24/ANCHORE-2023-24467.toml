@@ -1,0 +1,157 @@
+[security]
+id = "ANCHORE-2023-24467"
+allocated = 2025-10-15T14:16:46.969015Z
+
+[security.aliases]
+cve = [
+    "CVE-2023-22081",
+]
+gcve = [
+    "GCVE-0-2023-22081",
+]
+github = [
+    "GHSA-mp59-54g3-r5r4",
+]
+chainguard = [
+    "CGA-3w4j-h4mm-mxx3",
+    "CGA-7v49-wcg5-97fp",
+    "CGA-hv62-2f43-hmcm",
+    "CGA-jmx2-mqpp-h9rw",
+    "CGA-pfwc-xjhp-f577",
+    "CGA-qgxr-xqvf-264j",
+    "CGA-r3f5-69wc-x8rp",
+    "CGA-r689-w8rr-853m",
+    "CGA-rxhm-3p53-g4g4",
+    "CGA-w4fg-h672-7cwm",
+    "CGA-wmv8-c27r-7qf6",
+    "CGA-xv36-hc58-pcvp",
+]
+almalinux = [
+    "ALSA-2023:5731",
+    "ALSA-2023:5733",
+    "ALSA-2023:5742",
+    "ALSA-2023:5744",
+    "ALSA-2023:5751",
+    "ALSA-2023:5753",
+    "ALSA-2023:6738",
+    "ALSA-2023:6887",
+]
+debian = [
+    "DLA-3636-1",
+    "DSA-5537-1",
+    "DSA-5548-1",
+]
+redhat = [
+    "RHSA-2023:5727",
+    "RHSA-2023:5728",
+    "RHSA-2023:5729",
+    "RHSA-2023:5730",
+    "RHSA-2023:5731",
+    "RHSA-2023:5732",
+    "RHSA-2023:5733",
+    "RHSA-2023:5736",
+    "RHSA-2023:5737",
+    "RHSA-2023:5739",
+    "RHSA-2023:5740",
+    "RHSA-2023:5741",
+    "RHSA-2023:5742",
+    "RHSA-2023:5743",
+    "RHSA-2023:5744",
+    "RHSA-2023:5747",
+    "RHSA-2023:5750",
+    "RHSA-2023:5751",
+    "RHSA-2023:5752",
+    "RHSA-2023:5753",
+    "RHSA-2023:5761",
+    "RHSA-2023:6738",
+    "RHSA-2023:6887",
+    "RHSA-2024:0866",
+    "RHSA-2024:0879",
+]
+rockylinux = [
+    "RLSA-2023:5742",
+]
+suse = [
+    "SUSE-SU-2023:4152-1",
+    "SUSE-SU-2023:4198-1",
+    "SUSE-SU-2023:4289-1",
+    "SUSE-SU-2023:4506-1",
+    "SUSE-SU-2023:4507-1",
+    "SUSE-SU-2023:4572-1",
+    "SUSE-SU-2023:4612-1",
+    "SUSE-SU-2023:4614-1",
+]
+opensuse = [
+    "openSUSE-SU-2024:13342-1",
+    "openSUSE-SU-2024:13351-1",
+    "openSUSE-SU-2024:13357-1",
+    "openSUSE-SU-2024:13421-1",
+    "openSUSE-SU-2024:13455-1",
+    "openSUSE-SU-2024:13456-1",
+    "openSUSE-SU-2025:0066-1",
+    "openSUSE-SU-2025:0067-1",
+]
+ubuntu = [
+    "USN-6527-1",
+    "USN-6528-1",
+]
+minimos = [
+    "MINI-67pq-2rgw-qfgh",
+    "MINI-74f7-vv59-c978",
+    "MINI-89jf-c7qr-7vm7",
+    "MINI-989v-h8g7-c7vh",
+    "MINI-f48q-g65g-7p3m",
+    "MINI-gmv3-j5r6-gvfr",
+    "MINI-h7fx-9pq2-gprg",
+    "MINI-j2x6-c898-9ggr",
+    "MINI-wj98-pc9r-p656",
+]
+openeuler = [
+    "OESA-2023-1813",
+    "OESA-2023-1814",
+    "OESA-2023-1815",
+    "OESA-2023-1829",
+    "OESA-2023-1839",
+    "OESA-2023-1848",
+    "OESA-2024-2485",
+    "OESA-2024-2486",
+    "OESA-2024-2488",
+    "OESA-2024-2489",
+]
+amazonlinux = [
+    "ALAS2-2023-2314",
+    "ALAS2-2023-2315",
+    "ALAS2-2024-2397",
+    "ALAS2023-2023-398",
+    "ALAS2023-2023-399",
+    "ALAS2023-2023-400",
+    "ALAS2023-2023-401",
+    "ALAS2023-2023-426",
+    "ALAS2023-2023-427",
+    "ALAS2CORRETTO8-2023-008",
+    "ALAS2JAVA-OPENJDK11-2024-006",
+]
+oraclelinux = [
+    "ELSA-2023-12933",
+    "ELSA-2023-12934",
+    "ELSA-2023-12935",
+    "ELSA-2023-12936",
+    "ELSA-2023-12937",
+    "ELSA-2023-12938",
+    "ELSA-2023-12939",
+    "ELSA-2023-12940",
+    "ELSA-2023-12941",
+    "ELSA-2023-12942",
+    "ELSA-2023-12943",
+    "ELSA-2023-12944",
+    "ELSA-2023-5731",
+    "ELSA-2023-5733",
+    "ELSA-2023-5736",
+    "ELSA-2023-5742",
+    "ELSA-2023-5744",
+    "ELSA-2023-5751",
+    "ELSA-2023-5753",
+    "ELSA-2023-5761",
+    "ELSA-2023-6738",
+    "ELSA-2023-6887",
+]
