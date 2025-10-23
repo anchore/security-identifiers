@@ -1,0 +1,141 @@
+[security]
+id = "ANCHORE-2023-28800"
+allocated = 2025-10-15T14:16:49.898450Z
+
+[security.aliases]
+cve = [
+    "CVE-2023-45285",
+]
+gcve = [
+    "GCVE-0-2023-45285",
+]
+github = [
+    "GHSA-5f94-vhjq-rpg8",
+]
+bitnami = [
+    "BIT-golang-2023-45285",
+]
+go = [
+    "GO-2023-2383",
+]
+chainguard = [
+    "CGA-2424-wqxx-gfc3",
+    "CGA-2qp2-69ch-87rh",
+    "CGA-37wx-qjwv-2jm3",
+    "CGA-3fgv-mj8g-vg9r",
+    "CGA-3j89-765v-647h",
+    "CGA-3vvx-28fr-5r97",
+    "CGA-3xjp-77xf-fhhc",
+    "CGA-499h-3p5q-cg29",
+    "CGA-4qq7-rgpm-829c",
+    "CGA-4qv8-j77j-9f5r",
+    "CGA-4xxc-fjg4-wm67",
+    "CGA-5fx9-jxr4-5jv5",
+    "CGA-5h9r-6cgh-rm57",
+    "CGA-5m23-2mm8-fr4m",
+    "CGA-5x3r-rfvh-x2rg",
+    "CGA-5x8p-876g-q6wf",
+    "CGA-63xw-rjxp-xwpx",
+    "CGA-64hc-64rh-gg25",
+    "CGA-6c5g-6wqv-9wpg",
+    "CGA-6m3v-j9mp-3cxv",
+    "CGA-6v3j-4m5x-r9p9",
+    "CGA-6xpg-qcgg-42h4",
+    "CGA-73gx-8jqw-v726",
+    "CGA-7rxg-hgxx-h34f",
+    "CGA-7rxw-4f7q-ph8w",
+    "CGA-83pq-w4g5-v3pw",
+    "CGA-84x5-823w-vhxj",
+    "CGA-882w-8q2f-9c7f",
+    "CGA-89qc-cp4p-xfm9",
+    "CGA-8hxf-qq3r-3vx3",
+    "CGA-8q3r-x76c-9gh7",
+    "CGA-8q5p-vxc6-f99r",
+    "CGA-9457-jf36-6rqm",
+    "CGA-94rm-qcfc-2jrq",
+    "CGA-98vj-rw4c-h2hw",
+    "CGA-9rcv-xfx7-qpq7",
+    "CGA-c938-jmvh-636g",
+    "CGA-cj8h-r3p5-rv8g",
+    "CGA-f25g-8jr2-6p8g",
+    "CGA-f2cg-92qc-wx46",
+    "CGA-f8xh-2jhq-xvjm",
+    "CGA-fjpg-pgrh-g3jv",
+    "CGA-fpw4-x29p-cxv2",
+    "CGA-g8v7-94pw-rrm9",
+    "CGA-gg6q-qxqc-c5gv",
+    "CGA-gvwf-vr2f-hgv4",
+    "CGA-gw6w-9fr5-9j3m",
+    "CGA-h2hq-cwc3-gv4v",
+    "CGA-h8cf-v85j-mv92",
+    "CGA-hc93-6h3q-8936",
+    "CGA-hf94-6p82-r74v",
+    "CGA-j6hq-v634-763r",
+    "CGA-jfjc-frjm-g4c5",
+    "CGA-jg88-j7w4-v44j",
+    "CGA-jjj8-qp4v-fx5q",
+    "CGA-m6g9-4qvm-8738",
+    "CGA-p7mw-p8f2-8mj4",
+    "CGA-pf4m-c4rq-6hvc",
+    "CGA-pp26-v4mr-xjfh",
+    "CGA-pp59-4g88-qhhm",
+    "CGA-pxgq-v3f5-j46c",
+    "CGA-q2qf-3xhr-c854",
+    "CGA-q52c-j6rg-rcp8",
+    "CGA-q53g-w2fm-6mj3",
+    "CGA-qpc6-q3rr-9w6f",
+    "CGA-qpf8-6m86-7q84",
+    "CGA-qrm4-xg34-f43c",
+    "CGA-r49q-p32c-67v8",
+    "CGA-r4vf-2339-6r55",
+    "CGA-r5wv-wxmf-f8m2",
+    "CGA-rf3h-4vvf-w2wf",
+    "CGA-rjg7-m8m6-6rpm",
+    "CGA-rmvv-jh6h-2m42",
+    "CGA-rq4g-cfqg-g6cv",
+    "CGA-v797-hr43-pr78",
+    "CGA-vf95-72gr-xjrg",
+    "CGA-vm9w-2wpf-w2gg",
+    "CGA-vp47-g7cm-qh2p",
+    "CGA-vq92-46j2-7c79",
+    "CGA-vqf6-fwm6-ph4p",
+    "CGA-w9pc-53m5-595p",
+    "CGA-wf35-4rh8-v3q8",
+    "CGA-wgvj-8fv5-rrfm",
+    "CGA-wjv6-237q-qgjv",
+    "CGA-wp6w-jc96-4vqg",
+    "CGA-ww8q-4fm4-c8pq",
+    "CGA-x5vx-7g37-jx2c",
+    "CGA-xcgq-xv74-7rrc",
+    "CGA-xqgx-9xqx-fr25",
+    "CGA-xrh7-gqhq-63g8",
+]
+almalinux = [
+    "ALSA-2024:0887",
+    "ALSA-2024:1131",
+]
+redhat = [
+    "RHSA-2024:0887",
+    "RHSA-2024:1041",
+    "RHSA-2024:1131",
+]
+suse = [
+    "SUSE-SU-2023:4708-1",
+    "SUSE-SU-2023:4709-1",
+    "SUSE-SU-2023:4930-1",
+    "SUSE-SU-2023:4931-1",
+]
+opensuse = [
+    "openSUSE-SU-2024:13491-1",
+    "openSUSE-SU-2024:13492-1",
+]
+ubuntu = [
+    "USN-6574-1",
+]
+openeuler = [
+    "OESA-2023-1935",
+]
+oraclelinux = [
+    "ELSA-2024-0887",
+    "ELSA-2024-1131",
+]
