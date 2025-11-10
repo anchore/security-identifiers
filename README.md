@@ -7,3 +7,5 @@
 # security-identifiers
 
 Contains the Anchore-allocated security identifiers and the relationships to the currently supported upstream security data source identifiers.
+
+The records are created from https://github.com/anchore/security-cli/tree/main/src/anchore_security_cli/identifiers
