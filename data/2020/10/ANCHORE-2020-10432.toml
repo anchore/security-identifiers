@@ -2,23 +2,10 @@
 id = "ANCHORE-2020-10432"
 allocated = 2025-10-15T14:15:51.812304Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-12605",
-]
-gcve = [
-    "GCVE-0-2020-12605",
-]
-bitnami = [
-    "BIT-envoy-2020-12605",
-]
-go = [
-    "GO-2023-2275",
-]
-redhat = [
-    "RHSA-2020:2798",
-    "RHSA-2020:2864",
-]
-opensuse = [
-    "openSUSE-SU-2022:0065-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-12605"]
+  gcve = ["GCVE-0-2020-12605"]
+  bitnami = ["BIT-envoy-2020-12605"]
+  go = ["GO-2023-2275"]
+  redhat = ["RHSA-2020:2798", "RHSA-2020:2864"]
+  opensuse = ["openSUSE-SU-2022:0065-1"]

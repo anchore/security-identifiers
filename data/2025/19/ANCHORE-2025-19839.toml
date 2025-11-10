@@ -2,31 +2,15 @@
 id = "ANCHORE-2025-19839"
 allocated = 2025-10-15T14:17:33.166456Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-4123",
-]
-gcve = [
-    "GCVE-0-2025-4123",
-]
-github = [
-    "GHSA-q53q-gxq9-mgrj",
-]
-bitnami = [
-    "BIT-grafana-2025-4123",
-]
-go = [
-    "GO-2025-3704",
-]
-chainguard = [
-    "CGA-23gm-jq6v-j2w7",
-    "CGA-m7jg-m2hg-p764",
-]
-almalinux = [
-    "ALSA-2025:7893",
-    "ALSA-2025:7894",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2025-4123"]
+  gcve = ["GCVE-0-2025-4123"]
+  github = ["GHSA-q53q-gxq9-mgrj"]
+  bitnami = ["BIT-grafana-2025-4123"]
+  go = ["GO-2025-3704"]
+  chainguard = ["CGA-23gm-jq6v-j2w7", "CGA-m7jg-m2hg-p764"]
+  almalinux = ["ALSA-2025:7893", "ALSA-2025:7894"]
+  redhat = [
     "RHSA-2025:7892",
     "RHSA-2025:7893",
     "RHSA-2025:7894",
@@ -37,17 +21,11 @@ redhat = [
     "RHSA-2025:8683",
     "RHSA-2025:8684",
     "RHSA-2025:8685",
-]
-suse = [
-    "SUSE-SU-2025:01985-1",
-]
-minimos = [
+  ]
+  suse = ["SUSE-SU-2025:01985-1"]
+  minimos = [
     "MINI-3fxc-q25m-38gj",
     "MINI-ppg9-gm9w-jxc3",
     "MINI-vc26-x4rr-cm5r",
-]
-oraclelinux = [
-    "ELSA-2025-7892",
-    "ELSA-2025-7893",
-    "ELSA-2025-7894",
-]
+  ]
+  oraclelinux = ["ELSA-2025-7892", "ELSA-2025-7893", "ELSA-2025-7894"]

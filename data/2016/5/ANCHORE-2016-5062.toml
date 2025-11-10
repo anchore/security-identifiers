@@ -2,24 +2,16 @@
 id = "ANCHORE-2016-5062"
 allocated = 2025-10-15T14:15:05.656574Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-5162",
-]
-gcve = [
-    "GCVE-0-2015-5162",
-]
-github = [
-    "GHSA-g2j5-7vgx-6xrx",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2015-5162"]
+  gcve = ["GCVE-0-2015-5162"]
+  github = ["GHSA-g2j5-7vgx-6xrx"]
+  redhat = [
     "RHSA-2016:2923",
     "RHSA-2016:2991",
     "RHSA-2017:0153",
     "RHSA-2017:0156",
     "RHSA-2017:0165",
     "RHSA-2017:0282",
-]
-ubuntu = [
-    "USN-3449-1",
-]
+  ]
+  ubuntu = ["USN-3449-1"]

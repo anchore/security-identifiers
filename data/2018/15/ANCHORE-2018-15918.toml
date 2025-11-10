@@ -2,28 +2,16 @@
 id = "ANCHORE-2018-15918"
 allocated = 2025-10-15T14:15:30.013267Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-16468",
-]
-gcve = [
-    "GCVE-0-2018-16468",
-]
-github = [
-    "GHSA-g4xq-jx4w-4cjv",
-]
-debian = [
-    "DSA-4364-1",
-]
-suse = [
-    "SUSE-SU-2018:3928-1",
-    "SUSE-SU-2019:0272-1",
-    "SUSE-SU-2019:0394-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2018-16468"]
+  gcve = ["GCVE-0-2018-16468"]
+  github = ["GHSA-g4xq-jx4w-4cjv"]
+  debian = ["DSA-4364-1"]
+  suse = ["SUSE-SU-2018:3928-1", "SUSE-SU-2019:0272-1", "SUSE-SU-2019:0394-1"]
+  opensuse = [
     "openSUSE-SU-2024:10589-1",
     "openSUSE-SU-2024:11900-1",
     "openSUSE-SU-2024:13162-1",
     "openSUSE-SU-2024:14171-1",
     "openSUSE-SU-2025:15120-1",
-]
+  ]

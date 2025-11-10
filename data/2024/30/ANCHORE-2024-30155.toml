@@ -2,62 +2,33 @@
 id = "ANCHORE-2024-30155"
 allocated = 2025-10-15T14:17:12.101188Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-31449",
-]
-gcve = [
-    "GCVE-0-2024-31449",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-31449"]
+  gcve = ["GCVE-0-2024-31449"]
+  bitnami = [
     "BIT-keydb-2024-31449",
     "BIT-redis-2024-31449",
     "BIT-valkey-2024-31449",
-]
-chainguard = [
-    "CGA-6gjx-mvfr-3v79",
-]
-almalinux = [
-    "ALSA-2024:10869",
-    "ALSA-2025:0595",
-    "ALSA-2025:0693",
-]
-redhat = [
-    "RHSA-2024:10869",
-    "RHSA-2025:0595",
-    "RHSA-2025:0693",
-]
-rockylinux = [
-    "RLSA-2025:0595",
-    "RLSA-2025:0693",
-]
-suse = [
+  ]
+  chainguard = ["CGA-6gjx-mvfr-3v79"]
+  almalinux = ["ALSA-2024:10869", "ALSA-2025:0595", "ALSA-2025:0693"]
+  redhat = ["RHSA-2024:10869", "RHSA-2025:0595", "RHSA-2025:0693"]
+  rockylinux = ["RLSA-2025:0595", "RLSA-2025:0693"]
+  suse = [
     "SUSE-SU-2024:3535-1",
     "SUSE-SU-2024:3537-1",
     "SUSE-SU-2024:3549-1",
     "SUSE-SU-2024:3575-1",
     "SUSE-SU-2025:0081-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:14412-1",
-]
-minimos = [
-    "MINI-2v6v-c5rw-7x2w",
-    "MINI-7w6h-h3c6-w2hp",
-]
-openeuler = [
+  ]
+  opensuse = ["openSUSE-SU-2024:14412-1"]
+  minimos = ["MINI-2v6v-c5rw-7x2w", "MINI-7w6h-h3c6-w2hp"]
+  openeuler = [
     "OESA-2024-2230",
     "OESA-2024-2269",
     "OESA-2024-2270",
     "OESA-2024-2271",
     "OESA-2024-2272",
-]
-amazonlinux = [
-    "ALAS2023-2024-717",
-    "ALAS2REDIS6-2024-010",
-]
-oraclelinux = [
-    "ELSA-2024-10869",
-    "ELSA-2025-0595",
-    "ELSA-2025-0693",
-]
+  ]
+  amazonlinux = ["ALAS2023-2024-717", "ALAS2REDIS6-2024-010"]
+  oraclelinux = ["ELSA-2024-10869", "ELSA-2025-0595", "ELSA-2025-0693"]

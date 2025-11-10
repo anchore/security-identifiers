@@ -2,25 +2,15 @@
 id = "ANCHORE-2024-27753"
 allocated = 2025-10-15T14:17:10.362241Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-43799",
-]
-gcve = [
-    "GCVE-0-2024-43799",
-]
-github = [
-    "GHSA-m6fv-jmcg-4jfg",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-43799"]
+  gcve = ["GCVE-0-2024-43799"]
+  github = ["GHSA-m6fv-jmcg-4jfg"]
+  chainguard = [
     "CGA-4g7r-gq6m-3fjw",
     "CGA-5grw-9wv6-r624",
     "CGA-9cw3-8w4j-827w",
     "CGA-jgr3-p9cq-fqjh",
-]
-debian = [
-    "DLA-4224-1",
-]
-minimos = [
-    "MINI-35px-vjr3-29x3",
-]
+  ]
+  debian = ["DLA-4224-1"]
+  minimos = ["MINI-35px-vjr3-29x3"]

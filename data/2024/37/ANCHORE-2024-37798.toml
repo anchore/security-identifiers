@@ -2,48 +2,26 @@
 id = "ANCHORE-2024-37798"
 allocated = 2025-10-15T14:17:17.383707Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-53907",
-]
-gcve = [
-    "GCVE-0-2024-53907",
-]
-github = [
-    "GHSA-8498-2h75-472j",
-]
-bitnami = [
-    "BIT-django-2024-53907",
-]
-pypa = [
-    "PYSEC-2024-156",
-]
-chainguard = [
-    "CGA-3hrg-p95j-mmh6",
-]
-debian = [
-    "DLA-4006-1",
-]
-redhat = [
-    "RHSA-2025:0340",
-    "RHSA-2025:0777",
-]
-suse = [
-    "SUSE-SU-2024:4285-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2024-53907"]
+  gcve = ["GCVE-0-2024-53907"]
+  github = ["GHSA-8498-2h75-472j"]
+  bitnami = ["BIT-django-2024-53907"]
+  pypa = ["PYSEC-2024-156"]
+  chainguard = ["CGA-3hrg-p95j-mmh6"]
+  debian = ["DLA-4006-1"]
+  redhat = ["RHSA-2025:0340", "RHSA-2025:0777"]
+  suse = ["SUSE-SU-2024:4285-1"]
+  opensuse = [
     "openSUSE-SU-2024:0408-1",
     "openSUSE-SU-2024:14565-1",
     "openSUSE-SU-2024:14568-1",
-]
-ubuntu = [
-    "USN-7136-1",
-    "USN-7136-2",
-]
-openeuler = [
+  ]
+  ubuntu = ["USN-7136-1", "USN-7136-2"]
+  openeuler = [
     "OESA-2024-2539",
     "OESA-2024-2540",
     "OESA-2024-2541",
     "OESA-2024-2542",
     "OESA-2024-2543",
-]
+  ]

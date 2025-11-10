@@ -2,17 +2,8 @@
 id = "ANCHORE-2020-10383"
 allocated = 2025-10-15T14:15:51.779091Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-5973",
-]
-gcve = [
-    "GCVE-0-2020-5973",
-]
-github = [
-    "GHSA-h6g8-26w8-pwgp",
-]
-ubuntu = [
-    "USN-4404-1",
-    "USN-4404-2",
-]
+  [security.aliases]
+  cve = ["CVE-2020-5973"]
+  gcve = ["GCVE-0-2020-5973"]
+  github = ["GHSA-h6g8-26w8-pwgp"]
+  ubuntu = ["USN-4404-1", "USN-4404-2"]

@@ -2,18 +2,12 @@
 id = "ANCHORE-2024-31294"
 allocated = 2025-10-15T14:17:12.866755Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-39593",
-]
-gcve = [
-    "GCVE-0-2023-39593",
-]
-github = [
-    "GHSA-xr59-q2m8-w439",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2023-39593"]
+  gcve = ["GCVE-0-2023-39593"]
+  github = ["GHSA-xr59-q2m8-w439"]
+  bitnami = [
     "BIT-mariadb-2023-39593",
     "BIT-mariadb-min-2023-39593",
     "BIT-mysql-client-2023-39593",
-]
+  ]

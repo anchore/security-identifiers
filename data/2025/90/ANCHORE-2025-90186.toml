@@ -2,20 +2,9 @@
 id = "ANCHORE-2025-90186"
 allocated = 2025-10-30T18:05:38.663058Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-10921",
-]
-gcve = [
-    "GCVE-0-2025-10921",
-]
-github = [
-    "GHSA-6pqm-mccv-6977",
-]
-debian = [
-    "DLA-4341-1",
-    "DSA-6018-1",
-]
-amazonlinux = [
-    "ALAS2-2025-3030",
-]
+  [security.aliases]
+  cve = ["CVE-2025-10921"]
+  gcve = ["GCVE-0-2025-10921"]
+  github = ["GHSA-6pqm-mccv-6977"]
+  debian = ["DLA-4341-1", "DSA-6018-1"]
+  amazonlinux = ["ALAS2-2025-3030"]

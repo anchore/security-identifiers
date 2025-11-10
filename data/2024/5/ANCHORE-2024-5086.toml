@@ -2,17 +2,11 @@
 id = "ANCHORE-2024-5086"
 allocated = 2025-10-15T14:16:54.919335Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-46932",
-]
-gcve = [
-    "GCVE-0-2021-46932",
-]
-github = [
-    "GHSA-7674-fj4m-c42f",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2021-46932"]
+  gcve = ["GCVE-0-2021-46932"]
+  github = ["GHSA-7674-fj4m-c42f"]
+  suse = [
     "SUSE-SU-2024:0855-1",
     "SUSE-SU-2024:0856-1",
     "SUSE-SU-2024:0857-1",
@@ -26,7 +20,5 @@ suse = [
     "SUSE-SU-2024:0976-1",
     "SUSE-SU-2024:0977-1",
     "SUSE-SU-2024:1669-1",
-]
-ubuntu = [
-    "USN-6938-1",
-]
+  ]
+  ubuntu = ["USN-6938-1"]

@@ -2,27 +2,15 @@
 id = "ANCHORE-2020-4228"
 allocated = 2025-10-15T14:15:47.600278Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-9543",
-]
-gcve = [
-    "GCVE-0-2020-9543",
-]
-github = [
-    "GHSA-jx7v-gmqc-6xrj",
-]
-pypa = [
-    "PYSEC-2020-63",
-]
-redhat = [
-    "RHSA-2020:1326",
-    "RHSA-2020:2165",
-    "RHSA-2020:2729",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2020-9543"]
+  gcve = ["GCVE-0-2020-9543"]
+  github = ["GHSA-jx7v-gmqc-6xrj"]
+  pypa = ["PYSEC-2020-63"]
+  redhat = ["RHSA-2020:1326", "RHSA-2020:2165", "RHSA-2020:2729"]
+  suse = [
     "SUSE-SU-2020:0659-1",
     "SUSE-SU-2020:0660-1",
     "SUSE-SU-2020:1066-1",
     "SUSE-SU-2020:1190-1",
-]
+  ]

@@ -2,23 +2,10 @@
 id = "ANCHORE-2021-20308"
 allocated = 2025-10-15T14:16:11.660904Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-4044",
-]
-gcve = [
-    "GCVE-0-2021-4044",
-]
-github = [
-    "GHSA-mmjf-f5jw-w72q",
-]
-bitnami = [
-    "BIT-node-2021-4044",
-    "BIT-node-min-2021-4044",
-]
-rustsec = [
-    "RUSTSEC-2021-0129",
-]
-opensuse = [
-    "openSUSE-SU-2024:11797-1",
-]
+  [security.aliases]
+  cve = ["CVE-2021-4044"]
+  gcve = ["GCVE-0-2021-4044"]
+  github = ["GHSA-mmjf-f5jw-w72q"]
+  bitnami = ["BIT-node-2021-4044", "BIT-node-min-2021-4044"]
+  rustsec = ["RUSTSEC-2021-0129"]
+  opensuse = ["openSUSE-SU-2024:11797-1"]

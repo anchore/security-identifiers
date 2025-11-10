@@ -2,23 +2,13 @@
 id = "ANCHORE-2025-30026"
 allocated = 2025-10-15T14:17:40.448549Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-55198",
-]
-gcve = [
-    "GCVE-0-2025-55198",
-]
-github = [
-    "GHSA-f9f8-9pmf-xv68",
-]
-bitnami = [
-    "BIT-helm-2025-55198",
-]
-go = [
-    "GO-2025-3888",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-55198"]
+  gcve = ["GCVE-0-2025-55198"]
+  github = ["GHSA-f9f8-9pmf-xv68"]
+  bitnami = ["BIT-helm-2025-55198"]
+  go = ["GO-2025-3888"]
+  chainguard = [
     "CGA-27xr-r4mc-f6j8",
     "CGA-2g5r-xf83-fwp8",
     "CGA-2qqc-8xx3-fx6p",
@@ -67,8 +57,8 @@ chainguard = [
     "CGA-whr8-gx4q-xfg7",
     "CGA-wvfw-722j-4mh5",
     "CGA-xh9g-vgh5-5p4c",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-44wx-j6v6-8gq8",
     "MINI-4r6v-8c5q-hq9c",
     "MINI-779c-f52j-vj2h",
@@ -88,4 +78,4 @@ minimos = [
     "MINI-v3r5-6h32-5q4v",
     "MINI-w7pj-q69f-7fjq",
     "MINI-x6p6-rh2x-j9x8",
-]
+  ]

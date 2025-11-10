@@ -2,33 +2,16 @@
 id = "ANCHORE-2025-16649"
 allocated = 2025-10-15T14:17:30.939534Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-23143",
-]
-gcve = [
-    "GCVE-0-2025-23143",
-]
-github = [
-    "GHSA-gh2h-q6h9-qfrw",
-]
-debian = [
-    "DLA-4328-1",
-    "DSA-6009-1",
-]
-ubuntu = [
-    "USN-7594-1",
-    "USN-7594-2",
-    "USN-7594-3",
-]
-echo = [
-    "ECHO-c721-6fa2-2d6b",
-]
-amazonlinux = [
+  [security.aliases]
+  cve = ["CVE-2025-23143"]
+  gcve = ["GCVE-0-2025-23143"]
+  github = ["GHSA-gh2h-q6h9-qfrw"]
+  debian = ["DLA-4328-1", "DSA-6009-1"]
+  ubuntu = ["USN-7594-1", "USN-7594-2", "USN-7594-3"]
+  echo = ["ECHO-c721-6fa2-2d6b"]
+  amazonlinux = [
     "ALAS2023-2025-1210",
     "ALAS2023-2025-1223",
     "ALAS2023-2025-995",
-]
-minimos = [
-    "MINI-5528-mvxf-h95g",
-]
+  ]
+  minimos = ["MINI-5528-mvxf-h95g"]

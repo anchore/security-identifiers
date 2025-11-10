@@ -2,24 +2,15 @@
 id = "ANCHORE-2025-88459"
 allocated = 2025-10-22T09:42:27.685642Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-53045",
-]
-gcve = [
-    "GCVE-0-2025-53045",
-]
-github = [
-    "GHSA-8cp4-278c-76m4",
-]
-minimos = [
-    "MINI-fhw2-r3cg-xghx",
-    "MINI-vrh8-h6q4-qv27",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2025-53045"]
+  gcve = ["GCVE-0-2025-53045"]
+  github = ["GHSA-8cp4-278c-76m4"]
+  minimos = ["MINI-fhw2-r3cg-xghx", "MINI-vrh8-h6q4-qv27"]
+  openeuler = [
     "OESA-2025-2540",
     "OESA-2025-2541",
     "OESA-2025-2542",
     "OESA-2025-2543",
     "OESA-2025-2544",
-]
+  ]

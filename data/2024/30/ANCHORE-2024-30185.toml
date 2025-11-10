@@ -2,34 +2,22 @@
 id = "ANCHORE-2024-30185"
 allocated = 2025-10-15T14:17:12.121692Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-45231",
-]
-gcve = [
-    "GCVE-0-2024-45231",
-]
-github = [
-    "GHSA-rrqc-c2jx-6jgv",
-]
-bitnami = [
-    "BIT-django-2024-45231",
-]
-suse = [
-    "SUSE-SU-2024:3161-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2024-45231"]
+  gcve = ["GCVE-0-2024-45231"]
+  github = ["GHSA-rrqc-c2jx-6jgv"]
+  bitnami = ["BIT-django-2024-45231"]
+  suse = ["SUSE-SU-2024:3161-1"]
+  opensuse = [
     "openSUSE-SU-2024:0282-1",
     "openSUSE-SU-2024:14310-1",
     "openSUSE-SU-2024:14318-1",
-]
-ubuntu = [
-    "USN-6987-1",
-]
-openeuler = [
+  ]
+  ubuntu = ["USN-6987-1"]
+  openeuler = [
     "OESA-2024-2278",
     "OESA-2024-2279",
     "OESA-2024-2280",
     "OESA-2024-2281",
     "OESA-2024-2282",
-]
+  ]

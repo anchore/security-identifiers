@@ -2,19 +2,9 @@
 id = "ANCHORE-2003-1223"
 allocated = 2025-10-15T14:14:13.061083Z
 
-[security.aliases]
-cve = [
-    "CVE-2003-0963",
-]
-gcve = [
-    "GCVE-0-2003-0963",
-]
-github = [
-    "GHSA-pv7m-39mr-v2jm",
-]
-debian = [
-    "DSA-406",
-]
-redhat = [
-    "RHSA-2003:404",
-]
+  [security.aliases]
+  cve = ["CVE-2003-0963"]
+  gcve = ["GCVE-0-2003-0963"]
+  github = ["GHSA-pv7m-39mr-v2jm"]
+  debian = ["DSA-406"]
+  redhat = ["RHSA-2003:404"]

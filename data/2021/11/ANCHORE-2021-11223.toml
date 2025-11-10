@@ -2,18 +2,8 @@
 id = "ANCHORE-2021-11223"
 allocated = 2025-10-15T14:16:05.504517Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-32743",
-]
-gcve = [
-    "GCVE-0-2021-32743",
-]
-debian = [
-    "DLA-2816-1",
-    "DLA-3953-1",
-]
-opensuse = [
-    "openSUSE-SU-2021:1089-1",
-    "openSUSE-SU-2024:10856-1",
-]
+  [security.aliases]
+  cve = ["CVE-2021-32743"]
+  gcve = ["GCVE-0-2021-32743"]
+  debian = ["DLA-2816-1", "DLA-3953-1"]
+  opensuse = ["openSUSE-SU-2021:1089-1", "openSUSE-SU-2024:10856-1"]

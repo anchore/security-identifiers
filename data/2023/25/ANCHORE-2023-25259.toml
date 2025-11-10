@@ -2,25 +2,15 @@
 id = "ANCHORE-2023-25259"
 allocated = 2025-10-15T14:16:47.496415Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-5043",
-]
-gcve = [
-    "GCVE-0-2023-5043",
-]
-github = [
-    "GHSA-5wj4-wffq-3378",
-]
-bitnami = [
-    "BIT-nginx-ingress-controller-2023-5043",
-]
-go = [
-    "GO-2023-2174",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2023-5043"]
+  gcve = ["GCVE-0-2023-5043"]
+  github = ["GHSA-5wj4-wffq-3378"]
+  bitnami = ["BIT-nginx-ingress-controller-2023-5043"]
+  go = ["GO-2023-2174"]
+  chainguard = [
     "CGA-2gm7-vjh8-hrxp",
     "CGA-45c5-3vg6-35x6",
     "CGA-g9x9-3736-g34h",
     "CGA-h5cf-7rhx-j6pc",
-]
+  ]

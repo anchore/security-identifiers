@@ -2,17 +2,8 @@
 id = "ANCHORE-2021-9529"
 allocated = 2025-10-15T14:16:04.330305Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-32547",
-]
-gcve = [
-    "GCVE-0-2021-32547",
-]
-github = [
-    "GHSA-fc8w-ppfg-5247",
-]
-ubuntu = [
-    "USN-4965-1",
-    "USN-4965-2",
-]
+  [security.aliases]
+  cve = ["CVE-2021-32547"]
+  gcve = ["GCVE-0-2021-32547"]
+  github = ["GHSA-fc8w-ppfg-5247"]
+  ubuntu = ["USN-4965-1", "USN-4965-2"]

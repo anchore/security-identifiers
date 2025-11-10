@@ -2,20 +2,9 @@
 id = "ANCHORE-2025-10383"
 allocated = 2025-10-15T14:17:26.548017Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-29783",
-]
-gcve = [
-    "GCVE-0-2025-29783",
-]
-github = [
-    "GHSA-x3m8-f7g5-qhm7",
-]
-pypa = [
-    "PYSEC-2025-63",
-]
-chainguard = [
-    "CGA-4wfx-4fqm-2fgf",
-    "CGA-c6xx-8grm-m34f",
-]
+  [security.aliases]
+  cve = ["CVE-2025-29783"]
+  gcve = ["GCVE-0-2025-29783"]
+  github = ["GHSA-x3m8-f7g5-qhm7"]
+  pypa = ["PYSEC-2025-63"]
+  chainguard = ["CGA-4wfx-4fqm-2fgf", "CGA-c6xx-8grm-m34f"]

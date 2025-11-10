@@ -2,18 +2,12 @@
 id = "ANCHORE-2022-18910"
 allocated = 2025-10-15T14:16:25.548060Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-35951",
-]
-gcve = [
-    "GCVE-0-2022-35951",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2022-35951"]
+  gcve = ["GCVE-0-2022-35951"]
+  bitnami = [
     "BIT-keydb-2022-35951",
     "BIT-redis-2022-35951",
     "BIT-valkey-2022-35951",
-]
-opensuse = [
-    "openSUSE-SU-2024:12361-1",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:12361-1"]

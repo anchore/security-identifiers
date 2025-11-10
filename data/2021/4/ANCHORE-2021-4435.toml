@@ -2,30 +2,16 @@
 id = "ANCHORE-2021-4435"
 allocated = 2025-10-15T14:16:00.883940Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-25289",
-]
-gcve = [
-    "GCVE-0-2021-25289",
-]
-github = [
-    "GHSA-57h3-9rgr-c24m",
-]
-bitnami = [
-    "BIT-pillow-2021-25289",
-]
-pypa = [
-    "PYSEC-2021-35",
-]
-suse = [
-    "SUSE-SU-2024:1673-2",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2021-25289"]
+  gcve = ["GCVE-0-2021-25289"]
+  github = ["GHSA-57h3-9rgr-c24m"]
+  bitnami = ["BIT-pillow-2021-25289"]
+  pypa = ["PYSEC-2021-35"]
+  suse = ["SUSE-SU-2024:1673-2"]
+  opensuse = [
     "openSUSE-SU-2021:1134-1",
     "openSUSE-SU-2024:11209-1",
     "openSUSE-SU-2024:13827-1",
-]
-ubuntu = [
-    "USN-4763-1",
-]
+  ]
+  ubuntu = ["USN-4763-1"]

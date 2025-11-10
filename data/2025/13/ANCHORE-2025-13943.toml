@@ -2,23 +2,13 @@
 id = "ANCHORE-2025-13943"
 allocated = 2025-10-15T14:17:29.005160Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-22871",
-]
-gcve = [
-    "GCVE-0-2025-22871",
-]
-github = [
-    "GHSA-g9pc-8g42-g6vq",
-]
-bitnami = [
-    "BIT-golang-2025-22871",
-]
-go = [
-    "GO-2025-3563",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-22871"]
+  gcve = ["GCVE-0-2025-22871"]
+  github = ["GHSA-g9pc-8g42-g6vq"]
+  bitnami = ["BIT-golang-2025-22871"]
+  go = ["GO-2025-3563"]
+  chainguard = [
     "CGA-23xv-f6jq-p7g6",
     "CGA-267g-gq92-9r84",
     "CGA-26wp-mprh-3666",
@@ -348,8 +338,8 @@ chainguard = [
     "CGA-xrcc-87p6-45c9",
     "CGA-xrp2-932c-w5hh",
     "CGA-xxwp-34vp-m46f",
-]
-almalinux = [
+  ]
+  almalinux = [
     "ALSA-2025:12831",
     "ALSA-2025:12850",
     "ALSA-2025:8476",
@@ -381,8 +371,8 @@ almalinux = [
     "ALSA-2025:9635",
     "ALSA-2025:9844",
     "ALSA-2025:9845",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2025:10271",
     "RHSA-2025:10291",
     "RHSA-2025:10295",
@@ -479,20 +469,20 @@ redhat = [
     "RHSA-2025:9845",
     "RHSA-2025:9975",
     "RHSA-2025:9986",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2025:01731-1",
     "SUSE-SU-2025:03159-1",
     "SUSE-SU-2025:1141-1",
     "SUSE-SU-2025:1153-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2025:14962-1",
     "openSUSE-SU-2025:14963-1",
     "openSUSE-SU-2025:14978-1",
     "openSUSE-SU-2025:15029-1",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-259p-cmwp-hqph",
     "MINI-2626-wch9-5wmg",
     "MINI-2c5j-rr9p-5rf5",
@@ -524,16 +514,10 @@ minimos = [
     "MINI-vv4p-jjf3-mh9j",
     "MINI-wm36-22gx-jj5j",
     "MINI-xj96-cmwj-633h",
-]
-echo = [
-    "ECHO-80a7-4b2d-05e0",
-]
-openeuler = [
-    "OESA-2025-2307",
-    "OESA-2025-2308",
-    "OESA-2025-2309",
-]
-amazonlinux = [
+  ]
+  echo = ["ECHO-80a7-4b2d-05e0"]
+  openeuler = ["OESA-2025-2307", "OESA-2025-2308", "OESA-2025-2309"]
+  amazonlinux = [
     "ALAS2-2025-2825",
     "ALAS2-2025-2851",
     "ALAS2-2025-2863",
@@ -569,8 +553,8 @@ amazonlinux = [
     "ALAS2NITRO-ENCLAVES-2025-063",
     "ALAS2NITRO-ENCLAVES-2025-064",
     "ALAS2NITRO-ENCLAVES-2025-065",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2025-8476",
     "ELSA-2025-8477",
     "ELSA-2025-8478",
@@ -600,4 +584,4 @@ oraclelinux = [
     "ELSA-2025-9635",
     "ELSA-2025-9844",
     "ELSA-2025-9845",
-]
+  ]

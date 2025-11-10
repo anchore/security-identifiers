@@ -2,17 +2,11 @@
 id = "ANCHORE-2018-7400"
 allocated = 2025-10-15T14:15:24.102505Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-8627",
-]
-gcve = [
-    "GCVE-0-2016-8627",
-]
-github = [
-    "GHSA-wmq3-659r-46hg",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2016-8627"]
+  gcve = ["GCVE-0-2016-8627"]
+  github = ["GHSA-wmq3-659r-46hg"]
+  redhat = [
     "RHSA-2017:0170",
     "RHSA-2017:0171",
     "RHSA-2017:0173",
@@ -23,4 +17,4 @@ redhat = [
     "RHSA-2017:3454",
     "RHSA-2017:3455",
     "RHSA-2017:3458",
-]
+  ]

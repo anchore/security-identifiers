@@ -2,22 +2,10 @@
 id = "ANCHORE-2012-1184"
 allocated = 2025-10-15T14:14:43.127931Z
 
-[security.aliases]
-cve = [
-    "CVE-2011-1778",
-]
-gcve = [
-    "GCVE-0-2011-1778",
-]
-github = [
-    "GHSA-j8fm-g3qm-7gm3",
-]
-debian = [
-    "DSA-2413-1",
-]
-redhat = [
-    "RHSA-2011:1507",
-]
-oraclelinux = [
-    "ELSA-2011-1507",
-]
+  [security.aliases]
+  cve = ["CVE-2011-1778"]
+  gcve = ["GCVE-0-2011-1778"]
+  github = ["GHSA-j8fm-g3qm-7gm3"]
+  debian = ["DSA-2413-1"]
+  redhat = ["RHSA-2011:1507"]
+  oraclelinux = ["ELSA-2011-1507"]

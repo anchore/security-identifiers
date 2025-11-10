@@ -2,36 +2,21 @@
 id = "ANCHORE-2023-7492"
 allocated = 2025-10-15T14:16:35.561985Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-0465",
-]
-gcve = [
-    "GCVE-0-2023-0465",
-]
-github = [
-    "GHSA-77f3-6546-6rj7",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2023-0465"]
+  gcve = ["GCVE-0-2023-0465"]
+  github = ["GHSA-77f3-6546-6rj7"]
+  chainguard = [
     "CGA-93x4-hjqj-96hj",
     "CGA-c2c3-7c62-3x6m",
     "CGA-gg5g-38pq-7vrj",
     "CGA-mrc2-5vw6-mfv4",
     "CGA-rq6q-7xhw-hxmq",
-]
-almalinux = [
-    "ALSA-2023:3722",
-]
-debian = [
-    "DLA-3449-1",
-    "DSA-5417-1",
-]
-redhat = [
-    "RHSA-2023:3722",
-    "RHSA-2023:7622",
-    "RHSA-2023:7625",
-]
-suse = [
+  ]
+  almalinux = ["ALSA-2023:3722"]
+  debian = ["DLA-3449-1", "DSA-5417-1"]
+  redhat = ["RHSA-2023:3722", "RHSA-2023:7622", "RHSA-2023:7625"]
+  suse = [
     "SUSE-SU-2023:1790-1",
     "SUSE-SU-2023:1794-1",
     "SUSE-SU-2023:1898-1",
@@ -43,13 +28,13 @@ suse = [
     "SUSE-SU-2023:1922-1",
     "SUSE-SU-2023:1926-1",
     "SUSE-SU-2023:1960-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2024:12837-1",
     "openSUSE-SU-2024:12842-1",
     "openSUSE-SU-2024:12969-1",
-]
-openeuler = [
+  ]
+  openeuler = [
     "OESA-2023-1207",
     "OESA-2024-1134",
     "OESA-2024-1135",
@@ -64,15 +49,12 @@ openeuler = [
     "OESA-2024-1226",
     "OESA-2024-1227",
     "OESA-2024-1238",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2-2023-2039",
     "ALAS2-2023-2073",
     "ALAS2-2024-2502",
     "ALAS2023-2023-181",
     "ALAS2OPENSSL-SNAPSAFE-2023-002",
-]
-oraclelinux = [
-    "ELSA-2023-12768",
-    "ELSA-2023-3722",
-]
+  ]
+  oraclelinux = ["ELSA-2023-12768", "ELSA-2023-3722"]

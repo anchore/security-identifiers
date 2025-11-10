@@ -2,39 +2,22 @@
 id = "ANCHORE-2024-20779"
 allocated = 2025-10-15T14:17:05.613295Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-5642",
-]
-gcve = [
-    "GCVE-0-2024-5642",
-]
-github = [
-    "GHSA-hrvr-7x5w-xpmq",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-5642"]
+  gcve = ["GCVE-0-2024-5642"]
+  github = ["GHSA-hrvr-7x5w-xpmq"]
+  bitnami = [
     "BIT-libpython-2024-5642",
     "BIT-python-2024-5642",
     "BIT-python-min-2024-5642",
-]
-psf = [
-    "PSF-2024-6",
-]
-suse = [
+  ]
+  psf = ["PSF-2024-6"]
+  suse = [
     "SUSE-SU-2024:3076-1",
     "SUSE-SU-2024:3351-1",
     "SUSE-SU-2024:3353-1",
     "SUSE-SU-2024:3470-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:14253-1",
-    "openSUSE-SU-2024:14256-1",
-]
-amazonlinux = [
-    "ALAS2-2025-2743",
-    "ALAS2-2025-2744",
-]
-openeuler = [
-    "OESA-2025-2637",
-    "OESA-2025-2638",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:14253-1", "openSUSE-SU-2024:14256-1"]
+  amazonlinux = ["ALAS2-2025-2743", "ALAS2-2025-2744"]
+  openeuler = ["OESA-2025-2637", "OESA-2025-2638"]

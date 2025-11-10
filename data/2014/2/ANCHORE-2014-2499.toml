@@ -2,26 +2,11 @@
 id = "ANCHORE-2014-2499"
 allocated = 2025-10-15T14:14:54.035646Z
 
-[security.aliases]
-cve = [
-    "CVE-2014-3146",
-]
-gcve = [
-    "GCVE-0-2014-3146",
-]
-github = [
-    "GHSA-57qw-cc2g-pv5p",
-]
-pypa = [
-    "PYSEC-2014-9",
-]
-debian = [
-    "DLA-0009-1",
-    "DSA-2941-1",
-]
-ubuntu = [
-    "USN-2217-1",
-]
-amazonlinux = [
-    "ALAS2-2023-1956",
-]
+  [security.aliases]
+  cve = ["CVE-2014-3146"]
+  gcve = ["GCVE-0-2014-3146"]
+  github = ["GHSA-57qw-cc2g-pv5p"]
+  pypa = ["PYSEC-2014-9"]
+  debian = ["DLA-0009-1", "DSA-2941-1"]
+  ubuntu = ["USN-2217-1"]
+  amazonlinux = ["ALAS2-2023-1956"]

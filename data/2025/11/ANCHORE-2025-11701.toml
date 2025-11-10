@@ -2,25 +2,15 @@
 id = "ANCHORE-2025-11701"
 allocated = 2025-10-15T14:17:27.450524Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-12905",
-]
-gcve = [
-    "GCVE-0-2024-12905",
-]
-github = [
-    "GHSA-pq67-2wwv-3xjx",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-12905"]
+  gcve = ["GCVE-0-2024-12905"]
+  github = ["GHSA-pq67-2wwv-3xjx"]
+  chainguard = [
     "CGA-35gc-2rvw-x3vx",
     "CGA-g3wm-3ppv-6g8v",
     "CGA-r9fv-hjfx-7q5f",
     "CGA-vpjj-p9g3-27hp",
-]
-debian = [
-    "DLA-4214-1",
-]
-minimos = [
-    "MINI-mgrc-433g-jf2q",
-]
+  ]
+  debian = ["DLA-4214-1"]
+  minimos = ["MINI-mgrc-433g-jf2q"]

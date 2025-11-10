@@ -2,21 +2,12 @@
 id = "ANCHORE-2025-38306"
 allocated = 2025-10-15T14:17:46.250337Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-61919",
-]
-gcve = [
-    "GCVE-0-2025-61919",
-]
-github = [
-    "GHSA-6xw4-3v39-52mm",
-]
-chainguard = [
-    "CGA-2xf9-cc6g-vfg6",
-    "CGA-3w4h-4m6p-mmwq",
-]
-minimos = [
+  [security.aliases]
+  cve = ["CVE-2025-61919"]
+  gcve = ["GCVE-0-2025-61919"]
+  github = ["GHSA-6xw4-3v39-52mm"]
+  chainguard = ["CGA-2xf9-cc6g-vfg6", "CGA-3w4h-4m6p-mmwq"]
+  minimos = [
     "MINI-3fw6-qqrc-g7qf",
     "MINI-833x-5hmg-wrh4",
     "MINI-8xqc-8fg4-ccfq",
@@ -29,14 +20,7 @@ minimos = [
     "MINI-r5gg-9mf9-94vv",
     "MINI-rg5x-gfh4-4c2m",
     "MINI-xqpv-cjvc-48w4",
-]
-debian = [
-    "DLA-4357-1",
-]
-redhat = [
-    "RHSA-2025:19512",
-    "RHSA-2025:19513",
-]
-oraclelinux = [
-    "ELSA-2025-19512",
-]
+  ]
+  debian = ["DLA-4357-1"]
+  redhat = ["RHSA-2025:19512", "RHSA-2025:19513"]
+  oraclelinux = ["ELSA-2025-19512"]

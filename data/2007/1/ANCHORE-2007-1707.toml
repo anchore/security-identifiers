@@ -2,22 +2,10 @@
 id = "ANCHORE-2007-1707"
 allocated = 2025-10-15T14:14:24.750175Z
 
-[security.aliases]
-cve = [
-    "CVE-2007-1496",
-]
-gcve = [
-    "GCVE-0-2007-1496",
-]
-github = [
-    "GHSA-p5m2-q4vr-8vjp",
-]
-debian = [
-    "DSA-1289-1",
-]
-redhat = [
-    "RHSA-2007:0347",
-]
-oraclelinux = [
-    "ELSA-2007-0347",
-]
+  [security.aliases]
+  cve = ["CVE-2007-1496"]
+  gcve = ["GCVE-0-2007-1496"]
+  github = ["GHSA-p5m2-q4vr-8vjp"]
+  debian = ["DSA-1289-1"]
+  redhat = ["RHSA-2007:0347"]
+  oraclelinux = ["ELSA-2007-0347"]

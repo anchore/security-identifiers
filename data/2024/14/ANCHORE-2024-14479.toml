@@ -2,23 +2,13 @@
 id = "ANCHORE-2024-14479"
 allocated = 2025-10-15T14:17:01.284958Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-24788",
-]
-gcve = [
-    "GCVE-0-2024-24788",
-]
-github = [
-    "GHSA-2jwv-jmq4-4j3r",
-]
-bitnami = [
-    "BIT-golang-2024-24788",
-]
-go = [
-    "GO-2024-2824",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-24788"]
+  gcve = ["GCVE-0-2024-24788"]
+  github = ["GHSA-2jwv-jmq4-4j3r"]
+  bitnami = ["BIT-golang-2024-24788"]
+  go = ["GO-2024-2824"]
+  chainguard = [
     "CGA-22m5-869v-fj26",
     "CGA-2353-8jq3-c7rh",
     "CGA-2385-m32c-2j7q",
@@ -450,8 +440,8 @@ chainguard = [
     "CGA-xvhm-ff5v-7xg8",
     "CGA-xw4j-9ww2-xvw2",
     "CGA-xwmr-xxwg-9p43",
-]
-almalinux = [
+  ]
+  almalinux = [
     "ALSA-2024:5291",
     "ALSA-2024:6969",
     "ALSA-2024:9089",
@@ -461,8 +451,8 @@ almalinux = [
     "ALSA-2024:9200",
     "ALSA-2024:9277",
     "ALSA-2025:7256",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2024:4616",
     "RHSA-2024:5291",
     "RHSA-2024:6765",
@@ -474,28 +464,22 @@ redhat = [
     "RHSA-2024:9200",
     "RHSA-2024:9277",
     "RHSA-2025:7256",
-]
-rockylinux = [
-    "RLSA-2024:9135",
-    "RLSA-2024:9200",
-    "RLSA-2024:9277",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2024:9135", "RLSA-2024:9200", "RLSA-2024:9277"]
+  suse = [
     "SUSE-SU-2024:1573-1",
     "SUSE-SU-2024:1587-1",
     "SUSE-SU-2024:3772-1",
     "SUSE-SU-2024:3938-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2024:13936-1",
     "openSUSE-SU-2024:13990-1",
     "openSUSE-SU-2024:14000-1",
     "openSUSE-SU-2024:14076-1",
-]
-ubuntu = [
-    "USN-6886-1",
-]
-oraclelinux = [
+  ]
+  ubuntu = ["USN-6886-1"]
+  oraclelinux = [
     "ELSA-2024-5291",
     "ELSA-2024-6969",
     "ELSA-2024-9089",
@@ -504,4 +488,4 @@ oraclelinux = [
     "ELSA-2024-9200",
     "ELSA-2024-9277",
     "ELSA-2025-7256",
-]
+  ]

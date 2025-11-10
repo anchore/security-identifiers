@@ -2,25 +2,17 @@
 id = "ANCHORE-2024-19322"
 allocated = 2025-10-15T14:17:04.617092Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-37307",
-]
-gcve = [
-    "GCVE-0-2024-37307",
-]
-github = [
-    "GHSA-wh78-7948-358j",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-37307"]
+  gcve = ["GCVE-0-2024-37307"]
+  github = ["GHSA-wh78-7948-358j"]
+  bitnami = [
     "BIT-cilium-2024-37307",
     "BIT-cilium-operator-2024-37307",
     "BIT-hubble-relay-2024-37307",
-]
-go = [
-    "GO-2024-2922",
-]
-chainguard = [
+  ]
+  go = ["GO-2024-2922"]
+  chainguard = [
     "CGA-8w6w-3p6g-f399",
     "CGA-9cjq-jrq8-4388",
     "CGA-fxh6-79h9-34cg",
@@ -29,4 +21,4 @@ chainguard = [
     "CGA-pqp4-rcvv-jvgj",
     "CGA-qm9x-3p47-5whw",
     "CGA-rg4h-5cw9-89jv",
-]
+  ]

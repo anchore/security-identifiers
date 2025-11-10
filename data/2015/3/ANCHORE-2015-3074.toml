@@ -2,23 +2,10 @@
 id = "ANCHORE-2015-3074"
 allocated = 2025-10-15T14:14:59.851370Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-3900",
-]
-gcve = [
-    "GCVE-0-2015-3900",
-]
-github = [
-    "GHSA-wp3j-rvfp-624h",
-]
-redhat = [
-    "RHSA-2015:1657",
-]
-suse = [
-    "SUSE-SU-2017:1067-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:10090-1",
-    "openSUSE-SU-2024:10481-1",
-]
+  [security.aliases]
+  cve = ["CVE-2015-3900"]
+  gcve = ["GCVE-0-2015-3900"]
+  github = ["GHSA-wp3j-rvfp-624h"]
+  redhat = ["RHSA-2015:1657"]
+  suse = ["SUSE-SU-2017:1067-1"]
+  opensuse = ["openSUSE-SU-2024:10090-1", "openSUSE-SU-2024:10481-1"]

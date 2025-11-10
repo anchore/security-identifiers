@@ -2,20 +2,9 @@
 id = "ANCHORE-2018-589"
 allocated = 2025-10-15T14:15:19.394099Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-2319",
-]
-gcve = [
-    "GCVE-0-2015-2319",
-]
-github = [
-    "GHSA-rpmm-5q5g-56vf",
-]
-debian = [
-    "DLA-176-1",
-    "DSA-3202-1",
-]
-ubuntu = [
-    "USN-2547-1",
-]
+  [security.aliases]
+  cve = ["CVE-2015-2319"]
+  gcve = ["GCVE-0-2015-2319"]
+  github = ["GHSA-rpmm-5q5g-56vf"]
+  debian = ["DLA-176-1", "DSA-3202-1"]
+  ubuntu = ["USN-2547-1"]

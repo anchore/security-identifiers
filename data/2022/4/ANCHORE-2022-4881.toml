@@ -2,21 +2,9 @@
 id = "ANCHORE-2022-4881"
 allocated = 2025-10-15T14:16:16.060208Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-24726",
-]
-gcve = [
-    "GCVE-0-2022-24726",
-]
-go = [
-    "GO-2022-0352",
-]
-redhat = [
-    "RHSA-2022:1275",
-    "RHSA-2022:1276",
-]
-oraclelinux = [
-    "ELSA-2022-9362",
-    "ELSA-2022-9363",
-]
+  [security.aliases]
+  cve = ["CVE-2022-24726"]
+  gcve = ["GCVE-0-2022-24726"]
+  go = ["GO-2022-0352"]
+  redhat = ["RHSA-2022:1275", "RHSA-2022:1276"]
+  oraclelinux = ["ELSA-2022-9362", "ELSA-2022-9363"]

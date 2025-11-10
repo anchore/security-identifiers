@@ -2,21 +2,9 @@
 id = "ANCHORE-2016-3994"
 allocated = 2025-10-15T14:15:04.937094Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-3822",
-]
-gcve = [
-    "GCVE-0-2016-3822",
-]
-github = [
-    "GHSA-vq3j-5p4r-99x3",
-]
-debian = [
-    "DLA-864-1",
-    "DSA-3825-1",
-]
-opensuse = [
-    "openSUSE-SU-2021:0743-1",
-    "openSUSE-SU-2024:10880-1",
-]
+  [security.aliases]
+  cve = ["CVE-2016-3822"]
+  gcve = ["GCVE-0-2016-3822"]
+  github = ["GHSA-vq3j-5p4r-99x3"]
+  debian = ["DLA-864-1", "DSA-3825-1"]
+  opensuse = ["openSUSE-SU-2021:0743-1", "openSUSE-SU-2024:10880-1"]

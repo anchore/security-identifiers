@@ -2,23 +2,14 @@
 id = "ANCHORE-2017-3564"
 allocated = 2025-10-15T14:15:09.108375Z
 
-[security.aliases]
-cve = [
-    "CVE-2008-7313",
-]
-gcve = [
-    "GCVE-0-2008-7313",
-]
-github = [
-    "GHSA-wr36-qh3g-7h4v",
-]
-debian = [
-    "DLA-357-1",
-    "DSA-3248-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2008-7313"]
+  gcve = ["GCVE-0-2008-7313"]
+  github = ["GHSA-wr36-qh3g-7h4v"]
+  debian = ["DLA-357-1", "DSA-3248-1"]
+  redhat = [
     "RHSA-2017:0211",
     "RHSA-2017:0212",
     "RHSA-2017:0213",
     "RHSA-2017:0214",
-]
+  ]

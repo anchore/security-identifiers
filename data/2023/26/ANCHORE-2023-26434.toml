@@ -2,23 +2,13 @@
 id = "ANCHORE-2023-26434"
 allocated = 2025-10-15T14:16:48.279712Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-46737",
-]
-gcve = [
-    "GCVE-0-2023-46737",
-]
-github = [
-    "GHSA-vfp6-jrw2-99g9",
-]
-bitnami = [
-    "BIT-cosign-2023-46737",
-]
-go = [
-    "GO-2023-2181",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2023-46737"]
+  gcve = ["GCVE-0-2023-46737"]
+  github = ["GHSA-vfp6-jrw2-99g9"]
+  bitnami = ["BIT-cosign-2023-46737"]
+  go = ["GO-2023-2181"]
+  chainguard = [
     "CGA-2cx5-cjqj-rfmx",
     "CGA-37gf-j859-6frp",
     "CGA-3qx5-c88r-3829",
@@ -36,10 +26,6 @@ chainguard = [
     "CGA-mrgw-49x9-44g8",
     "CGA-r4wm-xf76-m5gh",
     "CGA-vq7w-8266-mfw9",
-]
-suse = [
-    "SUSE-SU-2023:4870-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:13402-1",
-]
+  ]
+  suse = ["SUSE-SU-2023:4870-1"]
+  opensuse = ["openSUSE-SU-2024:13402-1"]

@@ -2,36 +2,20 @@
 id = "ANCHORE-2020-13480"
 allocated = 2025-10-15T14:15:53.887244Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-7068",
-]
-gcve = [
-    "GCVE-0-2020-7068",
-]
-github = [
-    "GHSA-vc9g-5348-gqwv",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2020-7068"]
+  gcve = ["GCVE-0-2020-7068"]
+  github = ["GHSA-vc9g-5348-gqwv"]
+  bitnami = [
     "BIT-libphp-2020-7068",
     "BIT-php-2020-7068",
     "BIT-php-min-2020-7068",
-]
-almalinux = [
-    "ALSA-2021:4213",
-]
-debian = [
-    "DLA-2345-1",
-    "DSA-4856-1",
-]
-redhat = [
-    "RHSA-2021:2992",
-    "RHSA-2021:4213",
-]
-rockylinux = [
-    "RLSA-2021:4213",
-]
-suse = [
+  ]
+  almalinux = ["ALSA-2021:4213"]
+  debian = ["DLA-2345-1", "DSA-4856-1"]
+  redhat = ["RHSA-2021:2992", "RHSA-2021:4213"]
+  rockylinux = ["RLSA-2021:4213"]
+  suse = [
     "SUSE-SU-2020:2403-1",
     "SUSE-SU-2020:2404-1",
     "SUSE-SU-2020:2405-1",
@@ -41,16 +25,11 @@ suse = [
     "SUSE-SU-2022:4067-1",
     "SUSE-SU-2022:4068-1",
     "SUSE-SU-2022:4069-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2020:1354-1",
     "openSUSE-SU-2020:1356-1",
     "openSUSE-SU-2024:11569-1",
-]
-ubuntu = [
-    "USN-5006-1",
-    "USN-5006-2",
-]
-oraclelinux = [
-    "ELSA-2021-4213",
-]
+  ]
+  ubuntu = ["USN-5006-1", "USN-5006-2"]
+  oraclelinux = ["ELSA-2021-4213"]

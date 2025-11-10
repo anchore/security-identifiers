@@ -2,26 +2,11 @@
 id = "ANCHORE-2017-3351"
 allocated = 2025-10-15T14:15:08.957130Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-5510",
-]
-gcve = [
-    "GCVE-0-2017-5510",
-]
-github = [
-    "GHSA-f9rm-fgpj-f658",
-]
-chainguard = [
-    "CGA-4fqv-75pm-x83p",
-]
-debian = [
-    "DLA-807-1",
-    "DSA-3799-1",
-]
-suse = [
-    "SUSE-SU-2017:0529-1",
-]
-ubuntu = [
-    "USN-3222-1",
-]
+  [security.aliases]
+  cve = ["CVE-2017-5510"]
+  gcve = ["GCVE-0-2017-5510"]
+  github = ["GHSA-f9rm-fgpj-f658"]
+  chainguard = ["CGA-4fqv-75pm-x83p"]
+  debian = ["DLA-807-1", "DSA-3799-1"]
+  suse = ["SUSE-SU-2017:0529-1"]
+  ubuntu = ["USN-3222-1"]

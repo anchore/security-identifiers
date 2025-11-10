@@ -2,33 +2,19 @@
 id = "ANCHORE-2022-1349"
 allocated = 2025-10-15T14:16:13.686780Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-21293",
-]
-gcve = [
-    "GCVE-0-2022-21293",
-]
-github = [
-    "GHSA-xwxc-rh9r-2448",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2022-21293"]
+  gcve = ["GCVE-0-2022-21293"]
+  github = ["GHSA-xwxc-rh9r-2448"]
+  chainguard = [
     "CGA-46c5-959m-jvgw",
     "CGA-58r6-cwj8-c72q",
     "CGA-8w7h-8w9f-qwjq",
     "CGA-h5rq-x9p2-qvr5",
-]
-almalinux = [
-    "ALSA-2022:0161",
-    "ALSA-2022:0185",
-    "ALSA-2022:0307",
-]
-debian = [
-    "DLA-2917-1",
-    "DSA-5057-1",
-    "DSA-5058-1",
-]
-redhat = [
+  ]
+  almalinux = ["ALSA-2022:0161", "ALSA-2022:0185", "ALSA-2022:0307"]
+  debian = ["DLA-2917-1", "DSA-5057-1", "DSA-5058-1"]
+  redhat = [
     "RHSA-2022:0161",
     "RHSA-2022:0185",
     "RHSA-2022:0204",
@@ -43,13 +29,9 @@ redhat = [
     "RHSA-2022:0968",
     "RHSA-2022:0969",
     "RHSA-2022:0970",
-]
-rockylinux = [
-    "RLSA-2022:0161",
-    "RLSA-2022:0185",
-    "RLSA-2022:0307",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2022:0161", "RLSA-2022:0185", "RLSA-2022:0307"]
+  suse = [
     "SUSE-SU-2022:0730-1",
     "SUSE-SU-2022:0816-1",
     "SUSE-SU-2022:0871-1",
@@ -59,8 +41,8 @@ suse = [
     "SUSE-SU-2022:1027-1",
     "SUSE-SU-2022:14926-1",
     "SUSE-SU-2022:14927-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2022:0816-1",
     "openSUSE-SU-2022:0870-1",
     "openSUSE-SU-2022:0873-1",
@@ -71,24 +53,18 @@ opensuse = [
     "openSUSE-SU-2024:11810-1",
     "openSUSE-SU-2024:11895-1",
     "openSUSE-SU-2024:11896-1",
-]
-ubuntu = [
-    "USN-5313-1",
-]
-minimos = [
+  ]
+  ubuntu = ["USN-5313-1"]
+  minimos = [
     "MINI-3cm2-gh73-xc9v",
     "MINI-55pc-f75v-jfw3",
     "MINI-737r-9mqr-94gj",
     "MINI-8335-v357-62g3",
     "MINI-p27c-vcvv-243h",
     "MINI-x7rr-v7f4-c977",
-]
-openeuler = [
-    "OESA-2022-1696",
-    "OESA-2022-1702",
-    "OESA-2022-1813",
-]
-amazonlinux = [
+  ]
+  openeuler = ["OESA-2022-1696", "OESA-2022-1702", "OESA-2022-1813"]
+  amazonlinux = [
     "ALAS-2022-037",
     "ALAS-2022-047",
     "ALAS2-2022-1752",
@@ -97,11 +73,11 @@ amazonlinux = [
     "ALAS2-2022-1835",
     "ALAS2CORRETTO8-2025-016",
     "ALAS2JAVA-OPENJDK11-2023-003",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2022-0161",
     "ELSA-2022-0185",
     "ELSA-2022-0204",
     "ELSA-2022-0306",
     "ELSA-2022-0307",
-]
+  ]

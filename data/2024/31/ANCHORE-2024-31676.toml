@@ -2,20 +2,9 @@
 id = "ANCHORE-2024-31676"
 allocated = 2025-10-15T14:17:13.126885Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-47680",
-]
-gcve = [
-    "GCVE-0-2024-47680",
-]
-github = [
-    "GHSA-2cvc-2cmj-7863",
-]
-opensuse = [
-    "openSUSE-SU-2024:14500-1",
-    "openSUSE-SU-2025:14705-1",
-]
-ubuntu = [
-    "USN-7310-1",
-]
+  [security.aliases]
+  cve = ["CVE-2024-47680"]
+  gcve = ["GCVE-0-2024-47680"]
+  github = ["GHSA-2cvc-2cmj-7863"]
+  opensuse = ["openSUSE-SU-2024:14500-1", "openSUSE-SU-2025:14705-1"]
+  ubuntu = ["USN-7310-1"]

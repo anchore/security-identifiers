@@ -2,37 +2,13 @@
 id = "ANCHORE-2018-2900"
 allocated = 2025-10-15T14:15:20.980634Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-1305",
-]
-gcve = [
-    "GCVE-0-2018-1305",
-]
-github = [
-    "GHSA-jx6h-3fjx-cgv5",
-]
-debian = [
-    "DLA-1301-1",
-    "DLA-1400-1",
-    "DLA-1450-1",
-    "DSA-4281-1",
-]
-redhat = [
-    "RHSA-2018:0466",
-    "RHSA-2019:2205",
-]
-suse = [
-    "SUSE-SU-2018:0817-1",
-    "SUSE-SU-2018:3261-1",
-    "SUSE-SU-2018:3388-1",
-]
-ubuntu = [
-    "USN-3665-1",
-]
-amazonlinux = [
-    "ALAS2-2020-1402",
-]
-oraclelinux = [
-    "ELSA-2019-2205",
-]
+  [security.aliases]
+  cve = ["CVE-2018-1305"]
+  gcve = ["GCVE-0-2018-1305"]
+  github = ["GHSA-jx6h-3fjx-cgv5"]
+  debian = ["DLA-1301-1", "DLA-1400-1", "DLA-1450-1", "DSA-4281-1"]
+  redhat = ["RHSA-2018:0466", "RHSA-2019:2205"]
+  suse = ["SUSE-SU-2018:0817-1", "SUSE-SU-2018:3261-1", "SUSE-SU-2018:3388-1"]
+  ubuntu = ["USN-3665-1"]
+  amazonlinux = ["ALAS2-2020-1402"]
+  oraclelinux = ["ELSA-2019-2205"]

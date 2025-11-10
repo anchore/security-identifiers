@@ -2,20 +2,9 @@
 id = "ANCHORE-2013-1722"
 allocated = 2025-10-15T14:14:49.819446Z
 
-[security.aliases]
-cve = [
-    "CVE-2013-2015",
-]
-gcve = [
-    "GCVE-0-2013-2015",
-]
-github = [
-    "GHSA-wpvr-2qhr-52v2",
-]
-debian = [
-    "DSA-2668-1",
-    "DSA-2669-1",
-]
-suse = [
-    "SUSE-SU-2016:2074-1",
-]
+  [security.aliases]
+  cve = ["CVE-2013-2015"]
+  gcve = ["GCVE-0-2013-2015"]
+  github = ["GHSA-wpvr-2qhr-52v2"]
+  debian = ["DSA-2668-1", "DSA-2669-1"]
+  suse = ["SUSE-SU-2016:2074-1"]

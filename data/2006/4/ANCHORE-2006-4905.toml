@@ -2,17 +2,8 @@
 id = "ANCHORE-2006-4905"
 allocated = 2025-10-15T14:14:22.203777Z
 
-[security.aliases]
-cve = [
-    "CVE-2006-4799",
-]
-gcve = [
-    "GCVE-0-2006-4799",
-]
-github = [
-    "GHSA-7hpv-pj9m-wmwr",
-]
-debian = [
-    "DSA-1215",
-    "DSA-1215-1",
-]
+  [security.aliases]
+  cve = ["CVE-2006-4799"]
+  gcve = ["GCVE-0-2006-4799"]
+  github = ["GHSA-7hpv-pj9m-wmwr"]
+  debian = ["DSA-1215", "DSA-1215-1"]

@@ -2,34 +2,18 @@
 id = "ANCHORE-2024-17521"
 allocated = 2025-10-15T14:17:03.406316Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-36881",
-]
-gcve = [
-    "GCVE-0-2024-36881",
-]
-redhat = [
-    "RHSA-2024:9315",
-]
-suse = [
-    "SUSE-SU-2024:3194-1",
-    "SUSE-SU-2024:3195-1",
-    "SUSE-SU-2024:3383-1",
-]
-ubuntu = [
+  [security.aliases]
+  cve = ["CVE-2024-36881"]
+  gcve = ["GCVE-0-2024-36881"]
+  redhat = ["RHSA-2024:9315"]
+  suse = ["SUSE-SU-2024:3194-1", "SUSE-SU-2024:3195-1", "SUSE-SU-2024:3383-1"]
+  ubuntu = [
     "USN-6949-1",
     "USN-6949-2",
     "USN-6952-1",
     "USN-6952-2",
     "USN-6955-1",
-]
-echo = [
-    "ECHO-02ab-a485-9bb2",
-]
-openeuler = [
-    "OESA-2024-1897",
-]
-oraclelinux = [
-    "ELSA-2024-9315",
-]
+  ]
+  echo = ["ECHO-02ab-a485-9bb2"]
+  openeuler = ["OESA-2024-1897"]
+  oraclelinux = ["ELSA-2024-9315"]

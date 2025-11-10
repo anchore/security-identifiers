@@ -2,17 +2,8 @@
 id = "ANCHORE-2021-19408"
 allocated = 2025-10-15T14:16:11.051906Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-44223",
-]
-gcve = [
-    "GCVE-0-2021-44223",
-]
-github = [
-    "GHSA-m8cv-g4gv-cx2g",
-]
-bitnami = [
-    "BIT-wordpress-2021-44223",
-    "BIT-wordpress-multisite-2021-44223",
-]
+  [security.aliases]
+  cve = ["CVE-2021-44223"]
+  gcve = ["GCVE-0-2021-44223"]
+  github = ["GHSA-m8cv-g4gv-cx2g"]
+  bitnami = ["BIT-wordpress-2021-44223", "BIT-wordpress-multisite-2021-44223"]

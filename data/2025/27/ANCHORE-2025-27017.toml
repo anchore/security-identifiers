@@ -2,28 +2,16 @@
 id = "ANCHORE-2025-27017"
 allocated = 2025-10-15T14:17:38.223416Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-38349",
-]
-gcve = [
-    "GCVE-0-2025-38349",
-]
-github = [
-    "GHSA-c7h3-7f54-949m",
-]
-debian = [
-    "DSA-5975-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2025-38349"]
+  gcve = ["GCVE-0-2025-38349"]
+  github = ["GHSA-c7h3-7f54-949m"]
+  debian = ["DSA-5975-1"]
+  suse = [
     "SUSE-SU-2025:02853-1",
     "SUSE-SU-2025:02923-1",
     "SUSE-SU-2025:02969-1",
     "SUSE-SU-2025:03023-1",
-]
-amazonlinux = [
-    "ALAS2023-2025-1145",
-]
-oraclelinux = [
-    "ELSA-2025-20551",
-]
+  ]
+  amazonlinux = ["ALAS2023-2025-1145"]
+  oraclelinux = ["ELSA-2025-20551"]

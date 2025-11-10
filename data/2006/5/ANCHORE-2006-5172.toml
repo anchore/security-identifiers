@@ -2,27 +2,15 @@
 id = "ANCHORE-2006-5172"
 allocated = 2025-10-15T14:14:22.398863Z
 
-[security.aliases]
-cve = [
-    "CVE-2006-4343",
-]
-gcve = [
-    "GCVE-0-2006-4343",
-]
-github = [
-    "GHSA-vrm9-vqv5-39gr",
-]
-debian = [
-    "DSA-1185-2",
-    "DSA-1195-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2006-4343"]
+  gcve = ["GCVE-0-2006-4343"]
+  github = ["GHSA-vrm9-vqv5-39gr"]
+  debian = ["DSA-1185-2", "DSA-1195-1"]
+  redhat = [
     "RHSA-2006:0695",
     "RHSA-2008:0264",
     "RHSA-2008:0525",
     "RHSA-2008:0629",
-]
-opensuse = [
-    "openSUSE-SU-2024:11126-1",
-    "openSUSE-SU-2024:11127-1",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:11126-1", "openSUSE-SU-2024:11127-1"]

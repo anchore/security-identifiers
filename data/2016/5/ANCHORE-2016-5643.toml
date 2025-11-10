@@ -2,30 +2,12 @@
 id = "ANCHORE-2016-5643"
 allocated = 2025-10-15T14:15:06.045502Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-9189",
-]
-gcve = [
-    "GCVE-0-2016-9189",
-]
-github = [
-    "GHSA-rwr3-c2q8-gm56",
-]
-pypa = [
-    "PYSEC-2016-8",
-]
-debian = [
-    "DLA-705-1",
-    "DSA-3710-1",
-]
-suse = [
-    "SUSE-SU-2019:1321-1",
-    "SUSE-SU-2019:1772-1",
-]
-ubuntu = [
-    "USN-3230-1",
-]
-amazonlinux = [
-    "ALAS2-2024-2413",
-]
+  [security.aliases]
+  cve = ["CVE-2016-9189"]
+  gcve = ["GCVE-0-2016-9189"]
+  github = ["GHSA-rwr3-c2q8-gm56"]
+  pypa = ["PYSEC-2016-8"]
+  debian = ["DLA-705-1", "DSA-3710-1"]
+  suse = ["SUSE-SU-2019:1321-1", "SUSE-SU-2019:1772-1"]
+  ubuntu = ["USN-3230-1"]
+  amazonlinux = ["ALAS2-2024-2413"]

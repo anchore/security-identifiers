@@ -2,25 +2,10 @@
 id = "ANCHORE-2014-5522"
 allocated = 2025-10-15T14:14:56.080214Z
 
-[security.aliases]
-cve = [
-    "CVE-2014-7144",
-]
-gcve = [
-    "GCVE-0-2014-7144",
-]
-github = [
-    "GHSA-7f2c-vp52-gmfw",
-]
-pypa = [
-    "PYSEC-2014-26",
-    "PYSEC-2014-71",
-]
-redhat = [
-    "RHSA-2014:1783",
-    "RHSA-2014:1784",
-    "RHSA-2015:0020",
-]
-ubuntu = [
-    "USN-2705-1",
-]
+  [security.aliases]
+  cve = ["CVE-2014-7144"]
+  gcve = ["GCVE-0-2014-7144"]
+  github = ["GHSA-7f2c-vp52-gmfw"]
+  pypa = ["PYSEC-2014-26", "PYSEC-2014-71"]
+  redhat = ["RHSA-2014:1783", "RHSA-2014:1784", "RHSA-2015:0020"]
+  ubuntu = ["USN-2705-1"]

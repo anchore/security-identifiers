@@ -2,26 +2,16 @@
 id = "ANCHORE-2021-11337"
 allocated = 2025-10-15T14:16:05.580772Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-36213",
-]
-gcve = [
-    "GCVE-0-2021-36213",
-]
-github = [
-    "GHSA-8h2g-r292-j8xh",
-]
-bitnami = [
-    "BIT-consul-2021-36213",
-]
-go = [
-    "GO-2022-0895",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2021-36213"]
+  gcve = ["GCVE-0-2021-36213"]
+  github = ["GHSA-8h2g-r292-j8xh"]
+  bitnami = ["BIT-consul-2021-36213"]
+  go = ["GO-2022-0895"]
+  chainguard = [
     "CGA-26gc-cj92-r884",
     "CGA-4qv7-4gh9-g2pj",
     "CGA-m5qm-crfq-qm8r",
     "CGA-q8x7-9g2j-xvj5",
     "CGA-w85g-gmh5-6p65",
-]
+  ]

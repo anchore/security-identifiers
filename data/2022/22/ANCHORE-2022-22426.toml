@@ -2,26 +2,11 @@
 id = "ANCHORE-2022-22426"
 allocated = 2025-10-15T14:16:27.961311Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-45199",
-]
-gcve = [
-    "GCVE-0-2022-45199",
-]
-github = [
-    "GHSA-q4mp-jvh2-76fj",
-]
-bitnami = [
-    "BIT-pillow-2022-45199",
-]
-pypa = [
-    "PYSEC-2022-42980",
-]
-openeuler = [
-    "OESA-2022-2113",
-    "OESA-2023-1024",
-]
-amazonlinux = [
-    "ALAS2023-2023-146",
-]
+  [security.aliases]
+  cve = ["CVE-2022-45199"]
+  gcve = ["GCVE-0-2022-45199"]
+  github = ["GHSA-q4mp-jvh2-76fj"]
+  bitnami = ["BIT-pillow-2022-45199"]
+  pypa = ["PYSEC-2022-42980"]
+  openeuler = ["OESA-2022-2113", "OESA-2023-1024"]
+  amazonlinux = ["ALAS2023-2023-146"]

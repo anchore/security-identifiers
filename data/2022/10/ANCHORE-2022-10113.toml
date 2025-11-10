@@ -2,23 +2,10 @@
 id = "ANCHORE-2022-10113"
 allocated = 2025-10-15T14:16:19.635490Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-30595",
-]
-gcve = [
-    "GCVE-0-2022-30595",
-]
-github = [
-    "GHSA-hr8g-f6r6-mr22",
-]
-bitnami = [
-    "BIT-pillow-2022-30595",
-]
-pypa = [
-    "PYSEC-2022-43145",
-]
-opensuse = [
-    "openSUSE-SU-2024:12111-1",
-    "openSUSE-SU-2025:14645-1",
-]
+  [security.aliases]
+  cve = ["CVE-2022-30595"]
+  gcve = ["GCVE-0-2022-30595"]
+  github = ["GHSA-hr8g-f6r6-mr22"]
+  bitnami = ["BIT-pillow-2022-30595"]
+  pypa = ["PYSEC-2022-43145"]
+  opensuse = ["openSUSE-SU-2024:12111-1", "openSUSE-SU-2025:14645-1"]

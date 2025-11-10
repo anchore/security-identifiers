@@ -2,24 +2,10 @@
 id = "ANCHORE-2017-11807"
 allocated = 2025-10-15T14:15:14.650504Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-12431",
-]
-gcve = [
-    "GCVE-0-2017-12431",
-]
-github = [
-    "GHSA-p95x-45rv-wpxr",
-]
-debian = [
-    "DLA-1081-1",
-    "DSA-4019-1",
-    "DSA-4040-1",
-]
-suse = [
-    "SUSE-SU-2017:2949-1",
-]
-ubuntu = [
-    "USN-3681-1",
-]
+  [security.aliases]
+  cve = ["CVE-2017-12431"]
+  gcve = ["GCVE-0-2017-12431"]
+  github = ["GHSA-p95x-45rv-wpxr"]
+  debian = ["DLA-1081-1", "DSA-4019-1", "DSA-4040-1"]
+  suse = ["SUSE-SU-2017:2949-1"]
+  ubuntu = ["USN-3681-1"]

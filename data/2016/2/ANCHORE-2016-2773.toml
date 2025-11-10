@@ -2,24 +2,14 @@
 id = "ANCHORE-2016-2773"
 allocated = 2025-10-15T14:15:04.116270Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-1405",
-]
-gcve = [
-    "GCVE-0-2016-1405",
-]
-github = [
-    "GHSA-p4qj-763m-ffg3",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2016-1405"]
+  gcve = ["GCVE-0-2016-1405"]
+  github = ["GHSA-p4qj-763m-ffg3"]
+  chainguard = [
     "CGA-3fv3-8gj4-fhc3",
     "CGA-53pc-g9qh-2723",
     "CGA-vwp2-pmqg-5g9h",
-]
-ubuntu = [
-    "USN-3093-1",
-]
-minimos = [
-    "MINI-pprg-74vp-cpc6",
-]
+  ]
+  ubuntu = ["USN-3093-1"]
+  minimos = ["MINI-pprg-74vp-cpc6"]

@@ -2,27 +2,19 @@
 id = "ANCHORE-2023-6394"
 allocated = 2025-10-15T14:16:34.829591Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-27593",
-]
-gcve = [
-    "GCVE-0-2023-27593",
-]
-github = [
-    "GHSA-4hc4-pgfx-3mrx",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2023-27593"]
+  gcve = ["GCVE-0-2023-27593"]
+  github = ["GHSA-4hc4-pgfx-3mrx"]
+  bitnami = [
     "BIT-cilium-2023-27593",
     "BIT-cilium-operator-2023-27593",
     "BIT-hubble-relay-2023-27593",
-]
-go = [
-    "GO-2023-1642",
-]
-chainguard = [
+  ]
+  go = ["GO-2023-1642"]
+  chainguard = [
     "CGA-8xj4-5f2q-7qcf",
     "CGA-gh89-344p-848h",
     "CGA-rw35-6m7p-47pr",
     "CGA-vh9r-6vr8-4g3x",
-]
+  ]

@@ -2,37 +2,17 @@
 id = "ANCHORE-2022-15565"
 allocated = 2025-10-15T14:16:23.299177Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-30580",
-]
-gcve = [
-    "GCVE-0-2022-30580",
-]
-github = [
-    "GHSA-2v97-2cxm-mvp4",
-]
-bitnami = [
-    "BIT-golang-2022-30580",
-]
-go = [
-    "GO-2022-0532",
-]
-suse = [
-    "SUSE-SU-2022:2004-1",
-    "SUSE-SU-2022:2005-1",
-    "SUSE-SU-2023:2312-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12123-1",
-    "openSUSE-SU-2024:12124-1",
-]
-amazonlinux = [
+  [security.aliases]
+  cve = ["CVE-2022-30580"]
+  gcve = ["GCVE-0-2022-30580"]
+  github = ["GHSA-2v97-2cxm-mvp4"]
+  bitnami = ["BIT-golang-2022-30580"]
+  go = ["GO-2022-0532"]
+  suse = ["SUSE-SU-2022:2004-1", "SUSE-SU-2022:2005-1", "SUSE-SU-2023:2312-1"]
+  opensuse = ["openSUSE-SU-2024:12123-1", "openSUSE-SU-2024:12124-1"]
+  amazonlinux = [
     "ALAS2-2023-2015",
     "ALAS2023-2023-175",
     "ALAS2GOLANG1.19-2023-002",
-]
-oraclelinux = [
-    "ELSA-2022-17956",
-    "ELSA-2022-17957",
-]
+  ]
+  oraclelinux = ["ELSA-2022-17956", "ELSA-2022-17957"]

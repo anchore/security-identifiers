@@ -2,17 +2,11 @@
 id = "ANCHORE-2025-8345"
 allocated = 2025-10-15T14:17:25.151620Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-27221",
-]
-gcve = [
-    "GCVE-0-2025-27221",
-]
-github = [
-    "GHSA-22h5-pq3x-2gf2",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-27221"]
+  gcve = ["GCVE-0-2025-27221"]
+  github = ["GHSA-22h5-pq3x-2gf2"]
+  chainguard = [
     "CGA-6qhg-6mx5-8g9x",
     "CGA-79mj-jx8g-53m5",
     "CGA-9pw5-qrx9-h723",
@@ -23,31 +17,19 @@ chainguard = [
     "CGA-mw49-rqc5-hg65",
     "CGA-pqqp-m4px-prpq",
     "CGA-rjhg-f5vr-33f2",
-]
-almalinux = [
-    "ALSA-2025:10217",
-    "ALSA-2025:4488",
-    "ALSA-2025:8131",
-]
-debian = [
-    "DLA-4082-1",
-    "DLA-4163-1",
-]
-redhat = [
+  ]
+  almalinux = ["ALSA-2025:10217", "ALSA-2025:4488", "ALSA-2025:8131"]
+  debian = ["DLA-4082-1", "DLA-4163-1"]
+  redhat = [
     "RHSA-2025:10217",
     "RHSA-2025:4063",
     "RHSA-2025:4488",
     "RHSA-2025:4493",
     "RHSA-2025:8131",
-]
-suse = [
-    "SUSE-SU-2025:02739-1",
-]
-ubuntu = [
-    "USN-7418-1",
-    "USN-7442-1",
-]
-minimos = [
+  ]
+  suse = ["SUSE-SU-2025:02739-1"]
+  ubuntu = ["USN-7418-1", "USN-7442-1"]
+  minimos = [
     "MINI-6h56-9hp5-pv35",
     "MINI-99gx-v4vj-qrx8",
     "MINI-9x5x-9qgw-wrhq",
@@ -59,24 +41,20 @@ minimos = [
     "MINI-wv4q-r7rh-gwrf",
     "MINI-x3ch-cgwc-f4m9",
     "MINI-xqqg-375w-hwcg",
-]
-echo = [
-    "ECHO-0f02-8857-9466",
-]
-openeuler = [
+  ]
+  echo = ["ECHO-0f02-8857-9466"]
+  openeuler = [
     "OESA-2025-1244",
     "OESA-2025-1261",
     "OESA-2025-1262",
     "OESA-2025-1263",
     "OESA-2025-1264",
-]
-amazonlinux = [
-    "ALAS2023-2025-928",
-]
-oraclelinux = [
+  ]
+  amazonlinux = ["ALAS2023-2025-928"]
+  oraclelinux = [
     "ELSA-2025-10217",
     "ELSA-2025-4063",
     "ELSA-2025-4488",
     "ELSA-2025-4493",
     "ELSA-2025-8131",
-]
+  ]

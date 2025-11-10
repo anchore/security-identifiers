@@ -2,23 +2,10 @@
 id = "ANCHORE-2024-3519"
 allocated = 2025-10-15T14:16:53.810855Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-52428",
-]
-gcve = [
-    "GCVE-0-2023-52428",
-]
-github = [
-    "GHSA-gvpg-vgmx-xg6w",
-]
-chainguard = [
-    "CGA-hvjw-cqfw-cqf3",
-]
-redhat = [
-    "RHSA-2024:8823",
-    "RHSA-2024:8824",
-]
-minimos = [
-    "MINI-p64x-mf7f-2vhr",
-]
+  [security.aliases]
+  cve = ["CVE-2023-52428"]
+  gcve = ["GCVE-0-2023-52428"]
+  github = ["GHSA-gvpg-vgmx-xg6w"]
+  chainguard = ["CGA-hvjw-cqfw-cqf3"]
+  redhat = ["RHSA-2024:8823", "RHSA-2024:8824"]
+  minimos = ["MINI-p64x-mf7f-2vhr"]

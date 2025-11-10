@@ -2,50 +2,26 @@
 id = "ANCHORE-2021-10887"
 allocated = 2025-10-15T14:16:05.277484Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-34552",
-]
-gcve = [
-    "GCVE-0-2021-34552",
-]
-github = [
-    "GHSA-7534-mm45-c74v",
-]
-bitnami = [
-    "BIT-pillow-2021-34552",
-]
-pypa = [
-    "PYSEC-2021-331",
-]
-almalinux = [
-    "ALSA-2021:4149",
-]
-debian = [
-    "DLA-2716-1",
-]
-redhat = [
-    "RHSA-2021:4149",
-]
-rockylinux = [
-    "RLSA-2021:4149",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2021-34552"]
+  gcve = ["GCVE-0-2021-34552"]
+  github = ["GHSA-7534-mm45-c74v"]
+  bitnami = ["BIT-pillow-2021-34552"]
+  pypa = ["PYSEC-2021-331"]
+  almalinux = ["ALSA-2021:4149"]
+  debian = ["DLA-2716-1"]
+  redhat = ["RHSA-2021:4149"]
+  rockylinux = ["RLSA-2021:4149"]
+  suse = [
     "SUSE-SU-2021:2595-1",
     "SUSE-SU-2021:2631-1",
     "SUSE-SU-2021:2632-1",
     "SUSE-SU-2024:1673-2",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:1134-1",
     "openSUSE-SU-2024:11209-1",
     "openSUSE-SU-2024:13827-1",
-]
-ubuntu = [
-    "USN-5227-1",
-    "USN-5227-2",
-]
-amazonlinux = [
-    "ALAS2-2023-2083",
-    "ALAS2023-2023-146",
-]
+  ]
+  ubuntu = ["USN-5227-1", "USN-5227-2"]
+  amazonlinux = ["ALAS2-2023-2083", "ALAS2023-2023-146"]

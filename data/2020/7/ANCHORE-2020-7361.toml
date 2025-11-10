@@ -2,29 +2,12 @@
 id = "ANCHORE-2020-7361"
 allocated = 2025-10-15T14:15:49.753728Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-12459",
-]
-gcve = [
-    "GCVE-0-2020-12459",
-]
-github = [
-    "GHSA-m25m-5778-fm22",
-]
-bitnami = [
-    "BIT-grafana-2020-12459",
-]
-go = [
-    "GO-2024-2519",
-]
-almalinux = [
-    "ALSA-2020:4682",
-]
-redhat = [
-    "RHSA-2020:2362",
-    "RHSA-2020:4682",
-]
-oraclelinux = [
-    "ELSA-2020-4682",
-]
+  [security.aliases]
+  cve = ["CVE-2020-12459"]
+  gcve = ["GCVE-0-2020-12459"]
+  github = ["GHSA-m25m-5778-fm22"]
+  bitnami = ["BIT-grafana-2020-12459"]
+  go = ["GO-2024-2519"]
+  almalinux = ["ALSA-2020:4682"]
+  redhat = ["RHSA-2020:2362", "RHSA-2020:4682"]
+  oraclelinux = ["ELSA-2020-4682"]

@@ -2,21 +2,9 @@
 id = "ANCHORE-2019-3967"
 allocated = 2025-10-15T14:15:34.271510Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-3830",
-]
-gcve = [
-    "GCVE-0-2019-3830",
-]
-github = [
-    "GHSA-2cvf-r9jm-4qm9",
-]
-pypa = [
-    "PYSEC-2019-78",
-]
-redhat = [
-    "RHSA-2019:0566",
-    "RHSA-2019:0580",
-    "RHSA-2019:0919",
-]
+  [security.aliases]
+  cve = ["CVE-2019-3830"]
+  gcve = ["GCVE-0-2019-3830"]
+  github = ["GHSA-2cvf-r9jm-4qm9"]
+  pypa = ["PYSEC-2019-78"]
+  redhat = ["RHSA-2019:0566", "RHSA-2019:0580", "RHSA-2019:0919"]

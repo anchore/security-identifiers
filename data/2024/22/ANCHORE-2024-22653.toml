@@ -2,27 +2,16 @@
 id = "ANCHORE-2024-22653"
 allocated = 2025-10-15T14:17:06.874566Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-21130",
-]
-gcve = [
-    "GCVE-0-2024-21130",
-]
-github = [
-    "GHSA-7j6g-455m-7jv4",
-]
-chainguard = [
-    "CGA-p69q-h3p4-m94c",
-    "CGA-x2pc-v79h-83v5",
-]
-ubuntu = [
-    "USN-6934-1",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2024-21130"]
+  gcve = ["GCVE-0-2024-21130"]
+  github = ["GHSA-7j6g-455m-7jv4"]
+  chainguard = ["CGA-p69q-h3p4-m94c", "CGA-x2pc-v79h-83v5"]
+  ubuntu = ["USN-6934-1"]
+  openeuler = [
     "OESA-2024-1932",
     "OESA-2024-1933",
     "OESA-2024-1934",
     "OESA-2024-1935",
     "OESA-2024-2071",
-]
+  ]

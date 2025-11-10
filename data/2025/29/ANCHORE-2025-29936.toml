@@ -2,17 +2,11 @@
 id = "ANCHORE-2025-29936"
 allocated = 2025-10-15T14:17:40.385692Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-8916",
-]
-gcve = [
-    "GCVE-0-2025-8916",
-]
-github = [
-    "GHSA-4cx2-fc23-5wg6",
-]
-minimos = [
+  [security.aliases]
+  cve = ["CVE-2025-8916"]
+  gcve = ["GCVE-0-2025-8916"]
+  github = ["GHSA-4cx2-fc23-5wg6"]
+  minimos = [
     "MINI-25h6-jrvh-v94r",
     "MINI-396w-xqhh-fq8r",
     "MINI-9m8f-v44c-7hxg",
@@ -22,12 +16,12 @@ minimos = [
     "MINI-jwq8-mx8j-qr3p",
     "MINI-qfcw-m8jh-5qvm",
     "MINI-vrvg-7xxx-5963",
-]
-chainguard = [
+  ]
+  chainguard = [
     "CGA-3433-cv65-43cr",
     "CGA-6v5c-mc4x-8gw2",
     "CGA-f5v4-h9x6-x4hf",
     "CGA-m487-6p97-2rh3",
     "CGA-wjjg-h899-q22m",
     "CGA-wr2m-mvfp-v723",
-]
+  ]

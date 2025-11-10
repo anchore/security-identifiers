@@ -2,23 +2,10 @@
 id = "ANCHORE-2023-18994"
 allocated = 2025-10-15T14:16:43.305090Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-21264",
-]
-gcve = [
-    "GCVE-0-2023-21264",
-]
-github = [
-    "GHSA-38wf-932f-qv6q",
-]
-ubuntu = [
-    "USN-6383-1",
-    "USN-6466-1",
-]
-echo = [
-    "ECHO-89fa-8080-8bc4",
-]
-amazonlinux = [
-    "ALAS2023-2023-349",
-]
+  [security.aliases]
+  cve = ["CVE-2023-21264"]
+  gcve = ["GCVE-0-2023-21264"]
+  github = ["GHSA-38wf-932f-qv6q"]
+  ubuntu = ["USN-6383-1", "USN-6466-1"]
+  echo = ["ECHO-89fa-8080-8bc4"]
+  amazonlinux = ["ALAS2023-2023-349"]

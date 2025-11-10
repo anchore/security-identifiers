@@ -2,24 +2,16 @@
 id = "ANCHORE-2018-17212"
 allocated = 2025-10-15T14:15:30.907095Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-19665",
-]
-gcve = [
-    "GCVE-0-2018-19665",
-]
-github = [
-    "GHSA-5qrx-9vpc-57pm",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2018-19665"]
+  gcve = ["GCVE-0-2018-19665"]
+  github = ["GHSA-5qrx-9vpc-57pm"]
+  suse = [
     "SUSE-SU-2019:0003-1",
     "SUSE-SU-2019:0020-1",
     "SUSE-SU-2019:0825-1",
     "SUSE-SU-2019:0827-1",
     "SUSE-SU-2019:13921-1",
     "SUSE-SU-2019:14011-1",
-]
-oraclelinux = [
-    "ELSA-2019-4640",
-]
+  ]
+  oraclelinux = ["ELSA-2019-4640"]

@@ -2,19 +2,11 @@
 id = "ANCHORE-2021-8191"
 allocated = 2025-10-15T14:16:03.443805Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-27815",
-]
-gcve = [
-    "GCVE-0-2020-27815",
-]
-debian = [
-    "DLA-2557-1",
-    "DLA-2586-1",
-    "DSA-4843-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2020-27815"]
+  gcve = ["GCVE-0-2020-27815"]
+  debian = ["DLA-2557-1", "DLA-2586-1", "DSA-4843-1"]
+  suse = [
     "SUSE-SU-2021:1175-1",
     "SUSE-SU-2021:1176-1",
     "SUSE-SU-2021:1177-1",
@@ -27,24 +19,19 @@ suse = [
     "SUSE-SU-2021:1625-1",
     "SUSE-SU-2021:1975-1",
     "SUSE-SU-2021:1977-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:0532-1",
     "openSUSE-SU-2021:0758-1",
     "openSUSE-SU-2021:1975-1",
     "openSUSE-SU-2021:1977-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-4748-1",
     "USN-4749-1",
     "USN-4750-1",
     "USN-4751-1",
     "USN-4752-1",
-]
-openeuler = [
-    "OESA-2021-1003",
-]
-amazonlinux = [
-    "ALAS2-2021-1588",
-    "ALAS2KERNEL-5.4-2022-019",
-]
+  ]
+  openeuler = ["OESA-2021-1003"]
+  amazonlinux = ["ALAS2-2021-1588", "ALAS2KERNEL-5.4-2022-019"]

@@ -2,20 +2,9 @@
 id = "ANCHORE-2018-12586"
 allocated = 2025-10-15T14:15:27.688409Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-6556",
-]
-gcve = [
-    "GCVE-0-2018-6556",
-]
-github = [
-    "GHSA-xg68-6jxg-5w7p",
-]
-opensuse = [
-    "openSUSE-SU-2019:1275-1",
-    "openSUSE-SU-2024:11030-1",
-]
-ubuntu = [
-    "USN-3730-1",
-]
+  [security.aliases]
+  cve = ["CVE-2018-6556"]
+  gcve = ["GCVE-0-2018-6556"]
+  github = ["GHSA-xg68-6jxg-5w7p"]
+  opensuse = ["openSUSE-SU-2019:1275-1", "openSUSE-SU-2024:11030-1"]
+  ubuntu = ["USN-3730-1"]

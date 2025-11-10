@@ -2,47 +2,29 @@
 id = "ANCHORE-2025-30201"
 allocated = 2025-10-15T14:17:40.569018Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-8713",
-]
-gcve = [
-    "GCVE-0-2025-8713",
-]
-github = [
-    "GHSA-cqj3-wjpm-fjvp",
-]
-bitnami = [
-    "BIT-postgresql-2025-8713",
-]
-debian = [
-    "DLA-4273-1",
-]
-redhat = [
-    "RHSA-2025:14827",
-    "RHSA-2025:14862",
-    "RHSA-2025:14878",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2025-8713"]
+  gcve = ["GCVE-0-2025-8713"]
+  github = ["GHSA-cqj3-wjpm-fjvp"]
+  bitnami = ["BIT-postgresql-2025-8713"]
+  debian = ["DLA-4273-1"]
+  redhat = ["RHSA-2025:14827", "RHSA-2025:14862", "RHSA-2025:14878"]
+  suse = [
     "SUSE-SU-2025:03005-1",
     "SUSE-SU-2025:03005-2",
     "SUSE-SU-2025:03018-1",
     "SUSE-SU-2025:03019-1",
     "SUSE-SU-2025:03019-2",
     "SUSE-SU-2025:03020-1",
-]
-ubuntu = [
-    "USN-7741-1",
-]
-minimos = [
+  ]
+  ubuntu = ["USN-7741-1"]
+  minimos = [
     "MINI-483w-m8cx-4r5m",
     "MINI-6ffx-2269-xgww",
     "MINI-px2x-xcg2-pcwg",
-]
-echo = [
-    "ECHO-0871-700e-e8a8",
-]
-openeuler = [
+  ]
+  echo = ["ECHO-0871-700e-e8a8"]
+  openeuler = [
     "OESA-2025-2104",
     "OESA-2025-2137",
     "OESA-2025-2138",
@@ -54,11 +36,11 @@ openeuler = [
     "OESA-2025-2144",
     "OESA-2025-2239",
     "OESA-2025-2240",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2023-2025-1158",
     "ALAS2023-2025-1165",
     "ALAS2023-2025-1177",
     "ALAS2POSTGRESQL13-2025-012",
     "ALAS2POSTGRESQL14-2025-019",
-]
+  ]

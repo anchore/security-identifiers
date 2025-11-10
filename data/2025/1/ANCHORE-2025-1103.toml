@@ -2,26 +2,11 @@
 id = "ANCHORE-2025-1103"
 allocated = 2025-10-15T14:17:20.114140Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-20033",
-]
-gcve = [
-    "GCVE-0-2025-20033",
-]
-github = [
-    "GHSA-2549-xh72-qrpm",
-]
-go = [
-    "GO-2025-3379",
-]
-chainguard = [
-    "CGA-2j8j-mw8w-53q2",
-    "CGA-cp52-7rh5-fhjq",
-]
-suse = [
-    "SUSE-SU-2025:0297-1",
-]
-opensuse = [
-    "openSUSE-SU-2025:14644-1",
-]
+  [security.aliases]
+  cve = ["CVE-2025-20033"]
+  gcve = ["GCVE-0-2025-20033"]
+  github = ["GHSA-2549-xh72-qrpm"]
+  go = ["GO-2025-3379"]
+  chainguard = ["CGA-2j8j-mw8w-53q2", "CGA-cp52-7rh5-fhjq"]
+  suse = ["SUSE-SU-2025:0297-1"]
+  opensuse = ["openSUSE-SU-2025:14644-1"]

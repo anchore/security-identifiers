@@ -2,22 +2,10 @@
 id = "ANCHORE-2020-10092"
 allocated = 2025-10-15T14:15:51.582981Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-10379",
-]
-gcve = [
-    "GCVE-0-2020-10379",
-]
-github = [
-    "GHSA-8843-m7mw-mxqm",
-]
-bitnami = [
-    "BIT-pillow-2020-10379",
-]
-pypa = [
-    "PYSEC-2020-78",
-]
-ubuntu = [
-    "USN-4430-2",
-]
+  [security.aliases]
+  cve = ["CVE-2020-10379"]
+  gcve = ["GCVE-0-2020-10379"]
+  github = ["GHSA-8843-m7mw-mxqm"]
+  bitnami = ["BIT-pillow-2020-10379"]
+  pypa = ["PYSEC-2020-78"]
+  ubuntu = ["USN-4430-2"]

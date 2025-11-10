@@ -2,30 +2,17 @@
 id = "ANCHORE-2021-12895"
 allocated = 2025-10-15T14:16:06.630081Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-34485",
-]
-gcve = [
-    "GCVE-0-2021-34485",
-]
-github = [
-    "GHSA-vgwq-hfqc-58wv",
-]
-bitnami = [
-    "BIT-dotnet-2021-34485",
-    "BIT-dotnet-sdk-2021-34485",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2021-34485"]
+  gcve = ["GCVE-0-2021-34485"]
+  github = ["GHSA-vgwq-hfqc-58wv"]
+  bitnami = ["BIT-dotnet-2021-34485", "BIT-dotnet-sdk-2021-34485"]
+  redhat = [
     "RHSA-2021:3142",
     "RHSA-2021:3143",
     "RHSA-2021:3144",
     "RHSA-2021:3145",
     "RHSA-2021:3147",
     "RHSA-2021:3148",
-]
-oraclelinux = [
-    "ELSA-2021-3142",
-    "ELSA-2021-3145",
-    "ELSA-2021-3148",
-]
+  ]
+  oraclelinux = ["ELSA-2021-3142", "ELSA-2021-3145", "ELSA-2021-3148"]

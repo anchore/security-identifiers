@@ -2,20 +2,9 @@
 id = "ANCHORE-2004-1194"
 allocated = 2025-10-15T14:14:13.955240Z
 
-[security.aliases]
-cve = [
-    "CVE-2004-0753",
-]
-gcve = [
-    "GCVE-0-2004-0753",
-]
-github = [
-    "GHSA-wjgf-crrq-vg9c",
-]
-debian = [
-    "DSA-546-1",
-]
-redhat = [
-    "RHSA-2004:447",
-    "RHSA-2004:466",
-]
+  [security.aliases]
+  cve = ["CVE-2004-0753"]
+  gcve = ["GCVE-0-2004-0753"]
+  github = ["GHSA-wjgf-crrq-vg9c"]
+  debian = ["DSA-546-1"]
+  redhat = ["RHSA-2004:447", "RHSA-2004:466"]

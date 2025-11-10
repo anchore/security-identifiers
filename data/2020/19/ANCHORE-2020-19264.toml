@@ -2,16 +2,8 @@
 id = "ANCHORE-2020-19264"
 allocated = 2025-10-15T14:15:57.826287Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-35918",
-]
-gcve = [
-    "GCVE-0-2020-35918",
-]
-github = [
-    "GHSA-c9rv-3jmq-527w",
-]
-rustsec = [
-    "RUSTSEC-2020-0075",
-]
+  [security.aliases]
+  cve = ["CVE-2020-35918"]
+  gcve = ["GCVE-0-2020-35918"]
+  github = ["GHSA-c9rv-3jmq-527w"]
+  rustsec = ["RUSTSEC-2020-0075"]

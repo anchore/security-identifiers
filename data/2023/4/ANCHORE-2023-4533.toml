@@ -2,33 +2,20 @@
 id = "ANCHORE-2023-4533"
 allocated = 2025-10-15T14:16:33.581694Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-23920",
-]
-gcve = [
-    "GCVE-0-2023-23920",
-]
-github = [
-    "GHSA-fj8r-46q3-hp4r",
-]
-bitnami = [
-    "BIT-node-2023-23920",
-    "BIT-node-min-2023-23920",
-]
-almalinux = [
+  [security.aliases]
+  cve = ["CVE-2023-23920"]
+  gcve = ["GCVE-0-2023-23920"]
+  github = ["GHSA-fj8r-46q3-hp4r"]
+  bitnami = ["BIT-node-2023-23920", "BIT-node-min-2023-23920"]
+  almalinux = [
     "ALSA-2023:1582",
     "ALSA-2023:1583",
     "ALSA-2023:1743",
     "ALSA-2023:2654",
     "ALSA-2023:2655",
-]
-debian = [
-    "DLA-3344-1",
-    "DSA-5395-1",
-    "DSA-5589-1",
-]
-redhat = [
+  ]
+  debian = ["DLA-3344-1", "DSA-5395-1", "DSA-5589-1"]
+  redhat = [
     "RHSA-2023:1533",
     "RHSA-2023:1582",
     "RHSA-2023:1583",
@@ -38,14 +25,14 @@ redhat = [
     "RHSA-2023:2654",
     "RHSA-2023:2655",
     "RHSA-2023:5533",
-]
-rockylinux = [
+  ]
+  rockylinux = [
     "RLSA-2023:1582",
     "RLSA-2023:1583",
     "RLSA-2023:1743",
     "RLSA-2023:2655",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2023:0606-1",
     "SUSE-SU-2023:0607-1",
     "SUSE-SU-2023:0608-1",
@@ -55,24 +42,15 @@ suse = [
     "SUSE-SU-2023:0682-1",
     "SUSE-SU-2023:0715-1",
     "SUSE-SU-2023:0738-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12725-1",
-    "openSUSE-SU-2024:12726-1",
-]
-ubuntu = [
-    "USN-6672-1",
-]
-openeuler = [
-    "OESA-2023-1551",
-]
-amazonlinux = [
-    "ALAS2023-2023-210",
-]
-oraclelinux = [
+  ]
+  opensuse = ["openSUSE-SU-2024:12725-1", "openSUSE-SU-2024:12726-1"]
+  ubuntu = ["USN-6672-1"]
+  openeuler = ["OESA-2023-1551"]
+  amazonlinux = ["ALAS2023-2023-210"]
+  oraclelinux = [
     "ELSA-2023-1582",
     "ELSA-2023-1583",
     "ELSA-2023-1743",
     "ELSA-2023-2654",
     "ELSA-2023-2655",
-]
+  ]

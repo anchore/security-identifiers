@@ -2,25 +2,16 @@
 id = "ANCHORE-2022-17085"
 allocated = 2025-10-15T14:16:24.320262Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-1204",
-]
-gcve = [
-    "GCVE-0-2022-1204",
-]
-debian = [
-    "DSA-5127-1",
-    "DSA-5173-1",
-]
-ubuntu = [
+  [security.aliases]
+  cve = ["CVE-2022-1204"]
+  gcve = ["GCVE-0-2022-1204"]
+  debian = ["DSA-5127-1", "DSA-5173-1"]
+  ubuntu = [
     "USN-5469-1",
     "USN-5514-1",
     "USN-5515-1",
     "USN-5539-1",
     "USN-5541-1",
     "USN-5650-1",
-]
-openeuler = [
-    "OESA-2022-1705",
-]
+  ]
+  openeuler = ["OESA-2022-1705"]

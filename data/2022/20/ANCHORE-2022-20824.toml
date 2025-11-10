@@ -2,37 +2,22 @@
 id = "ANCHORE-2022-20824"
 allocated = 2025-10-15T14:16:26.827338Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-3647",
-]
-gcve = [
-    "GCVE-0-2022-3647",
-]
-github = [
-    "GHSA-8vvp-2mv7-px5c",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2022-3647"]
+  gcve = ["GCVE-0-2022-3647"]
+  github = ["GHSA-8vvp-2mv7-px5c"]
+  bitnami = [
     "BIT-keydb-2022-3647",
     "BIT-redis-2022-3647",
     "BIT-valkey-2022-3647",
-]
-chainguard = [
+  ]
+  chainguard = [
     "CGA-2p97-f5m6-2g3w",
     "CGA-6wgh-jwmf-w7vc",
     "CGA-72rr-38mg-g5vj",
     "CGA-9334-wrrj-h9x2",
-]
-suse = [
-    "SUSE-SU-2022:4168-1",
-    "SUSE-SU-2022:4169-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12468-1",
-]
-openeuler = [
-    "OESA-2025-1157",
-]
-amazonlinux = [
-    "ALAS2023-2023-154",
-]
+  ]
+  suse = ["SUSE-SU-2022:4168-1", "SUSE-SU-2022:4169-1"]
+  opensuse = ["openSUSE-SU-2024:12468-1"]
+  openeuler = ["OESA-2025-1157"]
+  amazonlinux = ["ALAS2023-2023-154"]

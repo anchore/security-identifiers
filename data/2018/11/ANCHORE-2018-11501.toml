@@ -2,22 +2,10 @@
 id = "ANCHORE-2018-11501"
 allocated = 2025-10-15T14:15:26.931469Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-3054",
-]
-gcve = [
-    "GCVE-0-2018-3054",
-]
-github = [
-    "GHSA-33j5-vcmx-vxmx",
-]
-chainguard = [
-    "CGA-wc9r-764f-6hp2",
-]
-redhat = [
-    "RHSA-2018:3655",
-]
-ubuntu = [
-    "USN-3725-1",
-]
+  [security.aliases]
+  cve = ["CVE-2018-3054"]
+  gcve = ["GCVE-0-2018-3054"]
+  github = ["GHSA-33j5-vcmx-vxmx"]
+  chainguard = ["CGA-wc9r-764f-6hp2"]
+  redhat = ["RHSA-2018:3655"]
+  ubuntu = ["USN-3725-1"]

@@ -2,36 +2,14 @@
 id = "ANCHORE-2021-17294"
 allocated = 2025-10-15T14:16:09.599612Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-35597",
-]
-gcve = [
-    "GCVE-0-2021-35597",
-]
-github = [
-    "GHSA-4mp5-w22q-hhpm",
-]
-chainguard = [
-    "CGA-wjp9-9pgw-j6x3",
-]
-almalinux = [
-    "ALSA-2022:7119",
-]
-redhat = [
-    "RHSA-2022:6518",
-    "RHSA-2022:7119",
-]
-rockylinux = [
-    "RLSA-2022:7119",
-]
-ubuntu = [
-    "USN-5123-1",
-]
-openeuler = [
-    "OESA-2021-1448",
-    "OESA-2022-1960",
-]
-oraclelinux = [
-    "ELSA-2022-7119",
-]
+  [security.aliases]
+  cve = ["CVE-2021-35597"]
+  gcve = ["GCVE-0-2021-35597"]
+  github = ["GHSA-4mp5-w22q-hhpm"]
+  chainguard = ["CGA-wjp9-9pgw-j6x3"]
+  almalinux = ["ALSA-2022:7119"]
+  redhat = ["RHSA-2022:6518", "RHSA-2022:7119"]
+  rockylinux = ["RLSA-2022:7119"]
+  ubuntu = ["USN-5123-1"]
+  openeuler = ["OESA-2021-1448", "OESA-2022-1960"]
+  oraclelinux = ["ELSA-2022-7119"]

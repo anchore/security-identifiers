@@ -2,25 +2,11 @@
 id = "ANCHORE-2012-2290"
 allocated = 2025-10-15T14:14:43.893050Z
 
-[security.aliases]
-cve = [
-    "CVE-2012-2812",
-]
-gcve = [
-    "GCVE-0-2012-2812",
-]
-github = [
-    "GHSA-85gx-57v6-gvrm",
-]
-debian = [
-    "DSA-2559-1",
-]
-redhat = [
-    "RHSA-2012:1255",
-]
-opensuse = [
-    "openSUSE-SU-2024:10510-1",
-]
-oraclelinux = [
-    "ELSA-2012-1255",
-]
+  [security.aliases]
+  cve = ["CVE-2012-2812"]
+  gcve = ["GCVE-0-2012-2812"]
+  github = ["GHSA-85gx-57v6-gvrm"]
+  debian = ["DSA-2559-1"]
+  redhat = ["RHSA-2012:1255"]
+  opensuse = ["openSUSE-SU-2024:10510-1"]
+  oraclelinux = ["ELSA-2012-1255"]

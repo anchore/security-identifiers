@@ -2,23 +2,10 @@
 id = "ANCHORE-2025-10867"
 allocated = 2025-10-15T14:17:26.880113Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-30157",
-]
-gcve = [
-    "GCVE-0-2025-30157",
-]
-github = [
-    "GHSA-cf3q-gqg7-3fm9",
-]
-bitnami = [
-    "BIT-envoy-2025-30157",
-]
-opensuse = [
-    "openSUSE-SU-2025:14938-1",
-]
-amazonlinux = [
-    "ALAS2023-2025-926",
-    "ALAS2ECS-2025-052",
-]
+  [security.aliases]
+  cve = ["CVE-2025-30157"]
+  gcve = ["GCVE-0-2025-30157"]
+  github = ["GHSA-cf3q-gqg7-3fm9"]
+  bitnami = ["BIT-envoy-2025-30157"]
+  opensuse = ["openSUSE-SU-2025:14938-1"]
+  amazonlinux = ["ALAS2023-2025-926", "ALAS2ECS-2025-052"]

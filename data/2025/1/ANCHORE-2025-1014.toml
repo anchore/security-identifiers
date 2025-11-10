@@ -2,17 +2,11 @@
 id = "ANCHORE-2025-1014"
 allocated = 2025-10-15T14:17:20.053135Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-56786",
-]
-gcve = [
-    "GCVE-0-2024-56786",
-]
-github = [
-    "GHSA-27cc-fvv7-2rh9",
-]
-ubuntu = [
+  [security.aliases]
+  cve = ["CVE-2024-56786"]
+  gcve = ["GCVE-0-2024-56786"]
+  github = ["GHSA-27cc-fvv7-2rh9"]
+  ubuntu = [
     "USN-7379-1",
     "USN-7381-1",
     "USN-7382-1",
@@ -25,7 +19,5 @@ ubuntu = [
     "USN-7468-1",
     "USN-7523-1",
     "USN-7524-1",
-]
-echo = [
-    "ECHO-9c6e-32d2-0ae1",
-]
+  ]
+  echo = ["ECHO-9c6e-32d2-0ae1"]

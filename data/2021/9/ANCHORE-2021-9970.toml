@@ -2,25 +2,11 @@
 id = "ANCHORE-2021-9970"
 allocated = 2025-10-15T14:16:04.626103Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-34428",
-]
-gcve = [
-    "GCVE-0-2021-34428",
-]
-github = [
-    "GHSA-m6cp-vxjx-65j6",
-]
-debian = [
-    "DSA-4949-1",
-]
-redhat = [
-    "RHSA-2021:3758",
-]
-openeuler = [
-    "OESA-2021-1263",
-]
-amazonlinux = [
-    "ALAS2-2025-2855",
-]
+  [security.aliases]
+  cve = ["CVE-2021-34428"]
+  gcve = ["GCVE-0-2021-34428"]
+  github = ["GHSA-m6cp-vxjx-65j6"]
+  debian = ["DSA-4949-1"]
+  redhat = ["RHSA-2021:3758"]
+  openeuler = ["OESA-2021-1263"]
+  amazonlinux = ["ALAS2-2025-2855"]

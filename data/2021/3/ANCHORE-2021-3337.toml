@@ -2,17 +2,8 @@
 id = "ANCHORE-2021-3337"
 allocated = 2025-10-15T14:16:00.143457Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-24112",
-]
-gcve = [
-    "GCVE-0-2021-24112",
-]
-github = [
-    "GHSA-rxg9-xrhp-64gj",
-]
-bitnami = [
-    "BIT-dotnet-2021-24112",
-    "BIT-dotnet-sdk-2021-24112",
-]
+  [security.aliases]
+  cve = ["CVE-2021-24112"]
+  gcve = ["GCVE-0-2021-24112"]
+  github = ["GHSA-rxg9-xrhp-64gj"]
+  bitnami = ["BIT-dotnet-2021-24112", "BIT-dotnet-sdk-2021-24112"]

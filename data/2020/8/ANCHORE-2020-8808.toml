@@ -2,48 +2,22 @@
 id = "ANCHORE-2020-8808"
 allocated = 2025-10-15T14:15:50.723894Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-13692",
-]
-gcve = [
-    "GCVE-0-2020-13692",
-]
-github = [
-    "GHSA-88cc-g835-76rp",
-]
-bitnami = [
-    "BIT-postgresql-jdbc-driver-2020-13692",
-]
-chainguard = [
-    "CGA-5338-j523-69px",
-]
-almalinux = [
-    "ALSA-2020:3176",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2020-13692"]
+  gcve = ["GCVE-0-2020-13692"]
+  github = ["GHSA-88cc-g835-76rp"]
+  bitnami = ["BIT-postgresql-jdbc-driver-2020-13692"]
+  chainguard = ["CGA-5338-j523-69px"]
+  almalinux = ["ALSA-2020:3176"]
+  redhat = [
     "RHSA-2020:3176",
     "RHSA-2020:3283",
     "RHSA-2020:3284",
     "RHSA-2020:3285",
     "RHSA-2020:3286",
-]
-rockylinux = [
-    "RLSA-2020:3176",
-]
-suse = [
-    "SUSE-SU-2020:3466-1",
-    "SUSE-SU-2020:3781-1",
-    "SUSE-SU-2021:0599-1",
-]
-ubuntu = [
-    "USN-5238-1",
-]
-amazonlinux = [
-    "ALAS2-2020-1482",
-]
-oraclelinux = [
-    "ELSA-2020-3176",
-    "ELSA-2020-3284",
-    "ELSA-2020-3285",
-]
+  ]
+  rockylinux = ["RLSA-2020:3176"]
+  suse = ["SUSE-SU-2020:3466-1", "SUSE-SU-2020:3781-1", "SUSE-SU-2021:0599-1"]
+  ubuntu = ["USN-5238-1"]
+  amazonlinux = ["ALAS2-2020-1482"]
+  oraclelinux = ["ELSA-2020-3176", "ELSA-2020-3284", "ELSA-2020-3285"]

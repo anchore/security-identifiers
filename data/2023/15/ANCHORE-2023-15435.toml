@@ -2,50 +2,29 @@
 id = "ANCHORE-2023-15435"
 allocated = 2025-10-15T14:16:40.907000Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-36053",
-]
-gcve = [
-    "GCVE-0-2023-36053",
-]
-github = [
-    "GHSA-jh3w-4vvf-mjgr",
-]
-bitnami = [
-    "BIT-django-2023-36053",
-]
-pypa = [
-    "PYSEC-2023-100",
-]
-debian = [
-    "DLA-3500-1",
-    "DSA-5465-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2023-36053"]
+  gcve = ["GCVE-0-2023-36053"]
+  github = ["GHSA-jh3w-4vvf-mjgr"]
+  bitnami = ["BIT-django-2023-36053"]
+  pypa = ["PYSEC-2023-100"]
+  debian = ["DLA-3500-1", "DSA-5465-1"]
+  redhat = [
     "RHSA-2023:4692",
     "RHSA-2023:4693",
     "RHSA-2023:5931",
     "RHSA-2023:6818",
     "RHSA-2024:0212",
     "RHSA-2024:1878",
-]
-suse = [
-    "SUSE-SU-2023:3167-1",
-    "SUSE-SU-2023:3202-1",
-]
-opensuse = [
+  ]
+  suse = ["SUSE-SU-2023:3167-1", "SUSE-SU-2023:3202-1"]
+  opensuse = [
     "openSUSE-SU-2023:0174-1",
     "openSUSE-SU-2023:0176-1",
     "openSUSE-SU-2023:0177-1",
     "openSUSE-SU-2023:0178-1",
     "openSUSE-SU-2024:13044-1",
     "openSUSE-SU-2024:14208-1",
-]
-ubuntu = [
-    "USN-6203-1",
-    "USN-6203-2",
-]
-openeuler = [
-    "OESA-2023-1440",
-]
+  ]
+  ubuntu = ["USN-6203-1", "USN-6203-2"]
+  openeuler = ["OESA-2023-1440"]

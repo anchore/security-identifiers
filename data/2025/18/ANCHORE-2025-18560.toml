@@ -2,29 +2,20 @@
 id = "ANCHORE-2025-18560"
 allocated = 2025-10-15T14:17:32.291442Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-26646",
-]
-gcve = [
-    "GCVE-0-2025-26646",
-]
-github = [
-    "GHSA-h4j7-5rxr-p4wc",
-]
-bitnami = [
-    "BIT-dotnet-2025-26646",
-    "BIT-dotnet-sdk-2025-26646",
-]
-almalinux = [
+  [security.aliases]
+  cve = ["CVE-2025-26646"]
+  gcve = ["GCVE-0-2025-26646"]
+  github = ["GHSA-h4j7-5rxr-p4wc"]
+  bitnami = ["BIT-dotnet-2025-26646", "BIT-dotnet-sdk-2025-26646"]
+  almalinux = [
     "ALSA-2025:7571",
     "ALSA-2025:7589",
     "ALSA-2025:7598",
     "ALSA-2025:7599",
     "ALSA-2025:7600",
     "ALSA-2025:7601",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2025:7571",
     "RHSA-2025:7589",
     "RHSA-2025:7598",
@@ -32,23 +23,19 @@ redhat = [
     "RHSA-2025:7600",
     "RHSA-2025:7601",
     "RHSA-2025:7603",
-]
-ubuntu = [
-    "USN-7509-1",
-]
-minimos = [
+  ]
+  ubuntu = ["USN-7509-1"]
+  minimos = [
     "MINI-8gfx-2v79-jf76",
     "MINI-ff6h-x49j-cj7j",
     "MINI-j7fr-7qq6-mxhq",
-]
-amazonlinux = [
-    "ALAS2023-2025-1008",
-]
-oraclelinux = [
+  ]
+  amazonlinux = ["ALAS2023-2025-1008"]
+  oraclelinux = [
     "ELSA-2025-7571",
     "ELSA-2025-7589",
     "ELSA-2025-7598",
     "ELSA-2025-7599",
     "ELSA-2025-7600",
     "ELSA-2025-7601",
-]
+  ]

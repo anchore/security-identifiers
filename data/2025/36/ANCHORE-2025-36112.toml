@@ -2,17 +2,11 @@
 id = "ANCHORE-2025-36112"
 allocated = 2025-10-15T14:17:44.732180Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-23275",
-]
-gcve = [
-    "GCVE-0-2025-23275",
-]
-github = [
-    "GHSA-rrw2-mp24-c2pg",
-]
-amazonlinux = [
+  [security.aliases]
+  cve = ["CVE-2025-23275"]
+  gcve = ["GCVE-0-2025-23275"]
+  github = ["GHSA-rrw2-mp24-c2pg"]
+  amazonlinux = [
     "ALAS2023NVIDIA-2025-145",
     "ALAS2023NVIDIA-2025-146",
     "ALAS2023NVIDIA-2025-147",
@@ -63,4 +57,4 @@ amazonlinux = [
     "ALAS2023NVIDIA-2025-192",
     "ALAS2023NVIDIA-2025-193",
     "ALAS2023NVIDIA-2025-194",
-]
+  ]

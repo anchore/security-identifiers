@@ -2,23 +2,17 @@
 id = "ANCHORE-2016-5445"
 allocated = 2025-10-15T14:15:05.912327Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-5568",
-]
-gcve = [
-    "GCVE-0-2016-5568",
-]
-github = [
-    "GHSA-x6qx-38ch-f4w9",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2016-5568"]
+  gcve = ["GCVE-0-2016-5568"]
+  github = ["GHSA-x6qx-38ch-f4w9"]
+  chainguard = [
     "CGA-98vr-vhfh-mrg9",
     "CGA-prcm-xpwc-x2h2",
     "CGA-qjw6-gqgv-wm5x",
     "CGA-vjmf-3w22-2vc3",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2016:2887-1",
     "SUSE-SU-2016:2953-1",
     "SUSE-SU-2016:3010-1",
@@ -27,8 +21,5 @@ suse = [
     "SUSE-SU-2016:3043-1",
     "SUSE-SU-2016:3068-1",
     "SUSE-SU-2016:3078-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:10197-1",
-    "openSUSE-SU-2024:10534-1",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:10197-1", "openSUSE-SU-2024:10534-1"]

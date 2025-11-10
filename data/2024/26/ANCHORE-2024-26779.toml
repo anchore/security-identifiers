@@ -2,21 +2,13 @@
 id = "ANCHORE-2024-26779"
 allocated = 2025-10-15T14:17:09.688337Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-43805",
-]
-gcve = [
-    "GCVE-0-2024-43805",
-]
-github = [
-    "GHSA-9q39-rmj3-p4r2",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-43805"]
+  gcve = ["GCVE-0-2024-43805"]
+  github = ["GHSA-9q39-rmj3-p4r2"]
+  bitnami = [
     "BIT-jupyter-base-notebook-2024-43805",
     "BIT-jupyter-notebook-2024-43805",
     "BIT-jupyterlab-2024-43805",
-]
-opensuse = [
-    "openSUSE-SU-2024:0352-1",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:0352-1"]

@@ -2,20 +2,12 @@
 id = "ANCHORE-2021-15674"
 allocated = 2025-10-15T14:16:08.509409Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-25740",
-]
-gcve = [
-    "GCVE-0-2021-25740",
-]
-github = [
-    "GHSA-vw47-mr44-3jf9",
-]
-go = [
-    "GO-2022-0909",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2021-25740"]
+  gcve = ["GCVE-0-2021-25740"]
+  github = ["GHSA-vw47-mr44-3jf9"]
+  go = ["GO-2022-0909"]
+  chainguard = [
     "CGA-3hx7-fq2f-xgf9",
     "CGA-c3hq-6hqh-892g",
     "CGA-fqgh-6rmc-mwq8",
@@ -25,8 +17,8 @@ chainguard = [
     "CGA-jv5x-48c5-q44r",
     "CGA-q2pf-fhcg-gf46",
     "CGA-rhh3-crpc-g9f3",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-2hj8-5mrc-xh8c",
     "MINI-2v84-775m-2c3g",
     "MINI-3256-rwg7-g8xr",
@@ -35,7 +27,5 @@ minimos = [
     "MINI-m4qc-pc8f-gf27",
     "MINI-m594-9cx4-3f3v",
     "MINI-pm5g-pqrw-7hq9",
-]
-openeuler = [
-    "OESA-2022-2139",
-]
+  ]
+  openeuler = ["OESA-2022-2139"]

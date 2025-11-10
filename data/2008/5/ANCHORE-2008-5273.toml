@@ -2,20 +2,9 @@
 id = "ANCHORE-2008-5273"
 allocated = 2025-10-15T14:14:32.132479Z
 
-[security.aliases]
-cve = [
-    "CVE-2008-5374",
-]
-gcve = [
-    "GCVE-0-2008-5374",
-]
-github = [
-    "GHSA-g9rc-p3rq-j6mc",
-]
-redhat = [
-    "RHSA-2011:0261",
-    "RHSA-2011:1073",
-]
-oraclelinux = [
-    "ELSA-2011-1073",
-]
+  [security.aliases]
+  cve = ["CVE-2008-5374"]
+  gcve = ["GCVE-0-2008-5374"]
+  github = ["GHSA-g9rc-p3rq-j6mc"]
+  redhat = ["RHSA-2011:0261", "RHSA-2011:1073"]
+  oraclelinux = ["ELSA-2011-1073"]

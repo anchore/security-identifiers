@@ -2,38 +2,27 @@
 id = "ANCHORE-2022-7193"
 allocated = 2025-10-15T14:16:17.611771Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-27385",
-]
-gcve = [
-    "GCVE-0-2022-27385",
-]
-github = [
-    "GHSA-m469-6q82-xqvx",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2022-27385"]
+  gcve = ["GCVE-0-2022-27385"]
+  github = ["GHSA-m469-6q82-xqvx"]
+  bitnami = [
     "BIT-mariadb-2022-27385",
     "BIT-mariadb-min-2022-27385",
     "BIT-mysql-client-2022-27385",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2022:1007",
     "RHSA-2022:1010",
     "RHSA-2022:1556",
     "RHSA-2022:1557",
     "RHSA-2022:4818",
     "RHSA-2023:6821",
-]
-rockylinux = [
-    "RLSA-2022:1556",
-    "RLSA-2022:1557",
-]
-openeuler = [
-    "OESA-2022-1681",
-]
-amazonlinux = [
+  ]
+  rockylinux = ["RLSA-2022:1556", "RLSA-2022:1557"]
+  openeuler = ["OESA-2022-1681"]
+  amazonlinux = [
     "ALAS-2022-182",
     "ALAS2023-2023-037",
     "ALAS2MARIADB10.5-2023-003",
-]
+  ]

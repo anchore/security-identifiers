@@ -2,22 +2,10 @@
 id = "ANCHORE-2020-14704"
 allocated = 2025-10-15T14:15:54.713536Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-25626",
-]
-gcve = [
-    "GCVE-0-2020-25626",
-]
-github = [
-    "GHSA-fx83-3ph3-9j2q",
-]
-pypa = [
-    "PYSEC-2020-263",
-]
-debian = [
-    "DSA-5186-1",
-]
-opensuse = [
-    "openSUSE-SU-2021:0322-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-25626"]
+  gcve = ["GCVE-0-2020-25626"]
+  github = ["GHSA-fx83-3ph3-9j2q"]
+  pypa = ["PYSEC-2020-263"]
+  debian = ["DSA-5186-1"]
+  opensuse = ["openSUSE-SU-2021:0322-1"]

@@ -2,29 +2,12 @@
 id = "ANCHORE-2019-11521"
 allocated = 2025-10-15T14:15:39.486434Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-13139",
-]
-gcve = [
-    "GCVE-0-2019-13139",
-]
-github = [
-    "GHSA-33j8-c2xf-8225",
-]
-go = [
-    "GO-2023-2236",
-]
-chainguard = [
-    "CGA-jf7q-rjm5-7whg",
-]
-debian = [
-    "DSA-4521-1",
-]
-amazonlinux = [
-    "ALAS2DOCKER-2021-003",
-    "ALAS2NITRO-ENCLAVES-2021-003",
-]
-oraclelinux = [
-    "ELSA-2019-4813",
-]
+  [security.aliases]
+  cve = ["CVE-2019-13139"]
+  gcve = ["GCVE-0-2019-13139"]
+  github = ["GHSA-33j8-c2xf-8225"]
+  go = ["GO-2023-2236"]
+  chainguard = ["CGA-jf7q-rjm5-7whg"]
+  debian = ["DSA-4521-1"]
+  amazonlinux = ["ALAS2DOCKER-2021-003", "ALAS2NITRO-ENCLAVES-2021-003"]
+  oraclelinux = ["ELSA-2019-4813"]

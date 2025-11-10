@@ -2,17 +2,11 @@
 id = "ANCHORE-2018-3447"
 allocated = 2025-10-15T14:15:21.374059Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-9606",
-]
-gcve = [
-    "GCVE-0-2016-9606",
-]
-github = [
-    "GHSA-hgjr-xwj3-jfvw",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2016-9606"]
+  gcve = ["GCVE-0-2016-9606"]
+  github = ["GHSA-hgjr-xwj3-jfvw"]
+  redhat = [
     "RHSA-2017:1253",
     "RHSA-2017:1254",
     "RHSA-2017:1256",
@@ -20,7 +14,5 @@ redhat = [
     "RHSA-2017:1410",
     "RHSA-2017:1411",
     "RHSA-2017:1412",
-]
-openeuler = [
-    "OESA-2021-1073",
-]
+  ]
+  openeuler = ["OESA-2021-1073"]

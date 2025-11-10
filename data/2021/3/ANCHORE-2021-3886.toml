@@ -2,20 +2,12 @@
 id = "ANCHORE-2021-3886"
 allocated = 2025-10-15T14:16:00.509352Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-13936",
-]
-gcve = [
-    "GCVE-0-2020-13936",
-]
-github = [
-    "GHSA-59j4-wjwp-mw9m",
-]
-debian = [
-    "DLA-2595-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2020-13936"]
+  gcve = ["GCVE-0-2020-13936"]
+  github = ["GHSA-59j4-wjwp-mw9m"]
+  debian = ["DLA-2595-1"]
+  redhat = [
     "RHSA-2021:2046",
     "RHSA-2021:2047",
     "RHSA-2021:2048",
@@ -23,23 +15,14 @@ redhat = [
     "RHSA-2021:3658",
     "RHSA-2025:1746",
     "RHSA-2025:1747",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2021:0800-1",
     "SUSE-SU-2022:3397-1",
     "SUSE-SU-2022:3560-1",
     "SUSE-SU-2025:0719-1",
-]
-opensuse = [
-    "openSUSE-SU-2021:0447-1",
-    "openSUSE-SU-2024:11495-1",
-]
-ubuntu = [
-    "USN-6281-1",
-]
-openeuler = [
-    "OESA-2021-1157",
-]
-amazonlinux = [
-    "ALAS2-2021-1690",
-]
+  ]
+  opensuse = ["openSUSE-SU-2021:0447-1", "openSUSE-SU-2024:11495-1"]
+  ubuntu = ["USN-6281-1"]
+  openeuler = ["OESA-2021-1157"]
+  amazonlinux = ["ALAS2-2021-1690"]

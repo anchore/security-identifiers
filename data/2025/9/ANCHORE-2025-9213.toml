@@ -2,22 +2,13 @@
 id = "ANCHORE-2025-9213"
 allocated = 2025-10-15T14:17:25.747739Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-52968",
-]
-gcve = [
-    "GCVE-0-2023-52968",
-]
-github = [
-    "GHSA-7c2c-wp2q-q5vx",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2023-52968"]
+  gcve = ["GCVE-0-2023-52968"]
+  github = ["GHSA-7c2c-wp2q-q5vx"]
+  bitnami = [
     "BIT-mariadb-2023-52968",
     "BIT-mariadb-min-2023-52968",
     "BIT-mysql-client-2023-52968",
-]
-amazonlinux = [
-    "ALAS2023-2024-698",
-    "ALAS2MARIADB10.5-2024-006",
-]
+  ]
+  amazonlinux = ["ALAS2023-2024-698", "ALAS2MARIADB10.5-2024-006"]

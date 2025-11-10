@@ -2,51 +2,31 @@
 id = "ANCHORE-2022-13994"
 allocated = 2025-10-15T14:16:22.225369Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-21549",
-]
-gcve = [
-    "GCVE-0-2022-21549",
-]
-github = [
-    "GHSA-c786-7jf2-46w9",
-]
-almalinux = [
-    "ALSA-2022:5736",
-]
-debian = [
-    "DSA-5192-1",
-]
-redhat = [
-    "RHSA-2022:5726",
-    "RHSA-2022:5736",
-]
-rockylinux = [
-    "RLSA-2022:5726",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2022-21549"]
+  gcve = ["GCVE-0-2022-21549"]
+  github = ["GHSA-c786-7jf2-46w9"]
+  almalinux = ["ALSA-2022:5736"]
+  debian = ["DSA-5192-1"]
+  redhat = ["RHSA-2022:5726", "RHSA-2022:5736"]
+  rockylinux = ["RLSA-2022:5726"]
+  suse = [
     "SUSE-SU-2022:2660-1",
     "SUSE-SU-2022:2898-1",
     "SUSE-SU-2022:2899-1",
     "SUSE-SU-2022:2949-1",
     "SUSE-SU-2022:3152-1",
     "SUSE-SU-2022:4166-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12208-1",
-    "openSUSE-SU-2024:12262-1",
-]
-ubuntu = [
-    "USN-5546-1",
-]
-minimos = [
+  ]
+  opensuse = ["openSUSE-SU-2024:12208-1", "openSUSE-SU-2024:12262-1"]
+  ubuntu = ["USN-5546-1"]
+  minimos = [
     "MINI-8jmw-ffrp-33jp",
     "MINI-c82q-x8jr-fjmw",
     "MINI-fgxf-j444-fgp8",
     "MINI-h8pm-5fj4-fjrr",
-]
-openeuler = [
+  ]
+  openeuler = [
     "OESA-2023-1600",
     "OESA-2023-1601",
     "OESA-2023-1602",
@@ -57,14 +37,14 @@ openeuler = [
     "OESA-2023-1645",
     "OESA-2023-1646",
     "OESA-2023-1650",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS-2022-113",
     "ALAS-2022-121",
     "ALAS-2022-151",
     "ALAS2-2022-1824",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2022-5726",
     "ELSA-2022-5736",
     "ELSA-2022-9641",
@@ -83,4 +63,4 @@ oraclelinux = [
     "ELSA-2022-9654",
     "ELSA-2022-9655",
     "ELSA-2022-9656",
-]
+  ]

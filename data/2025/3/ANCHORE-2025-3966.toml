@@ -2,27 +2,15 @@
 id = "ANCHORE-2025-3966"
 allocated = 2025-10-15T14:17:22.084117Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-23084",
-]
-gcve = [
-    "GCVE-0-2025-23084",
-]
-github = [
-    "GHSA-37v4-cwgp-x353",
-]
-bitnami = [
-    "BIT-node-2025-23084",
-    "BIT-node-min-2025-23084",
-]
-minimos = [
+  [security.aliases]
+  cve = ["CVE-2025-23084"]
+  gcve = ["GCVE-0-2025-23084"]
+  github = ["GHSA-37v4-cwgp-x353"]
+  bitnami = ["BIT-node-2025-23084", "BIT-node-min-2025-23084"]
+  minimos = [
     "MINI-6hrr-wcqg-3rxq",
     "MINI-q8p6-c6c8-f779",
     "MINI-r2wp-5p9c-5gf2",
     "MINI-v7fq-53rw-phv7",
-]
-openeuler = [
-    "OESA-2025-1090",
-    "OESA-2025-1091",
-]
+  ]
+  openeuler = ["OESA-2025-1090", "OESA-2025-1091"]

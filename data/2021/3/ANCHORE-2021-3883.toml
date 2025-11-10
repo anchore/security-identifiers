@@ -2,19 +2,9 @@
 id = "ANCHORE-2021-3883"
 allocated = 2025-10-15T14:16:00.507302Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-21772",
-]
-gcve = [
-    "GCVE-0-2021-21772",
-]
-github = [
-    "GHSA-6f4r-f2fv-g8f4",
-]
-debian = [
-    "DSA-4887-1",
-]
-ubuntu = [
-    "USN-6216-1",
-]
+  [security.aliases]
+  cve = ["CVE-2021-21772"]
+  gcve = ["GCVE-0-2021-21772"]
+  github = ["GHSA-6f4r-f2fv-g8f4"]
+  debian = ["DSA-4887-1"]
+  ubuntu = ["USN-6216-1"]

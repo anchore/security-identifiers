@@ -2,27 +2,16 @@
 id = "ANCHORE-2025-88671"
 allocated = 2025-10-22T18:07:33.492384Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-53722",
-]
-gcve = [
-    "GCVE-0-2023-53722",
-]
-github = [
-    "GHSA-564p-3xmp-v9fw",
-]
-redhat = [
-    "RHSA-2024:2394",
-    "RHSA-2024:3138",
-]
-openeuler = [
-    "OESA-2025-2554",
-]
-amazonlinux = [
+  [security.aliases]
+  cve = ["CVE-2023-53722"]
+  gcve = ["GCVE-0-2023-53722"]
+  github = ["GHSA-564p-3xmp-v9fw"]
+  redhat = ["RHSA-2024:2394", "RHSA-2024:3138"]
+  openeuler = ["OESA-2025-2554"]
+  amazonlinux = [
     "ALAS2-2023-2264",
     "ALAS2023-2023-356",
     "ALAS2KERNEL-5.10-2023-041",
     "ALAS2KERNEL-5.15-2023-027",
     "ALAS2KERNEL-5.4-2023-053",
-]
+  ]

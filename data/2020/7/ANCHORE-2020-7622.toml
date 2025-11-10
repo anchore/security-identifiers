@@ -2,28 +2,16 @@
 id = "ANCHORE-2020-7622"
 allocated = 2025-10-15T14:15:49.928418Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-12689",
-]
-gcve = [
-    "GCVE-0-2020-12689",
-]
-github = [
-    "GHSA-chgw-36xv-47cw",
-]
-pypa = [
-    "PYSEC-2020-53",
-]
-debian = [
-    "DSA-4679-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2020-12689"]
+  gcve = ["GCVE-0-2020-12689"]
+  github = ["GHSA-chgw-36xv-47cw"]
+  pypa = ["PYSEC-2020-53"]
+  debian = ["DSA-4679-1"]
+  redhat = [
     "RHSA-2020:2732",
     "RHSA-2020:3096",
     "RHSA-2020:3102",
     "RHSA-2020:3105",
-]
-ubuntu = [
-    "USN-4480-1",
-]
+  ]
+  ubuntu = ["USN-4480-1"]

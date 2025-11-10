@@ -2,17 +2,11 @@
 id = "ANCHORE-2024-34571"
 allocated = 2025-10-15T14:17:15.156667Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-47535",
-]
-gcve = [
-    "GCVE-0-2024-47535",
-]
-github = [
-    "GHSA-xq3w-v528-46rv",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-47535"]
+  gcve = ["GCVE-0-2024-47535"]
+  github = ["GHSA-xq3w-v528-46rv"]
+  chainguard = [
     "CGA-662r-hr8g-368h",
     "CGA-6j48-cf22-44cr",
     "CGA-896j-whgv-hvrh",
@@ -29,23 +23,17 @@ chainguard = [
     "CGA-vv7m-rc5q-gr82",
     "CGA-x6pw-hh9f-9g3j",
     "CGA-xpg8-pwc5-69x9",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2025:3357",
     "RHSA-2025:3465",
     "RHSA-2025:4548",
     "RHSA-2025:4549",
     "RHSA-2025:4550",
-]
-suse = [
-    "SUSE-SU-2024:4407-1",
-    "SUSE-SU-2025:01985-1",
-    "SUSE-SU-2025:01994-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:14549-1",
-]
-minimos = [
+  ]
+  suse = ["SUSE-SU-2024:4407-1", "SUSE-SU-2025:01985-1", "SUSE-SU-2025:01994-1"]
+  opensuse = ["openSUSE-SU-2024:14549-1"]
+  minimos = [
     "MINI-45gw-r5vq-6p5r",
     "MINI-5ph4-xm2h-v478",
     "MINI-5xvm-3x5p-p4cf",
@@ -53,4 +41,4 @@ minimos = [
     "MINI-7gx9-jrq8-5xhq",
     "MINI-rrjx-xp3x-6pvm",
     "MINI-w4pm-j47x-ggxr",
-]
+  ]

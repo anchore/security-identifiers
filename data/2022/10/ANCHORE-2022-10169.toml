@@ -2,28 +2,11 @@
 id = "ANCHORE-2022-10169"
 allocated = 2025-10-15T14:16:19.675208Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-1664",
-]
-gcve = [
-    "GCVE-0-2022-1664",
-]
-github = [
-    "GHSA-q7pv-fjh6-6xq6",
-]
-debian = [
-    "DLA-3022-1",
-    "DSA-5147-1",
-]
-suse = [
-    "SUSE-SU-2022:2689-1",
-    "SUSE-SU-2022:4081-1",
-]
-ubuntu = [
-    "USN-5446-1",
-    "USN-5446-2",
-]
-openeuler = [
-    "OESA-2022-1703",
-]
+  [security.aliases]
+  cve = ["CVE-2022-1664"]
+  gcve = ["GCVE-0-2022-1664"]
+  github = ["GHSA-q7pv-fjh6-6xq6"]
+  debian = ["DLA-3022-1", "DSA-5147-1"]
+  suse = ["SUSE-SU-2022:2689-1", "SUSE-SU-2022:4081-1"]
+  ubuntu = ["USN-5446-1", "USN-5446-2"]
+  openeuler = ["OESA-2022-1703"]

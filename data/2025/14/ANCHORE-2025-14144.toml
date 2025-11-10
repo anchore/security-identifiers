@@ -2,23 +2,13 @@
 id = "ANCHORE-2025-14144"
 allocated = 2025-10-15T14:17:29.141925Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-32387",
-]
-gcve = [
-    "GCVE-0-2025-32387",
-]
-github = [
-    "GHSA-5xqw-8hwv-wg92",
-]
-bitnami = [
-    "BIT-helm-2025-32387",
-]
-go = [
-    "GO-2025-3602",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-32387"]
+  gcve = ["GCVE-0-2025-32387"]
+  github = ["GHSA-5xqw-8hwv-wg92"]
+  bitnami = ["BIT-helm-2025-32387"]
+  go = ["GO-2025-3602"]
+  chainguard = [
     "CGA-3x39-498g-w4c6",
     "CGA-65vg-wpmh-r9c7",
     "CGA-6f5j-h2f7-c65q",
@@ -39,15 +29,10 @@ chainguard = [
     "CGA-vrvp-hhrp-jv86",
     "CGA-vwvh-v834-pwwc",
     "CGA-wjgh-7f84-9cpp",
-]
-suse = [
-    "SUSE-SU-2025:01830-1",
-    "SUSE-SU-2025:01830-2",
-]
-opensuse = [
-    "openSUSE-SU-2025:14995-1",
-]
-minimos = [
+  ]
+  suse = ["SUSE-SU-2025:01830-1", "SUSE-SU-2025:01830-2"]
+  opensuse = ["openSUSE-SU-2025:14995-1"]
+  minimos = [
     "MINI-33j2-v96v-m632",
     "MINI-5prw-63rm-cv3h",
     "MINI-62r6-r37h-h72r",
@@ -55,4 +40,4 @@ minimos = [
     "MINI-f5rg-hgp5-xmg5",
     "MINI-fc44-qc2p-c8qp",
     "MINI-jjvc-wp46-7hc6",
-]
+  ]

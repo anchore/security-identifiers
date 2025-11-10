@@ -2,17 +2,8 @@
 id = "ANCHORE-2024-12171"
 allocated = 2025-10-15T14:16:59.735058Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-2905",
-]
-gcve = [
-    "GCVE-0-2024-2905",
-]
-redhat = [
-    "RHSA-2024:3401",
-    "RHSA-2024:3823",
-]
-oraclelinux = [
-    "ELSA-2024-3823",
-]
+  [security.aliases]
+  cve = ["CVE-2024-2905"]
+  gcve = ["GCVE-0-2024-2905"]
+  redhat = ["RHSA-2024:3401", "RHSA-2024:3823"]
+  oraclelinux = ["ELSA-2024-3823"]

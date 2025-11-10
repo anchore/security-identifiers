@@ -2,20 +2,12 @@
 id = "ANCHORE-2025-10881"
 allocated = 2025-10-15T14:17:26.890248Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-30204",
-]
-gcve = [
-    "GCVE-0-2025-30204",
-]
-github = [
-    "GHSA-mh63-6h87-95cp",
-]
-go = [
-    "GO-2025-3553",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-30204"]
+  gcve = ["GCVE-0-2025-30204"]
+  github = ["GHSA-mh63-6h87-95cp"]
+  go = ["GO-2025-3553"]
+  chainguard = [
     "CGA-24mq-344h-c7qx",
     "CGA-2536-qhmw-qf4r",
     "CGA-274c-57j7-p4mw",
@@ -452,16 +444,16 @@ chainguard = [
     "CGA-xw4q-3p2r-52q4",
     "CGA-xx66-j6f6-5m29",
     "CGA-xxgh-vcx7-34gh",
-]
-almalinux = [
+  ]
+  almalinux = [
     "ALSA-2025:3344",
     "ALSA-2025:4669",
     "ALSA-2025:7404",
     "ALSA-2025:7425",
     "ALSA-2025:7475",
     "ALSA-2025:7967",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2025:3344",
     "RHSA-2025:3411",
     "RHSA-2025:3616",
@@ -479,11 +471,9 @@ redhat = [
     "RHSA-2025:7967",
     "RHSA-2025:8075",
     "RHSA-2025:8267",
-]
-suse = [
-    "SUSE-SU-2025:1332-1",
-]
-opensuse = [
+  ]
+  suse = ["SUSE-SU-2025:1332-1"]
+  opensuse = [
     "openSUSE-SU-2025:14937-1",
     "openSUSE-SU-2025:14954-1",
     "openSUSE-SU-2025:14956-1",
@@ -491,8 +481,8 @@ opensuse = [
     "openSUSE-SU-2025:14989-1",
     "openSUSE-SU-2025:14990-1",
     "openSUSE-SU-2025:15037-1",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-242m-f8jj-h7jx",
     "MINI-2cx4-9hwp-7vxg",
     "MINI-4f37-78m8-r742",
@@ -515,8 +505,8 @@ minimos = [
     "MINI-wmf4-9wxf-7cr9",
     "MINI-xc74-fc4m-pcmp",
     "MINI-xx5h-69hf-rg8m",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2-2025-2851",
     "ALAS2023-2025-944",
     "ALAS2023-2025-945",
@@ -525,8 +515,8 @@ amazonlinux = [
     "ALAS2DOCKER-2025-058",
     "ALAS2ECS-2025-055",
     "ALAS2NITRO-ENCLAVES-2025-054",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2025-3344",
     "ELSA-2025-4669",
     "ELSA-2025-7404",
@@ -534,4 +524,4 @@ oraclelinux = [
     "ELSA-2025-7475",
     "ELSA-2025-7503",
     "ELSA-2025-7967",
-]
+  ]

@@ -2,23 +2,17 @@
 id = "ANCHORE-2012-4377"
 allocated = 2025-10-15T14:14:45.292931Z
 
-[security.aliases]
-cve = [
-    "CVE-2012-1531",
-]
-gcve = [
-    "GCVE-0-2012-1531",
-]
-github = [
-    "GHSA-6784-35h5-4m72",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2012-1531"]
+  gcve = ["GCVE-0-2012-1531"]
+  github = ["GHSA-6784-35h5-4m72"]
+  chainguard = [
     "CGA-h7f8-jp4r-679h",
     "CGA-mpgj-g5j7-3hrv",
     "CGA-v283-vrhc-8mmp",
     "CGA-vvxh-h677-6pp7",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2012:1391",
     "RHSA-2012:1392",
     "RHSA-2012:1465",
@@ -27,4 +21,4 @@ redhat = [
     "RHSA-2012:1485",
     "RHSA-2013:1455",
     "RHSA-2013:1456",
-]
+  ]

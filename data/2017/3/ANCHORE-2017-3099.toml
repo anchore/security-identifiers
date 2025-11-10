@@ -2,22 +2,10 @@
 id = "ANCHORE-2017-3099"
 allocated = 2025-10-15T14:15:08.784758Z
 
-[security.aliases]
-cve = [
-    "CVE-2014-9938",
-]
-gcve = [
-    "GCVE-0-2014-9938",
-]
-github = [
-    "GHSA-6vhm-rfmv-gf4j",
-]
-redhat = [
-    "RHSA-2017:2004",
-]
-ubuntu = [
-    "USN-3243-1",
-]
-oraclelinux = [
-    "ELSA-2017-2004",
-]
+  [security.aliases]
+  cve = ["CVE-2014-9938"]
+  gcve = ["GCVE-0-2014-9938"]
+  github = ["GHSA-6vhm-rfmv-gf4j"]
+  redhat = ["RHSA-2017:2004"]
+  ubuntu = ["USN-3243-1"]
+  oraclelinux = ["ELSA-2017-2004"]

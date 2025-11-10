@@ -2,22 +2,9 @@
 id = "ANCHORE-2023-26069"
 allocated = 2025-10-15T14:16:48.037664Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-41259",
-]
-gcve = [
-    "GCVE-0-2023-41259",
-]
-github = [
-    "GHSA-22g7-wp2f-rmqf",
-]
-debian = [
-    "DLA-3642-1",
-    "DSA-5541-1",
-    "DSA-5542-1",
-]
-ubuntu = [
-    "USN-6529-1",
-    "USN-7692-1",
-]
+  [security.aliases]
+  cve = ["CVE-2023-41259"]
+  gcve = ["GCVE-0-2023-41259"]
+  github = ["GHSA-22g7-wp2f-rmqf"]
+  debian = ["DLA-3642-1", "DSA-5541-1", "DSA-5542-1"]
+  ubuntu = ["USN-6529-1", "USN-7692-1"]

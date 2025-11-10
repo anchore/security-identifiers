@@ -2,29 +2,19 @@
 id = "ANCHORE-2023-17854"
 allocated = 2025-10-15T14:16:42.530597Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-29409",
-]
-gcve = [
-    "GCVE-0-2023-29409",
-]
-github = [
-    "GHSA-xc82-5m89-g4jv",
-]
-bitnami = [
-    "BIT-golang-2023-29409",
-]
-go = [
-    "GO-2023-1987",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2023-29409"]
+  gcve = ["GCVE-0-2023-29409"]
+  github = ["GHSA-xc82-5m89-g4jv"]
+  bitnami = ["BIT-golang-2023-29409"]
+  go = ["GO-2023-1987"]
+  chainguard = [
     "CGA-cgw7-rj35-5w6f",
     "CGA-cmwr-wx85-rx2v",
     "CGA-q562-pm5j-7gr3",
     "CGA-w6rr-mr3c-2234",
-]
-almalinux = [
+  ]
+  almalinux = [
     "ALSA-2023:5738",
     "ALSA-2023:7762",
     "ALSA-2023:7763",
@@ -32,8 +22,8 @@ almalinux = [
     "ALSA-2023:7765",
     "ALSA-2023:7766",
     "ALSA-2024:0121",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2023:5009",
     "RHSA-2023:5721",
     "RHSA-2023:5738",
@@ -52,8 +42,8 @@ redhat = [
     "RHSA-2024:0292",
     "RHSA-2024:0293",
     "RHSA-2024:2988",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2023:3181-1",
     "SUSE-SU-2023:3263-1",
     "SUSE-SU-2023:3474-1",
@@ -66,19 +56,16 @@ suse = [
     "SUSE-SU-2023:3885-1",
     "SUSE-SU-2023:3886-1",
     "SUSE-SU-2023:3888-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:13093-1",
-    "openSUSE-SU-2024:13094-1",
-]
-openeuler = [
+  ]
+  opensuse = ["openSUSE-SU-2024:13093-1", "openSUSE-SU-2024:13094-1"]
+  openeuler = [
     "OESA-2023-1530",
     "OESA-2023-1531",
     "OESA-2023-1532",
     "OESA-2023-1533",
     "OESA-2023-1591",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2-2023-2208",
     "ALAS2-2023-2209",
     "ALAS2-2023-2210",
@@ -104,8 +91,8 @@ amazonlinux = [
     "ALAS2NITRO-ENCLAVES-2023-027",
     "ALAS2NITRO-ENCLAVES-2023-028",
     "ALAS2NITRO-ENCLAVES-2023-030",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2023-5738",
     "ELSA-2023-7762",
     "ELSA-2023-7763",
@@ -114,4 +101,4 @@ oraclelinux = [
     "ELSA-2023-7766",
     "ELSA-2024-0121",
     "ELSA-2024-2988",
-]
+  ]

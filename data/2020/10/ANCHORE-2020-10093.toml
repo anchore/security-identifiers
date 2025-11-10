@@ -2,29 +2,16 @@
 id = "ANCHORE-2020-10093"
 allocated = 2025-10-15T14:15:51.583907Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-10994",
-]
-gcve = [
-    "GCVE-0-2020-10994",
-]
-github = [
-    "GHSA-vj42-xq3r-hr3r",
-]
-bitnami = [
-    "BIT-pillow-2020-10994",
-]
-pypa = [
-    "PYSEC-2020-79",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2020-10994"]
+  gcve = ["GCVE-0-2020-10994"]
+  github = ["GHSA-vj42-xq3r-hr3r"]
+  bitnami = ["BIT-pillow-2020-10994"]
+  pypa = ["PYSEC-2020-79"]
+  suse = [
     "SUSE-RU-2020:2161-1",
     "SUSE-SU-2020:2057-1",
     "SUSE-SU-2020:2911-1",
     "SUSE-SU-2020:3309-1",
-]
-ubuntu = [
-    "USN-4430-1",
-    "USN-4430-2",
-]
+  ]
+  ubuntu = ["USN-4430-1", "USN-4430-2"]

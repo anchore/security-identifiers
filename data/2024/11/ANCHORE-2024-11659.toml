@@ -2,20 +2,9 @@
 id = "ANCHORE-2024-11659"
 allocated = 2025-10-15T14:16:59.388863Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-32475",
-]
-gcve = [
-    "GCVE-0-2024-32475",
-]
-bitnami = [
-    "BIT-envoy-2024-32475",
-]
-go = [
-    "GO-2024-2735",
-]
-amazonlinux = [
-    "ALAS2023-2024-647",
-    "ALAS2ECS-2024-037",
-]
+  [security.aliases]
+  cve = ["CVE-2024-32475"]
+  gcve = ["GCVE-0-2024-32475"]
+  bitnami = ["BIT-envoy-2024-32475"]
+  go = ["GO-2024-2735"]
+  amazonlinux = ["ALAS2023-2024-647", "ALAS2ECS-2024-037"]

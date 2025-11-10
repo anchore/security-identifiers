@@ -2,33 +2,18 @@
 id = "ANCHORE-2021-11407"
 allocated = 2025-10-15T14:16:05.628847Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-36980",
-]
-gcve = [
-    "GCVE-0-2021-36980",
-]
-github = [
-    "GHSA-ww48-mfpv-wc3r",
-]
-redhat = [
-    "RHSA-2021:3758",
-    "RHSA-2021:3942",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2021-36980"]
+  gcve = ["GCVE-0-2021-36980"]
+  github = ["GHSA-ww48-mfpv-wc3r"]
+  redhat = ["RHSA-2021:3758", "RHSA-2021:3942"]
+  suse = [
     "SUSE-SU-2022:3098-1",
     "SUSE-SU-2022:3099-1",
     "SUSE-SU-2022:3116-1",
     "SUSE-SU-2023:1795-1",
     "SUSE-SU-2023:2360-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:11898-1",
-]
-ubuntu = [
-    "USN-5065-1",
-]
-openeuler = [
-    "OESA-2021-1304",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:11898-1"]
+  ubuntu = ["USN-5065-1"]
+  openeuler = ["OESA-2021-1304"]

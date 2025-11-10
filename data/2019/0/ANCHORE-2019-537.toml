@@ -2,37 +2,18 @@
 id = "ANCHORE-2019-537"
 allocated = 2025-10-15T14:15:31.929034Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-20699",
-]
-gcve = [
-    "GCVE-0-2018-20699",
-]
-github = [
-    "GHSA-m9q8-9m2h-84gh",
-]
-go = [
-    "GO-2023-2219",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2018-20699"]
+  gcve = ["GCVE-0-2018-20699"]
+  github = ["GHSA-m9q8-9m2h-84gh"]
+  go = ["GO-2023-2219"]
+  chainguard = [
     "CGA-m58w-pxrq-g93q",
     "CGA-rvx8-f357-ff98",
     "CGA-v94p-4p37-634h",
-]
-redhat = [
-    "RHSA-2019:0487",
-]
-suse = [
-    "SUSE-SU-2025:03540-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:10722-1",
-]
-amazonlinux = [
-    "ALAS2DOCKER-2021-003",
-    "ALAS2NITRO-ENCLAVES-2021-003",
-]
-oraclelinux = [
-    "ELSA-2019-4597",
-]
+  ]
+  redhat = ["RHSA-2019:0487"]
+  suse = ["SUSE-SU-2025:03540-1"]
+  opensuse = ["openSUSE-SU-2024:10722-1"]
+  amazonlinux = ["ALAS2DOCKER-2021-003", "ALAS2NITRO-ENCLAVES-2021-003"]
+  oraclelinux = ["ELSA-2019-4597"]

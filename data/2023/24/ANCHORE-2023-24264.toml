@@ -2,24 +2,14 @@
 id = "ANCHORE-2023-24264"
 allocated = 2025-10-15T14:16:46.833466Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-4822",
-]
-gcve = [
-    "GCVE-0-2023-4822",
-]
-github = [
-    "GHSA-fw9c-75hh-89p6",
-]
-go = [
-    "GO-2023-2120",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2023-4822"]
+  gcve = ["GCVE-0-2023-4822"]
+  github = ["GHSA-fw9c-75hh-89p6"]
+  go = ["GO-2023-2120"]
+  chainguard = [
     "CGA-725c-hgv7-2mm3",
     "CGA-8pq7-rhpc-58j2",
     "CGA-8qp6-8x22-92qm",
-]
-redhat = [
-    "RHSA-2024:3925",
-]
+  ]
+  redhat = ["RHSA-2024:3925"]

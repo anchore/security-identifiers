@@ -2,21 +2,12 @@
 id = "ANCHORE-2015-4393"
 allocated = 2025-10-15T14:15:00.732403Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-5366",
-]
-gcve = [
-    "GCVE-0-2015-5366",
-]
-github = [
-    "GHSA-2p7j-hg9j-vpj2",
-]
-debian = [
-    "DLA-310-1",
-    "DSA-3313-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2015-5366"]
+  gcve = ["GCVE-0-2015-5366"]
+  github = ["GHSA-2p7j-hg9j-vpj2"]
+  debian = ["DLA-310-1", "DSA-3313-1"]
+  redhat = [
     "RHSA-2015:1623",
     "RHSA-2015:1778",
     "RHSA-2015:1787",
@@ -25,8 +16,8 @@ redhat = [
     "RHSA-2016:1096",
     "RHSA-2016:1100",
     "RHSA-2016:1225",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2015:1224-1",
     "SUSE-SU-2015:1324-1",
     "SUSE-SU-2015:1478-1",
@@ -39,13 +30,9 @@ suse = [
     "SUSE-SU-2015:1611-1",
     "SUSE-SU-2015:1678-1",
     "SUSE-SU-2015:2167-1",
-]
-ubuntu = [
-    "USN-2681-1",
-    "USN-2682-1",
-    "USN-2683-1",
-]
-oraclelinux = [
+  ]
+  ubuntu = ["USN-2681-1", "USN-2682-1", "USN-2683-1"]
+  oraclelinux = [
     "ELSA-2015-1623",
     "ELSA-2015-1778",
     "ELSA-2015-3071",
@@ -53,4 +40,4 @@ oraclelinux = [
     "ELSA-2015-3073",
     "ELSA-2016-0045",
     "ELSA-2016-0045-1",
-]
+  ]

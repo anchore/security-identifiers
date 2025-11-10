@@ -2,17 +2,8 @@
 id = "ANCHORE-2015-6005"
 allocated = 2025-10-15T14:15:01.817932Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-5318",
-]
-gcve = [
-    "GCVE-0-2015-5318",
-]
-github = [
-    "GHSA-3wmv-7php-rhg5",
-]
-redhat = [
-    "RHSA-2016:0070",
-    "RHSA-2016:0489",
-]
+  [security.aliases]
+  cve = ["CVE-2015-5318"]
+  gcve = ["GCVE-0-2015-5318"]
+  github = ["GHSA-3wmv-7php-rhg5"]
+  redhat = ["RHSA-2016:0070", "RHSA-2016:0489"]

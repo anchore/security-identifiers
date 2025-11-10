@@ -2,27 +2,11 @@
 id = "ANCHORE-2019-2269"
 allocated = 2025-10-15T14:15:33.124318Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-5818",
-]
-gcve = [
-    "GCVE-0-2018-5818",
-]
-github = [
-    "GHSA-jr5q-2x4q-6mhg",
-]
-debian = [
-    "DLA-1734-1",
-    "DLA-2903-1",
-]
-suse = [
-    "SUSE-SU-2019:0127-1",
-    "SUSE-SU-2019:0133-1",
-]
-opensuse = [
-    "openSUSE-SU-2019:0094-1",
-]
-ubuntu = [
-    "USN-3989-1",
-]
+  [security.aliases]
+  cve = ["CVE-2018-5818"]
+  gcve = ["GCVE-0-2018-5818"]
+  github = ["GHSA-jr5q-2x4q-6mhg"]
+  debian = ["DLA-1734-1", "DLA-2903-1"]
+  suse = ["SUSE-SU-2019:0127-1", "SUSE-SU-2019:0133-1"]
+  opensuse = ["openSUSE-SU-2019:0094-1"]
+  ubuntu = ["USN-3989-1"]

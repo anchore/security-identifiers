@@ -2,23 +2,13 @@
 id = "ANCHORE-2025-5953"
 allocated = 2025-10-15T14:17:23.507616Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-1094",
-]
-gcve = [
-    "GCVE-0-2025-1094",
-]
-github = [
-    "GHSA-mhw9-x46c-v6q4",
-]
-bitnami = [
-    "BIT-postgresql-2025-1094",
-]
-chainguard = [
-    "CGA-939g-cjfp-357x",
-]
-almalinux = [
+  [security.aliases]
+  cve = ["CVE-2025-1094"]
+  gcve = ["GCVE-0-2025-1094"]
+  github = ["GHSA-mhw9-x46c-v6q4"]
+  bitnami = ["BIT-postgresql-2025-1094"]
+  chainguard = ["CGA-939g-cjfp-357x"]
+  almalinux = [
     "ALSA-2025:1736",
     "ALSA-2025:1737",
     "ALSA-2025:1738",
@@ -28,12 +18,9 @@ almalinux = [
     "ALSA-2025:1742",
     "ALSA-2025:1743",
     "ALSA-2025:3082",
-]
-debian = [
-    "DLA-4052-1",
-    "DLA-4052-2",
-]
-redhat = [
+  ]
+  debian = ["DLA-4052-1", "DLA-4052-2"]
+  redhat = [
     "RHSA-2025:1720",
     "RHSA-2025:1721",
     "RHSA-2025:1722",
@@ -65,12 +52,9 @@ redhat = [
     "RHSA-2025:3064",
     "RHSA-2025:3082",
     "RHSA-2025:3978",
-]
-rockylinux = [
-    "RLSA-2025:1736",
-    "RLSA-2025:1737",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2025:1736", "RLSA-2025:1737"]
+  suse = [
     "SUSE-SU-2025:0606-1",
     "SUSE-SU-2025:0614-1",
     "SUSE-SU-2025:0615-1",
@@ -85,26 +69,23 @@ suse = [
     "SUSE-SU-2025:0636-1",
     "SUSE-SU-2025:0637-1",
     "SUSE-SU-2025:0655-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2025:14805-1",
     "openSUSE-SU-2025:14806-1",
     "openSUSE-SU-2025:14807-1",
     "openSUSE-SU-2025:14808-1",
     "openSUSE-SU-2025:14810-1",
-]
-ubuntu = [
-    "USN-7315-1",
-    "USN-7315-2",
-]
-minimos = [
+  ]
+  ubuntu = ["USN-7315-1", "USN-7315-2"]
+  minimos = [
     "MINI-37m4-7jc9-882v",
     "MINI-4jfr-pvvr-xx6h",
     "MINI-jm43-hwm4-rgm8",
     "MINI-w7m6-fc7p-6j27",
     "MINI-xmrh-g664-jm25",
-]
-openeuler = [
+  ]
+  openeuler = [
     "OESA-2025-1152",
     "OESA-2025-1153",
     "OESA-2025-1154",
@@ -114,8 +95,8 @@ openeuler = [
     "OESA-2025-1229",
     "OESA-2025-1230",
     "OESA-2025-1335",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2-2025-2866",
     "ALAS2023-2025-868",
     "ALAS2023-2025-869",
@@ -124,8 +105,8 @@ amazonlinux = [
     "ALAS2POSTGRESQL13-2025-010",
     "ALAS2POSTGRESQL14-2025-016",
     "ALAS2POSTGRESQL14-2025-017",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2025-1736",
     "ELSA-2025-1737",
     "ELSA-2025-1738",
@@ -136,4 +117,4 @@ oraclelinux = [
     "ELSA-2025-1743",
     "ELSA-2025-3082",
     "ELSA-2025-3978",
-]
+  ]

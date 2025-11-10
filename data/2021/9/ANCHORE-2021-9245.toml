@@ -2,20 +2,9 @@
 id = "ANCHORE-2021-9245"
 allocated = 2025-10-15T14:16:04.152472Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-13663",
-]
-gcve = [
-    "GCVE-0-2020-13663",
-]
-github = [
-    "GHSA-m648-hpf8-qcjw",
-]
-bitnami = [
-    "BIT-drupal-2020-13663",
-]
-debian = [
-    "DLA-2263-1",
-    "DSA-4706-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-13663"]
+  gcve = ["GCVE-0-2020-13663"]
+  github = ["GHSA-m648-hpf8-qcjw"]
+  bitnami = ["BIT-drupal-2020-13663"]
+  debian = ["DLA-2263-1", "DSA-4706-1"]

@@ -2,19 +2,9 @@
 id = "ANCHORE-2021-2024"
 allocated = 2025-10-15T14:15:59.260521Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-29662",
-]
-gcve = [
-    "GCVE-0-2020-29662",
-]
-github = [
-    "GHSA-38r5-34mr-mvm7",
-]
-bitnami = [
-    "BIT-harbor-2020-29662",
-]
-go = [
-    "GO-2022-0785",
-]
+  [security.aliases]
+  cve = ["CVE-2020-29662"]
+  gcve = ["GCVE-0-2020-29662"]
+  github = ["GHSA-38r5-34mr-mvm7"]
+  bitnami = ["BIT-harbor-2020-29662"]
+  go = ["GO-2022-0785"]

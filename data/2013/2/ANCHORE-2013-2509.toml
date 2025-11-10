@@ -2,23 +2,10 @@
 id = "ANCHORE-2013-2509"
 allocated = 2025-10-15T14:14:50.357568Z
 
-[security.aliases]
-cve = [
-    "CVE-2013-2116",
-]
-gcve = [
-    "GCVE-0-2013-2116",
-]
-github = [
-    "GHSA-2vj6-mvxm-4f5f",
-]
-debian = [
-    "DSA-2697-1",
-]
-redhat = [
-    "RHSA-2013:0883",
-    "RHSA-2013:1076",
-]
-oraclelinux = [
-    "ELSA-2013-0883",
-]
+  [security.aliases]
+  cve = ["CVE-2013-2116"]
+  gcve = ["GCVE-0-2013-2116"]
+  github = ["GHSA-2vj6-mvxm-4f5f"]
+  debian = ["DSA-2697-1"]
+  redhat = ["RHSA-2013:0883", "RHSA-2013:1076"]
+  oraclelinux = ["ELSA-2013-0883"]

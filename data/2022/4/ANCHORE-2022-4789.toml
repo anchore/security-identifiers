@@ -2,41 +2,23 @@
 id = "ANCHORE-2022-4789"
 allocated = 2025-10-15T14:16:15.998948Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-24512",
-]
-gcve = [
-    "GCVE-0-2022-24512",
-]
-github = [
-    "GHSA-c6w8-7mp3-34j9",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2022-24512"]
+  gcve = ["GCVE-0-2022-24512"]
+  github = ["GHSA-c6w8-7mp3-34j9"]
+  bitnami = [
     "BIT-dotnet-2022-24512",
     "BIT-dotnet-sdk-2022-24512",
     "BIT-powershell-2022-24512",
-]
-almalinux = [
-    "ALSA-2022:0826",
-    "ALSA-2022:0827",
-    "ALSA-2022:0830",
-]
-redhat = [
+  ]
+  almalinux = ["ALSA-2022:0826", "ALSA-2022:0827", "ALSA-2022:0830"]
+  redhat = [
     "RHSA-2022:0826",
     "RHSA-2022:0827",
     "RHSA-2022:0828",
     "RHSA-2022:0829",
     "RHSA-2022:0830",
     "RHSA-2022:0832",
-]
-rockylinux = [
-    "RLSA-2022:0826",
-    "RLSA-2022:0827",
-    "RLSA-2022:0830",
-]
-oraclelinux = [
-    "ELSA-2022-0826",
-    "ELSA-2022-0827",
-    "ELSA-2022-0830",
-]
+  ]
+  rockylinux = ["RLSA-2022:0826", "RLSA-2022:0827", "RLSA-2022:0830"]
+  oraclelinux = ["ELSA-2022-0826", "ELSA-2022-0827", "ELSA-2022-0830"]

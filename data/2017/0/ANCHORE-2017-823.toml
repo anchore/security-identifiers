@@ -2,22 +2,16 @@
 id = "ANCHORE-2017-823"
 allocated = 2025-10-15T14:15:07.180629Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-3259",
-]
-gcve = [
-    "GCVE-0-2017-3259",
-]
-github = [
-    "GHSA-2fjh-pp98-gvch",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2017-3259"]
+  gcve = ["GCVE-0-2017-3259"]
+  github = ["GHSA-2fjh-pp98-gvch"]
+  chainguard = [
     "CGA-5h45-vw83-j225",
     "CGA-gxf9-2j8f-mr24",
     "CGA-xfr3-r82f-mhfq",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2017:0175",
     "RHSA-2017:0176",
     "RHSA-2017:0177",
@@ -26,8 +20,5 @@ redhat = [
     "RHSA-2017:0337",
     "RHSA-2017:0338",
     "RHSA-2017:1216",
-]
-suse = [
-    "SUSE-SU-2017:0460-1",
-    "SUSE-SU-2017:0490-1",
-]
+  ]
+  suse = ["SUSE-SU-2017:0460-1", "SUSE-SU-2017:0490-1"]

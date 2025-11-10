@@ -2,25 +2,14 @@
 id = "ANCHORE-2023-7646"
 allocated = 2025-10-15T14:16:35.660511Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-42432",
-]
-gcve = [
-    "GCVE-0-2022-42432",
-]
-github = [
-    "GHSA-6fx6-mv6x-h475",
-]
-redhat = [
-    "RHSA-2022:7933",
-    "RHSA-2022:8267",
-]
-openeuler = [
-    "OESA-2022-2045",
-]
-amazonlinux = [
+  [security.aliases]
+  cve = ["CVE-2022-42432"]
+  gcve = ["GCVE-0-2022-42432"]
+  github = ["GHSA-6fx6-mv6x-h475"]
+  redhat = ["RHSA-2022:7933", "RHSA-2022:8267"]
+  openeuler = ["OESA-2022-2045"]
+  amazonlinux = [
     "ALAS2KERNEL-5.10-2022-021",
     "ALAS2KERNEL-5.15-2022-009",
     "ALAS2KERNEL-5.4-2022-037",
-]
+  ]

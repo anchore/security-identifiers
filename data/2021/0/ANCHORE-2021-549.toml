@@ -2,42 +2,24 @@
 id = "ANCHORE-2021-549"
 allocated = 2025-10-15T14:15:58.257637Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-23239",
-]
-gcve = [
-    "GCVE-0-2021-23239",
-]
-github = [
-    "GHSA-wfrc-r682-56qv",
-]
-debian = [
-    "DLA-3181-1",
-]
-redhat = [
-    "RHSA-2021:1723",
-]
-rockylinux = [
-    "RLSA-2021:1723",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2021-23239"]
+  gcve = ["GCVE-0-2021-23239"]
+  github = ["GHSA-wfrc-r682-56qv"]
+  debian = ["DLA-3181-1"]
+  redhat = ["RHSA-2021:1723"]
+  rockylinux = ["RLSA-2021:1723"]
+  suse = [
     "SUSE-SU-2021:0225-1",
     "SUSE-SU-2021:0226-1",
     "SUSE-SU-2021:0227-1",
     "SUSE-SU-2021:0232-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:0169-1",
     "openSUSE-SU-2021:0170-1",
     "openSUSE-SU-2024:11413-1",
-]
-ubuntu = [
-    "USN-4705-1",
-]
-openeuler = [
-    "OESA-2021-1002",
-]
-oraclelinux = [
-    "ELSA-2021-1723",
-]
+  ]
+  ubuntu = ["USN-4705-1"]
+  openeuler = ["OESA-2021-1002"]
+  oraclelinux = ["ELSA-2021-1723"]

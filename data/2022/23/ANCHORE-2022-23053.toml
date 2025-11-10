@@ -2,43 +2,20 @@
 id = "ANCHORE-2022-23053"
 allocated = 2025-10-15T14:16:28.383051Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-41946",
-]
-gcve = [
-    "GCVE-0-2022-41946",
-]
-github = [
-    "GHSA-562r-vg33-8x8h",
-]
-bitnami = [
-    "BIT-postgresql-jdbc-driver-2022-41946",
-]
-almalinux = [
-    "ALSA-2023:2378",
-    "ALSA-2023:2867",
-]
-debian = [
-    "DLA-3218-1",
-    "DLA-3995-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2022-41946"]
+  gcve = ["GCVE-0-2022-41946"]
+  github = ["GHSA-562r-vg33-8x8h"]
+  bitnami = ["BIT-postgresql-jdbc-driver-2022-41946"]
+  almalinux = ["ALSA-2023:2378", "ALSA-2023:2867"]
+  debian = ["DLA-3218-1", "DLA-3995-1"]
+  redhat = [
     "RHSA-2023:0759",
     "RHSA-2023:1630",
     "RHSA-2023:2097",
     "RHSA-2023:2378",
     "RHSA-2023:2867",
-]
-suse = [
-    "SUSE-SU-2023:0103-1",
-    "SUSE-SU-2023:0104-1",
-    "SUSE-SU-2023:0451-1",
-]
-openeuler = [
-    "OESA-2023-1366",
-]
-oraclelinux = [
-    "ELSA-2023-2378",
-    "ELSA-2023-2867",
-]
+  ]
+  suse = ["SUSE-SU-2023:0103-1", "SUSE-SU-2023:0104-1", "SUSE-SU-2023:0451-1"]
+  openeuler = ["OESA-2023-1366"]
+  oraclelinux = ["ELSA-2023-2378", "ELSA-2023-2867"]

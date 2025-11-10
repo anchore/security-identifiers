@@ -2,28 +2,11 @@
 id = "ANCHORE-2022-12356"
 allocated = 2025-10-15T14:16:21.137930Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-31081",
-]
-gcve = [
-    "GCVE-0-2022-31081",
-]
-debian = [
-    "DLA-3127-1",
-]
-suse = [
-    "SUSE-SU-2022:2872-1",
-    "SUSE-SU-2022:2874-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12216-1",
-]
-ubuntu = [
-    "USN-5520-1",
-    "USN-5520-2",
-]
-amazonlinux = [
-    "ALAS2-2024-2405",
-    "ALAS2023-2023-247",
-]
+  [security.aliases]
+  cve = ["CVE-2022-31081"]
+  gcve = ["GCVE-0-2022-31081"]
+  debian = ["DLA-3127-1"]
+  suse = ["SUSE-SU-2022:2872-1", "SUSE-SU-2022:2874-1"]
+  opensuse = ["openSUSE-SU-2024:12216-1"]
+  ubuntu = ["USN-5520-1", "USN-5520-2"]
+  amazonlinux = ["ALAS2-2024-2405", "ALAS2023-2023-247"]

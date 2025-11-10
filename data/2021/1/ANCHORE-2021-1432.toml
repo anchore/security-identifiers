@@ -2,20 +2,12 @@
 id = "ANCHORE-2021-1432"
 allocated = 2025-10-15T14:15:58.869088Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-8554",
-]
-gcve = [
-    "GCVE-0-2020-8554",
-]
-github = [
-    "GHSA-j9wf-vvm6-4r9w",
-]
-go = [
-    "GO-2022-0940",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2020-8554"]
+  gcve = ["GCVE-0-2020-8554"]
+  github = ["GHSA-j9wf-vvm6-4r9w"]
+  go = ["GO-2022-0940"]
+  chainguard = [
     "CGA-32mx-cg74-rfpj",
     "CGA-47q8-j9pq-jp67",
     "CGA-9fqj-jmfp-jj9w",
@@ -32,15 +24,7 @@ chainguard = [
     "CGA-vch7-r78w-fxrc",
     "CGA-wx29-25j7-h25w",
     "CGA-xg4p-7g75-3mrj",
-]
-redhat = [
-    "RHSA-2021:0079",
-]
-minimos = [
-    "MINI-v2v9-qc6q-3h55",
-    "MINI-vjp8-rq2q-hm9c",
-]
-oraclelinux = [
-    "ELSA-2021-9028",
-    "ELSA-2021-9029",
-]
+  ]
+  redhat = ["RHSA-2021:0079"]
+  minimos = ["MINI-v2v9-qc6q-3h55", "MINI-vjp8-rq2q-hm9c"]
+  oraclelinux = ["ELSA-2021-9028", "ELSA-2021-9029"]

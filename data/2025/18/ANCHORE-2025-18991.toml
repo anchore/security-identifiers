@@ -2,20 +2,9 @@
 id = "ANCHORE-2025-18991"
 allocated = 2025-10-15T14:17:32.587163Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-48175",
-]
-gcve = [
-    "GCVE-0-2025-48175",
-]
-github = [
-    "GHSA-44mp-2g68-7wvv",
-]
-debian = [
-    "DLA-4179-1",
-    "DSA-5930-1",
-]
-echo = [
-    "ECHO-fbb1-8d31-9c3d",
-]
+  [security.aliases]
+  cve = ["CVE-2025-48175"]
+  gcve = ["GCVE-0-2025-48175"]
+  github = ["GHSA-44mp-2g68-7wvv"]
+  debian = ["DLA-4179-1", "DSA-5930-1"]
+  echo = ["ECHO-fbb1-8d31-9c3d"]

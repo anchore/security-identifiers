@@ -2,17 +2,11 @@
 id = "ANCHORE-2019-18299"
 allocated = 2025-10-15T14:15:44.265386Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-19919",
-]
-gcve = [
-    "GCVE-0-2019-19919",
-]
-github = [
-    "GHSA-w457-6q6x-cgp9",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2019-19919"]
+  gcve = ["GCVE-0-2019-19919"]
+  github = ["GHSA-w457-6q6x-cgp9"]
+  chainguard = [
     "CGA-58hc-rv25-5r96",
     "CGA-73mp-88w7-p6hc",
     "CGA-cwm3-8hq7-mhp9",
@@ -23,4 +17,4 @@ chainguard = [
     "CGA-rm3c-2qmc-fjxx",
     "CGA-rxm8-q646-5x45",
     "CGA-v8qx-6rjm-9pp4",
-]
+  ]

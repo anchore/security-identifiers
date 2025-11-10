@@ -2,17 +2,8 @@
 id = "ANCHORE-2025-16732"
 allocated = 2025-10-15T14:17:30.996183Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-11390",
-]
-gcve = [
-    "GCVE-0-2024-11390",
-]
-github = [
-    "GHSA-mv8v-9jrg-2c2w",
-]
-bitnami = [
-    "BIT-elk-2024-11390",
-    "BIT-kibana-2024-11390",
-]
+  [security.aliases]
+  cve = ["CVE-2024-11390"]
+  gcve = ["GCVE-0-2024-11390"]
+  github = ["GHSA-mv8v-9jrg-2c2w"]
+  bitnami = ["BIT-elk-2024-11390", "BIT-kibana-2024-11390"]

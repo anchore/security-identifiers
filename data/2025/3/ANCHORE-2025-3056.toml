@@ -2,21 +2,12 @@
 id = "ANCHORE-2025-3056"
 allocated = 2025-10-15T14:17:21.466607Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-21521",
-]
-gcve = [
-    "GCVE-0-2025-21521",
-]
-github = [
-    "GHSA-2rgw-wmwq-m2w3",
-]
-almalinux = [
-    "ALSA-2025:1671",
-    "ALSA-2025:1673",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2025-21521"]
+  gcve = ["GCVE-0-2025-21521"]
+  github = ["GHSA-2rgw-wmwq-m2w3"]
+  almalinux = ["ALSA-2025:1671", "ALSA-2025:1673"]
+  redhat = [
     "RHSA-2025:1671",
     "RHSA-2025:1673",
     "RHSA-2025:1755",
@@ -26,11 +17,6 @@ redhat = [
     "RHSA-2025:1767",
     "RHSA-2025:2882",
     "RHSA-2025:2883",
-]
-rockylinux = [
-    "RLSA-2025:1673",
-]
-oraclelinux = [
-    "ELSA-2025-1671",
-    "ELSA-2025-1673",
-]
+  ]
+  rockylinux = ["RLSA-2025:1673"]
+  oraclelinux = ["ELSA-2025-1671", "ELSA-2025-1673"]

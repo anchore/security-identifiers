@@ -2,17 +2,8 @@
 id = "ANCHORE-2020-2333"
 allocated = 2025-10-15T14:15:46.301482Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-11481",
-]
-gcve = [
-    "GCVE-0-2019-11481",
-]
-github = [
-    "GHSA-7hrm-rprg-v656",
-]
-ubuntu = [
-    "USN-4171-1",
-    "USN-4171-2",
-]
+  [security.aliases]
+  cve = ["CVE-2019-11481"]
+  gcve = ["GCVE-0-2019-11481"]
+  github = ["GHSA-7hrm-rprg-v656"]
+  ubuntu = ["USN-4171-1", "USN-4171-2"]

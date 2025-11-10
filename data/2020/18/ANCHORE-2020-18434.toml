@@ -2,28 +2,16 @@
 id = "ANCHORE-2020-18434"
 allocated = 2025-10-15T14:15:57.241377Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-29509",
-]
-gcve = [
-    "GCVE-0-2020-29509",
-]
-github = [
-    "GHSA-xhqq-x44f-9fgg",
-]
-bitnami = [
-    "BIT-golang-2020-29509",
-]
-go = [
-    "GO-2021-0060",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2020-29509"]
+  gcve = ["GCVE-0-2020-29509"]
+  github = ["GHSA-xhqq-x44f-9fgg"]
+  bitnami = ["BIT-golang-2020-29509"]
+  go = ["GO-2021-0060"]
+  chainguard = [
     "CGA-42fw-c8vq-58fc",
     "CGA-6wxm-rfxx-8mcj",
     "CGA-7q43-g6q5-hmqj",
     "CGA-8qmm-6vmh-mj3g",
-]
-openeuler = [
-    "OESA-2021-1011",
-]
+  ]
+  openeuler = ["OESA-2021-1011"]

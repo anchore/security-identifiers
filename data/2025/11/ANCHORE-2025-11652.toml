@@ -2,24 +2,10 @@
 id = "ANCHORE-2025-11652"
 allocated = 2025-10-15T14:17:27.417442Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-21874",
-]
-gcve = [
-    "GCVE-0-2025-21874",
-]
-github = [
-    "GHSA-vhqh-g62v-gqxx",
-]
-ubuntu = [
-    "USN-7521-1",
-    "USN-7521-3",
-]
-oraclelinux = [
-    "ELSA-2025-20480",
-    "ELSA-2025-20530",
-]
-minimos = [
-    "MINI-jgq9-6x4v-r65j",
-]
+  [security.aliases]
+  cve = ["CVE-2025-21874"]
+  gcve = ["GCVE-0-2025-21874"]
+  github = ["GHSA-vhqh-g62v-gqxx"]
+  ubuntu = ["USN-7521-1", "USN-7521-3"]
+  oraclelinux = ["ELSA-2025-20480", "ELSA-2025-20530"]
+  minimos = ["MINI-jgq9-6x4v-r65j"]

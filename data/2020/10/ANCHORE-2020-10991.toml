@@ -2,21 +2,9 @@
 id = "ANCHORE-2020-10991"
 allocated = 2025-10-15T14:15:52.188506Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-2220",
-]
-gcve = [
-    "GCVE-0-2020-2220",
-]
-github = [
-    "GHSA-qgj4-rc8m-44mq",
-]
-bitnami = [
-    "BIT-jenkins-2020-2220",
-]
-redhat = [
-    "RHSA-2020:3519",
-    "RHSA-2020:3541",
-    "RHSA-2020:3808",
-]
+  [security.aliases]
+  cve = ["CVE-2020-2220"]
+  gcve = ["GCVE-0-2020-2220"]
+  github = ["GHSA-qgj4-rc8m-44mq"]
+  bitnami = ["BIT-jenkins-2020-2220"]
+  redhat = ["RHSA-2020:3519", "RHSA-2020:3541", "RHSA-2020:3808"]

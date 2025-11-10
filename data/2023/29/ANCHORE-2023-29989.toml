@@ -2,25 +2,13 @@
 id = "ANCHORE-2023-29989"
 allocated = 2025-10-15T14:16:50.711623Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-6817",
-]
-gcve = [
-    "GCVE-0-2023-6817",
-]
-github = [
-    "GHSA-j5r4-2mjg-6xcc",
-]
-almalinux = [
-    "ALSA-2024:0897",
-]
-debian = [
-    "DLA-3711-1",
-    "DSA-5593-1",
-    "DSA-5594-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2023-6817"]
+  gcve = ["GCVE-0-2023-6817"]
+  github = ["GHSA-j5r4-2mjg-6xcc"]
+  almalinux = ["ALSA-2024:0897"]
+  debian = ["DLA-3711-1", "DSA-5593-1", "DSA-5594-1"]
+  redhat = [
     "RHSA-2024:0724",
     "RHSA-2024:0881",
     "RHSA-2024:0897",
@@ -34,11 +22,9 @@ redhat = [
     "RHSA-2024:1404",
     "RHSA-2024:3414",
     "RHSA-2024:3421",
-]
-rockylinux = [
-    "RXSA-2024:1248",
-]
-suse = [
+  ]
+  rockylinux = ["RXSA-2024:1248"]
+  suse = [
     "SUSE-SU-2024:0855-1",
     "SUSE-SU-2024:0856-1",
     "SUSE-SU-2024:0857-1",
@@ -47,8 +33,8 @@ suse = [
     "SUSE-SU-2024:0900-2",
     "SUSE-SU-2024:0910-1",
     "SUSE-SU-2024:0977-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-6606-1",
     "USN-6607-1",
     "USN-6608-1",
@@ -59,21 +45,17 @@ ubuntu = [
     "USN-6628-1",
     "USN-6628-2",
     "USN-6635-1",
-]
-openeuler = [
+  ]
+  openeuler = [
     "OESA-2024-1032",
     "OESA-2024-1033",
     "OESA-2024-1034",
     "OESA-2024-1035",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2023-2024-488",
     "ALAS2KERNEL-5.10-2024-045",
     "ALAS2KERNEL-5.15-2024-033",
     "ALAS2LIVEPATCH-2024-167",
-]
-oraclelinux = [
-    "ELSA-2024-0897",
-    "ELSA-2024-12169",
-    "ELSA-2024-1248",
-]
+  ]
+  oraclelinux = ["ELSA-2024-0897", "ELSA-2024-12169", "ELSA-2024-1248"]

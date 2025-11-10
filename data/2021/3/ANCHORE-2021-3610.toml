@@ -2,29 +2,14 @@
 id = "ANCHORE-2021-3610"
 allocated = 2025-10-15T14:16:00.324263Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-22884",
-]
-gcve = [
-    "GCVE-0-2021-22884",
-]
-github = [
-    "GHSA-2w6h-7cgj-qw4q",
-]
-bitnami = [
-    "BIT-node-2021-22884",
-    "BIT-node-min-2021-22884",
-]
-almalinux = [
-    "ALSA-2021:0734",
-    "ALSA-2021:0735",
-    "ALSA-2021:0744",
-]
-debian = [
-    "DSA-4863-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2021-22884"]
+  gcve = ["GCVE-0-2021-22884"]
+  github = ["GHSA-2w6h-7cgj-qw4q"]
+  bitnami = ["BIT-node-2021-22884", "BIT-node-min-2021-22884"]
+  almalinux = ["ALSA-2021:0734", "ALSA-2021:0735", "ALSA-2021:0744"]
+  debian = ["DSA-4863-1"]
+  redhat = [
     "RHSA-2021:0734",
     "RHSA-2021:0735",
     "RHSA-2021:0738",
@@ -35,13 +20,9 @@ redhat = [
     "RHSA-2021:0827",
     "RHSA-2021:0830",
     "RHSA-2021:0831",
-]
-rockylinux = [
-    "RLSA-2021:0734",
-    "RLSA-2021:0735",
-    "RLSA-2021:0744",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2021:0734", "RLSA-2021:0735", "RLSA-2021:0744"]
+  suse = [
     "SUSE-SU-2021:0648-1",
     "SUSE-SU-2021:0649-1",
     "SUSE-SU-2021:0650-1",
@@ -50,22 +31,14 @@ suse = [
     "SUSE-SU-2021:0674-1",
     "SUSE-SU-2021:0686-1",
     "SUSE-SU-2021:2620-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:0356-1",
     "openSUSE-SU-2021:0357-1",
     "openSUSE-SU-2021:0372-1",
     "openSUSE-SU-2021:0389-1",
     "openSUSE-SU-2024:11096-1",
-]
-ubuntu = [
-    "USN-6418-1",
-]
-openeuler = [
-    "OESA-2021-1114",
-]
-oraclelinux = [
-    "ELSA-2021-0734",
-    "ELSA-2021-0735",
-    "ELSA-2021-0744",
-]
+  ]
+  ubuntu = ["USN-6418-1"]
+  openeuler = ["OESA-2021-1114"]
+  oraclelinux = ["ELSA-2021-0734", "ELSA-2021-0735", "ELSA-2021-0744"]

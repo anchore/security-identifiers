@@ -2,45 +2,20 @@
 id = "ANCHORE-2020-8369"
 allocated = 2025-10-15T14:15:50.431086Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-13434",
-]
-gcve = [
-    "GCVE-0-2020-13434",
-]
-github = [
-    "GHSA-fjp7-rxx4-gq9h",
-]
-bitnami = [
-    "BIT-sqlite-2020-13434",
-]
-almalinux = [
-    "ALSA-2021:1968",
-]
-debian = [
-    "DLA-2221-1",
-    "DLA-2340-1",
-]
-redhat = [
-    "RHSA-2021:1581",
-    "RHSA-2021:1968",
-]
-rockylinux = [
-    "RLSA-2021:1581",
-]
-suse = [
-    "SUSE-SU-2021:2320-1",
-    "SUSE-SU-2021:3215-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2020-13434"]
+  gcve = ["GCVE-0-2020-13434"]
+  github = ["GHSA-fjp7-rxx4-gq9h"]
+  bitnami = ["BIT-sqlite-2020-13434"]
+  almalinux = ["ALSA-2021:1968"]
+  debian = ["DLA-2221-1", "DLA-2340-1"]
+  redhat = ["RHSA-2021:1581", "RHSA-2021:1968"]
+  rockylinux = ["RLSA-2021:1581"]
+  suse = ["SUSE-SU-2021:2320-1", "SUSE-SU-2021:3215-1"]
+  opensuse = [
     "openSUSE-SU-2021:1058-1",
     "openSUSE-SU-2021:2320-1",
     "openSUSE-SU-2024:11400-1",
-]
-ubuntu = [
-    "USN-4394-1",
-]
-oraclelinux = [
-    "ELSA-2021-1581",
-]
+  ]
+  ubuntu = ["USN-4394-1"]
+  oraclelinux = ["ELSA-2021-1581"]

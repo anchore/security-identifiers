@@ -2,22 +2,10 @@
 id = "ANCHORE-2015-2415"
 allocated = 2025-10-15T14:14:59.407361Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-2709",
-]
-gcve = [
-    "GCVE-0-2015-2709",
-]
-github = [
-    "GHSA-72qq-7gjj-2qww",
-]
-suse = [
-    "SUSE-SU-2015:0960-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:10071-1",
-]
-ubuntu = [
-    "USN-2602-1",
-]
+  [security.aliases]
+  cve = ["CVE-2015-2709"]
+  gcve = ["GCVE-0-2015-2709"]
+  github = ["GHSA-72qq-7gjj-2qww"]
+  suse = ["SUSE-SU-2015:0960-1"]
+  opensuse = ["openSUSE-SU-2024:10071-1"]
+  ubuntu = ["USN-2602-1"]

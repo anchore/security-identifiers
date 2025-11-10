@@ -2,48 +2,22 @@
 id = "ANCHORE-2021-15888"
 allocated = 2025-10-15T14:16:08.656870Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-20317",
-]
-gcve = [
-    "GCVE-0-2021-20317",
-]
-github = [
-    "GHSA-hf76-5hm2-g68j",
-]
-almalinux = [
-    "ALSA-2021:4647",
-]
-debian = [
-    "DLA-2843-1",
-    "DLA-2941-1",
-    "DSA-5096-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2021-20317"]
+  gcve = ["GCVE-0-2021-20317"]
+  github = ["GHSA-hf76-5hm2-g68j"]
+  almalinux = ["ALSA-2021:4647"]
+  debian = ["DLA-2843-1", "DLA-2941-1", "DSA-5096-1"]
+  redhat = [
     "RHSA-2021:4646",
     "RHSA-2021:4647",
     "RHSA-2021:4648",
     "RHSA-2021:4650",
     "RHSA-2021:4871",
     "RHSA-2021:4875",
-]
-rockylinux = [
-    "RLSA-2021:4646",
-    "RLSA-2021:4647",
-]
-ubuntu = [
-    "USN-5209-1",
-    "USN-5343-1",
-]
-openeuler = [
-    "OESA-2021-1379",
-]
-amazonlinux = [
-    "ALAS2-2021-1719",
-]
-oraclelinux = [
-    "ELSA-2021-4647",
-    "ELSA-2022-9313",
-    "ELSA-2022-9314",
-]
+  ]
+  rockylinux = ["RLSA-2021:4646", "RLSA-2021:4647"]
+  ubuntu = ["USN-5209-1", "USN-5343-1"]
+  openeuler = ["OESA-2021-1379"]
+  amazonlinux = ["ALAS2-2021-1719"]
+  oraclelinux = ["ELSA-2021-4647", "ELSA-2022-9313", "ELSA-2022-9314"]

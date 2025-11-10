@@ -2,22 +2,9 @@
 id = "ANCHORE-2004-1301"
 allocated = 2025-10-15T14:14:14.029767Z
 
-[security.aliases]
-cve = [
-    "CVE-2004-0685",
-]
-gcve = [
-    "GCVE-0-2004-0685",
-]
-github = [
-    "GHSA-vrc6-2fg4-xjqm",
-]
-debian = [
-    "DSA-1067-1",
-    "DSA-1069-1",
-    "DSA-1070-1",
-    "DSA-1082-1",
-]
-redhat = [
-    "RHSA-2004:549",
-]
+  [security.aliases]
+  cve = ["CVE-2004-0685"]
+  gcve = ["GCVE-0-2004-0685"]
+  github = ["GHSA-vrc6-2fg4-xjqm"]
+  debian = ["DSA-1067-1", "DSA-1069-1", "DSA-1070-1", "DSA-1082-1"]
+  redhat = ["RHSA-2004:549"]

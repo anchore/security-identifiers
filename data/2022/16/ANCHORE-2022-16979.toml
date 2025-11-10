@@ -2,29 +2,15 @@
 id = "ANCHORE-2022-16979"
 allocated = 2025-10-15T14:16:24.249845Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-15167",
-]
-gcve = [
-    "GCVE-0-2019-15167",
-]
-github = [
-    "GHSA-x3gm-3hr2-8g66",
-]
-suse = [
-    "SUSE-SU-2019:2674-1",
-    "SUSE-SU-2020:3360-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2019-15167"]
+  gcve = ["GCVE-0-2019-15167"]
+  github = ["GHSA-x3gm-3hr2-8g66"]
+  suse = ["SUSE-SU-2019:2674-1", "SUSE-SU-2020:3360-1"]
+  opensuse = [
     "openSUSE-SU-2019:2344-1",
     "openSUSE-SU-2019:2348-1",
     "openSUSE-SU-2024:11425-1",
-]
-ubuntu = [
-    "USN-4252-1",
-    "USN-4252-2",
-]
-amazonlinux = [
-    "ALAS2-2023-2119",
-]
+  ]
+  ubuntu = ["USN-4252-1", "USN-4252-2"]
+  amazonlinux = ["ALAS2-2023-2119"]

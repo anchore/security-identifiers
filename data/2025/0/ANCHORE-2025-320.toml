@@ -2,26 +2,14 @@
 id = "ANCHORE-2025-320"
 allocated = 2025-10-15T14:17:19.566658Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-36613",
-]
-gcve = [
-    "GCVE-0-2024-36613",
-]
-github = [
-    "GHSA-xqm8-c3rv-5vpf",
-]
-suse = [
-    "SUSE-SU-2025:0862-1",
-    "SUSE-SU-2025:1128-1",
-    "SUSE-SU-2025:1450-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2024-36613"]
+  gcve = ["GCVE-0-2024-36613"]
+  github = ["GHSA-xqm8-c3rv-5vpf"]
+  suse = ["SUSE-SU-2025:0862-1", "SUSE-SU-2025:1128-1", "SUSE-SU-2025:1450-1"]
+  opensuse = [
     "openSUSE-SU-2025:14833-1",
     "openSUSE-SU-2025:14834-1",
     "openSUSE-SU-2025:15012-1",
-]
-ubuntu = [
-    "USN-7823-1",
-]
+  ]
+  ubuntu = ["USN-7823-1"]

@@ -2,20 +2,12 @@
 id = "ANCHORE-2023-2637"
 allocated = 2025-10-15T14:16:32.267316Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-25012",
-]
-gcve = [
-    "GCVE-0-2023-25012",
-]
-github = [
-    "GHSA-q2h2-9xqm-xcc7",
-]
-debian = [
-    "DLA-3404-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2023-25012"]
+  gcve = ["GCVE-0-2023-25012"]
+  github = ["GHSA-q2h2-9xqm-xcc7"]
+  debian = ["DLA-3404-1"]
+  suse = [
     "SUSE-SU-2023:0749-1",
     "SUSE-SU-2023:0749-2",
     "SUSE-SU-2023:0779-1",
@@ -27,8 +19,8 @@ suse = [
     "SUSE-SU-2023:2646-1",
     "SUSE-SU-2023:2809-1",
     "SUSE-SU-2023:2871-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-6033-1",
     "USN-6171-1",
     "USN-6172-1",
@@ -37,4 +29,4 @@ ubuntu = [
     "USN-6222-1",
     "USN-6223-1",
     "USN-6256-1",
-]
+  ]

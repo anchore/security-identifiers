@@ -2,24 +2,15 @@
 id = "ANCHORE-2024-19982"
 allocated = 2025-10-15T14:17:05.060139Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-47614",
-]
-gcve = [
-    "GCVE-0-2021-47614",
-]
-github = [
-    "GHSA-wjfp-mxjr-ch9p",
-]
-redhat = [
-    "RHSA-2022:1975",
-    "RHSA-2022:1988",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2021-47614"]
+  gcve = ["GCVE-0-2021-47614"]
+  github = ["GHSA-wjfp-mxjr-ch9p"]
+  redhat = ["RHSA-2022:1975", "RHSA-2022:1988"]
+  suse = [
     "SUSE-SU-2024:2372-1",
     "SUSE-SU-2024:2394-1",
     "SUSE-SU-2024:2902-1",
     "SUSE-SU-2024:2929-1",
     "SUSE-SU-2024:2939-1",
-]
+  ]

@@ -2,24 +2,10 @@
 id = "ANCHORE-2019-1544"
 allocated = 2025-10-15T14:15:32.606056Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-10910",
-]
-gcve = [
-    "GCVE-0-2018-10910",
-]
-github = [
-    "GHSA-62rf-fp64-gxpc",
-]
-redhat = [
-    "RHSA-2020:1101",
-    "RHSA-2020:1912",
-]
-ubuntu = [
-    "USN-3856-1",
-]
-oraclelinux = [
-    "ELSA-2020-1101",
-    "ELSA-2020-1912",
-]
+  [security.aliases]
+  cve = ["CVE-2018-10910"]
+  gcve = ["GCVE-0-2018-10910"]
+  github = ["GHSA-62rf-fp64-gxpc"]
+  redhat = ["RHSA-2020:1101", "RHSA-2020:1912"]
+  ubuntu = ["USN-3856-1"]
+  oraclelinux = ["ELSA-2020-1101", "ELSA-2020-1912"]

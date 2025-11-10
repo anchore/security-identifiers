@@ -2,22 +2,10 @@
 id = "ANCHORE-2020-10503"
 allocated = 2025-10-15T14:15:51.860015Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-8163",
-]
-gcve = [
-    "GCVE-0-2020-8163",
-]
-github = [
-    "GHSA-cr3x-7m39-c6jq",
-]
-bitnami = [
-    "BIT-rails-2020-8163",
-]
-debian = [
-    "DLA-2282-1",
-]
-suse = [
-    "SUSE-SU-2020:2140-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-8163"]
+  gcve = ["GCVE-0-2020-8163"]
+  github = ["GHSA-cr3x-7m39-c6jq"]
+  bitnami = ["BIT-rails-2020-8163"]
+  debian = ["DLA-2282-1"]
+  suse = ["SUSE-SU-2020:2140-1"]

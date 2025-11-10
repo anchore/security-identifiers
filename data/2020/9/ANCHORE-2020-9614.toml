@@ -2,42 +2,27 @@
 id = "ANCHORE-2020-9614"
 allocated = 2025-10-15T14:15:51.264241Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-14422",
-]
-gcve = [
-    "GCVE-0-2020-14422",
-]
-github = [
-    "GHSA-9gg6-cm3f-wf38",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2020-14422"]
+  gcve = ["GCVE-0-2020-14422"]
+  github = ["GHSA-9gg6-cm3f-wf38"]
+  bitnami = [
     "BIT-libpython-2020-14422",
     "BIT-python-2020-14422",
     "BIT-python-min-2020-14422",
-]
-psf = [
-    "PSF-2020-3",
-]
-almalinux = [
-    "ALSA-2020:4641",
-]
-debian = [
-    "DLA-2280-1",
-    "DLA-3424-1",
-]
-redhat = [
+  ]
+  psf = ["PSF-2020-3"]
+  almalinux = ["ALSA-2020:4641"]
+  debian = ["DLA-2280-1", "DLA-3424-1"]
+  redhat = [
     "RHSA-2020:4285",
     "RHSA-2020:4299",
     "RHSA-2020:4433",
     "RHSA-2020:4641",
     "RHSA-2020:5010",
-]
-rockylinux = [
-    "RLSA-2020:4641",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2020:4641"]
+  suse = [
     "SUSE-SU-2020:1822-1",
     "SUSE-SU-2020:1920-1",
     "SUSE-SU-2020:1939-1",
@@ -47,8 +32,8 @@ suse = [
     "SUSE-SU-2020:2699-1",
     "SUSE-SU-2020:3563-1",
     "SUSE-SU-2020:3930-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2020:0931-1",
     "openSUSE-SU-2020:0940-1",
     "openSUSE-SU-2020:0989-1",
@@ -56,23 +41,13 @@ opensuse = [
     "openSUSE-SU-2020:2332-1",
     "openSUSE-SU-2020:2333-1",
     "openSUSE-SU-2024:11284-1",
-]
-ubuntu = [
-    "USN-4428-1",
-    "USN-6891-1",
-]
-openeuler = [
-    "OESA-2022-1944",
-    "OESA-2022-1945",
-]
-amazonlinux = [
+  ]
+  ubuntu = ["USN-4428-1", "USN-6891-1"]
+  openeuler = ["OESA-2022-1944", "OESA-2022-1945"]
+  amazonlinux = [
     "ALAS2-2020-1484",
     "ALAS2-2023-2151",
     "ALAS2-2023-2174",
     "ALAS2PYTHON3.8-2023-008",
-]
-oraclelinux = [
-    "ELSA-2020-4433",
-    "ELSA-2020-4641",
-    "ELSA-2020-5010",
-]
+  ]
+  oraclelinux = ["ELSA-2020-4433", "ELSA-2020-4641", "ELSA-2020-5010"]

@@ -2,23 +2,10 @@
 id = "ANCHORE-2025-16998"
 allocated = 2025-10-15T14:17:31.183457Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-4166",
-]
-gcve = [
-    "GCVE-0-2025-4166",
-]
-github = [
-    "GHSA-gcqf-f89c-68hv",
-]
-bitnami = [
-    "BIT-vault-2025-4166",
-]
-go = [
-    "GO-2025-3663",
-]
-chainguard = [
-    "CGA-225r-h6wp-m6gm",
-    "CGA-fq3q-q8xh-5xx3",
-]
+  [security.aliases]
+  cve = ["CVE-2025-4166"]
+  gcve = ["GCVE-0-2025-4166"]
+  github = ["GHSA-gcqf-f89c-68hv"]
+  bitnami = ["BIT-vault-2025-4166"]
+  go = ["GO-2025-3663"]
+  chainguard = ["CGA-225r-h6wp-m6gm", "CGA-fq3q-q8xh-5xx3"]

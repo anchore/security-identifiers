@@ -2,43 +2,20 @@
 id = "ANCHORE-2025-2282"
 allocated = 2025-10-15T14:17:20.928104Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-52005",
-]
-gcve = [
-    "GCVE-0-2024-52005",
-]
-bitnami = [
-    "BIT-git-2024-52005",
-]
-chainguard = [
-    "CGA-244v-ph9h-cjhw",
-]
-almalinux = [
-    "ALSA-2025:7409",
-    "ALSA-2025:7482",
-    "ALSA-2025:8414",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2024-52005"]
+  gcve = ["GCVE-0-2024-52005"]
+  bitnami = ["BIT-git-2024-52005"]
+  chainguard = ["CGA-244v-ph9h-cjhw"]
+  almalinux = ["ALSA-2025:7409", "ALSA-2025:7482", "ALSA-2025:8414"]
+  redhat = [
     "RHSA-2025:7409",
     "RHSA-2025:7482",
     "RHSA-2025:7640",
     "RHSA-2025:7641",
     "RHSA-2025:8414",
-]
-minimos = [
-    "MINI-8f3x-wm75-6446",
-]
-openeuler = [
-    "OESA-2025-1115",
-]
-amazonlinux = [
-    "ALAS2-2025-2884",
-    "ALAS2023-2025-1014",
-]
-oraclelinux = [
-    "ELSA-2025-7409",
-    "ELSA-2025-7482",
-    "ELSA-2025-8414",
-]
+  ]
+  minimos = ["MINI-8f3x-wm75-6446"]
+  openeuler = ["OESA-2025-1115"]
+  amazonlinux = ["ALAS2-2025-2884", "ALAS2023-2025-1014"]
+  oraclelinux = ["ELSA-2025-7409", "ELSA-2025-7482", "ELSA-2025-8414"]

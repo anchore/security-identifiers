@@ -2,17 +2,11 @@
 id = "ANCHORE-2025-5178"
 allocated = 2025-10-15T14:17:22.981409Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-25186",
-]
-gcve = [
-    "GCVE-0-2025-25186",
-]
-github = [
-    "GHSA-7fc5-f82f-cx69",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-25186"]
+  gcve = ["GCVE-0-2025-25186"]
+  github = ["GHSA-7fc5-f82f-cx69"]
+  chainguard = [
     "CGA-2j47-7j2p-5mv6",
     "CGA-7p9g-jv74-wgj8",
     "CGA-94hj-4vch-43c5",
@@ -22,34 +16,12 @@ chainguard = [
     "CGA-jgcm-fvrr-wg9v",
     "CGA-q8v2-fw56-q4c8",
     "CGA-r8p5-m42m-4gq5",
-]
-almalinux = [
-    "ALSA-2025:10217",
-    "ALSA-2025:8131",
-]
-redhat = [
-    "RHSA-2025:10217",
-    "RHSA-2025:4493",
-    "RHSA-2025:8131",
-]
-ubuntu = [
-    "USN-7418-1",
-]
-minimos = [
-    "MINI-44mx-vwr4-8c9p",
-]
-echo = [
-    "ECHO-f096-55d9-2fef",
-]
-openeuler = [
-    "OESA-2025-1195",
-    "OESA-2025-1196",
-]
-amazonlinux = [
-    "ALAS2023-2025-929",
-]
-oraclelinux = [
-    "ELSA-2025-10217",
-    "ELSA-2025-4493",
-    "ELSA-2025-8131",
-]
+  ]
+  almalinux = ["ALSA-2025:10217", "ALSA-2025:8131"]
+  redhat = ["RHSA-2025:10217", "RHSA-2025:4493", "RHSA-2025:8131"]
+  ubuntu = ["USN-7418-1"]
+  minimos = ["MINI-44mx-vwr4-8c9p"]
+  echo = ["ECHO-f096-55d9-2fef"]
+  openeuler = ["OESA-2025-1195", "OESA-2025-1196"]
+  amazonlinux = ["ALAS2023-2025-929"]
+  oraclelinux = ["ELSA-2025-10217", "ELSA-2025-4493", "ELSA-2025-8131"]

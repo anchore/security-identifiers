@@ -2,20 +2,12 @@
 id = "ANCHORE-2024-21329"
 allocated = 2025-10-15T14:17:05.982828Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-39689",
-]
-gcve = [
-    "GCVE-0-2024-39689",
-]
-github = [
-    "GHSA-248v-346w-9cwc",
-]
-pypa = [
-    "PYSEC-2024-230",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-39689"]
+  gcve = ["GCVE-0-2024-39689"]
+  github = ["GHSA-248v-346w-9cwc"]
+  pypa = ["PYSEC-2024-230"]
+  chainguard = [
     "CGA-2ph7-wp75-g3rf",
     "CGA-326j-45xp-qqrg",
     "CGA-338r-mm9m-8f2g",
@@ -46,18 +38,8 @@ chainguard = [
     "CGA-r847-h8vf-f2vq",
     "CGA-rvmh-6c2w-5rjp",
     "CGA-wgrc-28p5-r64q",
-]
-opensuse = [
-    "openSUSE-SU-2024:14118-1",
-    "openSUSE-SU-2025:14997-1",
-]
-minimos = [
-    "MINI-mxjf-f95p-v8v9",
-]
-echo = [
-    "ECHO-2c05-8db5-680f",
-]
-amazonlinux = [
-    "ALAS2-2024-2607",
-    "ALAS2023-2024-682",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:14118-1", "openSUSE-SU-2025:14997-1"]
+  minimos = ["MINI-mxjf-f95p-v8v9"]
+  echo = ["ECHO-2c05-8db5-680f"]
+  amazonlinux = ["ALAS2-2024-2607", "ALAS2023-2024-682"]

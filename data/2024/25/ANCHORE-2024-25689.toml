@@ -2,21 +2,12 @@
 id = "ANCHORE-2024-25689"
 allocated = 2025-10-15T14:17:08.954117Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-42297",
-]
-gcve = [
-    "GCVE-0-2024-42297",
-]
-github = [
-    "GHSA-q637-fwgw-hj6c",
-]
-debian = [
-    "DLA-3912-1",
-    "DLA-4008-1",
-]
-ubuntu = [
+  [security.aliases]
+  cve = ["CVE-2024-42297"]
+  gcve = ["GCVE-0-2024-42297"]
+  github = ["GHSA-q637-fwgw-hj6c"]
+  debian = ["DLA-3912-1", "DLA-4008-1"]
+  ubuntu = [
     "USN-7088-1",
     "USN-7088-2",
     "USN-7088-3",
@@ -33,16 +24,16 @@ ubuntu = [
     "USN-7156-1",
     "USN-7194-1",
     "USN-7196-1",
-]
-openeuler = [
+  ]
+  openeuler = [
     "OESA-2024-2077",
     "OESA-2024-2078",
     "OESA-2024-2079",
     "OESA-2024-2080",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2024-12780",
     "ELSA-2024-12782",
     "ELSA-2024-12815",
     "ELSA-2024-12868",
-]
+  ]

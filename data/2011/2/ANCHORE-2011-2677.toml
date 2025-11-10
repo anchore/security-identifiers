@@ -2,35 +2,27 @@
 id = "ANCHORE-2011-2677"
 allocated = 2025-10-15T14:14:41.292815Z
 
-[security.aliases]
-cve = [
-    "CVE-2011-3389",
-]
-gcve = [
-    "GCVE-0-2011-3389",
-]
-github = [
-    "GHSA-rhch-pcq2-7gp3",
-]
-psf = [
-    "PSF-2011-3",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2011-3389"]
+  gcve = ["GCVE-0-2011-3389"]
+  github = ["GHSA-rhch-pcq2-7gp3"]
+  psf = ["PSF-2011-3"]
+  chainguard = [
     "CGA-2rw7-qm87-36rf",
     "CGA-frwj-5w28-hr8p",
     "CGA-m37g-g9q3-jjh9",
     "CGA-m3vx-v2q7-5ghm",
     "CGA-x98j-rq2v-cp6p",
-]
-debian = [
+  ]
+  debian = [
     "DLA-154-1",
     "DLA-400-1",
     "DSA-2356-1",
     "DSA-2358-1",
     "DSA-2368-1",
     "DSA-2398-1",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2011:1380",
     "RHSA-2011:1384",
     "RHSA-2012:0006",
@@ -38,12 +30,9 @@ redhat = [
     "RHSA-2012:0343",
     "RHSA-2012:0508",
     "RHSA-2013:1455",
-]
-suse = [
-    "SUSE-SU-2020:0114-1",
-    "SUSE-SU-2020:0234-1",
-]
-opensuse = [
+  ]
+  suse = ["SUSE-SU-2020:0114-1", "SUSE-SU-2020:0234-1"]
+  opensuse = [
     "openSUSE-SU-2020:0086-1",
     "openSUSE-SU-2024:10194-1",
     "openSUSE-SU-2024:10451-1",
@@ -57,10 +46,6 @@ opensuse = [
     "openSUSE-SU-2024:12910-1",
     "openSUSE-SU-2024:14109-1",
     "openSUSE-SU-2024:14434-1",
-]
-echo = [
-    "ECHO-3dd2-4e3e-f5c6",
-]
-oraclelinux = [
-    "ELSA-2011-1380",
-]
+  ]
+  echo = ["ECHO-3dd2-4e3e-f5c6"]
+  oraclelinux = ["ELSA-2011-1380"]

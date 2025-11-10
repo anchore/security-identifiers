@@ -2,22 +2,12 @@
 id = "ANCHORE-2018-1878"
 allocated = 2025-10-15T14:15:20.273797Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-15095",
-]
-gcve = [
-    "GCVE-0-2017-15095",
-]
-github = [
-    "GHSA-h592-38cm-4ggp",
-]
-debian = [
-    "DLA-2091-1",
-    "DLA-2342-1",
-    "DSA-4037-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2017-15095"]
+  gcve = ["GCVE-0-2017-15095"]
+  github = ["GHSA-h592-38cm-4ggp"]
+  debian = ["DLA-2091-1", "DLA-2342-1", "DSA-4037-1"]
+  redhat = [
     "RHSA-2017:3189",
     "RHSA-2017:3190",
     "RHSA-2018:0342",
@@ -29,7 +19,5 @@ redhat = [
     "RHSA-2018:1450",
     "RHSA-2018:1451",
     "RHSA-2018:2927",
-]
-ubuntu = [
-    "USN-4741-1",
-]
+  ]
+  ubuntu = ["USN-4741-1"]

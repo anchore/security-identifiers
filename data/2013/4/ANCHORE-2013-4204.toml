@@ -2,26 +2,20 @@
 id = "ANCHORE-2013-4204"
 allocated = 2025-10-15T14:14:51.516416Z
 
-[security.aliases]
-cve = [
-    "CVE-2013-5824",
-]
-gcve = [
-    "GCVE-0-2013-5824",
-]
-github = [
-    "GHSA-frxg-363v-8mx2",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2013-5824"]
+  gcve = ["GCVE-0-2013-5824"]
+  github = ["GHSA-frxg-363v-8mx2"]
+  chainguard = [
     "CGA-6f5c-cv8g-5p47",
     "CGA-cjgf-xf64-fv9m",
     "CGA-m7w9-4qh8-hpr4",
     "CGA-x2g3-52pp-jgff",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2013:1440",
     "RHSA-2013:1507",
     "RHSA-2013:1508",
     "RHSA-2013:1793",
     "RHSA-2014:0414",
-]
+  ]

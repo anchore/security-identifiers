@@ -2,25 +2,11 @@
 id = "ANCHORE-2025-15677"
 allocated = 2025-10-15T14:17:30.261653Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-43973",
-]
-gcve = [
-    "GCVE-0-2025-43973",
-]
-github = [
-    "GHSA-c5jg-wr5v-2wp2",
-]
-go = [
-    "GO-2025-3633",
-]
-chainguard = [
-    "CGA-4r3v-v7g6-qxv6",
-]
-opensuse = [
-    "openSUSE-SU-2025:15017-1",
-]
-ubuntu = [
-    "USN-7661-1",
-]
+  [security.aliases]
+  cve = ["CVE-2025-43973"]
+  gcve = ["GCVE-0-2025-43973"]
+  github = ["GHSA-c5jg-wr5v-2wp2"]
+  go = ["GO-2025-3633"]
+  chainguard = ["CGA-4r3v-v7g6-qxv6"]
+  opensuse = ["openSUSE-SU-2025:15017-1"]
+  ubuntu = ["USN-7661-1"]

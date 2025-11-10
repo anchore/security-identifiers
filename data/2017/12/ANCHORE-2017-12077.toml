@@ -2,28 +2,18 @@
 id = "ANCHORE-2017-12077"
 allocated = 2025-10-15T14:15:14.838361Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-10090",
-]
-gcve = [
-    "GCVE-0-2017-10090",
-]
-github = [
-    "GHSA-cxmw-m357-3ccf",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2017-10090"]
+  gcve = ["GCVE-0-2017-10090"]
+  github = ["GHSA-cxmw-m357-3ccf"]
+  chainguard = [
     "CGA-3qfr-q7pv-xph6",
     "CGA-45rj-79qg-3xfv",
     "CGA-7pcv-mp97-rp6m",
     "CGA-fm9v-cj23-phxg",
-]
-debian = [
-    "DLA-1073-1",
-    "DSA-3919-1",
-    "DSA-3954-1",
-]
-redhat = [
+  ]
+  debian = ["DLA-1073-1", "DSA-3919-1", "DSA-3954-1"]
+  redhat = [
     "RHSA-2017:1789",
     "RHSA-2017:1790",
     "RHSA-2017:1791",
@@ -31,22 +21,14 @@ redhat = [
     "RHSA-2017:2469",
     "RHSA-2017:2481",
     "RHSA-2017:3453",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2017:2175-1",
     "SUSE-SU-2017:2263-1",
     "SUSE-SU-2017:2280-1",
     "SUSE-SU-2017:2281-1",
     "SUSE-SU-2018:0005-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:10876-1",
-]
-ubuntu = [
-    "USN-3366-1",
-    "USN-3396-1",
-]
-oraclelinux = [
-    "ELSA-2017-1789",
-    "ELSA-2017-2424",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:10876-1"]
+  ubuntu = ["USN-3366-1", "USN-3396-1"]
+  oraclelinux = ["ELSA-2017-1789", "ELSA-2017-2424"]

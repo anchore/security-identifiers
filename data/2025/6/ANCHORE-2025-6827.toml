@@ -2,18 +2,12 @@
 id = "ANCHORE-2025-6827"
 allocated = 2025-10-15T14:17:24.124167Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-26803",
-]
-gcve = [
-    "GCVE-0-2025-26803",
-]
-github = [
-    "GHSA-2cj2-qqxj-5m3r",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2025-26803"]
+  gcve = ["GCVE-0-2025-26803"]
+  github = ["GHSA-2cj2-qqxj-5m3r"]
+  bitnami = [
     "BIT-passenger-2025-26803",
     "BIT-passenger-apache-module-2025-26803",
     "BIT-passenger-nginx-module-2025-26803",
-]
+  ]

@@ -2,20 +2,12 @@
 id = "ANCHORE-2025-32194"
 allocated = 2025-10-15T14:17:41.984285Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-58160",
-]
-gcve = [
-    "GCVE-0-2025-58160",
-]
-github = [
-    "GHSA-xwfj-jgwm-7wp5",
-]
-rustsec = [
-    "RUSTSEC-2025-0055",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-58160"]
+  gcve = ["GCVE-0-2025-58160"]
+  github = ["GHSA-xwfj-jgwm-7wp5"]
+  rustsec = ["RUSTSEC-2025-0055"]
+  chainguard = [
     "CGA-263j-6264-2xg2",
     "CGA-2r45-936f-2qxj",
     "CGA-3fgr-cfj4-4qxw",
@@ -40,14 +32,14 @@ chainguard = [
     "CGA-v92c-q2fh-cp48",
     "CGA-wgxx-xf2w-8438",
     "CGA-xhm3-449c-m267",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-24jc-rvm8-x3cq",
     "MINI-8h9w-c7cg-j8g3",
     "MINI-h5q5-5gjx-9x4r",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2023-2025-1180",
     "ALAS2023-2025-1192",
     "ALAS2023-2025-1193",
-]
+  ]

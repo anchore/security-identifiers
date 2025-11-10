@@ -2,28 +2,18 @@
 id = "ANCHORE-2025-12907"
 allocated = 2025-10-15T14:17:28.275136Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-21991",
-]
-gcve = [
-    "GCVE-0-2025-21991",
-]
-github = [
-    "GHSA-vp9x-33x6-jvvm",
-]
-almalinux = [
+  [security.aliases]
+  cve = ["CVE-2025-21991"]
+  gcve = ["GCVE-0-2025-21991"]
+  github = ["GHSA-vp9x-33x6-jvvm"]
+  almalinux = [
     "ALSA-2025:10371",
     "ALSA-2025:10837",
     "ALSA-2025:11298",
     "ALSA-2025:11299",
-]
-debian = [
-    "DLA-4178-1",
-    "DLA-4193-1",
-    "DSA-5900-1",
-]
-redhat = [
+  ]
+  debian = ["DLA-4178-1", "DLA-4193-1", "DSA-5900-1"]
+  redhat = [
     "RHSA-2025:10371",
     "RHSA-2025:10837",
     "RHSA-2025:11298",
@@ -33,15 +23,15 @@ redhat = [
     "RHSA-2025:13781",
     "RHSA-2025:14054",
     "RHSA-2025:14094",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2025:01707-1",
     "SUSE-SU-2025:01919-1",
     "SUSE-SU-2025:01951-1",
     "SUSE-SU-2025:01964-1",
     "SUSE-SU-2025:01967-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-7585-1",
     "USN-7585-2",
     "USN-7585-3",
@@ -81,11 +71,9 @@ ubuntu = [
     "USN-7801-3",
     "USN-7802-1",
     "USN-7809-1",
-]
-minimos = [
-    "MINI-wmr8-64cq-q36v",
-]
-amazonlinux = [
+  ]
+  minimos = ["MINI-wmr8-64cq-q36v"]
+  amazonlinux = [
     "ALAS2-2025-2843",
     "ALAS2023-2025-940",
     "ALAS2KERNEL-5.10-2025-090",
@@ -93,17 +81,13 @@ amazonlinux = [
     "ALAS2LIVEPATCH-2025-239",
     "ALAS2LIVEPATCH-2025-240",
     "ALAS2LIVEPATCH-2025-241",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2025-10371",
     "ELSA-2025-10837",
     "ELSA-2025-11298",
     "ELSA-2025-20372",
     "ELSA-2025-20480",
     "ELSA-2025-20530",
-]
-openeuler = [
-    "OESA-2025-2633",
-    "OESA-2025-2634",
-    "OESA-2025-2635",
-]
+  ]
+  openeuler = ["OESA-2025-2633", "OESA-2025-2634", "OESA-2025-2635"]

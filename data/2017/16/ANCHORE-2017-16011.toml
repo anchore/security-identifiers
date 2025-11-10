@@ -2,21 +2,9 @@
 id = "ANCHORE-2017-16011"
 allocated = 2025-10-15T14:15:17.558436Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-16530",
-]
-gcve = [
-    "GCVE-0-2017-16530",
-]
-github = [
-    "GHSA-25gf-7mcm-h7vj",
-]
-ubuntu = [
-    "USN-3485-1",
-    "USN-3485-2",
-    "USN-3485-3",
-]
-oraclelinux = [
-    "ELSA-2018-4001",
-]
+  [security.aliases]
+  cve = ["CVE-2017-16530"]
+  gcve = ["GCVE-0-2017-16530"]
+  github = ["GHSA-25gf-7mcm-h7vj"]
+  ubuntu = ["USN-3485-1", "USN-3485-2", "USN-3485-3"]
+  oraclelinux = ["ELSA-2018-4001"]

@@ -2,26 +2,10 @@
 id = "ANCHORE-2015-5891"
 allocated = 2025-10-15T14:15:01.741376Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-5257",
-]
-gcve = [
-    "GCVE-0-2015-5257",
-]
-github = [
-    "GHSA-v3mg-r9jg-vfg4",
-]
-debian = [
-    "DLA-325-1",
-    "DSA-3372-1",
-]
-ubuntu = [
-    "USN-2794-1",
-    "USN-2797-1",
-    "USN-2798-1",
-]
-oraclelinux = [
-    "ELSA-2017-3566",
-    "ELSA-2017-3567",
-]
+  [security.aliases]
+  cve = ["CVE-2015-5257"]
+  gcve = ["GCVE-0-2015-5257"]
+  github = ["GHSA-v3mg-r9jg-vfg4"]
+  debian = ["DLA-325-1", "DSA-3372-1"]
+  ubuntu = ["USN-2794-1", "USN-2797-1", "USN-2798-1"]
+  oraclelinux = ["ELSA-2017-3566", "ELSA-2017-3567"]

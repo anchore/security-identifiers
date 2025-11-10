@@ -2,23 +2,13 @@
 id = "ANCHORE-2022-6281"
 allocated = 2025-10-15T14:16:17.000913Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-24758",
-]
-gcve = [
-    "GCVE-0-2022-24758",
-]
-github = [
-    "GHSA-m87f-39q9-6f55",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2022-24758"]
+  gcve = ["GCVE-0-2022-24758"]
+  github = ["GHSA-m87f-39q9-6f55"]
+  bitnami = [
     "BIT-jupyter-base-notebook-2022-24758",
     "BIT-jupyter-notebook-2022-24758",
-]
-pypa = [
-    "PYSEC-2022-180",
-]
-ubuntu = [
-    "USN-5585-1",
-]
+  ]
+  pypa = ["PYSEC-2022-180"]
+  ubuntu = ["USN-5585-1"]

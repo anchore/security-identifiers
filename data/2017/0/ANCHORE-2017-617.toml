@@ -2,17 +2,11 @@
 id = "ANCHORE-2017-617"
 allocated = 2025-10-15T14:15:07.042517Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-8861",
-]
-gcve = [
-    "GCVE-0-2015-8861",
-]
-github = [
-    "GHSA-9prh-257w-9277",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2015-8861"]
+  gcve = ["GCVE-0-2015-8861"]
+  github = ["GHSA-9prh-257w-9277"]
+  chainguard = [
     "CGA-2r66-p99c-p42c",
     "CGA-9rc5-hjq3-7wgx",
     "CGA-ghmm-pcr8-2g6w",
@@ -21,4 +15,4 @@ chainguard = [
     "CGA-p485-676m-hf3g",
     "CGA-rq68-8gqc-6mgp",
     "CGA-vmgx-57fp-cjf7",
-]
+  ]

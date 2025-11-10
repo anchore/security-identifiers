@@ -2,23 +2,10 @@
 id = "ANCHORE-2018-950"
 allocated = 2025-10-15T14:15:19.643027Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-5702",
-]
-gcve = [
-    "GCVE-0-2018-5702",
-]
-github = [
-    "GHSA-6q4w-fhcp-mhw6",
-]
-debian = [
-    "DLA-1246-1",
-    "DSA-4087-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:11474-1",
-]
-ubuntu = [
-    "USN-3533-1",
-]
+  [security.aliases]
+  cve = ["CVE-2018-5702"]
+  gcve = ["GCVE-0-2018-5702"]
+  github = ["GHSA-6q4w-fhcp-mhw6"]
+  debian = ["DLA-1246-1", "DSA-4087-1"]
+  opensuse = ["openSUSE-SU-2024:11474-1"]
+  ubuntu = ["USN-3533-1"]

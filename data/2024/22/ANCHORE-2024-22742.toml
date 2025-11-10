@@ -2,25 +2,11 @@
 id = "ANCHORE-2024-22742"
 allocated = 2025-10-15T14:17:06.964645Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-39877",
-]
-gcve = [
-    "GCVE-0-2024-39877",
-]
-github = [
-    "GHSA-g5hv-r743-v8pm",
-]
-bitnami = [
-    "BIT-airflow-2024-39877",
-]
-pypa = [
-    "PYSEC-2024-190",
-]
-go = [
-    "GO-2024-2986",
-]
-chainguard = [
-    "CGA-h5gv-qmmr-9r2w",
-]
+  [security.aliases]
+  cve = ["CVE-2024-39877"]
+  gcve = ["GCVE-0-2024-39877"]
+  github = ["GHSA-g5hv-r743-v8pm"]
+  bitnami = ["BIT-airflow-2024-39877"]
+  pypa = ["PYSEC-2024-190"]
+  go = ["GO-2024-2986"]
+  chainguard = ["CGA-h5gv-qmmr-9r2w"]

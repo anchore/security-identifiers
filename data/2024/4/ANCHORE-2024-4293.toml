@@ -2,32 +2,15 @@
 id = "ANCHORE-2024-4293"
 allocated = 2025-10-15T14:16:54.389695Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-1597",
-]
-gcve = [
-    "GCVE-0-2024-1597",
-]
-github = [
-    "GHSA-24rp-q3w6-vc56",
-]
-chainguard = [
-    "CGA-5cmg-w6mr-wx73",
-    "CGA-pp92-9wg6-xwgx",
-]
-bitnami = [
-    "BIT-postgresql-jdbc-driver-2024-1597",
-]
-almalinux = [
-    "ALSA-2024:1435",
-    "ALSA-2024:1436",
-]
-debian = [
-    "DLA-3812-1",
-    "DLA-3995-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2024-1597"]
+  gcve = ["GCVE-0-2024-1597"]
+  github = ["GHSA-24rp-q3w6-vc56"]
+  chainguard = ["CGA-5cmg-w6mr-wx73", "CGA-pp92-9wg6-xwgx"]
+  bitnami = ["BIT-postgresql-jdbc-driver-2024-1597"]
+  almalinux = ["ALSA-2024:1435", "ALSA-2024:1436"]
+  debian = ["DLA-3812-1", "DLA-3995-1"]
+  redhat = [
     "RHSA-2024:1435",
     "RHSA-2024:1436",
     "RHSA-2024:1649",
@@ -36,24 +19,13 @@ redhat = [
     "RHSA-2024:3313",
     "RHSA-2024:4375",
     "RHSA-2024:4402",
-]
-rockylinux = [
-    "RLSA-2024:1435",
-]
-suse = [
-    "SUSE-SU-2024:0769-1",
-    "SUSE-SU-2024:0771-1",
-    "SUSE-SU-2024:0773-1",
-]
-minimos = [
+  ]
+  rockylinux = ["RLSA-2024:1435"]
+  suse = ["SUSE-SU-2024:0769-1", "SUSE-SU-2024:0771-1", "SUSE-SU-2024:0773-1"]
+  minimos = [
     "MINI-29hr-h2v4-458g",
     "MINI-m295-6px4-49mx",
     "MINI-qg9w-fhw8-2m4r",
-]
-openeuler = [
-    "OESA-2024-1237",
-]
-oraclelinux = [
-    "ELSA-2024-1435",
-    "ELSA-2024-1436",
-]
+  ]
+  openeuler = ["OESA-2024-1237"]
+  oraclelinux = ["ELSA-2024-1435", "ELSA-2024-1436"]

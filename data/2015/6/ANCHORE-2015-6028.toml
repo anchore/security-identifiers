@@ -2,24 +2,10 @@
 id = "ANCHORE-2015-6028"
 allocated = 2025-10-15T14:15:01.833205Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-8390",
-]
-gcve = [
-    "GCVE-0-2015-8390",
-]
-github = [
-    "GHSA-6788-8v9x-34c3",
-]
-suse = [
-    "SUSE-SU-2016:2971-1",
-    "SUSE-SU-2016:3161-1",
-]
-ubuntu = [
-    "USN-2943-1",
-]
-amazonlinux = [
-    "ALAS2-2023-2082",
-    "ALAS2-2023-2107",
-]
+  [security.aliases]
+  cve = ["CVE-2015-8390"]
+  gcve = ["GCVE-0-2015-8390"]
+  github = ["GHSA-6788-8v9x-34c3"]
+  suse = ["SUSE-SU-2016:2971-1", "SUSE-SU-2016:3161-1"]
+  ubuntu = ["USN-2943-1"]
+  amazonlinux = ["ALAS2-2023-2082", "ALAS2-2023-2107"]

@@ -2,26 +2,17 @@
 id = "ANCHORE-2021-16240"
 allocated = 2025-10-15T14:16:08.892064Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-21704",
-]
-gcve = [
-    "GCVE-0-2021-21704",
-]
-github = [
-    "GHSA-q773-v75g-5rqg",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2021-21704"]
+  gcve = ["GCVE-0-2021-21704"]
+  github = ["GHSA-q773-v75g-5rqg"]
+  bitnami = [
     "BIT-libphp-2021-21704",
     "BIT-php-2021-21704",
     "BIT-php-min-2021-21704",
-]
-debian = [
-    "DLA-2708-1",
-    "DSA-4935-1",
-]
-suse = [
+  ]
+  debian = ["DLA-2708-1", "DSA-4935-1"]
+  suse = [
     "SUSE-SU-2021:2636-1",
     "SUSE-SU-2021:2637-1",
     "SUSE-SU-2021:2638-1",
@@ -29,19 +20,12 @@ suse = [
     "SUSE-SU-2022:4067-1",
     "SUSE-SU-2022:4068-1",
     "SUSE-SU-2022:4069-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:1130-1",
     "openSUSE-SU-2021:2637-1",
     "openSUSE-SU-2021:2795-1",
-]
-ubuntu = [
-    "USN-5006-1",
-    "USN-5006-2",
-]
-openeuler = [
-    "OESA-2021-1389",
-]
-amazonlinux = [
-    "ALAS2PHP8.0-2023-008",
-]
+  ]
+  ubuntu = ["USN-5006-1", "USN-5006-2"]
+  openeuler = ["OESA-2021-1389"]
+  amazonlinux = ["ALAS2PHP8.0-2023-008"]

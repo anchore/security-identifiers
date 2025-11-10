@@ -2,27 +2,11 @@
 id = "ANCHORE-2019-10617"
 allocated = 2025-10-15T14:15:38.866477Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-14433",
-]
-gcve = [
-    "GCVE-0-2019-14433",
-]
-github = [
-    "GHSA-pg64-r7rr-phv8",
-]
-pypa = [
-    "PYSEC-2019-191",
-]
-debian = [
-    "DLA-3109-1",
-]
-redhat = [
-    "RHSA-2019:2622",
-    "RHSA-2019:2631",
-    "RHSA-2019:2652",
-]
-ubuntu = [
-    "USN-4104-1",
-]
+  [security.aliases]
+  cve = ["CVE-2019-14433"]
+  gcve = ["GCVE-0-2019-14433"]
+  github = ["GHSA-pg64-r7rr-phv8"]
+  pypa = ["PYSEC-2019-191"]
+  debian = ["DLA-3109-1"]
+  redhat = ["RHSA-2019:2622", "RHSA-2019:2631", "RHSA-2019:2652"]
+  ubuntu = ["USN-4104-1"]

@@ -2,21 +2,9 @@
 id = "ANCHORE-2005-3527"
 allocated = 2025-10-15T14:14:16.645186Z
 
-[security.aliases]
-cve = [
-    "CVE-2005-1762",
-]
-gcve = [
-    "GCVE-0-2005-1762",
-]
-github = [
-    "GHSA-chwm-crqg-p9gm",
-]
-debian = [
-    "DSA-921-1",
-    "DSA-922-1",
-]
-redhat = [
-    "RHSA-2005:514",
-    "RHSA-2005:663",
-]
+  [security.aliases]
+  cve = ["CVE-2005-1762"]
+  gcve = ["GCVE-0-2005-1762"]
+  github = ["GHSA-chwm-crqg-p9gm"]
+  debian = ["DSA-921-1", "DSA-922-1"]
+  redhat = ["RHSA-2005:514", "RHSA-2005:663"]

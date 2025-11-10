@@ -2,31 +2,12 @@
 id = "ANCHORE-2020-17730"
 allocated = 2025-10-15T14:15:56.731391Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-27218",
-]
-gcve = [
-    "GCVE-0-2020-27218",
-]
-github = [
-    "GHSA-86wm-rrjm-8wh8",
-]
-bitnami = [
-    "BIT-kafka-2020-27218",
-    "BIT-spark-2020-27218",
-]
-debian = [
-    "DLA-3641-1",
-]
-redhat = [
-    "RHSA-2021:2431",
-    "RHSA-2021:2499",
-    "RHSA-2021:2517",
-]
-suse = [
-    "SUSE-SU-2020:3922-1",
-]
-opensuse = [
-    "openSUSE-SU-2021:0012-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-27218"]
+  gcve = ["GCVE-0-2020-27218"]
+  github = ["GHSA-86wm-rrjm-8wh8"]
+  bitnami = ["BIT-kafka-2020-27218", "BIT-spark-2020-27218"]
+  debian = ["DLA-3641-1"]
+  redhat = ["RHSA-2021:2431", "RHSA-2021:2499", "RHSA-2021:2517"]
+  suse = ["SUSE-SU-2020:3922-1"]
+  opensuse = ["openSUSE-SU-2021:0012-1"]

@@ -2,21 +2,12 @@
 id = "ANCHORE-2025-7638"
 allocated = 2025-10-15T14:17:24.676377Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-49536",
-]
-gcve = [
-    "GCVE-0-2022-49536",
-]
-github = [
-    "GHSA-wpwm-r528-7p8j",
-]
-redhat = [
-    "RHSA-2022:7683",
-    "RHSA-2022:8267",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2022-49536"]
+  gcve = ["GCVE-0-2022-49536"]
+  github = ["GHSA-wpwm-r528-7p8j"]
+  redhat = ["RHSA-2022:7683", "RHSA-2022:8267"]
+  suse = [
     "SUSE-SU-2025:01600-1",
     "SUSE-SU-2025:1027-1",
     "SUSE-SU-2025:1176-1",
@@ -24,4 +15,4 @@ suse = [
     "SUSE-SU-2025:1194-1",
     "SUSE-SU-2025:1241-1",
     "SUSE-SU-2025:1263-1",
-]
+  ]

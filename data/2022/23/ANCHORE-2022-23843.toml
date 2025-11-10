@@ -2,20 +2,9 @@
 id = "ANCHORE-2022-23843"
 allocated = 2025-10-15T14:16:28.896680Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-43504",
-]
-gcve = [
-    "GCVE-0-2022-43504",
-]
-github = [
-    "GHSA-h8vf-v4qw-mvq4",
-]
-bitnami = [
-    "BIT-wordpress-2022-43504",
-    "BIT-wordpress-multisite-2022-43504",
-]
-debian = [
-    "DSA-5279-1",
-]
+  [security.aliases]
+  cve = ["CVE-2022-43504"]
+  gcve = ["GCVE-0-2022-43504"]
+  github = ["GHSA-h8vf-v4qw-mvq4"]
+  bitnami = ["BIT-wordpress-2022-43504", "BIT-wordpress-multisite-2022-43504"]
+  debian = ["DSA-5279-1"]

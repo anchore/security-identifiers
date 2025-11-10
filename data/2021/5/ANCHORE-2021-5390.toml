@@ -2,38 +2,14 @@
 id = "ANCHORE-2021-5390"
 allocated = 2025-10-15T14:16:01.533867Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-28658",
-]
-gcve = [
-    "GCVE-0-2021-28658",
-]
-github = [
-    "GHSA-xgxc-v2qg-chmh",
-]
-bitnami = [
-    "BIT-django-2021-28658",
-]
-pypa = [
-    "PYSEC-2021-6",
-]
-debian = [
-    "DLA-2622-1",
-    "DLA-3744-1",
-]
-redhat = [
-    "RHSA-2021:4702",
-    "RHSA-2021:5070",
-]
-suse = [
-    "SUSE-SU-2021:1962-1",
-    "SUSE-SU-2021:1963-1",
-    "SUSE-SU-2021:2554-1",
-]
-ubuntu = [
-    "USN-4902-1",
-]
-oraclelinux = [
-    "ELSA-2022-9341",
-]
+  [security.aliases]
+  cve = ["CVE-2021-28658"]
+  gcve = ["GCVE-0-2021-28658"]
+  github = ["GHSA-xgxc-v2qg-chmh"]
+  bitnami = ["BIT-django-2021-28658"]
+  pypa = ["PYSEC-2021-6"]
+  debian = ["DLA-2622-1", "DLA-3744-1"]
+  redhat = ["RHSA-2021:4702", "RHSA-2021:5070"]
+  suse = ["SUSE-SU-2021:1962-1", "SUSE-SU-2021:1963-1", "SUSE-SU-2021:2554-1"]
+  ubuntu = ["USN-4902-1"]
+  oraclelinux = ["ELSA-2022-9341"]

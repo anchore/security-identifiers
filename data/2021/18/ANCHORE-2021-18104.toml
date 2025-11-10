@@ -2,25 +2,11 @@
 id = "ANCHORE-2021-18104"
 allocated = 2025-10-15T14:16:10.144923Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-40985",
-]
-gcve = [
-    "GCVE-0-2021-40985",
-]
-github = [
-    "GHSA-vfx2-gpvv-rwcm",
-]
-debian = [
-    "DLA-2928-1",
-]
-suse = [
-    "SUSE-SU-2021:14869-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:11611-1",
-]
-ubuntu = [
-    "USN-7189-1",
-]
+  [security.aliases]
+  cve = ["CVE-2021-40985"]
+  gcve = ["GCVE-0-2021-40985"]
+  github = ["GHSA-vfx2-gpvv-rwcm"]
+  debian = ["DLA-2928-1"]
+  suse = ["SUSE-SU-2021:14869-1"]
+  opensuse = ["openSUSE-SU-2024:11611-1"]
+  ubuntu = ["USN-7189-1"]

@@ -2,25 +2,13 @@
 id = "ANCHORE-2023-10791"
 allocated = 2025-10-15T14:16:37.751570Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-2156",
-]
-gcve = [
-    "GCVE-0-2023-2156",
-]
-github = [
-    "GHSA-7jf7-rx7v-xwqq",
-]
-debian = [
-    "DLA-3512-1",
-    "DSA-5448-1",
-    "DSA-5453-1",
-]
-redhat = [
-    "RHSA-2023:6583",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2023-2156"]
+  gcve = ["GCVE-0-2023-2156"]
+  github = ["GHSA-7jf7-rx7v-xwqq"]
+  debian = ["DLA-3512-1", "DSA-5448-1", "DSA-5453-1"]
+  redhat = ["RHSA-2023:6583"]
+  suse = [
     "SUSE-SU-2023:2500-1",
     "SUSE-SU-2023:2502-1",
     "SUSE-SU-2023:2611-1",
@@ -58,8 +46,8 @@ suse = [
     "SUSE-SU-2023:3675-1",
     "SUSE-SU-2023:3676-1",
     "SUSE-SU-2023:3677-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-6173-1",
     "USN-6412-1",
     "USN-6416-1",
@@ -68,8 +56,8 @@ ubuntu = [
     "USN-6445-1",
     "USN-6445-2",
     "USN-6466-1",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2023-2023-228",
     "ALAS2023LIVEPATCH-2023-016",
     "ALAS2023LIVEPATCH-2023-017",
@@ -82,4 +70,4 @@ amazonlinux = [
     "ALAS2LIVEPATCH-2023-139",
     "ALAS2LIVEPATCH-2023-140",
     "ALAS2LIVEPATCH-2023-141",
-]
+  ]

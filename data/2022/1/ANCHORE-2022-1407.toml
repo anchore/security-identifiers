@@ -2,29 +2,12 @@
 id = "ANCHORE-2022-1407"
 allocated = 2025-10-15T14:16:13.725850Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-21352",
-]
-gcve = [
-    "GCVE-0-2022-21352",
-]
-github = [
-    "GHSA-42rq-7wx4-5vff",
-]
-chainguard = [
-    "CGA-f94x-prhm-jm7g",
-]
-almalinux = [
-    "ALSA-2022:7119",
-]
-redhat = [
-    "RHSA-2022:6518",
-    "RHSA-2022:7119",
-]
-rockylinux = [
-    "RLSA-2022:7119",
-]
-oraclelinux = [
-    "ELSA-2022-7119",
-]
+  [security.aliases]
+  cve = ["CVE-2022-21352"]
+  gcve = ["GCVE-0-2022-21352"]
+  github = ["GHSA-42rq-7wx4-5vff"]
+  chainguard = ["CGA-f94x-prhm-jm7g"]
+  almalinux = ["ALSA-2022:7119"]
+  redhat = ["RHSA-2022:6518", "RHSA-2022:7119"]
+  rockylinux = ["RLSA-2022:7119"]
+  oraclelinux = ["ELSA-2022-7119"]

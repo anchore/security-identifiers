@@ -2,20 +2,12 @@
 id = "ANCHORE-2025-10183"
 allocated = 2025-10-15T14:17:26.410541Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-40635",
-]
-gcve = [
-    "GCVE-0-2024-40635",
-]
-github = [
-    "GHSA-265r-hfxg-fhmg",
-]
-go = [
-    "GO-2025-3528",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-40635"]
+  gcve = ["GCVE-0-2024-40635"]
+  github = ["GHSA-265r-hfxg-fhmg"]
+  go = ["GO-2025-3528"]
+  chainguard = [
     "CGA-23c9-7hw2-vpm5",
     "CGA-24fm-cv8j-93rf",
     "CGA-2788-97m3-q329",
@@ -112,34 +104,24 @@ chainguard = [
     "CGA-xj9c-9gg3-xxph",
     "CGA-xppf-7fjw-w625",
     "CGA-xwjw-q38f-xx8v",
-]
-debian = [
-    "DLA-4153-1",
-]
-suse = [
-    "SUSE-SU-2025:1345-1",
-    "SUSE-SU-2025:1346-1",
-]
-opensuse = [
-    "openSUSE-SU-2025:14910-1",
-    "openSUSE-SU-2025:15039-1",
-]
-ubuntu = [
-    "USN-7374-1",
-]
-minimos = [
+  ]
+  debian = ["DLA-4153-1"]
+  suse = ["SUSE-SU-2025:1345-1", "SUSE-SU-2025:1346-1"]
+  opensuse = ["openSUSE-SU-2025:14910-1", "openSUSE-SU-2025:15039-1"]
+  ubuntu = ["USN-7374-1"]
+  minimos = [
     "MINI-498j-gj78-chc2",
     "MINI-j53g-259c-3p6f",
     "MINI-q5w8-fgx4-gjcv",
-]
-openeuler = [
+  ]
+  openeuler = [
     "OESA-2025-1324",
     "OESA-2025-1325",
     "OESA-2025-1348",
     "OESA-2025-1349",
     "OESA-2025-1350",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2023-2025-1015",
     "ALAS2023-2025-920",
     "ALAS2023-2025-987",
@@ -150,4 +132,4 @@ amazonlinux = [
     "ALAS2ECS-2025-067",
     "ALAS2NITRO-ENCLAVES-2025-051",
     "ALAS2NITRO-ENCLAVES-2025-062",
-]
+  ]

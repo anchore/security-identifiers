@@ -2,24 +2,10 @@
 id = "ANCHORE-2021-12975"
 allocated = 2025-10-15T14:16:06.688084Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-37685",
-]
-gcve = [
-    "GCVE-0-2021-37685",
-]
-github = [
-    "GHSA-c545-c4f9-rf6v",
-]
-bitnami = [
-    "BIT-tensorflow-2021-37685",
-]
-pypa = [
-    "PYSEC-2021-307",
-    "PYSEC-2021-598",
-    "PYSEC-2021-796",
-]
-opensuse = [
-    "openSUSE-SU-2022:10014-1",
-]
+  [security.aliases]
+  cve = ["CVE-2021-37685"]
+  gcve = ["GCVE-0-2021-37685"]
+  github = ["GHSA-c545-c4f9-rf6v"]
+  bitnami = ["BIT-tensorflow-2021-37685"]
+  pypa = ["PYSEC-2021-307", "PYSEC-2021-598", "PYSEC-2021-796"]
+  opensuse = ["openSUSE-SU-2022:10014-1"]

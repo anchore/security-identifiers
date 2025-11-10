@@ -2,55 +2,22 @@
 id = "ANCHORE-2021-7068"
 allocated = 2025-10-15T14:16:02.675538Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-29921",
-]
-gcve = [
-    "GCVE-0-2021-29921",
-]
-github = [
-    "GHSA-cxqv-r2cc-r9c9",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2021-29921"]
+  gcve = ["GCVE-0-2021-29921"]
+  github = ["GHSA-cxqv-r2cc-r9c9"]
+  bitnami = [
     "BIT-libpython-2021-29921",
     "BIT-python-2021-29921",
     "BIT-python-min-2021-29921",
-]
-psf = [
-    "PSF-2021-2",
-]
-almalinux = [
-    "ALSA-2021:4160",
-    "ALSA-2021:4162",
-]
-debian = [
-    "DLA-3980-1",
-]
-redhat = [
-    "RHSA-2021:3254",
-    "RHSA-2021:4160",
-    "RHSA-2021:4162",
-]
-rockylinux = [
-    "RLSA-2021:4160",
-    "RLSA-2021:4162",
-]
-suse = [
-    "SUSE-SU-2021:2940-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:11286-1",
-]
-ubuntu = [
-    "USN-4973-1",
-    "USN-4973-2",
-    "USN-6891-1",
-]
-amazonlinux = [
-    "ALAS2PYTHON3.8-2023-009",
-]
-oraclelinux = [
-    "ELSA-2021-4160",
-    "ELSA-2021-4162",
-]
+  ]
+  psf = ["PSF-2021-2"]
+  almalinux = ["ALSA-2021:4160", "ALSA-2021:4162"]
+  debian = ["DLA-3980-1"]
+  redhat = ["RHSA-2021:3254", "RHSA-2021:4160", "RHSA-2021:4162"]
+  rockylinux = ["RLSA-2021:4160", "RLSA-2021:4162"]
+  suse = ["SUSE-SU-2021:2940-1"]
+  opensuse = ["openSUSE-SU-2024:11286-1"]
+  ubuntu = ["USN-4973-1", "USN-4973-2", "USN-6891-1"]
+  amazonlinux = ["ALAS2PYTHON3.8-2023-009"]
+  oraclelinux = ["ELSA-2021-4160", "ELSA-2021-4162"]

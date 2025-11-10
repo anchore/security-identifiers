@@ -2,25 +2,11 @@
 id = "ANCHORE-2020-5940"
 allocated = 2025-10-15T14:15:48.780333Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-10699",
-]
-gcve = [
-    "GCVE-0-2020-10699",
-]
-github = [
-    "GHSA-pvmm-475g-fx2h",
-]
-redhat = [
-    "RHSA-2020:1933",
-]
-opensuse = [
-    "openSUSE-SU-2024:11423-1",
-]
-ubuntu = [
-    "USN-4871-1",
-]
-oraclelinux = [
-    "ELSA-2020-1933",
-]
+  [security.aliases]
+  cve = ["CVE-2020-10699"]
+  gcve = ["GCVE-0-2020-10699"]
+  github = ["GHSA-pvmm-475g-fx2h"]
+  redhat = ["RHSA-2020:1933"]
+  opensuse = ["openSUSE-SU-2024:11423-1"]
+  ubuntu = ["USN-4871-1"]
+  oraclelinux = ["ELSA-2020-1933"]

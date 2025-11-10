@@ -2,19 +2,9 @@
 id = "ANCHORE-2019-16610"
 allocated = 2025-10-15T14:15:43.051442Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-18890",
-]
-gcve = [
-    "GCVE-0-2019-18890",
-]
-github = [
-    "GHSA-79wp-q4g4-2m5r",
-]
-debian = [
-    "DSA-4574-1",
-]
-ubuntu = [
-    "USN-4200-1",
-]
+  [security.aliases]
+  cve = ["CVE-2019-18890"]
+  gcve = ["GCVE-0-2019-18890"]
+  github = ["GHSA-79wp-q4g4-2m5r"]
+  debian = ["DSA-4574-1"]
+  ubuntu = ["USN-4200-1"]

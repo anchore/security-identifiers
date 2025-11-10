@@ -2,28 +2,14 @@
 id = "ANCHORE-2022-17181"
 allocated = 2025-10-15T14:16:24.383655Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-1552",
-]
-gcve = [
-    "GCVE-0-2022-1552",
-]
-github = [
-    "GHSA-3f3c-74mp-823m",
-]
-bitnami = [
-    "BIT-postgresql-2022-1552",
-]
-almalinux = [
-    "ALSA-2022:4805",
-    "ALSA-2022:4807",
-]
-debian = [
-    "DSA-5135-1",
-    "DSA-5136-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2022-1552"]
+  gcve = ["GCVE-0-2022-1552"]
+  github = ["GHSA-3f3c-74mp-823m"]
+  bitnami = ["BIT-postgresql-2022-1552"]
+  almalinux = ["ALSA-2022:4805", "ALSA-2022:4807"]
+  debian = ["DSA-5135-1", "DSA-5136-1"]
+  redhat = [
     "RHSA-2022:4771",
     "RHSA-2022:4805",
     "RHSA-2022:4807",
@@ -38,14 +24,14 @@ redhat = [
     "RHSA-2022:4915",
     "RHSA-2022:4929",
     "RHSA-2022:5162",
-]
-rockylinux = [
+  ]
+  rockylinux = [
     "RLSA-2022:4771",
     "RLSA-2022:4805",
     "RLSA-2022:4807",
     "RLSA-2022:4855",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2022:1804-1",
     "SUSE-SU-2022:1835-1",
     "SUSE-SU-2022:1869-1",
@@ -56,8 +42,8 @@ suse = [
     "SUSE-SU-2022:1908-1",
     "SUSE-SU-2022:2893-1",
     "SUSE-SU-2022:2958-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2024:12072-1",
     "openSUSE-SU-2024:12073-1",
     "openSUSE-SU-2024:12075-1",
@@ -65,15 +51,10 @@ opensuse = [
     "openSUSE-SU-2024:12077-1",
     "openSUSE-SU-2024:13243-1",
     "openSUSE-SU-2024:14360-1",
-]
-ubuntu = [
-    "USN-5440-1",
-    "USN-5676-1",
-]
-openeuler = [
-    "OESA-2022-2104",
-]
-amazonlinux = [
+  ]
+  ubuntu = ["USN-5440-1", "USN-5676-1"]
+  openeuler = ["OESA-2022-2104"]
+  amazonlinux = [
     "ALAS-2022-124",
     "ALAS-2022-190",
     "ALAS2-2022-1843",
@@ -82,11 +63,11 @@ amazonlinux = [
     "ALAS2POSTGRESQL12-2023-003",
     "ALAS2POSTGRESQL13-2023-002",
     "ALAS2POSTGRESQL14-2023-002",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2022-4771",
     "ELSA-2022-4805",
     "ELSA-2022-4807",
     "ELSA-2022-4855",
     "ELSA-2022-5162",
-]
+  ]

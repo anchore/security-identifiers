@@ -2,29 +2,15 @@
 id = "ANCHORE-2021-17260"
 allocated = 2025-10-15T14:16:09.577269Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-35560",
-]
-gcve = [
-    "GCVE-0-2021-35560",
-]
-github = [
-    "GHSA-q6fp-hjwx-q999",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2021-35560"]
+  gcve = ["GCVE-0-2021-35560"]
+  github = ["GHSA-q6fp-hjwx-q999"]
+  chainguard = [
     "CGA-j3x2-rjwf-vrcp",
     "CGA-pj8g-x788-6vc2",
     "CGA-qc79-4hfm-vvvm",
-]
-redhat = [
-    "RHSA-2021:5030",
-    "RHSA-2022:0345",
-]
-suse = [
-    "SUSE-SU-2022:0107-1",
-    "SUSE-SU-2022:0108-1",
-]
-opensuse = [
-    "openSUSE-SU-2022:0108-1",
-]
+  ]
+  redhat = ["RHSA-2021:5030", "RHSA-2022:0345"]
+  suse = ["SUSE-SU-2022:0107-1", "SUSE-SU-2022:0108-1"]
+  opensuse = ["openSUSE-SU-2022:0108-1"]

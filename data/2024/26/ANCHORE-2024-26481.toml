@@ -2,21 +2,13 @@
 id = "ANCHORE-2024-26481"
 allocated = 2025-10-15T14:17:09.486495Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-45244",
-]
-gcve = [
-    "GCVE-0-2024-45244",
-]
-github = [
-    "GHSA-48gg-32q2-4r6m",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-45244"]
+  gcve = ["GCVE-0-2024-45244"]
+  github = ["GHSA-48gg-32q2-4r6m"]
+  bitnami = [
     "BIT-hyperledger-fabric-orderer-2024-45244",
     "BIT-hyperledger-fabric-peer-2024-45244",
     "BIT-hyperledger-fabric-tools-2024-45244",
-]
-go = [
-    "GO-2024-3099",
-]
+  ]
+  go = ["GO-2024-3099"]

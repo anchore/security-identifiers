@@ -2,20 +2,12 @@
 id = "ANCHORE-2020-10579"
 allocated = 2025-10-15T14:15:51.911715Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-15567",
-]
-gcve = [
-    "GCVE-0-2020-15567",
-]
-github = [
-    "GHSA-mpwm-7x8j-q5j2",
-]
-debian = [
-    "DSA-4723-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2020-15567"]
+  gcve = ["GCVE-0-2020-15567"]
+  github = ["GHSA-mpwm-7x8j-q5j2"]
+  debian = ["DSA-4723-1"]
+  suse = [
     "SUSE-SU-2020:14521-1",
     "SUSE-SU-2020:1886-1",
     "SUSE-SU-2020:1887-1",
@@ -24,12 +16,10 @@ suse = [
     "SUSE-SU-2020:1891-1",
     "SUSE-SU-2020:1902-1",
     "SUSE-SU-2020:2822-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2020:0965-1",
     "openSUSE-SU-2020:0985-1",
     "openSUSE-SU-2024:11520-1",
-]
-ubuntu = [
-    "USN-5617-1",
-]
+  ]
+  ubuntu = ["USN-5617-1"]

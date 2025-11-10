@@ -2,21 +2,13 @@
 id = "ANCHORE-2022-14304"
 allocated = 2025-10-15T14:16:22.433570Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-0980",
-]
-gcve = [
-    "GCVE-0-2022-0980",
-]
-github = [
-    "GHSA-r83c-mvm8-r3mx",
-]
-debian = [
-    "DSA-5104-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2022-0980"]
+  gcve = ["GCVE-0-2022-0980"]
+  github = ["GHSA-r83c-mvm8-r3mx"]
+  debian = ["DSA-5104-1"]
+  opensuse = [
     "openSUSE-SU-2022:0085-1",
     "openSUSE-SU-2024:11932-1",
     "openSUSE-SU-2024:12948-1",
-]
+  ]

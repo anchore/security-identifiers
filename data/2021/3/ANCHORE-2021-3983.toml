@@ -2,36 +2,21 @@
 id = "ANCHORE-2021-3983"
 allocated = 2025-10-15T14:16:00.574630Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-21334",
-]
-gcve = [
-    "GCVE-0-2021-21334",
-]
-github = [
-    "GHSA-6g2q-w5j3-fwh4",
-]
-go = [
-    "GO-2023-2321",
-]
-chainguard = [
-    "CGA-743q-ccvg-4798",
-]
-suse = [
-    "SUSE-SU-2021:1458-1",
-    "SUSE-SU-2021:1954-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2021-21334"]
+  gcve = ["GCVE-0-2021-21334"]
+  github = ["GHSA-6g2q-w5j3-fwh4"]
+  go = ["GO-2023-2321"]
+  chainguard = ["CGA-743q-ccvg-4798"]
+  suse = ["SUSE-SU-2021:1458-1", "SUSE-SU-2021:1954-1"]
+  opensuse = [
     "openSUSE-SU-2021:0878-1",
     "openSUSE-SU-2021:1954-1",
     "openSUSE-SU-2024:10693-1",
-]
-ubuntu = [
-    "USN-4881-1",
-]
-amazonlinux = [
+  ]
+  ubuntu = ["USN-4881-1"]
+  amazonlinux = [
     "ALAS2DOCKER-2021-011",
     "ALAS2ECS-2023-014",
     "ALAS2NITRO-ENCLAVES-2021-011",
-]
+  ]

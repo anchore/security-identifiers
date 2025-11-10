@@ -2,17 +2,11 @@
 id = "ANCHORE-2021-8182"
 allocated = 2025-10-15T14:16:03.438081Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-25673",
-]
-gcve = [
-    "GCVE-0-2020-25673",
-]
-github = [
-    "GHSA-h5g6-38c3-c3xv",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2020-25673"]
+  gcve = ["GCVE-0-2020-25673"]
+  github = ["GHSA-h5g6-38c3-c3xv"]
+  suse = [
     "SUSE-SU-2021:1210-1",
     "SUSE-SU-2021:1211-1",
     "SUSE-SU-2021:1238-1",
@@ -35,20 +29,12 @@ suse = [
     "SUSE-SU-2022:0293-1",
     "SUSE-SU-2022:0296-1",
     "SUSE-SU-2022:0325-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:0579-1",
     "openSUSE-SU-2021:0758-1",
     "openSUSE-SU-2021:1975-1",
     "openSUSE-SU-2021:1977-1",
-]
-ubuntu = [
-    "USN-4979-1",
-    "USN-4982-1",
-    "USN-4999-1",
-    "USN-5343-1",
-]
-amazonlinux = [
-    "ALAS2KERNEL-5.10-2022-001",
-    "ALAS2KERNEL-5.4-2022-003",
-]
+  ]
+  ubuntu = ["USN-4979-1", "USN-4982-1", "USN-4999-1", "USN-5343-1"]
+  amazonlinux = ["ALAS2KERNEL-5.10-2022-001", "ALAS2KERNEL-5.4-2022-003"]

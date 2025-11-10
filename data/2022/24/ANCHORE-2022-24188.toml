@@ -2,27 +2,16 @@
 id = "ANCHORE-2022-24188"
 allocated = 2025-10-15T14:16:29.126898Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-23480",
-]
-gcve = [
-    "GCVE-0-2022-23480",
-]
-debian = [
-    "DLA-3375-1",
-    "DSA-5502-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2022-23480"]
+  gcve = ["GCVE-0-2022-23480"]
+  debian = ["DLA-3375-1", "DSA-5502-1"]
+  suse = [
     "SUSE-SU-2023:0012-1",
     "SUSE-SU-2023:0033-1",
     "SUSE-SU-2023:0340-1",
     "SUSE-SU-2023:0374-1",
     "SUSE-SU-2023:0387-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12602-1",
-]
-ubuntu = [
-    "USN-6474-1",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:12602-1"]
+  ubuntu = ["USN-6474-1"]

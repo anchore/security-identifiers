@@ -2,20 +2,9 @@
 id = "ANCHORE-2022-6117"
 allocated = 2025-10-15T14:16:16.891965Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-28202",
-]
-gcve = [
-    "GCVE-0-2022-28202",
-]
-github = [
-    "GHSA-5c63-m98j-vx6v",
-]
-bitnami = [
-    "BIT-mediawiki-2022-28202",
-]
-debian = [
-    "DLA-3117-1",
-    "DSA-5246-1",
-]
+  [security.aliases]
+  cve = ["CVE-2022-28202"]
+  gcve = ["GCVE-0-2022-28202"]
+  github = ["GHSA-5c63-m98j-vx6v"]
+  bitnami = ["BIT-mediawiki-2022-28202"]
+  debian = ["DLA-3117-1", "DSA-5246-1"]

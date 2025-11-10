@@ -2,38 +2,18 @@
 id = "ANCHORE-2021-6405"
 allocated = 2025-10-15T14:16:02.216767Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-2174",
-]
-gcve = [
-    "GCVE-0-2021-2174",
-]
-github = [
-    "GHSA-r863-mwf8-35cx",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2021-2174"]
+  gcve = ["GCVE-0-2021-2174"]
+  github = ["GHSA-r863-mwf8-35cx"]
+  bitnami = [
     "BIT-mariadb-2021-2174",
     "BIT-mariadb-min-2021-2174",
     "BIT-mysql-client-2021-2174",
-]
-chainguard = [
-    "CGA-gxx9-42w4-6vr5",
-]
-almalinux = [
-    "ALSA-2021:3590",
-]
-redhat = [
-    "RHSA-2021:3590",
-    "RHSA-2021:3811",
-]
-rockylinux = [
-    "RLSA-2021:3590",
-]
-openeuler = [
-    "OESA-2021-1199",
-    "OESA-2022-1682",
-]
-oraclelinux = [
-    "ELSA-2021-3590",
-]
+  ]
+  chainguard = ["CGA-gxx9-42w4-6vr5"]
+  almalinux = ["ALSA-2021:3590"]
+  redhat = ["RHSA-2021:3590", "RHSA-2021:3811"]
+  rockylinux = ["RLSA-2021:3590"]
+  openeuler = ["OESA-2021-1199", "OESA-2022-1682"]
+  oraclelinux = ["ELSA-2021-3590"]

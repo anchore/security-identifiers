@@ -2,17 +2,11 @@
 id = "ANCHORE-2018-7540"
 allocated = 2025-10-15T14:15:24.199201Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-11205",
-]
-gcve = [
-    "GCVE-0-2018-11205",
-]
-github = [
-    "GHSA-8rc4-w39h-mcmg",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2018-11205"]
+  gcve = ["GCVE-0-2018-11205"]
+  github = ["GHSA-8rc4-w39h-mcmg"]
+  suse = [
     "SUSE-SU-2022:3824-1",
     "SUSE-SU-2022:3825-1",
     "SUSE-SU-2022:3826-1",
@@ -22,7 +16,5 @@ suse = [
     "SUSE-SU-2024:2105-1",
     "SUSE-SU-2024:2195-1",
     "SUSE-SU-2024:3144-1",
-]
-echo = [
-    "ECHO-bdb8-c572-5d9e",
-]
+  ]
+  echo = ["ECHO-bdb8-c572-5d9e"]

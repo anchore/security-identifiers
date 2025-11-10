@@ -2,60 +2,35 @@
 id = "ANCHORE-2022-4251"
 allocated = 2025-10-15T14:16:15.641492Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-3677",
-]
-gcve = [
-    "GCVE-0-2021-3677",
-]
-github = [
-    "GHSA-j859-w9g7-8276",
-]
-bitnami = [
-    "BIT-postgresql-2021-3677",
-]
-almalinux = [
-    "ALSA-2021:5235",
-    "ALSA-2021:5236",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2021-3677"]
+  gcve = ["GCVE-0-2021-3677"]
+  github = ["GHSA-j859-w9g7-8276"]
+  bitnami = ["BIT-postgresql-2021-3677"]
+  almalinux = ["ALSA-2021:5235", "ALSA-2021:5236"]
+  redhat = [
     "RHSA-2021:5179",
     "RHSA-2021:5197",
     "RHSA-2021:5235",
     "RHSA-2021:5236",
     "RHSA-2022:4931",
-]
-rockylinux = [
-    "RLSA-2021:5235",
-    "RLSA-2021:5236",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2021:5235", "RLSA-2021:5236"]
+  suse = [
     "SUSE-SU-2021:3119-1",
     "SUSE-SU-2021:3120-1",
     "SUSE-SU-2021:3255-1",
     "SUSE-SU-2021:3256-1",
     "SUSE-SU-2022:2958-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:3255-1",
     "openSUSE-SU-2021:3256-1",
     "openSUSE-SU-2024:11185-1",
     "openSUSE-SU-2024:11186-1",
     "openSUSE-SU-2024:11187-1",
-]
-ubuntu = [
-    "USN-5038-1",
-]
-openeuler = [
-    "OESA-2022-1706",
-    "OESA-2025-1335",
-]
-amazonlinux = [
-    "ALAS2POSTGRESQL12-2023-002",
-    "ALAS2POSTGRESQL13-2023-002",
-]
-oraclelinux = [
-    "ELSA-2021-5235",
-    "ELSA-2021-5236",
-]
+  ]
+  ubuntu = ["USN-5038-1"]
+  openeuler = ["OESA-2022-1706", "OESA-2025-1335"]
+  amazonlinux = ["ALAS2POSTGRESQL12-2023-002", "ALAS2POSTGRESQL13-2023-002"]
+  oraclelinux = ["ELSA-2021-5235", "ELSA-2021-5236"]

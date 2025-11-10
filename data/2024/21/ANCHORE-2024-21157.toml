@@ -2,30 +2,12 @@
 id = "ANCHORE-2024-21157"
 allocated = 2025-10-15T14:17:05.865639Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-24531",
-]
-gcve = [
-    "GCVE-0-2023-24531",
-]
-github = [
-    "GHSA-cwpg-qgc6-jxvq",
-]
-bitnami = [
-    "BIT-golang-2023-24531",
-]
-go = [
-    "GO-2024-2962",
-]
-chainguard = [
-    "CGA-cv3j-j2fj-5792",
-]
-ubuntu = [
-    "USN-7061-1",
-    "USN-7109-1",
-]
-minimos = [
-    "MINI-4rh6-5r9f-2c5j",
-    "MINI-c2f6-m975-c9wr",
-]
+  [security.aliases]
+  cve = ["CVE-2023-24531"]
+  gcve = ["GCVE-0-2023-24531"]
+  github = ["GHSA-cwpg-qgc6-jxvq"]
+  bitnami = ["BIT-golang-2023-24531"]
+  go = ["GO-2024-2962"]
+  chainguard = ["CGA-cv3j-j2fj-5792"]
+  ubuntu = ["USN-7061-1", "USN-7109-1"]
+  minimos = ["MINI-4rh6-5r9f-2c5j", "MINI-c2f6-m975-c9wr"]

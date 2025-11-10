@@ -2,24 +2,16 @@
 id = "ANCHORE-2022-23091"
 allocated = 2025-10-15T14:16:28.409546Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-4045",
-]
-gcve = [
-    "GCVE-0-2022-4045",
-]
-github = [
-    "GHSA-v42f-hq78-8c5m",
-]
-go = [
-    "GO-2022-1127",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2022-4045"]
+  gcve = ["GCVE-0-2022-4045"]
+  github = ["GHSA-v42f-hq78-8c5m"]
+  go = ["GO-2022-1127"]
+  chainguard = [
     "CGA-35rq-hhwg-9fvg",
     "CGA-5p4h-9wqj-rf4m",
     "CGA-6c3j-jvqc-5rpp",
     "CGA-g3g9-wf86-ppjf",
     "CGA-wc8j-qcj8-g7gg",
     "CGA-xv4x-hp2c-xr68",
-]
+  ]

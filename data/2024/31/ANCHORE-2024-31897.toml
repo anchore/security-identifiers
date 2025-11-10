@@ -2,24 +2,15 @@
 id = "ANCHORE-2024-31897"
 allocated = 2025-10-15T14:17:13.274440Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-49984",
-]
-gcve = [
-    "GCVE-0-2024-49984",
-]
-github = [
-    "GHSA-qjpg-5hx2-g69j",
-]
-opensuse = [
-    "openSUSE-SU-2024:14500-1",
-    "openSUSE-SU-2025:14705-1",
-]
-ubuntu = [
+  [security.aliases]
+  cve = ["CVE-2024-49984"]
+  gcve = ["GCVE-0-2024-49984"]
+  github = ["GHSA-qjpg-5hx2-g69j"]
+  opensuse = ["openSUSE-SU-2024:14500-1", "openSUSE-SU-2025:14705-1"]
+  ubuntu = [
     "USN-7154-1",
     "USN-7154-2",
     "USN-7155-1",
     "USN-7156-1",
     "USN-7196-1",
-]
+  ]

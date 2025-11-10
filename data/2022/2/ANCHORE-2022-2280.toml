@@ -2,50 +2,21 @@
 id = "ANCHORE-2022-2280"
 allocated = 2025-10-15T14:16:14.312520Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-23833",
-]
-gcve = [
-    "GCVE-0-2022-23833",
-]
-github = [
-    "GHSA-6cw3-g6wv-c2xv",
-]
-bitnami = [
-    "BIT-django-2022-23833",
-]
-pypa = [
-    "PYSEC-2022-20",
-]
-debian = [
-    "DLA-2906-1",
-    "DLA-3191-1",
-    "DSA-5254-1",
-]
-redhat = [
-    "RHSA-2022:5498",
-    "RHSA-2022:8853",
-    "RHSA-2022:8872",
-]
-rockylinux = [
-    "RLSA-2022:5498",
-]
-suse = [
-    "SUSE-SU-2022:0285-1",
-    "SUSE-SU-2022:0286-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2022-23833"]
+  gcve = ["GCVE-0-2022-23833"]
+  github = ["GHSA-6cw3-g6wv-c2xv"]
+  bitnami = ["BIT-django-2022-23833"]
+  pypa = ["PYSEC-2022-20"]
+  debian = ["DLA-2906-1", "DLA-3191-1", "DSA-5254-1"]
+  redhat = ["RHSA-2022:5498", "RHSA-2022:8853", "RHSA-2022:8872"]
+  rockylinux = ["RLSA-2022:5498"]
+  suse = ["SUSE-SU-2022:0285-1", "SUSE-SU-2022:0286-1"]
+  opensuse = [
     "openSUSE-SU-2023:0005-1",
     "openSUSE-SU-2024:11804-1",
     "openSUSE-SU-2024:14208-1",
     "openSUSE-SU-2025:14662-1",
-]
-ubuntu = [
-    "USN-5269-1",
-    "USN-5269-2",
-]
-openeuler = [
-    "OESA-2022-1530",
-    "OESA-2022-2055",
-]
+  ]
+  ubuntu = ["USN-5269-1", "USN-5269-2"]
+  openeuler = ["OESA-2022-1530", "OESA-2022-2055"]

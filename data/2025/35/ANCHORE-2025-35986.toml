@@ -2,27 +2,11 @@
 id = "ANCHORE-2025-35986"
 allocated = 2025-10-15T14:17:44.643046Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-39883",
-]
-gcve = [
-    "GCVE-0-2025-39883",
-]
-github = [
-    "GHSA-r5ff-446r-jr83",
-]
-debian = [
-    "DLA-4328-1",
-]
-openeuler = [
-    "OESA-2025-2406",
-    "OESA-2025-2407",
-    "OESA-2025-2408",
-]
-amazonlinux = [
-    "ALAS2023-2025-1223",
-]
-echo = [
-    "ECHO-fafe-37f6-96f7",
-]
+  [security.aliases]
+  cve = ["CVE-2025-39883"]
+  gcve = ["GCVE-0-2025-39883"]
+  github = ["GHSA-r5ff-446r-jr83"]
+  debian = ["DLA-4328-1"]
+  openeuler = ["OESA-2025-2406", "OESA-2025-2407", "OESA-2025-2408"]
+  amazonlinux = ["ALAS2023-2025-1223"]
+  echo = ["ECHO-fafe-37f6-96f7"]

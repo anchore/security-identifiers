@@ -2,20 +2,12 @@
 id = "ANCHORE-2025-30202"
 allocated = 2025-10-15T14:17:40.569678Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-8714",
-]
-gcve = [
-    "GCVE-0-2025-8714",
-]
-github = [
-    "GHSA-6m5q-cc57-2mj6",
-]
-bitnami = [
-    "BIT-postgresql-2025-8714",
-]
-almalinux = [
+  [security.aliases]
+  cve = ["CVE-2025-8714"]
+  gcve = ["GCVE-0-2025-8714"]
+  github = ["GHSA-6m5q-cc57-2mj6"]
+  bitnami = ["BIT-postgresql-2025-8714"]
+  almalinux = [
     "ALSA-2025:14826",
     "ALSA-2025:14827",
     "ALSA-2025:14862",
@@ -24,11 +16,9 @@ almalinux = [
     "ALSA-2025:15021",
     "ALSA-2025:15022",
     "ALSA-2025:15115",
-]
-debian = [
-    "DLA-4273-1",
-]
-redhat = [
+  ]
+  debian = ["DLA-4273-1"]
+  redhat = [
     "RHSA-2025:14826",
     "RHSA-2025:14827",
     "RHSA-2025:14862",
@@ -52,27 +42,23 @@ redhat = [
     "RHSA-2025:15359",
     "RHSA-2025:15361",
     "RHSA-2025:16099",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2025:03005-1",
     "SUSE-SU-2025:03005-2",
     "SUSE-SU-2025:03018-1",
     "SUSE-SU-2025:03019-1",
     "SUSE-SU-2025:03019-2",
     "SUSE-SU-2025:03020-1",
-]
-ubuntu = [
-    "USN-7741-1",
-]
-minimos = [
+  ]
+  ubuntu = ["USN-7741-1"]
+  minimos = [
     "MINI-6c5p-vjm9-63x4",
     "MINI-8fqq-p2ww-653v",
     "MINI-r2q8-j8hm-23jp",
-]
-echo = [
-    "ECHO-fd55-a447-698b",
-]
-openeuler = [
+  ]
+  echo = ["ECHO-fd55-a447-698b"]
+  openeuler = [
     "OESA-2025-2104",
     "OESA-2025-2137",
     "OESA-2025-2138",
@@ -84,16 +70,16 @@ openeuler = [
     "OESA-2025-2144",
     "OESA-2025-2239",
     "OESA-2025-2240",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2-2025-3035",
     "ALAS2023-2025-1158",
     "ALAS2023-2025-1165",
     "ALAS2023-2025-1177",
     "ALAS2POSTGRESQL13-2025-012",
     "ALAS2POSTGRESQL14-2025-019",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2025-14826",
     "ELSA-2025-14827",
     "ELSA-2025-14862",
@@ -102,4 +88,4 @@ oraclelinux = [
     "ELSA-2025-15021",
     "ELSA-2025-15022",
     "ELSA-2025-15115",
-]
+  ]

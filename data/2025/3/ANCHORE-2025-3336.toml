@@ -2,23 +2,10 @@
 id = "ANCHORE-2025-3336"
 allocated = 2025-10-15T14:17:21.657571Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-24529",
-]
-gcve = [
-    "GCVE-0-2025-24529",
-]
-github = [
-    "GHSA-hjg3-5h8c-33gf",
-]
-bitnami = [
-    "BIT-phpmyadmin-2025-24529",
-]
-debian = [
-    "DLA-4121-1",
-]
-opensuse = [
-    "openSUSE-SU-2025:0081-1",
-    "openSUSE-SU-2025:14846-1",
-]
+  [security.aliases]
+  cve = ["CVE-2025-24529"]
+  gcve = ["GCVE-0-2025-24529"]
+  github = ["GHSA-hjg3-5h8c-33gf"]
+  bitnami = ["BIT-phpmyadmin-2025-24529"]
+  debian = ["DLA-4121-1"]
+  opensuse = ["openSUSE-SU-2025:0081-1", "openSUSE-SU-2025:14846-1"]

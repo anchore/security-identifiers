@@ -2,22 +2,10 @@
 id = "ANCHORE-2020-12840"
 allocated = 2025-10-15T14:15:53.455765Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-16250",
-]
-gcve = [
-    "GCVE-0-2020-16250",
-]
-github = [
-    "GHSA-fp52-qw33-mfmw",
-]
-bitnami = [
-    "BIT-vault-2020-16250",
-]
-go = [
-    "GO-2022-0825",
-]
-chainguard = [
-    "CGA-h425-mx3f-g92v",
-]
+  [security.aliases]
+  cve = ["CVE-2020-16250"]
+  gcve = ["GCVE-0-2020-16250"]
+  github = ["GHSA-fp52-qw33-mfmw"]
+  bitnami = ["BIT-vault-2020-16250"]
+  go = ["GO-2022-0825"]
+  chainguard = ["CGA-h425-mx3f-g92v"]

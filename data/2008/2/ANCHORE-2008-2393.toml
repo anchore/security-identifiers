@@ -2,28 +2,11 @@
 id = "ANCHORE-2008-2393"
 allocated = 2025-10-15T14:14:30.193590Z
 
-[security.aliases]
-cve = [
-    "CVE-2008-1105",
-]
-gcve = [
-    "GCVE-0-2008-1105",
-]
-github = [
-    "GHSA-38xm-32fr-cm7j",
-]
-debian = [
-    "DSA-1590-1",
-]
-redhat = [
-    "RHSA-2008:0288",
-    "RHSA-2008:0289",
-    "RHSA-2008:0290",
-]
-opensuse = [
-    "openSUSE-SU-2024:10683-1",
-    "openSUSE-SU-2024:11365-1",
-]
-oraclelinux = [
-    "ELSA-2008-0290",
-]
+  [security.aliases]
+  cve = ["CVE-2008-1105"]
+  gcve = ["GCVE-0-2008-1105"]
+  github = ["GHSA-38xm-32fr-cm7j"]
+  debian = ["DSA-1590-1"]
+  redhat = ["RHSA-2008:0288", "RHSA-2008:0289", "RHSA-2008:0290"]
+  opensuse = ["openSUSE-SU-2024:10683-1", "openSUSE-SU-2024:11365-1"]
+  oraclelinux = ["ELSA-2008-0290"]

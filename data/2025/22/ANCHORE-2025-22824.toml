@@ -2,59 +2,45 @@
 id = "ANCHORE-2025-22824"
 allocated = 2025-10-15T14:17:35.239179Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-6069",
-]
-gcve = [
-    "GCVE-0-2025-6069",
-]
-github = [
-    "GHSA-j5cc-6rx8-ff96",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2025-6069"]
+  gcve = ["GCVE-0-2025-6069"]
+  github = ["GHSA-j5cc-6rx8-ff96"]
+  bitnami = [
     "BIT-libpython-2025-6069",
     "BIT-python-2025-6069",
     "BIT-python-min-2025-6069",
-]
-psf = [
-    "PSF-2025-10",
-]
-suse = [
+  ]
+  psf = ["PSF-2025-10"]
+  suse = [
     "SUSE-SU-2025:02297-1",
     "SUSE-SU-2025:02359-1",
     "SUSE-SU-2025:02460-1",
     "SUSE-SU-2025:02523-1",
     "SUSE-SU-2025:02717-1",
     "SUSE-SU-2025:02778-1",
-]
-ubuntu = [
-    "USN-7710-1",
-]
-minimos = [
+  ]
+  ubuntu = ["USN-7710-1"]
+  minimos = [
     "MINI-9vrx-rrcg-33qp",
     "MINI-jfvw-w577-8x8g",
     "MINI-v53v-rxx2-qr96",
     "MINI-xpf7-pq22-j657",
-]
-echo = [
-    "ECHO-dc49-c687-112f",
-]
-openeuler = [
+  ]
+  echo = ["ECHO-dc49-c687-112f"]
+  openeuler = [
     "OESA-2025-1758",
     "OESA-2025-2329",
     "OESA-2025-2330",
     "OESA-2025-2331",
     "OESA-2025-2332",
     "OESA-2025-2333",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2-2025-2911",
     "ALAS2-2025-2923",
     "ALAS2023-2025-1056",
     "ALAS2023-2025-1090",
     "ALAS2023-2025-1116",
-]
-debian = [
-    "DLA-4354-1",
-]
+  ]
+  debian = ["DLA-4354-1"]

@@ -2,66 +2,42 @@
 id = "ANCHORE-2024-36312"
 allocated = 2025-10-15T14:17:16.350739Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-8929",
-]
-gcve = [
-    "GCVE-0-2024-8929",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-8929"]
+  gcve = ["GCVE-0-2024-8929"]
+  bitnami = [
     "BIT-libphp-2024-8929",
     "BIT-php-2024-8929",
     "BIT-php-min-2024-8929",
-]
-chainguard = [
-    "CGA-94v8-4697-7f9f",
-]
-almalinux = [
-    "ALSA-2025:15687",
-    "ALSA-2025:4263",
-    "ALSA-2025:7432",
-]
-debian = [
-    "DLA-3986-1",
-    "DSA-5819-1",
-]
-redhat = [
+  ]
+  chainguard = ["CGA-94v8-4697-7f9f"]
+  almalinux = ["ALSA-2025:15687", "ALSA-2025:4263", "ALSA-2025:7432"]
+  debian = ["DLA-3986-1", "DSA-5819-1"]
+  redhat = [
     "RHSA-2025:15687",
     "RHSA-2025:4263",
     "RHSA-2025:7315",
     "RHSA-2025:7432",
-]
-suse = [
-    "SUSE-SU-2024:4136-1",
-    "SUSE-SU-2024:4146-1",
-    "SUSE-SU-2024:4215-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:14521-1",
-]
-ubuntu = [
-    "USN-7157-1",
-    "USN-7157-3",
-]
-minimos = [
+  ]
+  suse = ["SUSE-SU-2024:4136-1", "SUSE-SU-2024:4146-1", "SUSE-SU-2024:4215-1"]
+  opensuse = ["openSUSE-SU-2024:14521-1"]
+  ubuntu = ["USN-7157-1", "USN-7157-3"]
+  minimos = [
     "MINI-j5fr-2vq8-m3h6",
     "MINI-mvq4-xxw6-qwpm",
     "MINI-rrhp-x7c8-mfwr",
-]
-openeuler = [
-    "OESA-2024-2478",
-]
-amazonlinux = [
+  ]
+  openeuler = ["OESA-2024-2478"]
+  amazonlinux = [
     "ALAS2023-2025-845",
     "ALAS2023-2025-872",
     "ALAS2023-2025-873",
     "ALAS2PHP8.1-2025-006",
     "ALAS2PHP8.2-2025-006",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2025-15687",
     "ELSA-2025-4263",
     "ELSA-2025-7315",
     "ELSA-2025-7432",
-]
+  ]

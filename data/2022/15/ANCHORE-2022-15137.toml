@@ -2,25 +2,11 @@
 id = "ANCHORE-2022-15137"
 allocated = 2025-10-15T14:16:23.011252Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-35929",
-]
-gcve = [
-    "GCVE-0-2022-35929",
-]
-github = [
-    "GHSA-vjxv-45g9-9296",
-]
-bitnami = [
-    "BIT-cosign-2022-35929",
-]
-go = [
-    "GO-2022-0758",
-]
-suse = [
-    "SUSE-SU-2022:2877-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12240-1",
-]
+  [security.aliases]
+  cve = ["CVE-2022-35929"]
+  gcve = ["GCVE-0-2022-35929"]
+  github = ["GHSA-vjxv-45g9-9296"]
+  bitnami = ["BIT-cosign-2022-35929"]
+  go = ["GO-2022-0758"]
+  suse = ["SUSE-SU-2022:2877-1"]
+  opensuse = ["openSUSE-SU-2024:12240-1"]

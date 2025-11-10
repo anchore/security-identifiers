@@ -2,17 +2,11 @@
 id = "ANCHORE-2023-5943"
 allocated = 2025-10-15T14:16:34.530103Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-1370",
-]
-gcve = [
-    "GCVE-0-2023-1370",
-]
-github = [
-    "GHSA-493p-pfq6-5258",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2023-1370"]
+  gcve = ["GCVE-0-2023-1370"]
+  github = ["GHSA-493p-pfq6-5258"]
+  chainguard = [
     "CGA-4q66-wfwv-4prh",
     "CGA-97fq-p5p8-prgr",
     "CGA-c3jp-34px-f3r6",
@@ -20,25 +14,19 @@ chainguard = [
     "CGA-pjcg-q8wf-65fx",
     "CGA-qq4c-gxpr-3wpp",
     "CGA-x6h8-r56r-gm66",
-]
-debian = [
-    "DLA-3373-1",
-]
-redhat = [
+  ]
+  debian = ["DLA-3373-1"]
+  redhat = [
     "RHSA-2023:3362",
     "RHSA-2023:3610",
     "RHSA-2023:3622",
     "RHSA-2023:3663",
-]
-ubuntu = [
-    "USN-6011-1",
-]
-minimos = [
-    "MINI-24x9-5c6h-p3qj",
-]
-openeuler = [
+  ]
+  ubuntu = ["USN-6011-1"]
+  minimos = ["MINI-24x9-5c6h-p3qj"]
+  openeuler = [
     "OESA-2023-1203",
     "OESA-2023-1223",
     "OESA-2023-1224",
     "OESA-2023-1225",
-]
+  ]

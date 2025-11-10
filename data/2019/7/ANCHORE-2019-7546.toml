@@ -2,22 +2,14 @@
 id = "ANCHORE-2019-7546"
 allocated = 2025-10-15T14:15:36.734210Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-3888",
-]
-gcve = [
-    "GCVE-0-2019-3888",
-]
-github = [
-    "GHSA-jwgx-9mmh-684w",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2019-3888"]
+  gcve = ["GCVE-0-2019-3888"]
+  github = ["GHSA-jwgx-9mmh-684w"]
+  redhat = [
     "RHSA-2019:1419",
     "RHSA-2019:1420",
     "RHSA-2019:1421",
     "RHSA-2019:2439",
-]
-openeuler = [
-    "OESA-2021-1422",
-]
+  ]
+  openeuler = ["OESA-2021-1422"]

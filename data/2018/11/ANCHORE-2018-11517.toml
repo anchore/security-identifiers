@@ -2,19 +2,9 @@
 id = "ANCHORE-2018-11517"
 allocated = 2025-10-15T14:15:26.942534Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-3071",
-]
-gcve = [
-    "GCVE-0-2018-3071",
-]
-github = [
-    "GHSA-ff6f-6jr9-2g3m",
-]
-redhat = [
-    "RHSA-2018:3655",
-]
-ubuntu = [
-    "USN-3725-1",
-]
+  [security.aliases]
+  cve = ["CVE-2018-3071"]
+  gcve = ["GCVE-0-2018-3071"]
+  github = ["GHSA-ff6f-6jr9-2g3m"]
+  redhat = ["RHSA-2018:3655"]
+  ubuntu = ["USN-3725-1"]

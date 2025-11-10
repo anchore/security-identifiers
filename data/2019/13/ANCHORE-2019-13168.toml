@@ -2,36 +2,22 @@
 id = "ANCHORE-2019-13168"
 allocated = 2025-10-15T14:15:40.624630Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-16869",
-]
-gcve = [
-    "GCVE-0-2019-16869",
-]
-github = [
-    "GHSA-p979-4mfw-53vg",
-]
-debian = [
-    "DLA-1941-1",
-    "DLA-2110-1",
-    "DLA-2365-1",
-    "DSA-4597-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2019-16869"]
+  gcve = ["GCVE-0-2019-16869"]
+  github = ["GHSA-p979-4mfw-53vg"]
+  debian = ["DLA-1941-1", "DLA-2110-1", "DLA-2365-1", "DSA-4597-1"]
+  redhat = [
     "RHSA-2020:0159",
     "RHSA-2020:0160",
     "RHSA-2020:0161",
     "RHSA-2024:5856",
-]
-ubuntu = [
-    "USN-4532-1",
-    "USN-4600-1",
-]
-openeuler = [
+  ]
+  ubuntu = ["USN-4532-1", "USN-4600-1"]
+  openeuler = [
     "OESA-2024-2066",
     "OESA-2024-2067",
     "OESA-2024-2068",
     "OESA-2024-2069",
     "OESA-2024-2103",
-]
+  ]

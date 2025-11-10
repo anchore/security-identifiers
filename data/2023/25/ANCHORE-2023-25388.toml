@@ -2,25 +2,11 @@
 id = "ANCHORE-2023-25388"
 allocated = 2025-10-15T14:16:47.583384Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-46852",
-]
-gcve = [
-    "GCVE-0-2023-46852",
-]
-github = [
-    "GHSA-47qj-rqv2-98f2",
-]
-bitnami = [
-    "BIT-memcached-2023-46852",
-]
-opensuse = [
-    "openSUSE-SU-2024:13427-1",
-]
-ubuntu = [
-    "USN-6476-1",
-]
-amazonlinux = [
-    "ALAS2023-2023-449",
-]
+  [security.aliases]
+  cve = ["CVE-2023-46852"]
+  gcve = ["GCVE-0-2023-46852"]
+  github = ["GHSA-47qj-rqv2-98f2"]
+  bitnami = ["BIT-memcached-2023-46852"]
+  opensuse = ["openSUSE-SU-2024:13427-1"]
+  ubuntu = ["USN-6476-1"]
+  amazonlinux = ["ALAS2023-2023-449"]

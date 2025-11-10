@@ -2,35 +2,14 @@
 id = "ANCHORE-2025-36842"
 allocated = 2025-10-15T14:17:45.237404Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-59682",
-]
-gcve = [
-    "GCVE-0-2025-59682",
-]
-github = [
-    "GHSA-q95w-c7qg-hrff",
-]
-chainguard = [
-    "CGA-x2cm-42w8-3g2j",
-]
-debian = [
-    "DLA-4324-1",
-]
-suse = [
-    "SUSE-SU-2025:03446-1",
-]
-ubuntu = [
-    "USN-7794-1",
-]
-openeuler = [
-    "OESA-2025-2378",
-    "OESA-2025-2379",
-]
-bitnami = [
-    "BIT-django-2025-59682",
-]
-redhat = [
-    "RHSA-2025:18979",
-]
+  [security.aliases]
+  cve = ["CVE-2025-59682"]
+  gcve = ["GCVE-0-2025-59682"]
+  github = ["GHSA-q95w-c7qg-hrff"]
+  chainguard = ["CGA-x2cm-42w8-3g2j"]
+  debian = ["DLA-4324-1"]
+  suse = ["SUSE-SU-2025:03446-1"]
+  ubuntu = ["USN-7794-1"]
+  openeuler = ["OESA-2025-2378", "OESA-2025-2379"]
+  bitnami = ["BIT-django-2025-59682"]
+  redhat = ["RHSA-2025:18979"]

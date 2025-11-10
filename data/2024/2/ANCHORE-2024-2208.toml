@@ -2,50 +2,18 @@
 id = "ANCHORE-2024-2208"
 allocated = 2025-10-15T14:16:52.926506Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-52356",
-]
-gcve = [
-    "GCVE-0-2023-52356",
-]
-github = [
-    "GHSA-cx8g-4cf5-cjv3",
-]
-chainguard = [
-    "CGA-88p2-wcq4-ph4q",
-]
-almalinux = [
-    "ALSA-2024:5079",
-]
-debian = [
-    "DLA-3758-1",
-    "DLA-4026-1",
-]
-redhat = [
-    "RHSA-2024:5079",
-]
-rockylinux = [
-    "RLSA-2024:5079",
-]
-suse = [
-    "SUSE-SU-2024:0593-1",
-    "SUSE-SU-2024:0594-1",
-    "SUSE-SU-2025:0753-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:13627-1",
-]
-ubuntu = [
-    "USN-6644-1",
-    "USN-6644-2",
-]
-minimos = [
-    "MINI-hffh-gpmw-pxx8",
-]
-amazonlinux = [
-    "ALAS2023-2024-525",
-]
-oraclelinux = [
-    "ELSA-2024-5079",
-]
+  [security.aliases]
+  cve = ["CVE-2023-52356"]
+  gcve = ["GCVE-0-2023-52356"]
+  github = ["GHSA-cx8g-4cf5-cjv3"]
+  chainguard = ["CGA-88p2-wcq4-ph4q"]
+  almalinux = ["ALSA-2024:5079"]
+  debian = ["DLA-3758-1", "DLA-4026-1"]
+  redhat = ["RHSA-2024:5079"]
+  rockylinux = ["RLSA-2024:5079"]
+  suse = ["SUSE-SU-2024:0593-1", "SUSE-SU-2024:0594-1", "SUSE-SU-2025:0753-1"]
+  opensuse = ["openSUSE-SU-2024:13627-1"]
+  ubuntu = ["USN-6644-1", "USN-6644-2"]
+  minimos = ["MINI-hffh-gpmw-pxx8"]
+  amazonlinux = ["ALAS2023-2024-525"]
+  oraclelinux = ["ELSA-2024-5079"]

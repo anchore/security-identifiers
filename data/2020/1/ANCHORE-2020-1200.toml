@@ -2,16 +2,8 @@
 id = "ANCHORE-2020-1200"
 allocated = 2025-10-15T14:15:45.493798Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-20396",
-]
-gcve = [
-    "GCVE-0-2019-20396",
-]
-github = [
-    "GHSA-8wpf-h467-qvv5",
-]
-debian = [
-    "DLA-3572-1",
-]
+  [security.aliases]
+  cve = ["CVE-2019-20396"]
+  gcve = ["GCVE-0-2019-20396"]
+  github = ["GHSA-8wpf-h467-qvv5"]
+  debian = ["DLA-3572-1"]

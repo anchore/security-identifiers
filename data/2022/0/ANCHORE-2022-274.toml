@@ -2,20 +2,12 @@
 id = "ANCHORE-2022-274"
 allocated = 2025-10-15T14:16:12.963400Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-25743",
-]
-gcve = [
-    "GCVE-0-2021-25743",
-]
-github = [
-    "GHSA-f9jg-8p32-2f55",
-]
-go = [
-    "GO-2022-0983",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2021-25743"]
+  gcve = ["GCVE-0-2021-25743"]
+  github = ["GHSA-f9jg-8p32-2f55"]
+  go = ["GO-2022-0983"]
+  chainguard = [
     "CGA-344p-475p-56p2",
     "CGA-4889-fch9-fh44",
     "CGA-53x7-gxmr-vc55",
@@ -31,16 +23,13 @@ chainguard = [
     "CGA-q67v-9c4r-qw9x",
     "CGA-vr9m-25x5-6vfh",
     "CGA-w344-7qr4-66mr",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2024:2858-1",
     "SUSE-SU-2024:2859-1",
     "SUSE-SU-2024:2928-1",
     "SUSE-SU-2024:3341-1",
     "SUSE-SU-2024:3343-1",
     "SUSE-SU-2025:02423-2",
-]
-openeuler = [
-    "OESA-2022-2132",
-    "OESA-2023-1020",
-]
+  ]
+  openeuler = ["OESA-2022-2132", "OESA-2023-1020"]

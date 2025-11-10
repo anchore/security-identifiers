@@ -2,29 +2,17 @@
 id = "ANCHORE-2022-17068"
 allocated = 2025-10-15T14:16:24.309148Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-0480",
-]
-gcve = [
-    "GCVE-0-2022-0480",
-]
-github = [
-    "GHSA-gjf9-j6hw-q3hj",
-]
-almalinux = [
-    "ALSA-2024:2394",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2022-0480"]
+  gcve = ["GCVE-0-2022-0480"]
+  github = ["GHSA-gjf9-j6hw-q3hj"]
+  almalinux = ["ALSA-2024:2394"]
+  redhat = [
     "RHSA-2024:1250",
     "RHSA-2024:1303",
     "RHSA-2024:1304",
     "RHSA-2024:1306",
     "RHSA-2024:2394",
-]
-amazonlinux = [
-    "ALAS2KERNEL-5.10-2024-062",
-]
-oraclelinux = [
-    "ELSA-2024-2394",
-]
+  ]
+  amazonlinux = ["ALAS2KERNEL-5.10-2024-062"]
+  oraclelinux = ["ELSA-2024-2394"]

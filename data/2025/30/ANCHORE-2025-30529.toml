@@ -2,17 +2,11 @@
 id = "ANCHORE-2025-30529"
 allocated = 2025-10-15T14:17:40.795645Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-3865",
-]
-gcve = [
-    "GCVE-0-2023-3865",
-]
-github = [
-    "GHSA-mr68-gqxj-cfm9",
-]
-ubuntu = [
+  [security.aliases]
+  cve = ["CVE-2023-3865"]
+  gcve = ["GCVE-0-2023-3865"]
+  github = ["GHSA-mr68-gqxj-cfm9"]
+  ubuntu = [
     "USN-6416-1",
     "USN-6416-2",
     "USN-6416-3",
@@ -21,9 +15,5 @@ ubuntu = [
     "USN-6464-1",
     "USN-6466-1",
     "USN-6520-1",
-]
-openeuler = [
-    "OESA-2023-1614",
-    "OESA-2023-1615",
-    "OESA-2023-1616",
-]
+  ]
+  openeuler = ["OESA-2023-1614", "OESA-2023-1615", "OESA-2023-1616"]

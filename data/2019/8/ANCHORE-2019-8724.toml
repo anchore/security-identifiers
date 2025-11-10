@@ -2,25 +2,10 @@
 id = "ANCHORE-2019-8724"
 allocated = 2025-10-15T14:15:37.541258Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-11307",
-]
-gcve = [
-    "GCVE-0-2018-11307",
-]
-github = [
-    "GHSA-qr7j-h6gg-jmgc",
-]
-debian = [
-    "DLA-1703-1",
-    "DSA-4452-1",
-]
-redhat = [
-    "RHSA-2019:0782",
-    "RHSA-2019:1107",
-    "RHSA-2019:1108",
-]
-ubuntu = [
-    "USN-4813-1",
-]
+  [security.aliases]
+  cve = ["CVE-2018-11307"]
+  gcve = ["GCVE-0-2018-11307"]
+  github = ["GHSA-qr7j-h6gg-jmgc"]
+  debian = ["DLA-1703-1", "DSA-4452-1"]
+  redhat = ["RHSA-2019:0782", "RHSA-2019:1107", "RHSA-2019:1108"]
+  ubuntu = ["USN-4813-1"]

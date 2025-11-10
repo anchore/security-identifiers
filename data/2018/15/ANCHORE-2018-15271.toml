@@ -2,22 +2,10 @@
 id = "ANCHORE-2018-15271"
 allocated = 2025-10-15T14:15:29.565635Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-3144",
-]
-gcve = [
-    "GCVE-0-2018-3144",
-]
-github = [
-    "GHSA-rcqf-2gm2-6jvr",
-]
-chainguard = [
-    "CGA-8x7j-5vc8-73mw",
-]
-redhat = [
-    "RHSA-2018:3655",
-]
-ubuntu = [
-    "USN-3799-1",
-]
+  [security.aliases]
+  cve = ["CVE-2018-3144"]
+  gcve = ["GCVE-0-2018-3144"]
+  github = ["GHSA-rcqf-2gm2-6jvr"]
+  chainguard = ["CGA-8x7j-5vc8-73mw"]
+  redhat = ["RHSA-2018:3655"]
+  ubuntu = ["USN-3799-1"]

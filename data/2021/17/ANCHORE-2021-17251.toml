@@ -2,31 +2,18 @@
 id = "ANCHORE-2021-17251"
 allocated = 2025-10-15T14:16:09.571320Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-35550",
-]
-gcve = [
-    "GCVE-0-2021-35550",
-]
-github = [
-    "GHSA-cxjm-7856-gv52",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2021-35550"]
+  gcve = ["GCVE-0-2021-35550"]
+  github = ["GHSA-cxjm-7856-gv52"]
+  chainguard = [
     "CGA-2qrc-vcv9-7r3x",
     "CGA-5r79-w38c-jjrh",
     "CGA-mr35-c9jr-p5f3",
-]
-almalinux = [
-    "ALSA-2021:3891",
-    "ALSA-2021:3893",
-]
-debian = [
-    "DLA-2814-1",
-    "DSA-5000-1",
-    "DSA-5000-2",
-]
-redhat = [
+  ]
+  almalinux = ["ALSA-2021:3891", "ALSA-2021:3893"]
+  debian = ["DLA-2814-1", "DSA-5000-1", "DSA-5000-2"]
+  redhat = [
     "RHSA-2021:3884",
     "RHSA-2021:3885",
     "RHSA-2021:3886",
@@ -38,19 +25,16 @@ redhat = [
     "RHSA-2022:0968",
     "RHSA-2022:0969",
     "RHSA-2022:0970",
-]
-rockylinux = [
-    "RLSA-2021:3891",
-    "RLSA-2021:3893",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2021:3891", "RLSA-2021:3893"]
+  suse = [
     "SUSE-SU-2021:3528-1",
     "SUSE-SU-2021:3671-1",
     "SUSE-SU-2021:3770-1",
     "SUSE-SU-2021:3771-1",
     "SUSE-SU-2021:3797-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:1455-1",
     "openSUSE-SU-2021:1480-1",
     "openSUSE-SU-2021:1500-1",
@@ -59,28 +43,19 @@ opensuse = [
     "openSUSE-SU-2021:3770-1",
     "openSUSE-SU-2024:11588-1",
     "openSUSE-SU-2024:11612-1",
-]
-ubuntu = [
-    "USN-5202-1",
-]
-minimos = [
-    "MINI-87xw-rvvw-w8hw",
-    "MINI-jfh4-vx6r-4w2x",
-]
-openeuler = [
-    "OESA-2022-1696",
-    "OESA-2022-1813",
-    "OESA-2022-1814",
-]
-amazonlinux = [
+  ]
+  ubuntu = ["USN-5202-1"]
+  minimos = ["MINI-87xw-rvvw-w8hw", "MINI-jfh4-vx6r-4w2x"]
+  openeuler = ["OESA-2022-1696", "OESA-2022-1813", "OESA-2022-1814"]
+  amazonlinux = [
     "ALAS2-2021-1718",
     "ALAS2-2021-1726",
     "ALAS2CORRETTO8-2024-012",
     "ALAS2JAVA-OPENJDK11-2024-009",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2021-3889",
     "ELSA-2021-3891",
     "ELSA-2021-3892",
     "ELSA-2021-3893",
-]
+  ]

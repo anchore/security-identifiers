@@ -2,50 +2,25 @@
 id = "ANCHORE-2025-13366"
 allocated = 2025-10-15T14:17:28.596991Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-11235",
-]
-gcve = [
-    "GCVE-0-2024-11235",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-11235"]
+  gcve = ["GCVE-0-2024-11235"]
+  bitnami = [
     "BIT-libphp-2024-11235",
     "BIT-php-2024-11235",
     "BIT-php-min-2024-11235",
-]
-almalinux = [
-    "ALSA-2025:7418",
-    "ALSA-2025:7489",
-]
-redhat = [
-    "RHSA-2025:7418",
-    "RHSA-2025:7489",
-]
-suse = [
+  ]
+  almalinux = ["ALSA-2025:7418", "ALSA-2025:7489"]
+  redhat = ["RHSA-2025:7418", "RHSA-2025:7489"]
+  suse = [
     "SUSE-SU-2025:0994-1",
     "SUSE-SU-2025:1012-1",
     "SUSE-SU-2025:1025-1",
     "SUSE-SU-2025:1026-1",
-]
-opensuse = [
-    "openSUSE-SU-2025:14895-1",
-]
-ubuntu = [
-    "USN-7400-1",
-]
-minimos = [
-    "MINI-rh74-7grw-78q2",
-    "MINI-x9vm-mv8g-q63h",
-]
-openeuler = [
-    "OESA-2025-1302",
-    "OESA-2025-1306",
-]
-amazonlinux = [
-    "ALAS2023-2025-922",
-]
-oraclelinux = [
-    "ELSA-2025-7418",
-    "ELSA-2025-7489",
-]
+  ]
+  opensuse = ["openSUSE-SU-2025:14895-1"]
+  ubuntu = ["USN-7400-1"]
+  minimos = ["MINI-rh74-7grw-78q2", "MINI-x9vm-mv8g-q63h"]
+  openeuler = ["OESA-2025-1302", "OESA-2025-1306"]
+  amazonlinux = ["ALAS2023-2025-922"]
+  oraclelinux = ["ELSA-2025-7418", "ELSA-2025-7489"]

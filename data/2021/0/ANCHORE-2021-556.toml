@@ -2,43 +2,20 @@
 id = "ANCHORE-2021-556"
 allocated = 2025-10-15T14:15:58.262615Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-35655",
-]
-gcve = [
-    "GCVE-0-2020-35655",
-]
-github = [
-    "GHSA-hf64-x4gq-p99h",
-]
-bitnami = [
-    "BIT-pillow-2020-35655",
-]
-pypa = [
-    "PYSEC-2021-71",
-]
-almalinux = [
-    "ALSA-2021:4149",
-]
-redhat = [
-    "RHSA-2021:4149",
-]
-rockylinux = [
-    "RLSA-2021:4149",
-]
-suse = [
-    "SUSE-SU-2021:1938-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2020-35655"]
+  gcve = ["GCVE-0-2020-35655"]
+  github = ["GHSA-hf64-x4gq-p99h"]
+  bitnami = ["BIT-pillow-2020-35655"]
+  pypa = ["PYSEC-2021-71"]
+  almalinux = ["ALSA-2021:4149"]
+  redhat = ["RHSA-2021:4149"]
+  rockylinux = ["RLSA-2021:4149"]
+  suse = ["SUSE-SU-2021:1938-1"]
+  opensuse = [
     "openSUSE-SU-2021:1134-1",
     "openSUSE-SU-2024:11209-1",
     "openSUSE-SU-2024:13827-1",
-]
-ubuntu = [
-    "USN-4697-1",
-]
-openeuler = [
-    "OESA-2021-1127",
-    "OESA-2021-1146",
-]
+  ]
+  ubuntu = ["USN-4697-1"]
+  openeuler = ["OESA-2021-1127", "OESA-2021-1146"]

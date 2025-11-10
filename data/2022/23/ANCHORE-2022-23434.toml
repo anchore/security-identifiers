@@ -2,17 +2,11 @@
 id = "ANCHORE-2022-23434"
 allocated = 2025-10-15T14:16:28.637159Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-1471",
-]
-gcve = [
-    "GCVE-0-2022-1471",
-]
-github = [
-    "GHSA-mjmj-j48q-9wg2",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2022-1471"]
+  gcve = ["GCVE-0-2022-1471"]
+  github = ["GHSA-mjmj-j48q-9wg2"]
+  chainguard = [
     "CGA-23vr-f599-cmcv",
     "CGA-4j46-m77j-2622",
     "CGA-7w78-ggr5-pfxv",
@@ -22,11 +16,9 @@ chainguard = [
     "CGA-mhgw-xcxh-mprj",
     "CGA-p6jg-fjvm-fx3w",
     "CGA-r36x-jx84-2cgp",
-]
-almalinux = [
-    "ALSA-2022:9058",
-]
-redhat = [
+  ]
+  almalinux = ["ALSA-2022:9058"]
+  redhat = [
     "RHSA-2022:9058",
     "RHSA-2023:0697",
     "RHSA-2023:0777",
@@ -42,16 +34,12 @@ redhat = [
     "RHSA-2024:0775",
     "RHSA-2025:1746",
     "RHSA-2025:1747",
-]
-rockylinux = [
-    "RLSA-2022:9058",
-]
-minimos = [
+  ]
+  rockylinux = ["RLSA-2022:9058"]
+  minimos = [
     "MINI-47mh-xmq2-g9jq",
     "MINI-524x-fc7g-gw3g",
     "MINI-hq42-g236-46v3",
     "MINI-ph9p-pcqg-v6h3",
-]
-oraclelinux = [
-    "ELSA-2022-9058-1",
-]
+  ]
+  oraclelinux = ["ELSA-2022-9058-1"]

@@ -2,20 +2,12 @@
 id = "ANCHORE-2021-5419"
 allocated = 2025-10-15T14:16:01.553338Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-36310",
-]
-gcve = [
-    "GCVE-0-2020-36310",
-]
-github = [
-    "GHSA-jhhp-vmj5-g65v",
-]
-debian = [
-    "DSA-5095-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2020-36310"]
+  gcve = ["GCVE-0-2020-36310"]
+  github = ["GHSA-jhhp-vmj5-g65v"]
+  debian = ["DSA-5095-1"]
+  suse = [
     "SUSE-SU-2021:1211-1",
     "SUSE-SU-2021:1238-1",
     "SUSE-SU-2021:1301-1",
@@ -28,14 +20,11 @@ suse = [
     "SUSE-SU-2021:1625-1",
     "SUSE-SU-2021:1975-1",
     "SUSE-SU-2021:1977-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:0579-1",
     "openSUSE-SU-2021:0758-1",
     "openSUSE-SU-2021:1975-1",
     "openSUSE-SU-2021:1977-1",
-]
-oraclelinux = [
-    "ELSA-2021-9306",
-    "ELSA-2021-9307",
-]
+  ]
+  oraclelinux = ["ELSA-2021-9306", "ELSA-2021-9307"]

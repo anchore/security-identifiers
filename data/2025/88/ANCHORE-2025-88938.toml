@@ -2,24 +2,14 @@
 id = "ANCHORE-2025-88938"
 allocated = 2025-10-23T09:18:39.898011Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-62820",
-]
-gcve = [
-    "GCVE-0-2025-62820",
-]
-github = [
-    "GHSA-x6fh-7qmf-69xh",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-62820"]
+  gcve = ["GCVE-0-2025-62820"]
+  github = ["GHSA-x6fh-7qmf-69xh"]
+  chainguard = [
     "CGA-7jfg-f835-cx64",
     "CGA-qp6j-7cgc-x4rh",
     "CGA-qx58-vrfx-2m5p",
-]
-minimos = [
-    "MINI-cw98-4w4w-c78v",
-]
-go = [
-    "GO-2025-4068",
-]
+  ]
+  minimos = ["MINI-cw98-4w4w-c78v"]
+  go = ["GO-2025-4068"]

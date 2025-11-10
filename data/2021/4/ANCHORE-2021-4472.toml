@@ -2,31 +2,19 @@
 id = "ANCHORE-2021-4472"
 allocated = 2025-10-15T14:16:00.908989Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-28950",
-]
-gcve = [
-    "GCVE-0-2021-28950",
-]
-github = [
-    "GHSA-chvf-mx8g-hjh2",
-]
-almalinux = [
-    "ALSA-2021:4356",
-]
-debian = [
-    "DLA-2689-1",
-    "DLA-2941-1",
-    "DSA-5096-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2021-28950"]
+  gcve = ["GCVE-0-2021-28950"]
+  github = ["GHSA-chvf-mx8g-hjh2"]
+  almalinux = ["ALSA-2021:4356"]
+  debian = ["DLA-2689-1", "DLA-2941-1", "DSA-5096-1"]
+  redhat = [
     "RHSA-2021:4140",
     "RHSA-2021:4356",
     "RHSA-2021:4648",
     "RHSA-2021:4650",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2021:1211-1",
     "SUSE-SU-2021:1238-1",
     "SUSE-SU-2021:1301-1",
@@ -42,19 +30,15 @@ suse = [
     "SUSE-SU-2021:1625-1",
     "SUSE-SU-2021:1975-1",
     "SUSE-SU-2021:1977-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:0579-1",
     "openSUSE-SU-2021:0758-1",
     "openSUSE-SU-2021:1975-1",
     "openSUSE-SU-2021:1977-1",
-]
-ubuntu = [
-    "USN-4911-1",
-    "USN-4982-1",
-    "USN-4984-1",
-]
-oraclelinux = [
+  ]
+  ubuntu = ["USN-4911-1", "USN-4982-1", "USN-4984-1"]
+  oraclelinux = [
     "ELSA-2021-4356",
     "ELSA-2021-9220",
     "ELSA-2021-9221",
@@ -62,4 +46,4 @@ oraclelinux = [
     "ELSA-2021-9471",
     "ELSA-2021-9485",
     "ELSA-2021-9488",
-]
+  ]

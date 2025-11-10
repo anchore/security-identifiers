@@ -2,21 +2,12 @@
 id = "ANCHORE-2023-16533"
 allocated = 2025-10-15T14:16:41.644010Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-21255",
-]
-gcve = [
-    "GCVE-0-2023-21255",
-]
-github = [
-    "GHSA-5852-j2m5-mf5f",
-]
-debian = [
-    "DLA-3623-1",
-    "DSA-5480-1",
-]
-ubuntu = [
+  [security.aliases]
+  cve = ["CVE-2023-21255"]
+  gcve = ["GCVE-0-2023-21255"]
+  github = ["GHSA-5852-j2m5-mf5f"]
+  debian = ["DLA-3623-1", "DSA-5480-1"]
+  ubuntu = [
     "USN-6338-1",
     "USN-6338-2",
     "USN-6339-1",
@@ -30,11 +21,11 @@ ubuntu = [
     "USN-6351-1",
     "USN-6357-1",
     "USN-6397-1",
-]
-openeuler = [
+  ]
+  openeuler = [
     "OESA-2023-1467",
     "OESA-2023-1468",
     "OESA-2023-1469",
     "OESA-2023-1470",
     "OESA-2023-1471",
-]
+  ]

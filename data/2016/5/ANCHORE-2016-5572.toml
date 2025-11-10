@@ -2,20 +2,9 @@
 id = "ANCHORE-2016-5572"
 allocated = 2025-10-15T14:15:05.998116Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-8867",
-]
-gcve = [
-    "GCVE-0-2016-8867",
-]
-redhat = [
-    "RHSA-2020:2653",
-]
-suse = [
-    "SUSE-SU-2016:3084-1",
-    "SUSE-SU-2025:03540-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:10532-1",
-]
+  [security.aliases]
+  cve = ["CVE-2016-8867"]
+  gcve = ["GCVE-0-2016-8867"]
+  redhat = ["RHSA-2020:2653"]
+  suse = ["SUSE-SU-2016:3084-1", "SUSE-SU-2025:03540-1"]
+  opensuse = ["openSUSE-SU-2024:10532-1"]

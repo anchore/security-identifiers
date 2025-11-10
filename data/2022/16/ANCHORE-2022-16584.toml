@@ -2,17 +2,11 @@
 id = "ANCHORE-2022-16584"
 allocated = 2025-10-15T14:16:23.981801Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-3690",
-]
-gcve = [
-    "GCVE-0-2021-3690",
-]
-github = [
-    "GHSA-fj7c-vg2v-ccrm",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2021-3690"]
+  gcve = ["GCVE-0-2021-3690"]
+  github = ["GHSA-fj7c-vg2v-ccrm"]
+  redhat = [
     "RHSA-2021:3217",
     "RHSA-2021:3219",
     "RHSA-2021:3466",
@@ -21,7 +15,5 @@ redhat = [
     "RHSA-2021:3656",
     "RHSA-2021:3658",
     "RHSA-2025:4226",
-]
-openeuler = [
-    "OESA-2024-2353",
-]
+  ]
+  openeuler = ["OESA-2024-2353"]

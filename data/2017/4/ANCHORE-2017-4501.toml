@@ -2,20 +2,9 @@
 id = "ANCHORE-2017-4501"
 allocated = 2025-10-15T14:15:09.768234Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-5661",
-]
-gcve = [
-    "GCVE-0-2017-5661",
-]
-github = [
-    "GHSA-5hg8-r9vq-gjqp",
-]
-debian = [
-    "DLA-927-1",
-    "DSA-3864-1",
-]
-ubuntu = [
-    "USN-3281-1",
-]
+  [security.aliases]
+  cve = ["CVE-2017-5661"]
+  gcve = ["GCVE-0-2017-5661"]
+  github = ["GHSA-5hg8-r9vq-gjqp"]
+  debian = ["DLA-927-1", "DSA-3864-1"]
+  ubuntu = ["USN-3281-1"]

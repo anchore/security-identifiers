@@ -2,21 +2,9 @@
 id = "ANCHORE-2003-879"
 allocated = 2025-10-15T14:14:12.826608Z
 
-[security.aliases]
-cve = [
-    "CVE-2003-0461",
-]
-gcve = [
-    "GCVE-0-2003-0461",
-]
-github = [
-    "GHSA-8x73-xrpj-qfx7",
-]
-debian = [
-    "DSA-358",
-    "DSA-358-1",
-    "DSA-423",
-]
-redhat = [
-    "RHSA-2004:188",
-]
+  [security.aliases]
+  cve = ["CVE-2003-0461"]
+  gcve = ["GCVE-0-2003-0461"]
+  github = ["GHSA-8x73-xrpj-qfx7"]
+  debian = ["DSA-358", "DSA-358-1", "DSA-423"]
+  redhat = ["RHSA-2004:188"]

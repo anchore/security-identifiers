@@ -2,20 +2,12 @@
 id = "ANCHORE-2022-6534"
 allocated = 2025-10-15T14:16:17.170794Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-26361",
-]
-gcve = [
-    "GCVE-0-2022-26361",
-]
-github = [
-    "GHSA-c3mw-fh2q-7xx4",
-]
-debian = [
-    "DSA-5117-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2022-26361"]
+  gcve = ["GCVE-0-2022-26361"]
+  github = ["GHSA-c3mw-fh2q-7xx4"]
+  debian = ["DSA-5117-1"]
+  suse = [
     "SUSE-SU-2022:1285-1",
     "SUSE-SU-2022:1300-1",
     "SUSE-SU-2022:1359-1",
@@ -25,4 +17,4 @@ suse = [
     "SUSE-SU-2022:1506-1",
     "SUSE-SU-2022:2065-1",
     "SUSE-SU-2022:2158-1",
-]
+  ]

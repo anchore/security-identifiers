@@ -2,27 +2,11 @@
 id = "ANCHORE-2023-25061"
 allocated = 2025-10-15T14:16:47.365991Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-46118",
-]
-gcve = [
-    "GCVE-0-2023-46118",
-]
-bitnami = [
-    "BIT-rabbitmq-2023-46118",
-]
-debian = [
-    "DLA-3687-1",
-    "DSA-5571-1",
-]
-redhat = [
-    "RHSA-2024:0217",
-]
-suse = [
-    "SUSE-FU-2024:2078-1",
-    "SUSE-SU-2023:4939-1",
-]
-ubuntu = [
-    "USN-6501-1",
-]
+  [security.aliases]
+  cve = ["CVE-2023-46118"]
+  gcve = ["GCVE-0-2023-46118"]
+  bitnami = ["BIT-rabbitmq-2023-46118"]
+  debian = ["DLA-3687-1", "DSA-5571-1"]
+  redhat = ["RHSA-2024:0217"]
+  suse = ["SUSE-FU-2024:2078-1", "SUSE-SU-2023:4939-1"]
+  ubuntu = ["USN-6501-1"]

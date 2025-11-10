@@ -2,30 +2,12 @@
 id = "ANCHORE-2020-1966"
 allocated = 2025-10-15T14:15:46.048299Z
 
-[security.aliases]
-cve = [
-    "CVE-2014-8139",
-]
-gcve = [
-    "GCVE-0-2014-8139",
-]
-github = [
-    "GHSA-fhcq-p46p-2xvm",
-]
-debian = [
-    "DLA-124-1",
-    "DLA-150-1",
-    "DSA-3113-1",
-]
-redhat = [
-    "RHSA-2015:0700",
-]
-opensuse = [
-    "openSUSE-SU-2024:10480-1",
-]
-ubuntu = [
-    "USN-2472-1",
-]
-oraclelinux = [
-    "ELSA-2015-0700",
-]
+  [security.aliases]
+  cve = ["CVE-2014-8139"]
+  gcve = ["GCVE-0-2014-8139"]
+  github = ["GHSA-fhcq-p46p-2xvm"]
+  debian = ["DLA-124-1", "DLA-150-1", "DSA-3113-1"]
+  redhat = ["RHSA-2015:0700"]
+  opensuse = ["openSUSE-SU-2024:10480-1"]
+  ubuntu = ["USN-2472-1"]
+  oraclelinux = ["ELSA-2015-0700"]

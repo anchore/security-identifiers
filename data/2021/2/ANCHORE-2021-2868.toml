@@ -2,43 +2,23 @@
 id = "ANCHORE-2021-2868"
 allocated = 2025-10-15T14:15:59.828032Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-23840",
-]
-gcve = [
-    "GCVE-0-2021-23840",
-]
-github = [
-    "GHSA-qgm6-9472-pwq7",
-]
-bitnami = [
-    "BIT-node-2021-23840",
-    "BIT-node-min-2021-23840",
-]
-rustsec = [
-    "RUSTSEC-2021-0057",
-]
-almalinux = [
-    "ALSA-2021:4198",
-]
-debian = [
-    "DLA-2563-1",
-    "DLA-2565-1",
-    "DSA-4855-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2021-23840"]
+  gcve = ["GCVE-0-2021-23840"]
+  github = ["GHSA-qgm6-9472-pwq7"]
+  bitnami = ["BIT-node-2021-23840", "BIT-node-min-2021-23840"]
+  rustsec = ["RUSTSEC-2021-0057"]
+  almalinux = ["ALSA-2021:4198"]
+  debian = ["DLA-2563-1", "DLA-2565-1", "DSA-4855-1"]
+  redhat = [
     "RHSA-2021:3798",
     "RHSA-2021:4198",
     "RHSA-2021:4424",
     "RHSA-2021:4614",
     "RHSA-2021:4861",
-]
-rockylinux = [
-    "RLSA-2021:4198",
-    "RLSA-2021:4424",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2021:4198", "RLSA-2021:4424"]
+  suse = [
     "SUSE-SU-2021:0649-1",
     "SUSE-SU-2021:0651-1",
     "SUSE-SU-2021:0673-1",
@@ -53,33 +33,22 @@ suse = [
     "SUSE-SU-2021:0939-1",
     "SUSE-SU-2021:14667-1",
     "SUSE-SU-2021:14670-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:0357-1",
     "openSUSE-SU-2021:0372-1",
     "openSUSE-SU-2021:0427-1",
     "openSUSE-SU-2021:0430-1",
     "openSUSE-SU-2024:11126-1",
     "openSUSE-SU-2024:11127-1",
-]
-ubuntu = [
-    "USN-4738-1",
-    "USN-5088-1",
-    "USN-7018-1",
-]
-openeuler = [
-    "OESA-2021-1121",
-    "OESA-2022-1938",
-]
-amazonlinux = [
-    "ALAS2-2021-1608",
-    "ALAS2-2021-1612",
-    "ALAS2-2024-2502",
-]
-oraclelinux = [
+  ]
+  ubuntu = ["USN-4738-1", "USN-5088-1", "USN-7018-1"]
+  openeuler = ["OESA-2021-1121", "OESA-2022-1938"]
+  amazonlinux = ["ALAS2-2021-1608", "ALAS2-2021-1612", "ALAS2-2024-2502"]
+  oraclelinux = [
     "ELSA-2021-3798",
     "ELSA-2021-4424",
     "ELSA-2021-9478",
     "ELSA-2021-9528",
     "ELSA-2021-9561",
-]
+  ]

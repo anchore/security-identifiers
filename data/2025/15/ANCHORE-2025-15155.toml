@@ -2,26 +2,10 @@
 id = "ANCHORE-2025-15155"
 allocated = 2025-10-15T14:17:29.855272Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-32433",
-]
-gcve = [
-    "GCVE-0-2025-32433",
-]
-debian = [
-    "DLA-4132-1",
-    "DSA-5906-1",
-]
-suse = [
-    "SUSE-SU-2025:1356-1",
-    "SUSE-SU-2025:1357-1",
-]
-ubuntu = [
-    "USN-7443-1",
-    "USN-7443-2",
-    "USN-7443-3",
-]
-openeuler = [
-    "OESA-2025-1461",
-]
+  [security.aliases]
+  cve = ["CVE-2025-32433"]
+  gcve = ["GCVE-0-2025-32433"]
+  debian = ["DLA-4132-1", "DSA-5906-1"]
+  suse = ["SUSE-SU-2025:1356-1", "SUSE-SU-2025:1357-1"]
+  ubuntu = ["USN-7443-1", "USN-7443-2", "USN-7443-3"]
+  openeuler = ["OESA-2025-1461"]

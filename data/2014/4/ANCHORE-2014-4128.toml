@@ -2,17 +2,8 @@
 id = "ANCHORE-2014-4128"
 allocated = 2025-10-15T14:14:55.136080Z
 
-[security.aliases]
-cve = [
-    "CVE-2014-5240",
-]
-gcve = [
-    "GCVE-0-2014-5240",
-]
-github = [
-    "GHSA-324x-63mr-8cqc",
-]
-debian = [
-    "DLA-56-1",
-    "DSA-3001-1",
-]
+  [security.aliases]
+  cve = ["CVE-2014-5240"]
+  gcve = ["GCVE-0-2014-5240"]
+  github = ["GHSA-324x-63mr-8cqc"]
+  debian = ["DLA-56-1", "DSA-3001-1"]

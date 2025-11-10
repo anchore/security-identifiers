@@ -2,34 +2,18 @@
 id = "ANCHORE-2024-31451"
 allocated = 2025-10-15T14:17:12.973711Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-9264",
-]
-gcve = [
-    "GCVE-0-2024-9264",
-]
-github = [
-    "GHSA-q99m-qcv4-fpm7",
-]
-bitnami = [
-    "BIT-grafana-2024-9264",
-]
-go = [
-    "GO-2024-3215",
-]
-chainguard = [
-    "CGA-3f3f-qwc8-5qqf",
-    "CGA-fj3q-rhm5-g676",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2024-9264"]
+  gcve = ["GCVE-0-2024-9264"]
+  github = ["GHSA-q99m-qcv4-fpm7"]
+  bitnami = ["BIT-grafana-2024-9264"]
+  go = ["GO-2024-3215"]
+  chainguard = ["CGA-3f3f-qwc8-5qqf", "CGA-fj3q-rhm5-g676"]
+  suse = [
     "SUSE-SU-2024:3911-1",
     "SUSE-SU-2025:01985-1",
     "SUSE-SU-2025:01987-1",
     "SUSE-SU-2025:01989-1",
     "SUSE-SU-2025:01991-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:14431-1",
-    "openSUSE-SU-2024:14447-1",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:14431-1", "openSUSE-SU-2024:14447-1"]

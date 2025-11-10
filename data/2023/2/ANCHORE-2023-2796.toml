@@ -2,19 +2,9 @@
 id = "ANCHORE-2023-2796"
 allocated = 2025-10-15T14:16:32.373219Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-37519",
-]
-gcve = [
-    "GCVE-0-2021-37519",
-]
-github = [
-    "GHSA-5pff-p34f-mm94",
-]
-bitnami = [
-    "BIT-memcached-2021-37519",
-]
-amazonlinux = [
-    "ALAS2MEMCACHED1.5-2025-001",
-]
+  [security.aliases]
+  cve = ["CVE-2021-37519"]
+  gcve = ["GCVE-0-2021-37519"]
+  github = ["GHSA-5pff-p34f-mm94"]
+  bitnami = ["BIT-memcached-2021-37519"]
+  amazonlinux = ["ALAS2MEMCACHED1.5-2025-001"]

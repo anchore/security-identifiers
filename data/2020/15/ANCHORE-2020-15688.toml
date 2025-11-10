@@ -2,19 +2,9 @@
 id = "ANCHORE-2020-15688"
 allocated = 2025-10-15T14:15:55.374996Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-14827",
-]
-gcve = [
-    "GCVE-0-2020-14827",
-]
-github = [
-    "GHSA-49v5-72w5-rv6v",
-]
-chainguard = [
-    "CGA-56gq-jxxc-p55q",
-]
-ubuntu = [
-    "USN-4604-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-14827"]
+  gcve = ["GCVE-0-2020-14827"]
+  github = ["GHSA-49v5-72w5-rv6v"]
+  chainguard = ["CGA-56gq-jxxc-p55q"]
+  ubuntu = ["USN-4604-1"]

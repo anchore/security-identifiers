@@ -2,24 +2,10 @@
 id = "ANCHORE-2018-8963"
 allocated = 2025-10-15T14:15:25.181098Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-12099",
-]
-gcve = [
-    "GCVE-0-2018-12099",
-]
-github = [
-    "GHSA-v5gq-qvjq-8p53",
-]
-go = [
-    "GO-2024-2510",
-]
-redhat = [
-    "RHSA-2019:0911",
-]
-suse = [
-    "SUSE-SU-2018:2317-1",
-    "SUSE-SU-2018:2536-1",
-    "SUSE-SU-2020:1273-1",
-]
+  [security.aliases]
+  cve = ["CVE-2018-12099"]
+  gcve = ["GCVE-0-2018-12099"]
+  github = ["GHSA-v5gq-qvjq-8p53"]
+  go = ["GO-2024-2510"]
+  redhat = ["RHSA-2019:0911"]
+  suse = ["SUSE-SU-2018:2317-1", "SUSE-SU-2018:2536-1", "SUSE-SU-2020:1273-1"]

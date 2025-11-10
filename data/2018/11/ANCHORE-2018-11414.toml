@@ -2,31 +2,15 @@
 id = "ANCHORE-2018-11414"
 allocated = 2025-10-15T14:15:26.871473Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-2964",
-]
-gcve = [
-    "GCVE-0-2018-2964",
-]
-github = [
-    "GHSA-2q7m-m9fq-g952",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2018-2964"]
+  gcve = ["GCVE-0-2018-2964"]
+  github = ["GHSA-2q7m-m9fq-g952"]
+  chainguard = [
     "CGA-7v75-5g7w-r87p",
     "CGA-rwcr-c8rw-4rvq",
     "CGA-wvx4-6xpc-xp7h",
-]
-redhat = [
-    "RHSA-2018:2253",
-    "RHSA-2018:2256",
-]
-suse = [
-    "SUSE-SU-2018:2839-1",
-    "SUSE-SU-2018:2839-2",
-    "SUSE-SU-2018:3082-1",
-]
-minimos = [
-    "MINI-65rc-5hc8-rq3q",
-    "MINI-j55m-8p4v-m5jj",
-]
+  ]
+  redhat = ["RHSA-2018:2253", "RHSA-2018:2256"]
+  suse = ["SUSE-SU-2018:2839-1", "SUSE-SU-2018:2839-2", "SUSE-SU-2018:3082-1"]
+  minimos = ["MINI-65rc-5hc8-rq3q", "MINI-j55m-8p4v-m5jj"]

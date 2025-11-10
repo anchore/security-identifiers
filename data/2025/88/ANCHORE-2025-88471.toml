@@ -2,37 +2,21 @@
 id = "ANCHORE-2025-88471"
 allocated = 2025-10-22T09:42:27.694072Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-53057",
-]
-gcve = [
-    "GCVE-0-2025-53057",
-]
-github = [
-    "GHSA-5ccw-23gm-2h2f",
-]
-redhat = [
-    "RHSA-2025:18814",
-    "RHSA-2025:18821",
-    "RHSA-2025:18824",
-]
-debian = [
+  [security.aliases]
+  cve = ["CVE-2025-53057"]
+  gcve = ["GCVE-0-2025-53057"]
+  github = ["GHSA-5ccw-23gm-2h2f"]
+  redhat = ["RHSA-2025:18814", "RHSA-2025:18821", "RHSA-2025:18824"]
+  debian = [
     "DLA-4345-1",
     "DLA-4346-1",
     "DSA-6037-1",
     "DSA-6038-1",
     "DSA-6039-1",
-]
-oraclelinux = [
-    "ELSA-2025-18815",
-    "ELSA-2025-18821",
-    "ELSA-2025-18824",
-]
-suse = [
-    "SUSE-SU-2025:3835-1",
-]
-amazonlinux = [
+  ]
+  oraclelinux = ["ELSA-2025-18815", "ELSA-2025-18821", "ELSA-2025-18824"]
+  suse = ["SUSE-SU-2025:3835-1"]
+  amazonlinux = [
     "ALAS2-2025-3047",
     "ALAS2-2025-3048",
     "ALAS2023-2025-1240",
@@ -41,14 +25,10 @@ amazonlinux = [
     "ALAS2023-2025-1243",
     "ALAS2023-2025-1244",
     "ALAS2CORRETTO8-2025-021",
-]
-chainguard = [
+  ]
+  chainguard = [
     "CGA-49m7-pj92-c588",
     "CGA-6x7m-fh65-rpqx",
     "CGA-vmgp-p9c5-c79f",
-]
-almalinux = [
-    "ALSA-2025:18815",
-    "ALSA-2025:18821",
-    "ALSA-2025:18824",
-]
+  ]
+  almalinux = ["ALSA-2025:18815", "ALSA-2025:18821", "ALSA-2025:18824"]

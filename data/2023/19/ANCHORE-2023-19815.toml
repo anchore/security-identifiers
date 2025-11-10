@@ -2,23 +2,13 @@
 id = "ANCHORE-2023-19815"
 allocated = 2025-10-15T14:16:43.858488Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-40577",
-]
-gcve = [
-    "GCVE-0-2023-40577",
-]
-github = [
-    "GHSA-v86x-5fm3-5p7j",
-]
-bitnami = [
-    "BIT-alertmanager-2023-40577",
-]
-go = [
-    "GO-2023-2020",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2023-40577"]
+  gcve = ["GCVE-0-2023-40577"]
+  github = ["GHSA-v86x-5fm3-5p7j"]
+  bitnami = ["BIT-alertmanager-2023-40577"]
+  go = ["GO-2023-2020"]
+  chainguard = [
     "CGA-7f4h-m585-rhrp",
     "CGA-8xwx-h3q4-g46x",
     "CGA-98g2-9g6q-wpmq",
@@ -29,18 +19,8 @@ chainguard = [
     "CGA-qrgj-wj7v-r5x2",
     "CGA-wch8-gq8v-g3r5",
     "CGA-xx32-jqfw-xx2j",
-]
-debian = [
-    "DLA-3609-1",
-]
-suse = [
-    "SUSE-SU-2024:0191-1",
-    "SUSE-SU-2024:0486-1",
-    "SUSE-SU-2024:0512-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:13599-1",
-]
-ubuntu = [
-    "USN-6935-1",
-]
+  ]
+  debian = ["DLA-3609-1"]
+  suse = ["SUSE-SU-2024:0191-1", "SUSE-SU-2024:0486-1", "SUSE-SU-2024:0512-1"]
+  opensuse = ["openSUSE-SU-2024:13599-1"]
+  ubuntu = ["USN-6935-1"]

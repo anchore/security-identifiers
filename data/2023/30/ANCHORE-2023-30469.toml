@@ -2,20 +2,9 @@
 id = "ANCHORE-2023-30469"
 allocated = 2025-10-15T14:16:51.039772Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-51704",
-]
-gcve = [
-    "GCVE-0-2023-51704",
-]
-github = [
-    "GHSA-pmh9-hwq5-vvpj",
-]
-bitnami = [
-    "BIT-mediawiki-2023-51704",
-]
-debian = [
-    "DLA-3796-1",
-    "DLA-3896-1",
-]
+  [security.aliases]
+  cve = ["CVE-2023-51704"]
+  gcve = ["GCVE-0-2023-51704"]
+  github = ["GHSA-pmh9-hwq5-vvpj"]
+  bitnami = ["BIT-mediawiki-2023-51704"]
+  debian = ["DLA-3796-1", "DLA-3896-1"]

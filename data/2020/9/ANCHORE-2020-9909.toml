@@ -2,25 +2,10 @@
 id = "ANCHORE-2020-9909"
 allocated = 2025-10-15T14:15:51.460183Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-4032",
-]
-gcve = [
-    "GCVE-0-2020-4032",
-]
-debian = [
-    "DLA-3606-1",
-]
-suse = [
-    "SUSE-SU-2020:2032-1",
-    "SUSE-SU-2020:2068-1",
-    "SUSE-SU-2020:2272-1",
-]
-opensuse = [
-    "openSUSE-SU-2020:1090-1",
-    "openSUSE-SU-2024:10768-1",
-]
-ubuntu = [
-    "USN-4481-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-4032"]
+  gcve = ["GCVE-0-2020-4032"]
+  debian = ["DLA-3606-1"]
+  suse = ["SUSE-SU-2020:2032-1", "SUSE-SU-2020:2068-1", "SUSE-SU-2020:2272-1"]
+  opensuse = ["openSUSE-SU-2020:1090-1", "openSUSE-SU-2024:10768-1"]
+  ubuntu = ["USN-4481-1"]

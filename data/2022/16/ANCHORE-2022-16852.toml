@@ -2,48 +2,18 @@
 id = "ANCHORE-2022-16852"
 allocated = 2025-10-15T14:16:24.161952Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-2255",
-]
-gcve = [
-    "GCVE-0-2022-2255",
-]
-github = [
-    "GHSA-7527-8855-9cf8",
-]
-bitnami = [
-    "BIT-mod_wsgi-2022-2255",
-]
-pypa = [
-    "PYSEC-2022-254",
-]
-almalinux = [
-    "ALSA-2025:4791",
-]
-debian = [
-    "DLA-3111-1",
-]
-redhat = [
-    "RHSA-2025:4791",
-]
-suse = [
-    "SUSE-SU-2022:4010-1",
-    "SUSE-SU-2022:4013-1",
-    "SUSE-SU-2022:4488-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12535-1",
-]
-ubuntu = [
-    "USN-5551-1",
-]
-openeuler = [
-    "OESA-2022-1827",
-]
-amazonlinux = [
-    "ALAS2HTTPD_MODULES-2023-001",
-]
-oraclelinux = [
-    "ELSA-2025-4791",
-]
+  [security.aliases]
+  cve = ["CVE-2022-2255"]
+  gcve = ["GCVE-0-2022-2255"]
+  github = ["GHSA-7527-8855-9cf8"]
+  bitnami = ["BIT-mod_wsgi-2022-2255"]
+  pypa = ["PYSEC-2022-254"]
+  almalinux = ["ALSA-2025:4791"]
+  debian = ["DLA-3111-1"]
+  redhat = ["RHSA-2025:4791"]
+  suse = ["SUSE-SU-2022:4010-1", "SUSE-SU-2022:4013-1", "SUSE-SU-2022:4488-1"]
+  opensuse = ["openSUSE-SU-2024:12535-1"]
+  ubuntu = ["USN-5551-1"]
+  openeuler = ["OESA-2022-1827"]
+  amazonlinux = ["ALAS2HTTPD_MODULES-2023-001"]
+  oraclelinux = ["ELSA-2025-4791"]

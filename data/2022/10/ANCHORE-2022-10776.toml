@@ -2,31 +2,19 @@
 id = "ANCHORE-2022-10776"
 allocated = 2025-10-15T14:16:20.080903Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-1996",
-]
-gcve = [
-    "GCVE-0-2022-1996",
-]
-github = [
-    "GHSA-r48q-9g5r-8q2h",
-]
-go = [
-    "GO-2022-0619",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2022-1996"]
+  gcve = ["GCVE-0-2022-1996"]
+  github = ["GHSA-r48q-9g5r-8q2h"]
+  go = ["GO-2022-0619"]
+  chainguard = [
     "CGA-2rgh-qx5w-v4mh",
     "CGA-f3fg-xc4j-f74v",
     "CGA-h52j-4278-c4g3",
     "CGA-mv9q-7p6c-wvxg",
-]
-redhat = [
-    "RHSA-2022:6042",
-    "RHSA-2023:3229",
-    "RHSA-2023:3557",
-]
-suse = [
+  ]
+  redhat = ["RHSA-2022:6042", "RHSA-2023:3229", "RHSA-2023:3557"]
+  suse = [
     "SUSE-SU-2022:3321-1",
     "SUSE-SU-2022:3333-1",
     "SUSE-SU-2022:3334-1",
@@ -37,17 +25,17 @@ suse = [
     "SUSE-SU-2024:0799-1",
     "SUSE-SU-2024:3221-1",
     "SUSE-SU-2024:4329-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2022:10081-1",
     "openSUSE-SU-2022:10094-1",
     "openSUSE-SU-2024:12205-1",
     "openSUSE-SU-2024:12252-1",
     "openSUSE-SU-2024:14081-1",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS-2022-133",
     "ALAS-2022-140",
     "ALAS-2022-192",
     "ALAS-2022-193",
-]
+  ]

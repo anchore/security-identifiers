@@ -2,24 +2,16 @@
 id = "ANCHORE-2025-37304"
 allocated = 2025-10-15T14:17:45.554867Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-46817",
-]
-gcve = [
-    "GCVE-0-2025-46817",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2025-46817"]
+  gcve = ["GCVE-0-2025-46817"]
+  bitnami = [
     "BIT-keydb-2025-46817",
     "BIT-redis-2025-46817",
     "BIT-valkey-2025-46817",
-]
-debian = [
-    "DLA-4325-1",
-    "DSA-6020-1",
-    "DSA-6022-1",
-]
-suse = [
+  ]
+  debian = ["DLA-4325-1", "DSA-6020-1", "DSA-6022-1"]
+  suse = [
     "SUSE-SU-2025:03499-1",
     "SUSE-SU-2025:03500-1",
     "SUSE-SU-2025:03501-1",
@@ -27,31 +19,20 @@ suse = [
     "SUSE-SU-2025:03505-1",
     "SUSE-SU-2025:03506-1",
     "SUSE-SU-2025:03507-1",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-45q4-9r5w-373h",
     "MINI-8cc3-wh4g-q7cj",
     "MINI-j375-29rm-gv55",
     "MINI-jprc-85wp-jvx9",
     "MINI-x3jm-rvcf-g43c",
-]
-openeuler = [
-    "OESA-2025-2389",
-    "OESA-2025-2390",
-]
-amazonlinux = [
+  ]
+  openeuler = ["OESA-2025-2389", "OESA-2025-2390"]
+  amazonlinux = [
     "ALAS2023-2025-1221",
     "ALAS2023-2025-1222",
     "ALAS2REDIS6-2025-015",
-]
-redhat = [
-    "RHSA-2025:18931",
-]
-almalinux = [
-    "ALSA-2025:19237",
-    "ALSA-2025:19238",
-]
-oraclelinux = [
-    "ELSA-2025-19237",
-    "ELSA-2025-19238",
-]
+  ]
+  redhat = ["RHSA-2025:18931"]
+  almalinux = ["ALSA-2025:19237", "ALSA-2025:19238"]
+  oraclelinux = ["ELSA-2025-19237", "ELSA-2025-19238"]

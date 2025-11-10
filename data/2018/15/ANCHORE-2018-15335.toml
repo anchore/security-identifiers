@@ -2,23 +2,14 @@
 id = "ANCHORE-2018-15335"
 allocated = 2025-10-15T14:15:29.610542Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-3209",
-]
-gcve = [
-    "GCVE-0-2018-3209",
-]
-github = [
-    "GHSA-q32c-jx93-4hwp",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2018-3209"]
+  gcve = ["GCVE-0-2018-3209"]
+  github = ["GHSA-q32c-jx93-4hwp"]
+  chainguard = [
     "CGA-5wmp-wpvh-g2xv",
     "CGA-8q63-4wqv-h87p",
     "CGA-fj99-mmjq-6w93",
     "CGA-j99r-m95x-xph4",
-]
-redhat = [
-    "RHSA-2018:3002",
-    "RHSA-2018:3003",
-]
+  ]
+  redhat = ["RHSA-2018:3002", "RHSA-2018:3003"]

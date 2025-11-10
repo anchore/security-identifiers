@@ -2,26 +2,11 @@
 id = "ANCHORE-2017-4009"
 allocated = 2025-10-15T14:15:09.416504Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-7592",
-]
-gcve = [
-    "GCVE-0-2017-7592",
-]
-github = [
-    "GHSA-w7jq-84mw-372h",
-]
-debian = [
-    "DLA-911-1",
-    "DSA-3844-1",
-]
-suse = [
-    "SUSE-SU-2017:2569-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:11461-1",
-]
-ubuntu = [
-    "USN-3602-1",
-]
+  [security.aliases]
+  cve = ["CVE-2017-7592"]
+  gcve = ["GCVE-0-2017-7592"]
+  github = ["GHSA-w7jq-84mw-372h"]
+  debian = ["DLA-911-1", "DSA-3844-1"]
+  suse = ["SUSE-SU-2017:2569-1"]
+  opensuse = ["openSUSE-SU-2024:11461-1"]
+  ubuntu = ["USN-3602-1"]

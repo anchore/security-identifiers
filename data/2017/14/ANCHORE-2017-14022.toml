@@ -2,26 +2,15 @@
 id = "ANCHORE-2017-14022"
 allocated = 2025-10-15T14:15:16.174522Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-12615",
-]
-gcve = [
-    "GCVE-0-2017-12615",
-]
-github = [
-    "GHSA-pjfr-qf3p-3q25",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2017-12615"]
+  gcve = ["GCVE-0-2017-12615"]
+  github = ["GHSA-pjfr-qf3p-3q25"]
+  redhat = [
     "RHSA-2017:3080",
     "RHSA-2017:3081",
     "RHSA-2017:3113",
     "RHSA-2018:0466",
-]
-suse = [
-    "SUSE-SU-2017:3059-1",
-]
-oraclelinux = [
-    "ELSA-2017-3080",
-    "ELSA-2017-3081",
-]
+  ]
+  suse = ["SUSE-SU-2017:3059-1"]
+  oraclelinux = ["ELSA-2017-3080", "ELSA-2017-3081"]

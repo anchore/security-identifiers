@@ -2,25 +2,15 @@
 id = "ANCHORE-2022-4557"
 allocated = 2025-10-15T14:16:15.844199Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-26520",
-]
-gcve = [
-    "GCVE-0-2022-26520",
-]
-github = [
-    "GHSA-727h-hrw8-jg8q",
-]
-bitnami = [
-    "BIT-postgresql-jdbc-driver-2022-26520",
-]
-debian = [
-    "DSA-5196-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2022-26520"]
+  gcve = ["GCVE-0-2022-26520"]
+  github = ["GHSA-727h-hrw8-jg8q"]
+  bitnami = ["BIT-postgresql-jdbc-driver-2022-26520"]
+  debian = ["DSA-5196-1"]
+  suse = [
     "SUSE-FU-2022:2794-1",
     "SUSE-SU-2022:2143-1",
     "SUSE-SU-2022:2145-1",
     "SUSE-SU-2022:2655-1",
-]
+  ]

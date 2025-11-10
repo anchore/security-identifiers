@@ -2,20 +2,9 @@
 id = "ANCHORE-2022-24255"
 allocated = 2025-10-15T14:16:29.171200Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-43515",
-]
-gcve = [
-    "GCVE-0-2022-43515",
-]
-github = [
-    "GHSA-hh7f-cch9-52mr",
-]
-debian = [
-    "DLA-3538-1",
-    "DLA-3909-1",
-]
-suse = [
-    "SUSE-SU-2022:4477-1",
-]
+  [security.aliases]
+  cve = ["CVE-2022-43515"]
+  gcve = ["GCVE-0-2022-43515"]
+  github = ["GHSA-hh7f-cch9-52mr"]
+  debian = ["DLA-3538-1", "DLA-3909-1"]
+  suse = ["SUSE-SU-2022:4477-1"]

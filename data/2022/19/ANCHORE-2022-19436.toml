@@ -2,24 +2,13 @@
 id = "ANCHORE-2022-19436"
 allocated = 2025-10-15T14:16:25.900469Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-42003",
-]
-gcve = [
-    "GCVE-0-2022-42003",
-]
-github = [
-    "GHSA-jjjh-jjxp-wpff",
-]
-chainguard = [
-    "CGA-cr64-vww2-xpq8",
-]
-debian = [
-    "DLA-3207-1",
-    "DSA-5283-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2022-42003"]
+  gcve = ["GCVE-0-2022-42003"]
+  github = ["GHSA-jjjh-jjxp-wpff"]
+  chainguard = ["CGA-cr64-vww2-xpq8"]
+  debian = ["DLA-3207-1", "DSA-5283-1"]
+  redhat = [
     "RHSA-2023:0261",
     "RHSA-2023:0552",
     "RHSA-2023:0553",
@@ -33,17 +22,8 @@ redhat = [
     "RHSA-2023:3663",
     "RHSA-2025:1746",
     "RHSA-2025:1747",
-]
-suse = [
-    "SUSE-SU-2022:3995-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:14395-1",
-]
-minimos = [
-    "MINI-447r-3mgx-rrqv",
-]
-openeuler = [
-    "OESA-2023-1921",
-    "OESA-2023-1971",
-]
+  ]
+  suse = ["SUSE-SU-2022:3995-1"]
+  opensuse = ["openSUSE-SU-2024:14395-1"]
+  minimos = ["MINI-447r-3mgx-rrqv"]
+  openeuler = ["OESA-2023-1921", "OESA-2023-1971"]

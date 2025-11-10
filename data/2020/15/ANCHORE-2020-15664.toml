@@ -2,21 +2,12 @@
 id = "ANCHORE-2020-15664"
 allocated = 2025-10-15T14:15:55.359104Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-14803",
-]
-gcve = [
-    "GCVE-0-2020-14803",
-]
-github = [
-    "GHSA-5frm-fh7j-wpfx",
-]
-debian = [
-    "DLA-2412-1",
-    "DSA-4779-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2020-14803"]
+  gcve = ["GCVE-0-2020-14803"]
+  github = ["GHSA-5frm-fh7j-wpfx"]
+  debian = ["DLA-2412-1", "DSA-4779-1"]
+  redhat = [
     "RHSA-2020:4305",
     "RHSA-2020:4306",
     "RHSA-2020:4307",
@@ -29,8 +20,8 @@ redhat = [
     "RHSA-2021:0717",
     "RHSA-2021:0733",
     "RHSA-2021:0736",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2020:14587-1",
     "SUSE-SU-2020:14588-1",
     "SUSE-SU-2020:3159-1",
@@ -48,8 +39,8 @@ suse = [
     "SUSE-SU-2021:0670-1",
     "SUSE-SU-2021:14634-1",
     "SUSE-SU-2021:14640-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2020:1893-1",
     "openSUSE-SU-2020:1984-1",
     "openSUSE-SU-2020:1994-1",
@@ -63,25 +54,19 @@ opensuse = [
     "openSUSE-SU-2024:10875-1",
     "openSUSE-SU-2024:10876-1",
     "openSUSE-SU-2025:0066-1",
-]
-ubuntu = [
-    "USN-4607-1",
-    "USN-4607-2",
-]
-minimos = [
+  ]
+  ubuntu = ["USN-4607-1", "USN-4607-2"]
+  minimos = [
     "MINI-8w8g-cj23-xgjf",
     "MINI-f2g5-xq8m-x7g6",
     "MINI-h82q-x7wj-7h86",
     "MINI-jfqx-rwrj-c74f",
-]
-amazonlinux = [
-    "ALAS2-2021-1579",
-    "ALAS2JAVA-OPENJDK11-2025-013",
-]
-oraclelinux = [
+  ]
+  amazonlinux = ["ALAS2-2021-1579", "ALAS2JAVA-OPENJDK11-2025-013"]
+  oraclelinux = [
     "ELSA-2020-4305",
     "ELSA-2020-4307",
     "ELSA-2020-4347",
     "ELSA-2020-4348",
     "ELSA-2020-4350",
-]
+  ]

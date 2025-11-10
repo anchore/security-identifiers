@@ -2,23 +2,10 @@
 id = "ANCHORE-2025-5199"
 allocated = 2025-10-15T14:17:22.995264Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-1153",
-]
-gcve = [
-    "GCVE-0-2025-1153",
-]
-github = [
-    "GHSA-3frg-24qp-xxv2",
-]
-chainguard = [
-    "CGA-gxcj-jj66-mxg7",
-]
-ubuntu = [
-    "USN-7423-1",
-    "USN-7423-2",
-]
-minimos = [
-    "MINI-hvgh-p3wg-mjpm",
-]
+  [security.aliases]
+  cve = ["CVE-2025-1153"]
+  gcve = ["GCVE-0-2025-1153"]
+  github = ["GHSA-3frg-24qp-xxv2"]
+  chainguard = ["CGA-gxcj-jj66-mxg7"]
+  ubuntu = ["USN-7423-1", "USN-7423-2"]
+  minimos = ["MINI-hvgh-p3wg-mjpm"]

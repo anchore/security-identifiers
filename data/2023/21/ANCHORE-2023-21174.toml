@@ -2,20 +2,9 @@
 id = "ANCHORE-2023-21174"
 allocated = 2025-10-15T14:16:44.765599Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-36793",
-]
-gcve = [
-    "GCVE-0-2023-36793",
-]
-github = [
-    "GHSA-g4p8-g7mq-wpx4",
-]
-bitnami = [
-    "BIT-dotnet-2023-36793",
-    "BIT-dotnet-sdk-2023-36793",
-]
-amazonlinux = [
-    "ALAS2023-2023-369",
-]
+  [security.aliases]
+  cve = ["CVE-2023-36793"]
+  gcve = ["GCVE-0-2023-36793"]
+  github = ["GHSA-g4p8-g7mq-wpx4"]
+  bitnami = ["BIT-dotnet-2023-36793", "BIT-dotnet-sdk-2023-36793"]
+  amazonlinux = ["ALAS2023-2023-369"]

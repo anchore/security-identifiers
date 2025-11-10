@@ -2,31 +2,13 @@
 id = "ANCHORE-2018-5025"
 allocated = 2025-10-15T14:15:22.420959Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-8976",
-]
-gcve = [
-    "GCVE-0-2018-8976",
-]
-github = [
-    "GHSA-64gf-9xgm-rfrx",
-]
-pypa = [
-    "PYSEC-2018-146",
-]
-debian = [
-    "DLA-3265-1",
-]
-redhat = [
-    "RHSA-2019:2101",
-]
-suse = [
-    "SUSE-SU-2022:3598-1",
-]
-amazonlinux = [
-    "ALAS2-2019-1339",
-]
-oraclelinux = [
-    "ELSA-2019-2101",
-]
+  [security.aliases]
+  cve = ["CVE-2018-8976"]
+  gcve = ["GCVE-0-2018-8976"]
+  github = ["GHSA-64gf-9xgm-rfrx"]
+  pypa = ["PYSEC-2018-146"]
+  debian = ["DLA-3265-1"]
+  redhat = ["RHSA-2019:2101"]
+  suse = ["SUSE-SU-2022:3598-1"]
+  amazonlinux = ["ALAS2-2019-1339"]
+  oraclelinux = ["ELSA-2019-2101"]

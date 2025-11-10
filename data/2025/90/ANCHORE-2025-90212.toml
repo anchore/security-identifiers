@@ -2,24 +2,13 @@
 id = "ANCHORE-2025-90212"
 allocated = 2025-10-30T18:05:38.678841Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-58188",
-]
-gcve = [
-    "GCVE-0-2025-58188",
-]
-github = [
-    "GHSA-7wwx-xj66-r44x",
-]
-go = [
-    "GO-2025-4013",
-]
-amazonlinux = [
-    "ALAS2-2025-3042",
-    "ALAS2023-2025-1239",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-58188"]
+  gcve = ["GCVE-0-2025-58188"]
+  github = ["GHSA-7wwx-xj66-r44x"]
+  go = ["GO-2025-4013"]
+  amazonlinux = ["ALAS2-2025-3042", "ALAS2023-2025-1239"]
+  chainguard = [
     "CGA-2mg8-pr2j-x66v",
     "CGA-3mr8-9xc9-r2rx",
     "CGA-4jhh-3897-wvf6",
@@ -41,8 +30,8 @@ chainguard = [
     "CGA-v82h-jr7p-cr4h",
     "CGA-vw7m-mcx9-2j3h",
     "CGA-xmw5-72fc-c5g9",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-22rw-93c8-wv36",
     "MINI-24jc-99gw-45j9",
     "MINI-2924-w7pm-f6x4",
@@ -230,7 +219,5 @@ minimos = [
     "MINI-xmh9-wfp8-8f79",
     "MINI-xrv7-p536-hwhf",
     "MINI-xw2h-9ffv-jmp5",
-]
-bitnami = [
-    "BIT-golang-2025-58188",
-]
+  ]
+  bitnami = ["BIT-golang-2025-58188"]

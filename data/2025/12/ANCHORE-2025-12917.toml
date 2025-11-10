@@ -2,21 +2,12 @@
 id = "ANCHORE-2025-12917"
 allocated = 2025-10-15T14:17:28.281513Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-21994",
-]
-gcve = [
-    "GCVE-0-2025-21994",
-]
-github = [
-    "GHSA-pcv3-r2v8-4964",
-]
-debian = [
-    "DLA-4193-1",
-    "DSA-5900-1",
-]
-ubuntu = [
+  [security.aliases]
+  cve = ["CVE-2025-21994"]
+  gcve = ["GCVE-0-2025-21994"]
+  github = ["GHSA-pcv3-r2v8-4964"]
+  debian = ["DLA-4193-1", "DSA-5900-1"]
+  ubuntu = [
     "USN-7591-1",
     "USN-7591-2",
     "USN-7591-3",
@@ -48,15 +39,7 @@ ubuntu = [
     "USN-7801-3",
     "USN-7802-1",
     "USN-7809-1",
-]
-openeuler = [
-    "OESA-2025-1446",
-    "OESA-2025-1450",
-]
-oraclelinux = [
-    "ELSA-2025-20480",
-    "ELSA-2025-20530",
-]
-minimos = [
-    "MINI-5mv8-wfhc-hx55",
-]
+  ]
+  openeuler = ["OESA-2025-1446", "OESA-2025-1450"]
+  oraclelinux = ["ELSA-2025-20480", "ELSA-2025-20530"]
+  minimos = ["MINI-5mv8-wfhc-hx55"]

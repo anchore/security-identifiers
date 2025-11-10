@@ -2,38 +2,19 @@
 id = "ANCHORE-2023-24547"
 allocated = 2025-10-15T14:16:47.022001Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-39332",
-]
-gcve = [
-    "GCVE-0-2023-39332",
-]
-github = [
-    "GHSA-9hm3-chgj-45rm",
-]
-bitnami = [
-    "BIT-node-2023-39332",
-    "BIT-node-min-2023-39332",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2023-39332"]
+  gcve = ["GCVE-0-2023-39332"]
+  github = ["GHSA-9hm3-chgj-45rm"]
+  bitnami = ["BIT-node-2023-39332", "BIT-node-min-2023-39332"]
+  chainguard = [
     "CGA-43cx-mvc6-xxx4",
     "CGA-4xrc-hqgq-6qw2",
     "CGA-7cqx-pg64-hj79",
     "CGA-g752-cfqw-pfqh",
-]
-almalinux = [
-    "ALSA-2023:7205",
-]
-redhat = [
-    "RHSA-2023:7205",
-]
-rockylinux = [
-    "RLSA-2023:7205",
-]
-opensuse = [
-    "openSUSE-SU-2024:13337-1",
-]
-oraclelinux = [
-    "ELSA-2023-7205",
-]
+  ]
+  almalinux = ["ALSA-2023:7205"]
+  redhat = ["RHSA-2023:7205"]
+  rockylinux = ["RLSA-2023:7205"]
+  opensuse = ["openSUSE-SU-2024:13337-1"]
+  oraclelinux = ["ELSA-2023-7205"]

@@ -2,46 +2,21 @@
 id = "ANCHORE-2020-162"
 allocated = 2025-10-15T14:15:44.796104Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-5313",
-]
-gcve = [
-    "GCVE-0-2020-5313",
-]
-github = [
-    "GHSA-hj69-c76v-86wr",
-]
-bitnami = [
-    "BIT-pillow-2020-5313",
-]
-pypa = [
-    "PYSEC-2020-84",
-]
-debian = [
-    "DLA-2057-1",
-    "DSA-4631-1",
-]
-redhat = [
-    "RHSA-2020:3185",
-    "RHSA-2020:3887",
-]
-rockylinux = [
-    "RLSA-2020:3185",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2020-5313"]
+  gcve = ["GCVE-0-2020-5313"]
+  github = ["GHSA-hj69-c76v-86wr"]
+  bitnami = ["BIT-pillow-2020-5313"]
+  pypa = ["PYSEC-2020-84"]
+  debian = ["DLA-2057-1", "DSA-4631-1"]
+  redhat = ["RHSA-2020:3185", "RHSA-2020:3887"]
+  rockylinux = ["RLSA-2020:3185"]
+  suse = [
     "SUSE-RU-2020:2072-1",
     "SUSE-RU-2020:2161-1",
     "SUSE-SU-2020:1901-1",
     "SUSE-SU-2020:2057-1",
-]
-ubuntu = [
-    "USN-4272-1",
-]
-amazonlinux = [
-    "ALAS2-2020-1542",
-]
-oraclelinux = [
-    "ELSA-2020-3185",
-    "ELSA-2020-3887",
-]
+  ]
+  ubuntu = ["USN-4272-1"]
+  amazonlinux = ["ALAS2-2020-1542"]
+  oraclelinux = ["ELSA-2020-3185", "ELSA-2020-3887"]

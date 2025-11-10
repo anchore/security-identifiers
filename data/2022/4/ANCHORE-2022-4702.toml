@@ -2,25 +2,11 @@
 id = "ANCHORE-2022-4702"
 allocated = 2025-10-15T14:16:15.941346Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-20269",
-]
-gcve = [
-    "GCVE-0-2021-20269",
-]
-github = [
-    "GHSA-55h9-m2g5-r4xm",
-]
-redhat = [
-    "RHSA-2021:4404",
-]
-rockylinux = [
-    "RLSA-2021:4404",
-]
-openeuler = [
-    "OESA-2022-1825",
-]
-oraclelinux = [
-    "ELSA-2021-4404",
-]
+  [security.aliases]
+  cve = ["CVE-2021-20269"]
+  gcve = ["GCVE-0-2021-20269"]
+  github = ["GHSA-55h9-m2g5-r4xm"]
+  redhat = ["RHSA-2021:4404"]
+  rockylinux = ["RLSA-2021:4404"]
+  openeuler = ["OESA-2022-1825"]
+  oraclelinux = ["ELSA-2021-4404"]

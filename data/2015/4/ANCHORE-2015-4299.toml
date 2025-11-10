@@ -2,28 +2,11 @@
 id = "ANCHORE-2015-4299"
 allocated = 2025-10-15T14:15:00.669518Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-5964",
-]
-gcve = [
-    "GCVE-0-2015-5964",
-]
-github = [
-    "GHSA-x38m-486c-2wr9",
-]
-pypa = [
-    "PYSEC-2015-23",
-]
-debian = [
-    "DLA-301-1",
-    "DSA-3338-1",
-]
-redhat = [
-    "RHSA-2015:1766",
-    "RHSA-2015:1767",
-    "RHSA-2015:1894",
-]
-ubuntu = [
-    "USN-2720-1",
-]
+  [security.aliases]
+  cve = ["CVE-2015-5964"]
+  gcve = ["GCVE-0-2015-5964"]
+  github = ["GHSA-x38m-486c-2wr9"]
+  pypa = ["PYSEC-2015-23"]
+  debian = ["DLA-301-1", "DSA-3338-1"]
+  redhat = ["RHSA-2015:1766", "RHSA-2015:1767", "RHSA-2015:1894"]
+  ubuntu = ["USN-2720-1"]

@@ -2,23 +2,10 @@
 id = "ANCHORE-2022-16195"
 allocated = 2025-10-15T14:16:23.721731Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-32862",
-]
-gcve = [
-    "GCVE-0-2021-32862",
-]
-github = [
-    "GHSA-9jmq-rx5f-8jwq",
-]
-pypa = [
-    "PYSEC-2022-249",
-]
-chainguard = [
-    "CGA-gjrv-pg24-mghr",
-]
-debian = [
-    "DLA-3442-1",
-    "DLA-3863-1",
-]
+  [security.aliases]
+  cve = ["CVE-2021-32862"]
+  gcve = ["GCVE-0-2021-32862"]
+  github = ["GHSA-9jmq-rx5f-8jwq"]
+  pypa = ["PYSEC-2022-249"]
+  chainguard = ["CGA-gjrv-pg24-mghr"]
+  debian = ["DLA-3442-1", "DLA-3863-1"]

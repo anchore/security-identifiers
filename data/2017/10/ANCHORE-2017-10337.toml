@@ -2,25 +2,15 @@
 id = "ANCHORE-2017-10337"
 allocated = 2025-10-15T14:15:13.638596Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-10684",
-]
-gcve = [
-    "GCVE-0-2017-10684",
-]
-github = [
-    "GHSA-xm97-9w7x-8vx8",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2017-10684"]
+  gcve = ["GCVE-0-2017-10684"]
+  github = ["GHSA-xm97-9w7x-8vx8"]
+  suse = [
     "SUSE-SU-2017:1790-1",
     "SUSE-SU-2017:1815-1",
     "SUSE-SU-2017:2075-1",
     "SUSE-SU-2017:2076-1",
-]
-ubuntu = [
-    "USN-5448-1",
-]
-amazonlinux = [
-    "ALAS2-2019-1302",
-]
+  ]
+  ubuntu = ["USN-5448-1"]
+  amazonlinux = ["ALAS2-2019-1302"]

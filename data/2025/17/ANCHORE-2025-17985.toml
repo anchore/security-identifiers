@@ -2,27 +2,18 @@
 id = "ANCHORE-2025-17985"
 allocated = 2025-10-15T14:17:31.887942Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-37871",
-]
-gcve = [
-    "GCVE-0-2025-37871",
-]
-github = [
-    "GHSA-qwrm-23w5-g55v",
-]
-debian = [
-    "DLA-4178-1",
-    "DLA-4193-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2025-37871"]
+  gcve = ["GCVE-0-2025-37871"]
+  github = ["GHSA-qwrm-23w5-g55v"]
+  debian = ["DLA-4178-1", "DLA-4193-1"]
+  suse = [
     "SUSE-SU-2025:01964-1",
     "SUSE-SU-2025:01965-1",
     "SUSE-SU-2025:01983-1",
     "SUSE-SU-2025:02923-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-7654-1",
     "USN-7654-2",
     "USN-7654-3",
@@ -32,17 +23,12 @@ ubuntu = [
     "USN-7711-1",
     "USN-7712-1",
     "USN-7712-2",
-]
-echo = [
-    "ECHO-602c-220a-8739",
-]
-amazonlinux = [
+  ]
+  echo = ["ECHO-602c-220a-8739"]
+  amazonlinux = [
     "ALAS2023-2025-1050",
     "ALAS2023-2025-995",
     "ALAS2KERNEL-5.10-2025-094",
     "ALAS2KERNEL-5.15-2025-073",
-]
-oraclelinux = [
-    "ELSA-2025-20480",
-    "ELSA-2025-20530",
-]
+  ]
+  oraclelinux = ["ELSA-2025-20480", "ELSA-2025-20530"]

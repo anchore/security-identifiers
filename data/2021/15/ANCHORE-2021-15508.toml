@@ -2,29 +2,16 @@
 id = "ANCHORE-2021-15508"
 allocated = 2025-10-15T14:16:08.397263Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-41073",
-]
-gcve = [
-    "GCVE-0-2021-41073",
-]
-github = [
-    "GHSA-5cqf-vv6j-6f4g",
-]
-debian = [
-    "DSA-4978-1",
-]
-ubuntu = [
-    "USN-5092-1",
-    "USN-5092-2",
-    "USN-5096-1",
-    "USN-5106-1",
-]
-amazonlinux = [
+  [security.aliases]
+  cve = ["CVE-2021-41073"]
+  gcve = ["GCVE-0-2021-41073"]
+  github = ["GHSA-5cqf-vv6j-6f4g"]
+  debian = ["DSA-4978-1"]
+  ubuntu = ["USN-5092-1", "USN-5092-2", "USN-5096-1", "USN-5106-1"]
+  amazonlinux = [
     "ALAS2KERNEL-5.10-2022-006",
     "ALAS2LIVEPATCH-2021-065",
     "ALAS2LIVEPATCH-2021-066",
     "ALAS2LIVEPATCH-2021-067",
     "ALAS2LIVEPATCH-2021-068",
-]
+  ]

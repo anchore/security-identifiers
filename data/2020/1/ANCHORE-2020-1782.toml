@@ -2,21 +2,13 @@
 id = "ANCHORE-2020-1782"
 allocated = 2025-10-15T14:15:45.890614Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-8315",
-]
-gcve = [
-    "GCVE-0-2020-8315",
-]
-github = [
-    "GHSA-646c-5wg7-pw2g",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2020-8315"]
+  gcve = ["GCVE-0-2020-8315"]
+  github = ["GHSA-646c-5wg7-pw2g"]
+  bitnami = [
     "BIT-libpython-2020-8315",
     "BIT-python-2020-8315",
     "BIT-python-min-2020-8315",
-]
-psf = [
-    "PSF-2020-7",
-]
+  ]
+  psf = ["PSF-2020-7"]

@@ -2,20 +2,12 @@
 id = "ANCHORE-2024-37149"
 allocated = 2025-10-15T14:17:16.923481Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-36623",
-]
-gcve = [
-    "GCVE-0-2024-36623",
-]
-github = [
-    "GHSA-gh5c-3h97-2f3q",
-]
-go = [
-    "GO-2024-3305",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-36623"]
+  gcve = ["GCVE-0-2024-36623"]
+  github = ["GHSA-gh5c-3h97-2f3q"]
+  go = ["GO-2024-3305"]
+  chainguard = [
     "CGA-4wcw-f4cg-c962",
     "CGA-5r35-prqw-cqqp",
     "CGA-8rrr-c2rx-q876",
@@ -27,24 +19,20 @@ chainguard = [
     "CGA-mq9q-hgpw-qg49",
     "CGA-qqgr-2h67-8vhx",
     "CGA-rr55-3vcw-w7xm",
-]
-opensuse = [
-    "openSUSE-SU-2024:14567-1",
-]
-ubuntu = [
-    "USN-7474-1",
-]
-openeuler = [
+  ]
+  opensuse = ["openSUSE-SU-2024:14567-1"]
+  ubuntu = ["USN-7474-1"]
+  openeuler = [
     "OESA-2024-2507",
     "OESA-2024-2526",
     "OESA-2024-2527",
     "OESA-2024-2555",
     "OESA-2024-2556",
     "OESA-2024-2557",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2023-2024-674",
     "ALAS2DOCKER-2024-040",
     "ALAS2ECS-2024-042",
     "ALAS2NITRO-ENCLAVES-2024-041",
-]
+  ]

@@ -2,20 +2,12 @@
 id = "ANCHORE-2021-13921"
 allocated = 2025-10-15T14:16:07.307840Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-39155",
-]
-gcve = [
-    "GCVE-0-2021-39155",
-]
-github = [
-    "GHSA-7774-7vr3-cc8j",
-]
-go = [
-    "GO-2022-0931",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2021-39155"]
+  gcve = ["GCVE-0-2021-39155"]
+  github = ["GHSA-7774-7vr3-cc8j"]
+  go = ["GO-2022-0931"]
+  chainguard = [
     "CGA-3rwm-q482-5v3c",
     "CGA-3x64-823j-w579",
     "CGA-4j4r-92ff-x9vx",
@@ -30,8 +22,5 @@ chainguard = [
     "CGA-qhc4-4689-wcqh",
     "CGA-r5ph-5hg8-q29c",
     "CGA-x9v9-63rj-wwj5",
-]
-redhat = [
-    "RHSA-2021:3272",
-    "RHSA-2021:3273",
-]
+  ]
+  redhat = ["RHSA-2021:3272", "RHSA-2021:3273"]

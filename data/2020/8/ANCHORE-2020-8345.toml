@@ -2,19 +2,11 @@
 id = "ANCHORE-2020-8345"
 allocated = 2025-10-15T14:15:50.414882Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-10711",
-]
-gcve = [
-    "GCVE-0-2020-10711",
-]
-debian = [
-    "DLA-2242-1",
-    "DSA-4698-1",
-    "DSA-4699-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2020-10711"]
+  gcve = ["GCVE-0-2020-10711"]
+  debian = ["DLA-2242-1", "DSA-4698-1", "DSA-4699-1"]
+  redhat = [
     "RHSA-2020:2082",
     "RHSA-2020:2085",
     "RHSA-2020:2102",
@@ -33,8 +25,8 @@ redhat = [
     "RHSA-2020:2429",
     "RHSA-2020:2519",
     "RHSA-2020:2522",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2020:1587-1",
     "SUSE-SU-2020:1599-1",
     "SUSE-SU-2020:1602-1",
@@ -49,32 +41,32 @@ suse = [
     "SUSE-SU-2020:2156-1",
     "SUSE-SU-2020:2478-1",
     "SUSE-SU-2020:2487-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2020:0801-1",
     "openSUSE-SU-2020:0935-1",
     "openSUSE-SU-2021:0242-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-4411-1",
     "USN-4412-1",
     "USN-4413-1",
     "USN-4414-1",
     "USN-4419-1",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2-2020-1425",
     "ALAS2KERNEL-5.4-2022-011",
     "ALAS2LIVEPATCH-2020-007",
     "ALAS2LIVEPATCH-2020-008",
     "ALAS2LIVEPATCH-2020-009",
     "ALAS2LIVEPATCH-2020-010",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2020-2082",
     "ELSA-2020-2102",
     "ELSA-2020-2103",
     "ELSA-2020-5755",
     "ELSA-2020-5756",
     "ELSA-2021-9002",
-]
+  ]

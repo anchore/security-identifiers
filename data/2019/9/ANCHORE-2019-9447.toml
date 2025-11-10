@@ -2,22 +2,16 @@
 id = "ANCHORE-2019-9447"
 allocated = 2025-10-15T14:15:38.055696Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-2766",
-]
-gcve = [
-    "GCVE-0-2019-2766",
-]
-github = [
-    "GHSA-98rm-47wr-6469",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2019-2766"]
+  gcve = ["GCVE-0-2019-2766"]
+  github = ["GHSA-98rm-47wr-6469"]
+  chainguard = [
     "CGA-48xq-2gqx-6pxp",
     "CGA-cxfj-q3pw-f92j",
     "CGA-m9mw-mrj4-7322",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2019:14160-1",
     "SUSE-SU-2019:14188-1",
     "SUSE-SU-2019:2002-1",
@@ -28,18 +22,13 @@ suse = [
     "SUSE-SU-2019:2291-1",
     "SUSE-SU-2019:2336-1",
     "SUSE-SU-2019:2371-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2019:1912-1",
     "openSUSE-SU-2019:1916-1",
     "openSUSE-SU-2024:10871-1",
     "openSUSE-SU-2024:10872-1",
     "openSUSE-SU-2024:10876-1",
-]
-minimos = [
-    "MINI-9fjh-7f52-7m58",
-    "MINI-hw75-vxqw-m4hj",
-]
-amazonlinux = [
-    "ALAS2-2019-1246",
-]
+  ]
+  minimos = ["MINI-9fjh-7f52-7m58", "MINI-hw75-vxqw-m4hj"]
+  amazonlinux = ["ALAS2-2019-1246"]

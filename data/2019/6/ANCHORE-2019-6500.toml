@@ -2,20 +2,9 @@
 id = "ANCHORE-2019-6500"
 allocated = 2025-10-15T14:15:36.018071Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-12269",
-]
-gcve = [
-    "GCVE-0-2019-12269",
-]
-github = [
-    "GHSA-rxf8-59cm-76j2",
-]
-suse = [
-    "SUSE-SU-2019:1576-1",
-]
-opensuse = [
-    "openSUSE-SU-2019:1612-1",
-    "openSUSE-SU-2024:10736-1",
-]
+  [security.aliases]
+  cve = ["CVE-2019-12269"]
+  gcve = ["GCVE-0-2019-12269"]
+  github = ["GHSA-rxf8-59cm-76j2"]
+  suse = ["SUSE-SU-2019:1576-1"]
+  opensuse = ["openSUSE-SU-2019:1612-1", "openSUSE-SU-2024:10736-1"]

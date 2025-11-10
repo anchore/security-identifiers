@@ -2,68 +2,39 @@
 id = "ANCHORE-2025-3174"
 allocated = 2025-10-15T14:17:21.544946Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-23083",
-]
-gcve = [
-    "GCVE-0-2025-23083",
-]
-github = [
-    "GHSA-wv7p-rjf3-9fr5",
-]
-bitnami = [
-    "BIT-node-2025-23083",
-    "BIT-node-min-2025-23083",
-]
-chainguard = [
-    "CGA-v34q-hpxh-x65f",
-    "CGA-xv9x-mc94-qhqh",
-]
-almalinux = [
+  [security.aliases]
+  cve = ["CVE-2025-23083"]
+  gcve = ["GCVE-0-2025-23083"]
+  github = ["GHSA-wv7p-rjf3-9fr5"]
+  bitnami = ["BIT-node-2025-23083", "BIT-node-min-2025-23083"]
+  chainguard = ["CGA-v34q-hpxh-x65f", "CGA-xv9x-mc94-qhqh"]
+  almalinux = [
     "ALSA-2025:1351",
     "ALSA-2025:1443",
     "ALSA-2025:1611",
     "ALSA-2025:1613",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2025:1351",
     "RHSA-2025:1443",
     "RHSA-2025:1522",
     "RHSA-2025:1611",
     "RHSA-2025:1613",
-]
-rockylinux = [
-    "RLSA-2025:1351",
-    "RLSA-2025:1443",
-    "RLSA-2025:1611",
-]
-suse = [
-    "SUSE-SU-2025:0232-1",
-    "SUSE-SU-2025:0237-1",
-    "SUSE-SU-2025:0284-1",
-]
-opensuse = [
-    "openSUSE-SU-2025:14706-1",
-]
-minimos = [
+  ]
+  rockylinux = ["RLSA-2025:1351", "RLSA-2025:1443", "RLSA-2025:1611"]
+  suse = ["SUSE-SU-2025:0232-1", "SUSE-SU-2025:0237-1", "SUSE-SU-2025:0284-1"]
+  opensuse = ["openSUSE-SU-2025:14706-1"]
+  minimos = [
     "MINI-6xr9-f47m-wx3f",
     "MINI-f9p3-f44v-h6ww",
     "MINI-p296-v55m-rjg4",
-]
-echo = [
-    "ECHO-0afb-21f8-9413",
-]
-openeuler = [
-    "OESA-2025-1234",
-    "OESA-2025-1235",
-]
-amazonlinux = [
-    "ALAS2023-2025-822",
-]
-oraclelinux = [
+  ]
+  echo = ["ECHO-0afb-21f8-9413"]
+  openeuler = ["OESA-2025-1234", "OESA-2025-1235"]
+  amazonlinux = ["ALAS2023-2025-822"]
+  oraclelinux = [
     "ELSA-2025-1351",
     "ELSA-2025-1443",
     "ELSA-2025-1611",
     "ELSA-2025-1613",
-]
+  ]

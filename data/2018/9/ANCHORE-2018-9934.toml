@@ -2,34 +2,25 @@
 id = "ANCHORE-2018-9934"
 allocated = 2025-10-15T14:15:25.852456Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-3760",
-]
-gcve = [
-    "GCVE-0-2018-3760",
-]
-github = [
-    "GHSA-pr3h-jjhj-573x",
-]
-debian = [
-    "DLA-1419-1",
-    "DSA-4242-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2018-3760"]
+  gcve = ["GCVE-0-2018-3760"]
+  github = ["GHSA-pr3h-jjhj-573x"]
+  debian = ["DLA-1419-1", "DSA-4242-1"]
+  redhat = [
     "RHSA-2018:2244",
     "RHSA-2018:2245",
     "RHSA-2018:2561",
     "RHSA-2018:2745",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2018:1994-1",
     "SUSE-SU-2018:2176-1",
     "SUSE-SU-2018:2217-1",
     "SUSE-SU-2018:2603-1",
     "SUSE-SU-2018:2762-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2024:11906-1",
     "openSUSE-SU-2024:13169-1",
     "openSUSE-SU-2024:13170-1",
@@ -37,4 +28,4 @@ opensuse = [
     "openSUSE-SU-2024:14177-1",
     "openSUSE-SU-2025:15127-1",
     "openSUSE-SU-2025:15128-1",
-]
+  ]

@@ -2,26 +2,14 @@
 id = "ANCHORE-2024-14480"
 allocated = 2025-10-15T14:17:01.285825Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-24787",
-]
-gcve = [
-    "GCVE-0-2024-24787",
-]
-github = [
-    "GHSA-5fq7-4mxc-535h",
-]
-chainguard = [
-    "CGA-67wh-9fxr-2w4p",
-]
-bitnami = [
-    "BIT-golang-2024-24787",
-]
-go = [
-    "GO-2024-2825",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2024-24787"]
+  gcve = ["GCVE-0-2024-24787"]
+  github = ["GHSA-5fq7-4mxc-535h"]
+  chainguard = ["CGA-67wh-9fxr-2w4p"]
+  bitnami = ["BIT-golang-2024-24787"]
+  go = ["GO-2024-2825"]
+  suse = [
     "SUSE-SU-2024:1573-1",
     "SUSE-SU-2024:1574-1",
     "SUSE-SU-2024:1587-1",
@@ -30,12 +18,6 @@ suse = [
     "SUSE-SU-2024:3755-1",
     "SUSE-SU-2024:3772-1",
     "SUSE-SU-2024:3938-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:13936-1",
-    "openSUSE-SU-2024:13941-1",
-]
-minimos = [
-    "MINI-86x4-7r67-jvfj",
-    "MINI-mh8w-354f-q8v2",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:13936-1", "openSUSE-SU-2024:13941-1"]
+  minimos = ["MINI-86x4-7r67-jvfj", "MINI-mh8w-354f-q8v2"]

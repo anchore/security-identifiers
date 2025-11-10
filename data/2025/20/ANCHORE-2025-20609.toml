@@ -2,42 +2,22 @@
 id = "ANCHORE-2025-20609"
 allocated = 2025-10-15T14:17:33.690602Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-27151",
-]
-gcve = [
-    "GCVE-0-2025-27151",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2025-27151"]
+  gcve = ["GCVE-0-2025-27151"]
+  bitnami = [
     "BIT-keydb-2025-27151",
     "BIT-redis-2025-27151",
     "BIT-valkey-2025-27151",
-]
-almalinux = [
-    "ALSA-2025:11401",
-    "ALSA-2025:12008",
-]
-debian = [
-    "DSA-5969-1",
-]
-redhat = [
-    "RHSA-2025:11401",
-    "RHSA-2025:12008",
-]
-suse = [
-    "SUSE-SU-2025:02190-1",
-    "SUSE-SU-2025:02231-1",
-]
-minimos = [
+  ]
+  almalinux = ["ALSA-2025:11401", "ALSA-2025:12008"]
+  debian = ["DSA-5969-1"]
+  redhat = ["RHSA-2025:11401", "RHSA-2025:12008"]
+  suse = ["SUSE-SU-2025:02190-1", "SUSE-SU-2025:02231-1"]
+  minimos = [
     "MINI-j42r-qx9v-94xh",
     "MINI-j8pp-gc5x-866c",
     "MINI-qxq9-qvrq-g3r9",
-]
-openeuler = [
-    "OESA-2025-1630",
-]
-oraclelinux = [
-    "ELSA-2025-11401",
-    "ELSA-2025-12008",
-]
+  ]
+  openeuler = ["OESA-2025-1630"]
+  oraclelinux = ["ELSA-2025-11401", "ELSA-2025-12008"]

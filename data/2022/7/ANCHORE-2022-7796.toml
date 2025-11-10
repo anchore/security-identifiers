@@ -2,29 +2,18 @@
 id = "ANCHORE-2022-7796"
 allocated = 2025-10-15T14:16:18.016861Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-21451",
-]
-gcve = [
-    "GCVE-0-2022-21451",
-]
-github = [
-    "GHSA-3crw-xq5c-jr37",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2022-21451"]
+  gcve = ["GCVE-0-2022-21451"]
+  github = ["GHSA-3crw-xq5c-jr37"]
+  bitnami = [
     "BIT-mariadb-2022-21451",
     "BIT-mariadb-min-2022-21451",
     "BIT-mysql-client-2022-21451",
-]
-chainguard = [
-    "CGA-qg93-944m-gh6v",
-]
-almalinux = [
-    "ALSA-2022:6590",
-    "ALSA-2022:7119",
-]
-redhat = [
+  ]
+  chainguard = ["CGA-qg93-944m-gh6v"]
+  almalinux = ["ALSA-2022:6590", "ALSA-2022:7119"]
+  redhat = [
     "RHSA-2022:1007",
     "RHSA-2022:1010",
     "RHSA-2022:1556",
@@ -34,22 +23,13 @@ redhat = [
     "RHSA-2022:6590",
     "RHSA-2022:7119",
     "RHSA-2023:6821",
-]
-rockylinux = [
+  ]
+  rockylinux = [
     "RLSA-2022:1556",
     "RLSA-2022:1557",
     "RLSA-2022:6590",
     "RLSA-2022:7119",
-]
-ubuntu = [
-    "USN-5400-1",
-    "USN-5400-2",
-]
-openeuler = [
-    "OESA-2022-1682",
-    "OESA-2024-2071",
-]
-oraclelinux = [
-    "ELSA-2022-6590",
-    "ELSA-2022-7119",
-]
+  ]
+  ubuntu = ["USN-5400-1", "USN-5400-2"]
+  openeuler = ["OESA-2022-1682", "OESA-2024-2071"]
+  oraclelinux = ["ELSA-2022-6590", "ELSA-2022-7119"]

@@ -2,20 +2,12 @@
 id = "ANCHORE-2014-1875"
 allocated = 2025-10-15T14:14:53.618942Z
 
-[security.aliases]
-cve = [
-    "CVE-2014-0455",
-]
-gcve = [
-    "GCVE-0-2014-0455",
-]
-github = [
-    "GHSA-phr9-8xqw-f8f7",
-]
-debian = [
-    "DSA-2923-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2014-0455"]
+  gcve = ["GCVE-0-2014-0455"]
+  github = ["GHSA-phr9-8xqw-f8f7"]
+  debian = ["DSA-2923-1"]
+  redhat = [
     "RHSA-2014:0406",
     "RHSA-2014:0407",
     "RHSA-2014:0412",
@@ -23,15 +15,7 @@ redhat = [
     "RHSA-2014:0486",
     "RHSA-2014:0675",
     "RHSA-2014:0705",
-]
-opensuse = [
-    "openSUSE-SU-2024:10534-1",
-]
-ubuntu = [
-    "USN-2187-1",
-]
-oraclelinux = [
-    "ELSA-2014-0406",
-    "ELSA-2014-0407",
-    "ELSA-2014-0675",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:10534-1"]
+  ubuntu = ["USN-2187-1"]
+  oraclelinux = ["ELSA-2014-0406", "ELSA-2014-0407", "ELSA-2014-0675"]

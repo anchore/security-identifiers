@@ -2,29 +2,12 @@
 id = "ANCHORE-2025-13447"
 allocated = 2025-10-15T14:17:28.665872Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-29087",
-]
-gcve = [
-    "GCVE-0-2025-29087",
-]
-github = [
-    "GHSA-6j35-rq42-fv6v",
-]
-bitnami = [
-    "BIT-sqlite-2025-29087",
-]
-suse = [
-    "SUSE-SU-2025:1455-1",
-    "SUSE-SU-2025:1456-1",
-]
-opensuse = [
-    "openSUSE-SU-2025:14991-1",
-]
-ubuntu = [
-    "USN-7528-1",
-]
-minimos = [
-    "MINI-5789-c952-wmp2",
-]
+  [security.aliases]
+  cve = ["CVE-2025-29087"]
+  gcve = ["GCVE-0-2025-29087"]
+  github = ["GHSA-6j35-rq42-fv6v"]
+  bitnami = ["BIT-sqlite-2025-29087"]
+  suse = ["SUSE-SU-2025:1455-1", "SUSE-SU-2025:1456-1"]
+  opensuse = ["openSUSE-SU-2025:14991-1"]
+  ubuntu = ["USN-7528-1"]
+  minimos = ["MINI-5789-c952-wmp2"]

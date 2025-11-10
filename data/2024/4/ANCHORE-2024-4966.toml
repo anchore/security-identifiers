@@ -2,20 +2,9 @@
 id = "ANCHORE-2024-4966"
 allocated = 2025-10-15T14:16:54.839863Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-27454",
-]
-gcve = [
-    "GCVE-0-2024-27454",
-]
-github = [
-    "GHSA-pwr2-4v36-6qpr",
-]
-pypa = [
-    "PYSEC-2024-40",
-]
-chainguard = [
-    "CGA-98mj-56rg-fpvv",
-    "CGA-rpvh-x34v-659v",
-]
+  [security.aliases]
+  cve = ["CVE-2024-27454"]
+  gcve = ["GCVE-0-2024-27454"]
+  github = ["GHSA-pwr2-4v36-6qpr"]
+  pypa = ["PYSEC-2024-40"]
+  chainguard = ["CGA-98mj-56rg-fpvv", "CGA-rpvh-x34v-659v"]

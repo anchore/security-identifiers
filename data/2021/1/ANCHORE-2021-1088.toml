@@ -2,52 +2,34 @@
 id = "ANCHORE-2021-1088"
 allocated = 2025-10-15T14:15:58.629898Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-3177",
-]
-gcve = [
-    "GCVE-0-2021-3177",
-]
-github = [
-    "GHSA-hc96-xw56-vfwh",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2021-3177"]
+  gcve = ["GCVE-0-2021-3177"]
+  github = ["GHSA-hc96-xw56-vfwh"]
+  bitnami = [
     "BIT-libpython-2021-3177",
     "BIT-python-2021-3177",
     "BIT-python-min-2021-3177",
-]
-psf = [
-    "PSF-2021-3",
-]
-almalinux = [
-    "ALSA-2021:1761",
-    "ALSA-2021:1879",
-]
-debian = [
-    "DLA-2619-1",
-    "DLA-2919-1",
-    "DLA-3432-1",
-]
-redhat = [
+  ]
+  psf = ["PSF-2021-3"]
+  almalinux = ["ALSA-2021:1761", "ALSA-2021:1879"]
+  debian = ["DLA-2619-1", "DLA-2919-1", "DLA-3432-1"]
+  redhat = [
     "RHSA-2021:1633",
     "RHSA-2021:1761",
     "RHSA-2021:1879",
     "RHSA-2021:3252",
     "RHSA-2021:3254",
     "RHSA-2022:5235",
-]
-rockylinux = [
-    "RLSA-2021:1761",
-    "RLSA-2021:1879",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2021:1761", "RLSA-2021:1879"]
+  suse = [
     "SUSE-SU-2021:0355-1",
     "SUSE-SU-2021:0428-1",
     "SUSE-SU-2021:0432-1",
     "SUSE-SU-2021:0529-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:0270-1",
     "openSUSE-SU-2021:0331-1",
     "openSUSE-SU-2024:11202-1",
@@ -59,23 +41,17 @@ opensuse = [
     "openSUSE-SU-2024:12910-1",
     "openSUSE-SU-2024:14109-1",
     "openSUSE-SU-2024:14434-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-4754-1",
     "USN-4754-3",
     "USN-4754-4",
     "USN-4754-5",
     "USN-6891-1",
-]
-openeuler = [
-    "OESA-2021-1036",
-    "OESA-2021-1066",
-]
-amazonlinux = [
-    "ALAS2-2021-1611",
-    "ALAS2PYTHON3.8-2023-005",
-]
-oraclelinux = [
+  ]
+  openeuler = ["OESA-2021-1036", "OESA-2021-1066"]
+  amazonlinux = ["ALAS2-2021-1611", "ALAS2PYTHON3.8-2023-005"]
+  oraclelinux = [
     "ELSA-2021-1633",
     "ELSA-2021-1761",
     "ELSA-2021-1879",
@@ -86,4 +62,4 @@ oraclelinux = [
     "ELSA-2021-9129",
     "ELSA-2021-9130",
     "ELSA-2022-5235",
-]
+  ]

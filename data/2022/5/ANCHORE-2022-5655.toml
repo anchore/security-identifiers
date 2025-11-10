@@ -2,23 +2,13 @@
 id = "ANCHORE-2022-5655"
 allocated = 2025-10-15T14:16:16.576930Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-3618",
-]
-gcve = [
-    "GCVE-0-2021-3618",
-]
-github = [
-    "GHSA-r9r5-jxp7-whr4",
-]
-bitnami = [
-    "BIT-nginx-2021-3618",
-]
-debian = [
-    "DLA-3203-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2021-3618"]
+  gcve = ["GCVE-0-2021-3618"]
+  github = ["GHSA-r9r5-jxp7-whr4"]
+  bitnami = ["BIT-nginx-2021-3618"]
+  debian = ["DLA-3203-1"]
+  suse = [
     "SUSE-RU-2022:0655-1",
     "SUSE-SU-2022:3320-1",
     "SUSE-SU-2022:3383-1",
@@ -29,16 +19,10 @@ suse = [
     "SUSE-SU-2022:4201-1",
     "SUSE-SU-2022:4265-1",
     "SUSE-SU-2022:4266-1",
-]
-ubuntu = [
-    "USN-5371-1",
-    "USN-5371-2",
-    "USN-6379-1",
-]
-openeuler = [
-    "OESA-2022-1637",
-]
-amazonlinux = [
+  ]
+  ubuntu = ["USN-5371-1", "USN-5371-2", "USN-6379-1"]
+  openeuler = ["OESA-2022-1637"]
+  amazonlinux = [
     "ALAS-2022-132",
     "ALAS-2022-136",
     "ALAS-2022-171",
@@ -48,4 +32,4 @@ amazonlinux = [
     "ALAS2023-2023-019",
     "ALAS2023-2023-099",
     "ALAS2NGINX1-2023-002",
-]
+  ]

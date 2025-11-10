@@ -2,29 +2,18 @@
 id = "ANCHORE-2020-6016"
 allocated = 2025-10-15T14:15:48.831396Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-2780",
-]
-gcve = [
-    "GCVE-0-2020-2780",
-]
-github = [
-    "GHSA-4vxw-fr2r-cwgh",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2020-2780"]
+  gcve = ["GCVE-0-2020-2780"]
+  github = ["GHSA-4vxw-fr2r-cwgh"]
+  bitnami = [
     "BIT-mariadb-2020-2780",
     "BIT-mariadb-min-2020-2780",
     "BIT-mysql-client-2020-2780",
-]
-chainguard = [
-    "CGA-wf5m-gcmc-fj93",
-]
-almalinux = [
-    "ALSA-2020:3732",
-    "ALSA-2020:5500",
-]
-redhat = [
+  ]
+  chainguard = ["CGA-wf5m-gcmc-fj93"]
+  almalinux = ["ALSA-2020:3732", "ALSA-2020:5500"]
+  redhat = [
     "RHSA-2020:3518",
     "RHSA-2020:3732",
     "RHSA-2020:3755",
@@ -36,19 +25,8 @@ redhat = [
     "RHSA-2020:5654",
     "RHSA-2020:5663",
     "RHSA-2020:5665",
-]
-rockylinux = [
-    "RLSA-2020:3732",
-    "RLSA-2020:5500",
-]
-ubuntu = [
-    "USN-4350-1",
-]
-amazonlinux = [
-    "ALAS2-2020-1537",
-]
-oraclelinux = [
-    "ELSA-2020-3732",
-    "ELSA-2020-4026",
-    "ELSA-2020-5500",
-]
+  ]
+  rockylinux = ["RLSA-2020:3732", "RLSA-2020:5500"]
+  ubuntu = ["USN-4350-1"]
+  amazonlinux = ["ALAS2-2020-1537"]
+  oraclelinux = ["ELSA-2020-3732", "ELSA-2020-4026", "ELSA-2020-5500"]

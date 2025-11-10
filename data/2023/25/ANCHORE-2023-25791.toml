@@ -2,22 +2,10 @@
 id = "ANCHORE-2023-25791"
 allocated = 2025-10-15T14:16:47.851927Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-43796",
-]
-gcve = [
-    "GCVE-0-2023-43796",
-]
-github = [
-    "GHSA-mp92-3jfm-3575",
-]
-pypa = [
-    "PYSEC-2023-230",
-]
-opensuse = [
-    "openSUSE-SU-2024:13392-1",
-]
-ubuntu = [
-    "USN-7444-1",
-]
+  [security.aliases]
+  cve = ["CVE-2023-43796"]
+  gcve = ["GCVE-0-2023-43796"]
+  github = ["GHSA-mp92-3jfm-3575"]
+  pypa = ["PYSEC-2023-230"]
+  opensuse = ["openSUSE-SU-2024:13392-1"]
+  ubuntu = ["USN-7444-1"]

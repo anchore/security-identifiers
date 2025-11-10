@@ -2,24 +2,16 @@
 id = "ANCHORE-2024-25716"
 allocated = 2025-10-15T14:17:08.972302Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-43816",
-]
-gcve = [
-    "GCVE-0-2024-43816",
-]
-github = [
-    "GHSA-gg62-p4px-cw9r",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2024-43816"]
+  gcve = ["GCVE-0-2024-43816"]
+  github = ["GHSA-gg62-p4px-cw9r"]
+  suse = [
     "SUSE-SU-2024:3190-1",
     "SUSE-SU-2024:3194-1",
     "SUSE-SU-2024:3195-1",
     "SUSE-SU-2024:3209-1",
     "SUSE-SU-2024:3383-1",
     "SUSE-SU-2024:3483-1",
-]
-oraclelinux = [
-    "ELSA-2024-12887",
-]
+  ]
+  oraclelinux = ["ELSA-2024-12887"]

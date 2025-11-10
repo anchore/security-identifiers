@@ -2,19 +2,9 @@
 id = "ANCHORE-2020-17962"
 allocated = 2025-10-15T14:15:56.921026Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-8563",
-]
-gcve = [
-    "GCVE-0-2020-8563",
-]
-github = [
-    "GHSA-5xfg-wv98-264m",
-]
-go = [
-    "GO-2024-2755",
-]
-redhat = [
-    "RHSA-2020:5260",
-]
+  [security.aliases]
+  cve = ["CVE-2020-8563"]
+  gcve = ["GCVE-0-2020-8563"]
+  github = ["GHSA-5xfg-wv98-264m"]
+  go = ["GO-2024-2755"]
+  redhat = ["RHSA-2020:5260"]

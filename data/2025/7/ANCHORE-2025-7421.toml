@@ -2,28 +2,16 @@
 id = "ANCHORE-2025-7421"
 allocated = 2025-10-15T14:17:24.533109Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-49319",
-]
-gcve = [
-    "GCVE-0-2022-49319",
-]
-github = [
-    "GHSA-v77m-rq2w-q6hq",
-]
-redhat = [
-    "RHSA-2023:2458",
-    "RHSA-2023:2951",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2022-49319"]
+  gcve = ["GCVE-0-2022-49319"]
+  github = ["GHSA-v77m-rq2w-q6hq"]
+  redhat = ["RHSA-2023:2458", "RHSA-2023:2951"]
+  suse = [
     "SUSE-SU-2025:02846-1",
     "SUSE-SU-2025:1027-1",
     "SUSE-SU-2025:1176-1",
     "SUSE-SU-2025:1183-1",
     "SUSE-SU-2025:1241-1",
-]
-amazonlinux = [
-    "ALAS2KERNEL-5.10-2022-015",
-    "ALAS2KERNEL-5.15-2022-002",
-]
+  ]
+  amazonlinux = ["ALAS2KERNEL-5.10-2022-015", "ALAS2KERNEL-5.15-2022-002"]

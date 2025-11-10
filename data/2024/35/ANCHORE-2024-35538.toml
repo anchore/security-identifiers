@@ -2,44 +2,19 @@
 id = "ANCHORE-2024-35538"
 allocated = 2025-10-15T14:17:15.819311Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-52316",
-]
-gcve = [
-    "GCVE-0-2024-52316",
-]
-github = [
-    "GHSA-xcpr-7mr4-h4xq",
-]
-bitnami = [
-    "BIT-tomcat-2024-52316",
-]
-almalinux = [
-    "ALSA-2025:7497",
-]
-debian = [
-    "DLA-4017-1",
-    "DSA-5845-1",
-]
-redhat = [
-    "RHSA-2025:3608",
-    "RHSA-2025:7497",
-]
-suse = [
-    "SUSE-SU-2024:4075-1",
-    "SUSE-SU-2024:4105-1",
-    "SUSE-SU-2024:4106-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:14525-1",
-    "openSUSE-SU-2024:14526-1",
-]
-amazonlinux = [
+  [security.aliases]
+  cve = ["CVE-2024-52316"]
+  gcve = ["GCVE-0-2024-52316"]
+  github = ["GHSA-xcpr-7mr4-h4xq"]
+  bitnami = ["BIT-tomcat-2024-52316"]
+  almalinux = ["ALSA-2025:7497"]
+  debian = ["DLA-4017-1", "DSA-5845-1"]
+  redhat = ["RHSA-2025:3608", "RHSA-2025:7497"]
+  suse = ["SUSE-SU-2024:4075-1", "SUSE-SU-2024:4105-1", "SUSE-SU-2024:4106-1"]
+  opensuse = ["openSUSE-SU-2024:14525-1", "openSUSE-SU-2024:14526-1"]
+  amazonlinux = [
     "ALAS2023-2025-813",
     "ALAS2023-2025-814",
     "ALAS2TOMCAT9-2025-015",
-]
-oraclelinux = [
-    "ELSA-2025-7497",
-]
+  ]
+  oraclelinux = ["ELSA-2025-7497"]

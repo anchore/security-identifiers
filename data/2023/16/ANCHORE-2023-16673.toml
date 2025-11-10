@@ -2,25 +2,11 @@
 id = "ANCHORE-2023-16673"
 allocated = 2025-10-15T14:16:41.738225Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-38325",
-]
-gcve = [
-    "GCVE-0-2023-38325",
-]
-github = [
-    "GHSA-cf7p-gm2m-833m",
-]
-pypa = [
-    "PYSEC-2023-112",
-]
-go = [
-    "GO-2023-1920",
-]
-chainguard = [
-    "CGA-64c7-9q3g-wvxv",
-]
-opensuse = [
-    "openSUSE-SU-2024:13078-1",
-]
+  [security.aliases]
+  cve = ["CVE-2023-38325"]
+  gcve = ["GCVE-0-2023-38325"]
+  github = ["GHSA-cf7p-gm2m-833m"]
+  pypa = ["PYSEC-2023-112"]
+  go = ["GO-2023-1920"]
+  chainguard = ["CGA-64c7-9q3g-wvxv"]
+  opensuse = ["openSUSE-SU-2024:13078-1"]

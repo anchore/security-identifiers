@@ -2,22 +2,12 @@
 id = "ANCHORE-2022-14833"
 allocated = 2025-10-15T14:16:22.808283Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-36123",
-]
-gcve = [
-    "GCVE-0-2022-36123",
-]
-github = [
-    "GHSA-6339-6rqv-9985",
-]
-openeuler = [
-    "OESA-2022-1844",
-    "OESA-2022-1845",
-    "OESA-2022-1846",
-]
-amazonlinux = [
+  [security.aliases]
+  cve = ["CVE-2022-36123"]
+  gcve = ["GCVE-0-2022-36123"]
+  github = ["GHSA-6339-6rqv-9985"]
+  openeuler = ["OESA-2022-1844", "OESA-2022-1845", "OESA-2022-1846"]
+  amazonlinux = [
     "ALAS-2022-125",
     "ALAS-2022-185",
     "ALAS2-2022-1833",
@@ -28,4 +18,4 @@ amazonlinux = [
     "ALAS2KERNEL-5.10-2025-086",
     "ALAS2KERNEL-5.15-2022-006",
     "ALAS2KERNEL-5.15-2025-068",
-]
+  ]

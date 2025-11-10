@@ -2,19 +2,9 @@
 id = "ANCHORE-2020-16872"
 allocated = 2025-10-15T14:15:56.159205Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-13927",
-]
-gcve = [
-    "GCVE-0-2020-13927",
-]
-github = [
-    "GHSA-hhx9-p69v-cx2j",
-]
-bitnami = [
-    "BIT-airflow-2020-13927",
-]
-pypa = [
-    "PYSEC-2020-18",
-]
+  [security.aliases]
+  cve = ["CVE-2020-13927"]
+  gcve = ["GCVE-0-2020-13927"]
+  github = ["GHSA-hhx9-p69v-cx2j"]
+  bitnami = ["BIT-airflow-2020-13927"]
+  pypa = ["PYSEC-2020-18"]

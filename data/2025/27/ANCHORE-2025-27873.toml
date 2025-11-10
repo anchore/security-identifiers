@@ -2,22 +2,10 @@
 id = "ANCHORE-2025-27873"
 allocated = 2025-10-15T14:17:38.840996Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-38438",
-]
-gcve = [
-    "GCVE-0-2025-38438",
-]
-github = [
-    "GHSA-rvg6-v4xx-qvv4",
-]
-debian = [
-    "DSA-5975-1",
-]
-echo = [
-    "ECHO-1c76-32f3-aee5",
-]
-oraclelinux = [
-    "ELSA-2025-20551",
-]
+  [security.aliases]
+  cve = ["CVE-2025-38438"]
+  gcve = ["GCVE-0-2025-38438"]
+  github = ["GHSA-rvg6-v4xx-qvv4"]
+  debian = ["DSA-5975-1"]
+  echo = ["ECHO-1c76-32f3-aee5"]
+  oraclelinux = ["ELSA-2025-20551"]

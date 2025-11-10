@@ -2,22 +2,9 @@
 id = "ANCHORE-2017-12881"
 allocated = 2025-10-15T14:15:15.389270Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-13658",
-]
-gcve = [
-    "GCVE-0-2017-13658",
-]
-github = [
-    "GHSA-6m75-6pmc-2r2r",
-]
-debian = [
-    "DLA-1081-1",
-    "DLA-1785-1",
-    "DLA-2366-1",
-]
-suse = [
-    "SUSE-SU-2018:0130-1",
-    "SUSE-SU-2018:0132-1",
-]
+  [security.aliases]
+  cve = ["CVE-2017-13658"]
+  gcve = ["GCVE-0-2017-13658"]
+  github = ["GHSA-6m75-6pmc-2r2r"]
+  debian = ["DLA-1081-1", "DLA-1785-1", "DLA-2366-1"]
+  suse = ["SUSE-SU-2018:0130-1", "SUSE-SU-2018:0132-1"]

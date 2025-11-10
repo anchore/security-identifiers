@@ -2,25 +2,15 @@
 id = "ANCHORE-2023-7695"
 allocated = 2025-10-15T14:16:35.691664Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-0664",
-]
-gcve = [
-    "GCVE-0-2023-0664",
-]
-github = [
-    "GHSA-mvgg-p48p-h9jc",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2023-0664"]
+  gcve = ["GCVE-0-2023-0664"]
+  github = ["GHSA-mvgg-p48p-h9jc"]
+  openeuler = [
     "OESA-2023-1472",
     "OESA-2023-1473",
     "OESA-2023-1474",
     "OESA-2023-1475",
     "OESA-2023-1476",
-]
-oraclelinux = [
-    "ELSA-2023-12342",
-    "ELSA-2023-12368",
-    "ELSA-2024-12605",
-]
+  ]
+  oraclelinux = ["ELSA-2023-12342", "ELSA-2023-12368", "ELSA-2024-12605"]

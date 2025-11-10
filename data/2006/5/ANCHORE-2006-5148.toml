@@ -2,23 +2,9 @@
 id = "ANCHORE-2006-5148"
 allocated = 2025-10-15T14:14:22.382704Z
 
-[security.aliases]
-cve = [
-    "CVE-2006-5051",
-]
-gcve = [
-    "GCVE-0-2006-5051",
-]
-github = [
-    "GHSA-mq5h-r3rg-j9hg",
-]
-debian = [
-    "DSA-1189-1",
-    "DSA-1212",
-    "DSA-1212-1",
-    "DSA-1638-1",
-]
-redhat = [
-    "RHSA-2006:0697",
-    "RHSA-2006:0698",
-]
+  [security.aliases]
+  cve = ["CVE-2006-5051"]
+  gcve = ["GCVE-0-2006-5051"]
+  github = ["GHSA-mq5h-r3rg-j9hg"]
+  debian = ["DSA-1189-1", "DSA-1212", "DSA-1212-1", "DSA-1638-1"]
+  redhat = ["RHSA-2006:0697", "RHSA-2006:0698"]

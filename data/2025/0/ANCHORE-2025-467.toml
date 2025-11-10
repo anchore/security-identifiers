@@ -2,26 +2,11 @@
 id = "ANCHORE-2025-467"
 allocated = 2025-10-15T14:17:19.665105Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-55553",
-]
-gcve = [
-    "GCVE-0-2024-55553",
-]
-github = [
-    "GHSA-hrrq-wpmq-47mf",
-]
-debian = [
-    "DLA-4029-1",
-]
-suse = [
-    "SUSE-SU-2025:03297-1",
-    "SUSE-SU-2025:03453-1",
-]
-opensuse = [
-    "openSUSE-SU-2025:14632-1",
-]
-ubuntu = [
-    "USN-7230-2",
-]
+  [security.aliases]
+  cve = ["CVE-2024-55553"]
+  gcve = ["GCVE-0-2024-55553"]
+  github = ["GHSA-hrrq-wpmq-47mf"]
+  debian = ["DLA-4029-1"]
+  suse = ["SUSE-SU-2025:03297-1", "SUSE-SU-2025:03453-1"]
+  opensuse = ["openSUSE-SU-2025:14632-1"]
+  ubuntu = ["USN-7230-2"]

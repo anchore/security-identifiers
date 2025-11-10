@@ -2,19 +2,9 @@
 id = "ANCHORE-2021-9730"
 allocated = 2025-10-15T14:16:04.464389Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-3603",
-]
-gcve = [
-    "GCVE-0-2021-3603",
-]
-github = [
-    "GHSA-77mr-wc79-m8j3",
-]
-bitnami = [
-    "BIT-phpmailer-2021-3603",
-]
-ubuntu = [
-    "USN-5956-1",
-]
+  [security.aliases]
+  cve = ["CVE-2021-3603"]
+  gcve = ["GCVE-0-2021-3603"]
+  github = ["GHSA-77mr-wc79-m8j3"]
+  bitnami = ["BIT-phpmailer-2021-3603"]
+  ubuntu = ["USN-5956-1"]

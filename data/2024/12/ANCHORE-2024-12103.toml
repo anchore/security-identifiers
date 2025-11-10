@@ -2,23 +2,10 @@
 id = "ANCHORE-2024-12103"
 allocated = 2025-10-15T14:16:59.688123Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-33663",
-]
-gcve = [
-    "GCVE-0-2024-33663",
-]
-github = [
-    "GHSA-6c5p-j8vq-pqhj",
-]
-pypa = [
-    "PYSEC-2024-232",
-]
-redhat = [
-    "RHSA-2024:6428",
-]
-opensuse = [
-    "openSUSE-SU-2024:0118-1",
-    "openSUSE-SU-2024:13928-1",
-]
+  [security.aliases]
+  cve = ["CVE-2024-33663"]
+  gcve = ["GCVE-0-2024-33663"]
+  github = ["GHSA-6c5p-j8vq-pqhj"]
+  pypa = ["PYSEC-2024-232"]
+  redhat = ["RHSA-2024:6428"]
+  opensuse = ["openSUSE-SU-2024:0118-1", "openSUSE-SU-2024:13928-1"]

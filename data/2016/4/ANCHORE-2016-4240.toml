@@ -2,26 +2,11 @@
 id = "ANCHORE-2016-4240"
 allocated = 2025-10-15T14:15:05.104219Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-6254",
-]
-gcve = [
-    "GCVE-0-2016-6254",
-]
-github = [
-    "GHSA-w8rr-j32h-prm7",
-]
-go = [
-    "GO-2022-0168",
-]
-debian = [
-    "DLA-575-1",
-    "DSA-3636-1",
-]
-suse = [
-    "SUSE-SU-2016:2187-1",
-]
-ubuntu = [
-    "USN-4793-1",
-]
+  [security.aliases]
+  cve = ["CVE-2016-6254"]
+  gcve = ["GCVE-0-2016-6254"]
+  github = ["GHSA-w8rr-j32h-prm7"]
+  go = ["GO-2022-0168"]
+  debian = ["DLA-575-1", "DSA-3636-1"]
+  suse = ["SUSE-SU-2016:2187-1"]
+  ubuntu = ["USN-4793-1"]

@@ -2,20 +2,12 @@
 id = "ANCHORE-2016-704"
 allocated = 2025-10-15T14:15:02.681885Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-1906",
-]
-gcve = [
-    "GCVE-0-2016-1906",
-]
-github = [
-    "GHSA-m3fm-h5jp-q79p",
-]
-go = [
-    "GO-2022-0854",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2016-1906"]
+  gcve = ["GCVE-0-2016-1906"]
+  github = ["GHSA-m3fm-h5jp-q79p"]
+  go = ["GO-2022-0854"]
+  chainguard = [
     "CGA-3rg2-772x-cx36",
     "CGA-4p6q-m6m9-g98x",
     "CGA-4rw5-j6g6-wjhp",
@@ -31,12 +23,9 @@ chainguard = [
     "CGA-m92w-5pjw-mv8q",
     "CGA-qrx7-8hgh-fmp7",
     "CGA-vjr3-cwgf-34h8",
-]
-redhat = [
-    "RHSA-2016:0070",
-    "RHSA-2016:0351",
-]
-minimos = [
+  ]
+  redhat = ["RHSA-2016:0070", "RHSA-2016:0351"]
+  minimos = [
     "MINI-338h-vwfx-f4qq",
     "MINI-9fwj-xccx-vq48",
     "MINI-chh6-9r7f-cr93",
@@ -44,4 +33,4 @@ minimos = [
     "MINI-mrq9-4cwf-x8w8",
     "MINI-pr7h-3c9f-cq4r",
     "MINI-v829-phv8-wpw2",
-]
+  ]

@@ -2,24 +2,18 @@
 id = "ANCHORE-2025-27554"
 allocated = 2025-10-15T14:17:38.597151Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-46686",
-]
-gcve = [
-    "GCVE-0-2025-46686",
-]
-github = [
-    "GHSA-f46f-fjf4-h4m2",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2025-46686"]
+  gcve = ["GCVE-0-2025-46686"]
+  github = ["GHSA-f46f-fjf4-h4m2"]
+  bitnami = [
     "BIT-keydb-2025-46686",
     "BIT-redis-2025-46686",
     "BIT-valkey-2025-46686",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-fgg9-x5r5-53p7",
     "MINI-gx77-cwc2-3f2p",
     "MINI-m9p9-vccg-mhvf",
     "MINI-wh88-j56g-hpjr",
-]
+  ]

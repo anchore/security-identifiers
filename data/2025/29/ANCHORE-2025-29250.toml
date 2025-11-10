@@ -2,23 +2,13 @@
 id = "ANCHORE-2025-29250"
 allocated = 2025-10-15T14:17:39.874035Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-47907",
-]
-gcve = [
-    "GCVE-0-2025-47907",
-]
-github = [
-    "GHSA-j5pm-7495-qmr3",
-]
-bitnami = [
-    "BIT-golang-2025-47907",
-]
-go = [
-    "GO-2025-3849",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-47907"]
+  gcve = ["GCVE-0-2025-47907"]
+  github = ["GHSA-j5pm-7495-qmr3"]
+  bitnami = ["BIT-golang-2025-47907"]
+  go = ["GO-2025-3849"]
+  chainguard = [
     "CGA-272v-xfcq-hp5h",
     "CGA-278h-5xvc-h72j",
     "CGA-27x4-2gfq-6m92",
@@ -516,15 +506,15 @@ chainguard = [
     "CGA-xwv7-f5jx-4m9x",
     "CGA-xxf4-7r34-rq74",
     "CGA-xxxr-wf9r-q95j",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2025:02924-1",
     "SUSE-SU-2025:03115-1",
     "SUSE-SU-2025:03158-1",
     "SUSE-SU-2025:03159-1",
     "SUSE-SU-2025:03161-1",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-25fq-ch89-9vw9",
     "MINI-279f-2cj6-6m9v",
     "MINI-27xw-9g56-c95m",
@@ -637,11 +627,9 @@ minimos = [
     "MINI-wrxg-cj4p-7p52",
     "MINI-x29g-34hq-pc4c",
     "MINI-xc4j-v6j4-pvh7",
-]
-echo = [
-    "ECHO-e7cb-18a6-dea3",
-]
-openeuler = [
+  ]
+  echo = ["ECHO-e7cb-18a6-dea3"]
+  openeuler = [
     "OESA-2025-2180",
     "OESA-2025-2181",
     "OESA-2025-2182",
@@ -649,11 +637,6 @@ openeuler = [
     "OESA-2025-2184",
     "OESA-2025-2233",
     "OESA-2025-2260",
-]
-amazonlinux = [
-    "ALAS2-2025-2984",
-    "ALAS2023-2025-1161",
-]
-redhat = [
-    "RHSA-2025:13941",
-]
+  ]
+  amazonlinux = ["ALAS2-2025-2984", "ALAS2023-2025-1161"]
+  redhat = ["RHSA-2025:13941"]

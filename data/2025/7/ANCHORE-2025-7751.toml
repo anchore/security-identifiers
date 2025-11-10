@@ -2,24 +2,16 @@
 id = "ANCHORE-2025-7751"
 allocated = 2025-10-15T14:17:24.752979Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-49648",
-]
-gcve = [
-    "GCVE-0-2022-49648",
-]
-github = [
-    "GHSA-7rcj-vmjp-fwmv",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2022-49648"]
+  gcve = ["GCVE-0-2022-49648"]
+  github = ["GHSA-7rcj-vmjp-fwmv"]
+  suse = [
     "SUSE-SU-2025:1027-1",
     "SUSE-SU-2025:1176-1",
     "SUSE-SU-2025:1183-1",
     "SUSE-SU-2025:1194-1",
     "SUSE-SU-2025:1241-1",
     "SUSE-SU-2025:1263-1",
-]
-openeuler = [
-    "OESA-2025-1282",
-]
+  ]
+  openeuler = ["OESA-2025-1282"]

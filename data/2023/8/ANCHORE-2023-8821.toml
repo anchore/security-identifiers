@@ -2,23 +2,10 @@
 id = "ANCHORE-2023-8821"
 allocated = 2025-10-15T14:16:36.423010Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-28260",
-]
-gcve = [
-    "GCVE-0-2023-28260",
-]
-github = [
-    "GHSA-w4m3-43gp-x8hx",
-]
-bitnami = [
-    "BIT-dotnet-2023-28260",
-    "BIT-dotnet-sdk-2023-28260",
-]
-chainguard = [
-    "CGA-6ggh-q4mq-cm75",
-]
-ubuntu = [
-    "USN-6006-1",
-]
+  [security.aliases]
+  cve = ["CVE-2023-28260"]
+  gcve = ["GCVE-0-2023-28260"]
+  github = ["GHSA-w4m3-43gp-x8hx"]
+  bitnami = ["BIT-dotnet-2023-28260", "BIT-dotnet-sdk-2023-28260"]
+  chainguard = ["CGA-6ggh-q4mq-cm75"]
+  ubuntu = ["USN-6006-1"]

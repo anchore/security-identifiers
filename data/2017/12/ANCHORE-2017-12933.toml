@@ -2,21 +2,9 @@
 id = "ANCHORE-2017-12933"
 allocated = 2025-10-15T14:15:15.425088Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-3206",
-]
-gcve = [
-    "GCVE-0-2015-3206",
-]
-github = [
-    "GHSA-mffc-9gx5-99g3",
-]
-pypa = [
-    "PYSEC-2017-49",
-    "PYSEC-2017-66",
-]
-debian = [
-    "DLA-265-1",
-    "DLA-265-2",
-]
+  [security.aliases]
+  cve = ["CVE-2015-3206"]
+  gcve = ["GCVE-0-2015-3206"]
+  github = ["GHSA-mffc-9gx5-99g3"]
+  pypa = ["PYSEC-2017-49", "PYSEC-2017-66"]
+  debian = ["DLA-265-1", "DLA-265-2"]

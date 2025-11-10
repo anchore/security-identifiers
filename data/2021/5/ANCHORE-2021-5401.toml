@@ -2,22 +2,10 @@
 id = "ANCHORE-2021-5401"
 allocated = 2025-10-15T14:16:01.541597Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-36309",
-]
-gcve = [
-    "GCVE-0-2020-36309",
-]
-github = [
-    "GHSA-j8m6-95xp-pmp6",
-]
-bitnami = [
-    "BIT-openresty-2020-36309",
-]
-debian = [
-    "DLA-4228-1",
-]
-ubuntu = [
-    "USN-5371-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-36309"]
+  gcve = ["GCVE-0-2020-36309"]
+  github = ["GHSA-j8m6-95xp-pmp6"]
+  bitnami = ["BIT-openresty-2020-36309"]
+  debian = ["DLA-4228-1"]
+  ubuntu = ["USN-5371-1"]

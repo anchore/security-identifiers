@@ -2,24 +2,13 @@
 id = "ANCHORE-2018-13520"
 allocated = 2025-10-15T14:15:28.337163Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-16644",
-]
-gcve = [
-    "GCVE-0-2018-16644",
-]
-github = [
-    "GHSA-w58x-7j5p-4cgg",
-]
-debian = [
-    "DLA-1530-1",
-    "DSA-4316-1",
-]
-redhat = [
-    "RHSA-2020:1180",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2018-16644"]
+  gcve = ["GCVE-0-2018-16644"]
+  github = ["GHSA-w58x-7j5p-4cgg"]
+  debian = ["DLA-1530-1", "DSA-4316-1"]
+  redhat = ["RHSA-2020:1180"]
+  suse = [
     "SUSE-SU-2018:2977-1",
     "SUSE-SU-2018:3095-1",
     "SUSE-SU-2018:3269-1",
@@ -28,8 +17,5 @@ suse = [
     "SUSE-SU-2018:3808-1",
     "SUSE-SU-2019:1033-1",
     "SUSE-SU-2019:1033-2",
-]
-ubuntu = [
-    "USN-3785-1",
-    "USN-4034-1",
-]
+  ]
+  ubuntu = ["USN-3785-1", "USN-4034-1"]

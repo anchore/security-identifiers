@@ -2,25 +2,13 @@
 id = "ANCHORE-2022-13661"
 allocated = 2025-10-15T14:16:22.002278Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-32222",
-]
-gcve = [
-    "GCVE-0-2022-32222",
-]
-github = [
-    "GHSA-fxfc-w6xq-5pp8",
-]
-bitnami = [
-    "BIT-node-2022-32222",
-    "BIT-node-min-2022-32222",
-]
-amazonlinux = [
-    "ALAS-2023-286",
-    "ALAS2023-2023-084",
-]
-oraclelinux = [
+  [security.aliases]
+  cve = ["CVE-2022-32222"]
+  gcve = ["GCVE-0-2022-32222"]
+  github = ["GHSA-fxfc-w6xq-5pp8"]
+  bitnami = ["BIT-node-2022-32222", "BIT-node-min-2022-32222"]
+  amazonlinux = ["ALAS-2023-286", "ALAS2023-2023-084"]
+  oraclelinux = [
     "ELSA-2022-9944",
     "ELSA-2022-9945",
     "ELSA-2022-9946",
@@ -33,4 +21,4 @@ oraclelinux = [
     "ELSA-2022-9953",
     "ELSA-2022-9954",
     "ELSA-2022-9955",
-]
+  ]

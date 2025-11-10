@@ -2,21 +2,12 @@
 id = "ANCHORE-2017-8754"
 allocated = 2025-10-15T14:15:12.517380Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-7487",
-]
-gcve = [
-    "GCVE-0-2017-7487",
-]
-github = [
-    "GHSA-qjrv-wmmp-jvg2",
-]
-debian = [
-    "DLA-993-1",
-    "DSA-3886-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2017-7487"]
+  gcve = ["GCVE-0-2017-7487"]
+  github = ["GHSA-qjrv-wmmp-jvg2"]
+  debian = ["DLA-993-1", "DSA-3886-1"]
+  suse = [
     "SUSE-SU-2017:1853-1",
     "SUSE-SU-2017:1990-1",
     "SUSE-SU-2017:2342-1",
@@ -24,10 +15,5 @@ suse = [
     "SUSE-SU-2017:2525-1",
     "SUSE-SU-2017:2908-1",
     "SUSE-SU-2017:2920-1",
-]
-ubuntu = [
-    "USN-3344-1",
-    "USN-3344-2",
-    "USN-3404-2",
-    "USN-3406-1",
-]
+  ]
+  ubuntu = ["USN-3344-1", "USN-3344-2", "USN-3404-2", "USN-3406-1"]

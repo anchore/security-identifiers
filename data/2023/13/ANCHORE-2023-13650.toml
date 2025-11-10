@@ -2,32 +2,21 @@
 id = "ANCHORE-2023-13650"
 allocated = 2025-10-15T14:16:39.671406Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-2454",
-]
-gcve = [
-    "GCVE-0-2023-2454",
-]
-github = [
-    "GHSA-9fff-w5w3-5x9g",
-]
-bitnami = [
-    "BIT-postgresql-2023-2454",
-]
-almalinux = [
+  [security.aliases]
+  cve = ["CVE-2023-2454"]
+  gcve = ["GCVE-0-2023-2454"]
+  github = ["GHSA-9fff-w5w3-5x9g"]
+  bitnami = ["BIT-postgresql-2023-2454"]
+  almalinux = [
     "ALSA-2023:3714",
     "ALSA-2023:4327",
     "ALSA-2023:4527",
     "ALSA-2023:4535",
     "ALSA-2023:4539",
     "ALSA-2023:5269",
-]
-debian = [
-    "DLA-3422-1",
-    "DSA-5401-1",
-]
-redhat = [
+  ]
+  debian = ["DLA-3422-1", "DSA-5401-1"]
+  redhat = [
     "RHSA-2023:3714",
     "RHSA-2023:4313",
     "RHSA-2023:4327",
@@ -42,14 +31,14 @@ redhat = [
     "RHSA-2023:7694",
     "RHSA-2023:7695",
     "RHSA-2023:7772",
-]
-rockylinux = [
+  ]
+  rockylinux = [
     "RLSA-2023:3714",
     "RLSA-2023:4527",
     "RLSA-2023:4535",
     "RLSA-2023:4539",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2023:2198-1",
     "SUSE-SU-2023:2199-1",
     "SUSE-SU-2023:2200-1",
@@ -59,37 +48,30 @@ suse = [
     "SUSE-SU-2023:2206-1",
     "SUSE-SU-2023:2207-1",
     "SUSE-SU-2023:2219-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2024:12929-1",
     "openSUSE-SU-2024:12930-1",
     "openSUSE-SU-2024:12931-1",
     "openSUSE-SU-2024:12932-1",
     "openSUSE-SU-2024:12933-1",
     "openSUSE-SU-2024:14360-1",
-]
-ubuntu = [
-    "USN-6104-1",
-    "USN-6230-1",
-]
-openeuler = [
-    "OESA-2023-1567",
-    "OESA-2023-1568",
-    "OESA-2023-1569",
-]
-amazonlinux = [
+  ]
+  ubuntu = ["USN-6104-1", "USN-6230-1"]
+  openeuler = ["OESA-2023-1567", "OESA-2023-1568", "OESA-2023-1569"]
+  amazonlinux = [
     "ALAS2-2024-2462",
     "ALAS2023-2023-241",
     "ALAS2POSTGRESQL11-2023-001",
     "ALAS2POSTGRESQL12-2023-001",
     "ALAS2POSTGRESQL13-2023-001",
     "ALAS2POSTGRESQL14-2023-001",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2023-3714",
     "ELSA-2023-4327",
     "ELSA-2023-4527",
     "ELSA-2023-4535",
     "ELSA-2023-4539",
     "ELSA-2023-5269",
-]
+  ]

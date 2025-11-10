@@ -2,24 +2,14 @@
 id = "ANCHORE-2025-90889"
 allocated = 2025-11-03T09:44:59.926126Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-6075",
-]
-gcve = [
-    "GCVE-0-2025-6075",
-]
-github = [
-    "GHSA-vc2m-m665-8xm2",
-]
-echo = [
-    "ECHO-a643-f216-2dc6",
-]
-psf = [
-    "PSF-2025-13",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2025-6075"]
+  gcve = ["GCVE-0-2025-6075"]
+  github = ["GHSA-vc2m-m665-8xm2"]
+  echo = ["ECHO-a643-f216-2dc6"]
+  psf = ["PSF-2025-13"]
+  bitnami = [
     "BIT-libpython-2025-6075",
     "BIT-python-2025-6075",
     "BIT-python-min-2025-6075",
-]
+  ]

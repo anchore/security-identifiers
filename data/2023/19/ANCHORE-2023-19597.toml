@@ -2,47 +2,24 @@
 id = "ANCHORE-2023-19597"
 allocated = 2025-10-15T14:16:43.709113Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-48564",
-]
-gcve = [
-    "GCVE-0-2022-48564",
-]
-github = [
-    "GHSA-p8vw-m6qq-w42v",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2022-48564"]
+  gcve = ["GCVE-0-2022-48564"]
+  github = ["GHSA-p8vw-m6qq-w42v"]
+  bitnami = [
     "BIT-libpython-2022-48564",
     "BIT-python-2022-48564",
     "BIT-python-min-2022-48564",
-]
-psf = [
-    "PSF-2023-10",
-]
-chainguard = [
+  ]
+  psf = ["PSF-2023-10"]
+  chainguard = [
     "CGA-4qh5-c7fr-956h",
     "CGA-rf6m-7vpm-p4wp",
     "CGA-w595-rcc9-f479",
-]
-almalinux = [
-    "ALSA-2024:0114",
-]
-debian = [
-    "DLA-3614-1",
-]
-redhat = [
-    "RHSA-2024:0114",
-    "RHSA-2024:0430",
-    "RHSA-2024:0586",
-]
-ubuntu = [
-    "USN-6513-1",
-    "USN-6891-1",
-]
-amazonlinux = [
-    "ALAS2-2023-2317",
-]
-oraclelinux = [
-    "ELSA-2024-0114",
-]
+  ]
+  almalinux = ["ALSA-2024:0114"]
+  debian = ["DLA-3614-1"]
+  redhat = ["RHSA-2024:0114", "RHSA-2024:0430", "RHSA-2024:0586"]
+  ubuntu = ["USN-6513-1", "USN-6891-1"]
+  amazonlinux = ["ALAS2-2023-2317"]
+  oraclelinux = ["ELSA-2024-0114"]

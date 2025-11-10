@@ -2,19 +2,8 @@
 id = "ANCHORE-2020-9407"
 allocated = 2025-10-15T14:15:51.126479Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-4048",
-]
-gcve = [
-    "GCVE-0-2020-4048",
-]
-bitnami = [
-    "BIT-wordpress-2020-4048",
-    "BIT-wordpress-multisite-2020-4048",
-]
-debian = [
-    "DLA-2269-1",
-    "DLA-2371-1",
-    "DSA-4709-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-4048"]
+  gcve = ["GCVE-0-2020-4048"]
+  bitnami = ["BIT-wordpress-2020-4048", "BIT-wordpress-multisite-2020-4048"]
+  debian = ["DLA-2269-1", "DLA-2371-1", "DSA-4709-1"]

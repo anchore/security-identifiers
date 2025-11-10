@@ -2,17 +2,11 @@
 id = "ANCHORE-2024-33447"
 allocated = 2025-10-15T14:17:14.387755Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-51127",
-]
-gcve = [
-    "GCVE-0-2024-51127",
-]
-github = [
-    "GHSA-r7mv-mv7m-pjw3",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2024-51127"]
+  gcve = ["GCVE-0-2024-51127"]
+  github = ["GHSA-r7mv-mv7m-pjw3"]
+  redhat = [
     "RHSA-2024:11529",
     "RHSA-2024:11559",
     "RHSA-2024:11560",
@@ -22,4 +16,4 @@ redhat = [
     "RHSA-2025:1638",
     "RHSA-2025:16667",
     "RHSA-2025:16668",
-]
+  ]

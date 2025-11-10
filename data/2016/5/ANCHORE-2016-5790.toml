@@ -2,24 +2,16 @@
 id = "ANCHORE-2016-5790"
 allocated = 2025-10-15T14:15:06.143978Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-9318",
-]
-gcve = [
-    "GCVE-0-2016-9318",
-]
-debian = [
-    "DLA-2972-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2016-9318"]
+  gcve = ["GCVE-0-2016-9318"]
+  debian = ["DLA-2972-1"]
+  suse = [
     "SUSE-SU-2017:0164-1",
     "SUSE-SU-2017:0380-1",
     "SUSE-SU-2017:1366-1",
     "SUSE-SU-2017:1557-1",
     "SUSE-SU-2019:13985-1",
     "SUSE-SU-2019:1896-1",
-]
-ubuntu = [
-    "USN-3739-1",
-]
+  ]
+  ubuntu = ["USN-3739-1"]

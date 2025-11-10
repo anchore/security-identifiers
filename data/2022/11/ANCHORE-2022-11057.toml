@@ -2,20 +2,12 @@
 id = "ANCHORE-2022-11057"
 allocated = 2025-10-15T14:16:20.270685Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-31045",
-]
-gcve = [
-    "GCVE-0-2022-31045",
-]
-github = [
-    "GHSA-xwx5-5c9g-x68x",
-]
-go = [
-    "GO-2022-0489",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2022-31045"]
+  gcve = ["GCVE-0-2022-31045"]
+  github = ["GHSA-xwx5-5c9g-x68x"]
+  go = ["GO-2022-0489"]
+  chainguard = [
     "CGA-2884-6w65-v8q9",
     "CGA-59hp-f8j9-2q3x",
     "CGA-7j28-637g-6q9r",
@@ -30,11 +22,9 @@ chainguard = [
     "CGA-rm7v-98pc-7j4m",
     "CGA-v698-rgj5-hg68",
     "CGA-wfp6-6qjf-2g7h",
-]
-redhat = [
-    "RHSA-2022:5004",
-]
-oraclelinux = [
+  ]
+  redhat = ["RHSA-2022:5004"]
+  oraclelinux = [
     "ELSA-2022-9586",
     "ELSA-2022-9587",
     "ELSA-2022-9588",
@@ -43,4 +33,4 @@ oraclelinux = [
     "ELSA-2022-9772",
     "ELSA-2022-9773",
     "ELSA-2022-9774",
-]
+  ]

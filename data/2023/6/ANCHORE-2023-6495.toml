@@ -2,24 +2,14 @@
 id = "ANCHORE-2023-6495"
 allocated = 2025-10-15T14:16:34.897557Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-28425",
-]
-gcve = [
-    "GCVE-0-2023-28425",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2023-28425"]
+  gcve = ["GCVE-0-2023-28425"]
+  bitnami = [
     "BIT-keydb-2023-28425",
     "BIT-redis-2023-28425",
     "BIT-valkey-2023-28425",
-]
-suse = [
-    "SUSE-SU-2023:2925-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12874-1",
-]
-amazonlinux = [
-    "ALAS2023-2023-164",
-]
+  ]
+  suse = ["SUSE-SU-2023:2925-1"]
+  opensuse = ["openSUSE-SU-2024:12874-1"]
+  amazonlinux = ["ALAS2023-2023-164"]

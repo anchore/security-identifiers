@@ -2,20 +2,12 @@
 id = "ANCHORE-2022-20175"
 allocated = 2025-10-15T14:16:26.391495Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-32149",
-]
-gcve = [
-    "GCVE-0-2022-32149",
-]
-github = [
-    "GHSA-69ch-w2m2-3vjp",
-]
-go = [
-    "GO-2022-1059",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2022-32149"]
+  gcve = ["GCVE-0-2022-32149"]
+  github = ["GHSA-69ch-w2m2-3vjp"]
+  go = ["GO-2022-1059"]
+  chainguard = [
     "CGA-3274-pmxq-pw2c",
     "CGA-35qf-fwq2-m7m5",
     "CGA-3pqf-h26q-vc6x",
@@ -33,14 +25,14 @@ chainguard = [
     "CGA-xfcc-qrqw-7p37",
     "CGA-xqf9-w4hf-5982",
     "CGA-xvqc-gw49-f87c",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2023:3204",
     "RHSA-2023:3613",
     "RHSA-2024:1994",
     "RHSA-2024:2077",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2023:2575-1",
     "SUSE-SU-2023:2578-1",
     "SUSE-SU-2023:2579-1",
@@ -49,17 +41,12 @@ suse = [
     "SUSE-SU-2023:3875-1",
     "SUSE-SU-2024:0191-1",
     "SUSE-SU-2024:0196-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2024:12426-1",
     "openSUSE-SU-2024:12723-1",
     "openSUSE-SU-2024:13109-1",
     "openSUSE-SU-2024:14015-1",
-]
-ubuntu = [
-    "USN-5873-1",
-]
-openeuler = [
-    "OESA-2024-1527",
-    "OESA-2024-1528",
-]
+  ]
+  ubuntu = ["USN-5873-1"]
+  openeuler = ["OESA-2024-1527", "OESA-2024-1528"]

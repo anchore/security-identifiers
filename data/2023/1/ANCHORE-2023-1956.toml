@@ -2,17 +2,11 @@
 id = "ANCHORE-2023-1956"
 allocated = 2025-10-15T14:16:31.815842Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-24422",
-]
-gcve = [
-    "GCVE-0-2023-24422",
-]
-github = [
-    "GHSA-76qj-9gwh-pvv3",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2023-24422"]
+  gcve = ["GCVE-0-2023-24422"]
+  github = ["GHSA-76qj-9gwh-pvv3"]
+  redhat = [
     "RHSA-2023:1655",
     "RHSA-2023:3195",
     "RHSA-2023:3198",
@@ -26,4 +20,4 @@ redhat = [
     "RHSA-2024:0776",
     "RHSA-2024:0777",
     "RHSA-2024:0778",
-]
+  ]

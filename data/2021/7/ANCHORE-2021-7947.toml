@@ -2,23 +2,14 @@
 id = "ANCHORE-2021-7947"
 allocated = 2025-10-15T14:16:03.280578Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-28682",
-]
-gcve = [
-    "GCVE-0-2021-28682",
-]
-bitnami = [
-    "BIT-envoy-2021-28682",
-]
-redhat = [
-    "RHSA-2021:1322",
-    "RHSA-2021:1324",
-]
-oraclelinux = [
+  [security.aliases]
+  cve = ["CVE-2021-28682"]
+  gcve = ["GCVE-0-2021-28682"]
+  bitnami = ["BIT-envoy-2021-28682"]
+  redhat = ["RHSA-2021:1322", "RHSA-2021:1324"]
+  oraclelinux = [
     "ELSA-2021-9396",
     "ELSA-2021-9397",
     "ELSA-2021-9398",
     "ELSA-2021-9399",
-]
+  ]

@@ -2,14 +2,10 @@
 id = "ANCHORE-2024-40705"
 allocated = 2025-10-15T14:17:47.807884Z
 
-[security.aliases]
-github = [
-    "GHSA-9763-4f94-gfch",
-]
-go = [
-    "GO-2024-2453",
-]
-chainguard = [
+  [security.aliases]
+  github = ["GHSA-9763-4f94-gfch"]
+  go = ["GO-2024-2453"]
+  chainguard = [
     "CGA-27m7-5cxx-r98c",
     "CGA-32hv-8p45-fvrw",
     "CGA-34mp-pgjp-cr35",
@@ -76,7 +72,5 @@ chainguard = [
     "CGA-wqxr-65qm-jwmh",
     "CGA-wrvw-cm98-67w8",
     "CGA-x75x-r6x5-hpr2",
-]
-minimos = [
-    "MINI-qvfc-27fg-84qc",
-]
+  ]
+  minimos = ["MINI-qvfc-27fg-84qc"]

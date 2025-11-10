@@ -2,48 +2,32 @@
 id = "ANCHORE-2019-3985"
 allocated = 2025-10-15T14:15:34.284398Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-3828",
-]
-gcve = [
-    "GCVE-0-2019-3828",
-]
-github = [
-    "GHSA-74vq-h4q8-x6jv",
-]
-pypa = [
-    "PYSEC-2019-5",
-]
-go = [
-    "GO-2023-2255",
-]
-debian = [
-    "DSA-4396-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2019-3828"]
+  gcve = ["GCVE-0-2019-3828"]
+  github = ["GHSA-74vq-h4q8-x6jv"]
+  pypa = ["PYSEC-2019-5"]
+  go = ["GO-2023-2255"]
+  debian = ["DSA-4396-1"]
+  redhat = [
     "RHSA-2019:0430",
     "RHSA-2019:0431",
     "RHSA-2019:0432",
     "RHSA-2019:0433",
     "RHSA-2019:3744",
     "RHSA-2019:3789",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-RU-2020:2072-1",
     "SUSE-RU-2020:2161-1",
     "SUSE-SU-2020:1901-1",
     "SUSE-SU-2020:3309-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2019:1125-1",
     "openSUSE-SU-2019:1635-1",
     "openSUSE-SU-2024:14244-1",
     "openSUSE-SU-2024:14536-1",
-]
-ubuntu = [
-    "USN-4072-1",
-]
-openeuler = [
-    "OESA-2022-1565",
-]
+  ]
+  ubuntu = ["USN-4072-1"]
+  openeuler = ["OESA-2022-1565"]

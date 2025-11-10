@@ -2,20 +2,12 @@
 id = "ANCHORE-2007-1700"
 allocated = 2025-10-15T14:14:24.745575Z
 
-[security.aliases]
-cve = [
-    "CVE-2007-0450",
-]
-gcve = [
-    "GCVE-0-2007-0450",
-]
-github = [
-    "GHSA-4prh-gqw8-rgh5",
-]
-chainguard = [
-    "CGA-hwmg-52xv-c3jx",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2007-0450"]
+  gcve = ["GCVE-0-2007-0450"]
+  github = ["GHSA-4prh-gqw8-rgh5"]
+  chainguard = ["CGA-hwmg-52xv-c3jx"]
+  redhat = [
     "RHSA-2007:0326",
     "RHSA-2007:0327",
     "RHSA-2007:0328",
@@ -25,10 +17,6 @@ redhat = [
     "RHSA-2008:0261",
     "RHSA-2008:0524",
     "RHSA-2010:0602",
-]
-minimos = [
-    "MINI-6vfq-x5r4-p5gj",
-]
-oraclelinux = [
-    "ELSA-2007-0327",
-]
+  ]
+  minimos = ["MINI-6vfq-x5r4-p5gj"]
+  oraclelinux = ["ELSA-2007-0327"]

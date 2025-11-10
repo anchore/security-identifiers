@@ -2,32 +2,15 @@
 id = "ANCHORE-2021-10726"
 allocated = 2025-10-15T14:16:05.171563Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-3612",
-]
-gcve = [
-    "GCVE-0-2021-3612",
-]
-github = [
-    "GHSA-3g5m-332q-27r3",
-]
-almalinux = [
-    "ALSA-2022:1988",
-]
-debian = [
-    "DLA-2785-1",
-    "DLA-2843-1",
-]
-redhat = [
-    "RHSA-2022:1975",
-    "RHSA-2022:1988",
-]
-rockylinux = [
-    "RLSA-2022:1975",
-    "RLSA-2022:1988",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2021-3612"]
+  gcve = ["GCVE-0-2021-3612"]
+  github = ["GHSA-3g5m-332q-27r3"]
+  almalinux = ["ALSA-2022:1988"]
+  debian = ["DLA-2785-1", "DLA-2843-1"]
+  redhat = ["RHSA-2022:1975", "RHSA-2022:1988"]
+  rockylinux = ["RLSA-2022:1975", "RLSA-2022:1988"]
+  suse = [
     "SUSE-SU-2021:2407-1",
     "SUSE-SU-2021:2408-1",
     "SUSE-SU-2021:2416-1",
@@ -37,13 +20,13 @@ suse = [
     "SUSE-SU-2021:2643-1",
     "SUSE-SU-2021:2645-1",
     "SUSE-SU-2021:2687-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:1076-1",
     "openSUSE-SU-2021:2645-1",
     "openSUSE-SU-2021:2687-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-5070-1",
     "USN-5071-1",
     "USN-5071-2",
@@ -56,9 +39,5 @@ ubuntu = [
     "USN-5120-1",
     "USN-5299-1",
     "USN-5343-1",
-]
-oraclelinux = [
-    "ELSA-2021-9452",
-    "ELSA-2021-9453",
-    "ELSA-2022-1988",
-]
+  ]
+  oraclelinux = ["ELSA-2021-9452", "ELSA-2021-9453", "ELSA-2022-1988"]

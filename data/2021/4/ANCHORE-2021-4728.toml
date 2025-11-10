@@ -2,23 +2,10 @@
 id = "ANCHORE-2021-4728"
 allocated = 2025-10-15T14:16:01.080044Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-3443",
-]
-gcve = [
-    "GCVE-0-2021-3443",
-]
-github = [
-    "GHSA-f675-2h8m-hfrq",
-]
-suse = [
-    "SUSE-SU-2022:1475-1",
-    "SUSE-SU-2022:1479-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:13389-1",
-]
-amazonlinux = [
-    "ALAS2-2023-2018",
-]
+  [security.aliases]
+  cve = ["CVE-2021-3443"]
+  gcve = ["GCVE-0-2021-3443"]
+  github = ["GHSA-f675-2h8m-hfrq"]
+  suse = ["SUSE-SU-2022:1475-1", "SUSE-SU-2022:1479-1"]
+  opensuse = ["openSUSE-SU-2024:13389-1"]
+  amazonlinux = ["ALAS2-2023-2018"]

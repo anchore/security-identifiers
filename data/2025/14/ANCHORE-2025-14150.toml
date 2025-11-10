@@ -2,36 +2,18 @@
 id = "ANCHORE-2025-14150"
 allocated = 2025-10-15T14:17:29.146173Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-29088",
-]
-gcve = [
-    "GCVE-0-2025-29088",
-]
-github = [
-    "GHSA-mj4r-rr6h-q62g",
-]
-bitnami = [
-    "BIT-sqlite-2025-29088",
-]
-suse = [
-    "SUSE-SU-2025:1455-1",
-    "SUSE-SU-2025:1456-1",
-]
-opensuse = [
-    "openSUSE-SU-2025:14991-1",
-]
-ubuntu = [
-    "USN-7528-1",
-    "USN-7679-1",
-]
-echo = [
-    "ECHO-9e55-6cc2-eb24",
-]
-amazonlinux = [
+  [security.aliases]
+  cve = ["CVE-2025-29088"]
+  gcve = ["GCVE-0-2025-29088"]
+  github = ["GHSA-mj4r-rr6h-q62g"]
+  bitnami = ["BIT-sqlite-2025-29088"]
+  suse = ["SUSE-SU-2025:1455-1", "SUSE-SU-2025:1456-1"]
+  opensuse = ["openSUSE-SU-2025:14991-1"]
+  ubuntu = ["USN-7528-1", "USN-7679-1"]
+  echo = ["ECHO-9e55-6cc2-eb24"]
+  amazonlinux = [
     "ALAS2-2025-2858",
     "ALAS2023-2025-966",
     "ALAS2023-2025-976",
     "ALAS2FIREFOX-2025-038",
-]
+  ]

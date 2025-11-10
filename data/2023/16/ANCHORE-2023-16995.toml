@@ -2,25 +2,17 @@
 id = "ANCHORE-2023-16995"
 allocated = 2025-10-15T14:16:41.952975Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-22043",
-]
-gcve = [
-    "GCVE-0-2023-22043",
-]
-github = [
-    "GHSA-grjf-4ggg-f6cm",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2023-22043"]
+  gcve = ["GCVE-0-2023-22043"]
+  github = ["GHSA-grjf-4ggg-f6cm"]
+  chainguard = [
     "CGA-6xp7-8v62-w7x6",
     "CGA-93xh-7vv6-hqm4",
     "CGA-wvjc-rq36-h3gw",
-]
-minimos = [
-    "MINI-gvxh-mp25-jm45",
-]
-amazonlinux = [
+  ]
+  minimos = ["MINI-gvxh-mp25-jm45"]
+  amazonlinux = [
     "ALAS2-2023-2137",
     "ALAS2-2023-2138",
     "ALAS2-2023-2189",
@@ -29,4 +21,4 @@ amazonlinux = [
     "ALAS2023-2023-258",
     "ALAS2CORRETTO8-2023-007",
     "ALAS2JAVA-OPENJDK11-2023-005",
-]
+  ]

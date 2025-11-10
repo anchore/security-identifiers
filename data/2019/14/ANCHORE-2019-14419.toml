@@ -2,29 +2,19 @@
 id = "ANCHORE-2019-14419"
 allocated = 2025-10-15T14:15:41.482349Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-2973",
-]
-gcve = [
-    "GCVE-0-2019-2973",
-]
-github = [
-    "GHSA-x58f-j988-8ppf",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2019-2973"]
+  gcve = ["GCVE-0-2019-2973"]
+  github = ["GHSA-x58f-j988-8ppf"]
+  chainguard = [
     "CGA-6xg3-7wpr-8x9v",
     "CGA-fj9x-p2mq-gwrx",
     "CGA-mgx6-424g-wrcw",
     "CGA-pf6p-qj55-jcj5",
     "CGA-w52w-3pvj-7c59",
-]
-debian = [
-    "DLA-2023-1",
-    "DSA-4546-1",
-    "DSA-4548-1",
-]
-redhat = [
+  ]
+  debian = ["DLA-2023-1", "DSA-4546-1", "DSA-4548-1"]
+  redhat = [
     "RHSA-2019:3127",
     "RHSA-2019:3128",
     "RHSA-2019:3134",
@@ -38,8 +28,8 @@ redhat = [
     "RHSA-2019:4115",
     "RHSA-2020:0006",
     "RHSA-2020:0046",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2019:2998-1",
     "SUSE-SU-2019:3083-1",
     "SUSE-SU-2019:3084-1",
@@ -50,29 +40,24 @@ suse = [
     "SUSE-SU-2020:0051-1",
     "SUSE-SU-2020:14263-1",
     "SUSE-SU-2020:14265-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2019:2557-1",
     "openSUSE-SU-2019:2565-1",
     "openSUSE-SU-2019:2687-1",
     "openSUSE-SU-2024:10871-1",
     "openSUSE-SU-2024:10872-1",
     "openSUSE-SU-2024:10876-1",
-]
-ubuntu = [
-    "USN-4223-1",
-]
-minimos = [
+  ]
+  ubuntu = ["USN-4223-1"]
+  minimos = [
     "MINI-gmjx-8ggv-76xq",
     "MINI-grq7-4wm5-wfxp",
     "MINI-jgvg-r6vj-rr73",
     "MINI-p3m5-pmv6-h88g",
-]
-amazonlinux = [
-    "ALAS2-2019-1316",
-    "ALAS2-2019-1372",
-]
-oraclelinux = [
+  ]
+  amazonlinux = ["ALAS2-2019-1316", "ALAS2-2019-1372"]
+  oraclelinux = [
     "ELSA-2019-3127",
     "ELSA-2019-3128",
     "ELSA-2019-3134",
@@ -80,4 +65,4 @@ oraclelinux = [
     "ELSA-2019-3136",
     "ELSA-2019-3157",
     "ELSA-2019-3158",
-]
+  ]

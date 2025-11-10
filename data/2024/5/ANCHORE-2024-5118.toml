@@ -2,28 +2,16 @@
 id = "ANCHORE-2024-5118"
 allocated = 2025-10-15T14:16:54.941306Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-26144",
-]
-gcve = [
-    "GCVE-0-2024-26144",
-]
-github = [
-    "GHSA-8h22-8cf7-hq6g",
-]
-bitnami = [
-    "BIT-rails-2024-26144",
-]
-debian = [
-    "DSA-5881-1",
-]
-redhat = [
-    "RHSA-2024:10806",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2024-26144"]
+  gcve = ["GCVE-0-2024-26144"]
+  github = ["GHSA-8h22-8cf7-hq6g"]
+  bitnami = ["BIT-rails-2024-26144"]
+  debian = ["DSA-5881-1"]
+  redhat = ["RHSA-2024:10806"]
+  openeuler = [
     "OESA-2024-1364",
     "OESA-2024-1365",
     "OESA-2024-1366",
     "OESA-2024-1367",
-]
+  ]

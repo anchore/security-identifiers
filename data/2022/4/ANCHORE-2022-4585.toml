@@ -2,22 +2,9 @@
 id = "ANCHORE-2022-4585"
 allocated = 2025-10-15T14:16:15.863840Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-26662",
-]
-gcve = [
-    "GCVE-0-2022-26662",
-]
-github = [
-    "GHSA-pm3h-mm62-pwm8",
-]
-pypa = [
-    "PYSEC-2022-43171",
-]
-debian = [
-    "DLA-2945-1",
-    "DLA-2946-1",
-    "DSA-5098-1",
-    "DSA-5099-1",
-]
+  [security.aliases]
+  cve = ["CVE-2022-26662"]
+  gcve = ["GCVE-0-2022-26662"]
+  github = ["GHSA-pm3h-mm62-pwm8"]
+  pypa = ["PYSEC-2022-43171"]
+  debian = ["DLA-2945-1", "DLA-2946-1", "DSA-5098-1", "DSA-5099-1"]

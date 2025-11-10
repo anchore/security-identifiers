@@ -2,27 +2,19 @@
 id = "ANCHORE-2007-4834"
 allocated = 2025-10-15T14:14:26.860353Z
 
-[security.aliases]
-cve = [
-    "CVE-2007-4559",
-]
-gcve = [
-    "GCVE-0-2007-4559",
-]
-github = [
-    "GHSA-gw9q-c7gh-j9vm",
-]
-psf = [
-    "PSF-2007-2",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2007-4559"]
+  gcve = ["GCVE-0-2007-4559"]
+  github = ["GHSA-gw9q-c7gh-j9vm"]
+  psf = ["PSF-2007-2"]
+  chainguard = [
     "CGA-6cxp-qqq9-5mq3",
     "CGA-966x-ppqq-mp9w",
     "CGA-c5px-86g5-rx2p",
     "CGA-h6qq-2p9f-rrpx",
     "CGA-wmg2-c3fj-mpmv",
-]
-almalinux = [
+  ]
+  almalinux = [
     "ALSA-2023:6324",
     "ALSA-2023:6494",
     "ALSA-2023:6659",
@@ -33,8 +25,8 @@ almalinux = [
     "ALSA-2023:7050",
     "ALSA-2023:7151",
     "ALSA-2023:7176",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2023:6324",
     "RHSA-2023:6494",
     "RHSA-2023:6659",
@@ -49,8 +41,8 @@ redhat = [
     "RHSA-2024:0374",
     "RHSA-2024:0430",
     "RHSA-2024:0587",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2023:2463-1",
     "SUSE-SU-2023:2473-1",
     "SUSE-SU-2023:2509-1",
@@ -60,8 +52,8 @@ suse = [
     "SUSE-SU-2023:2884-1",
     "SUSE-SU-2023:2937-1",
     "SUSE-SU-2023:2957-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2024:12684-1",
     "openSUSE-SU-2024:12947-1",
     "openSUSE-SU-2024:12964-1",
@@ -69,14 +61,14 @@ opensuse = [
     "openSUSE-SU-2024:12977-1",
     "openSUSE-SU-2024:13071-1",
     "openSUSE-SU-2025:15104-1",
-]
-openeuler = [
+  ]
+  openeuler = [
     "OESA-2023-1518",
     "OESA-2023-1519",
     "OESA-2023-1520",
     "OESA-2024-2304",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2-2025-2814",
     "ALAS2-2025-2815",
     "ALAS2-2025-2816",
@@ -86,8 +78,8 @@ amazonlinux = [
     "ALAS2023-2025-924",
     "ALAS2PYTHON3.8-2024-016",
     "ALAS2PYTHON3.8-2025-018",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2023-6324",
     "ELSA-2023-6494",
     "ELSA-2023-6659",
@@ -98,4 +90,4 @@ oraclelinux = [
     "ELSA-2023-7050",
     "ELSA-2023-7151",
     "ELSA-2023-7176",
-]
+  ]

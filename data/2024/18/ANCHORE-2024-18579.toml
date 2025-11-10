@@ -2,19 +2,12 @@
 id = "ANCHORE-2024-18579"
 allocated = 2025-10-15T14:17:04.113340Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-5585",
-]
-gcve = [
-    "GCVE-0-2024-5585",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-5585"]
+  gcve = ["GCVE-0-2024-5585"]
+  bitnami = [
     "BIT-libphp-2024-5585",
     "BIT-php-2024-5585",
     "BIT-php-min-2024-5585",
-]
-chainguard = [
-    "CGA-64x3-8rfh-jpqf",
-    "CGA-7xpg-x857-4qf9",
-]
+  ]
+  chainguard = ["CGA-64x3-8rfh-jpqf", "CGA-7xpg-x857-4qf9"]

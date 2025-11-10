@@ -2,43 +2,21 @@
 id = "ANCHORE-2025-21220"
 allocated = 2025-10-15T14:17:34.124390Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-48432",
-]
-gcve = [
-    "GCVE-0-2025-48432",
-]
-github = [
-    "GHSA-7xr5-9hcq-chf9",
-]
-bitnami = [
-    "BIT-django-2025-48432",
-]
-pypa = [
-    "PYSEC-2025-47",
-]
-chainguard = [
-    "CGA-cwwh-6wr6-q2xq",
-]
-debian = [
-    "DLA-4210-1",
-]
-redhat = [
-    "RHSA-2025:14686",
-    "RHSA-2025:16487",
-]
-suse = [
-    "SUSE-SU-2025:01952-1",
-    "SUSE-SU-2025:02248-1",
-]
-ubuntu = [
-    "USN-7555-1",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2025-48432"]
+  gcve = ["GCVE-0-2025-48432"]
+  github = ["GHSA-7xr5-9hcq-chf9"]
+  bitnami = ["BIT-django-2025-48432"]
+  pypa = ["PYSEC-2025-47"]
+  chainguard = ["CGA-cwwh-6wr6-q2xq"]
+  debian = ["DLA-4210-1"]
+  redhat = ["RHSA-2025:14686", "RHSA-2025:16487"]
+  suse = ["SUSE-SU-2025:01952-1", "SUSE-SU-2025:02248-1"]
+  ubuntu = ["USN-7555-1"]
+  openeuler = [
     "OESA-2025-1617",
     "OESA-2025-1618",
     "OESA-2025-1619",
     "OESA-2025-1642",
     "OESA-2025-1643",
-]
+  ]

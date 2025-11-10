@@ -2,25 +2,15 @@
 id = "ANCHORE-2022-8370"
 allocated = 2025-10-15T14:16:18.423931Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-1475",
-]
-gcve = [
-    "GCVE-0-2022-1475",
-]
-github = [
-    "GHSA-gcqf-mvg9-pf79",
-]
-debian = [
-    "DSA-5124-1",
-]
-ubuntu = [
-    "USN-5472-1",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2022-1475"]
+  gcve = ["GCVE-0-2022-1475"]
+  github = ["GHSA-gcqf-mvg9-pf79"]
+  debian = ["DSA-5124-1"]
+  ubuntu = ["USN-5472-1"]
+  openeuler = [
     "OESA-2024-1873",
     "OESA-2024-1875",
     "OESA-2024-1876",
     "OESA-2024-1877",
-]
+  ]

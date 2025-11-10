@@ -2,27 +2,15 @@
 id = "ANCHORE-2020-4750"
 allocated = 2025-10-15T14:15:47.961782Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-10803",
-]
-gcve = [
-    "GCVE-0-2020-10803",
-]
-github = [
-    "GHSA-fcww-8wvc-38q9",
-]
-bitnami = [
-    "BIT-phpmyadmin-2020-10803",
-]
-debian = [
-    "DLA-2154-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2020-10803"]
+  gcve = ["GCVE-0-2020-10803"]
+  github = ["GHSA-fcww-8wvc-38q9"]
+  bitnami = ["BIT-phpmyadmin-2020-10803"]
+  debian = ["DLA-2154-1"]
+  opensuse = [
     "openSUSE-SU-2020:0405-1",
     "openSUSE-SU-2020:1806-1",
     "openSUSE-SU-2024:11171-1",
-]
-ubuntu = [
-    "USN-4639-1",
-]
+  ]
+  ubuntu = ["USN-4639-1"]

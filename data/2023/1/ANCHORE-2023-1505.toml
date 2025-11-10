@@ -2,38 +2,18 @@
 id = "ANCHORE-2023-1505"
 allocated = 2025-10-15T14:16:31.507819Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-21887",
-]
-gcve = [
-    "GCVE-0-2023-21887",
-]
-github = [
-    "GHSA-28xr-rgjv-2mgp",
-]
-chainguard = [
-    "CGA-35f7-97m4-496q",
-]
-almalinux = [
-    "ALSA-2023:2621",
-    "ALSA-2023:3087",
-]
-redhat = [
-    "RHSA-2023:1102",
-    "RHSA-2023:2621",
-    "RHSA-2023:3087",
-]
-ubuntu = [
-    "USN-5823-1",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2023-21887"]
+  gcve = ["GCVE-0-2023-21887"]
+  github = ["GHSA-28xr-rgjv-2mgp"]
+  chainguard = ["CGA-35f7-97m4-496q"]
+  almalinux = ["ALSA-2023:2621", "ALSA-2023:3087"]
+  redhat = ["RHSA-2023:1102", "RHSA-2023:2621", "RHSA-2023:3087"]
+  ubuntu = ["USN-5823-1"]
+  openeuler = [
     "OESA-2023-1834",
     "OESA-2023-1835",
     "OESA-2023-1836",
     "OESA-2024-2071",
-]
-oraclelinux = [
-    "ELSA-2023-2621",
-    "ELSA-2023-3087",
-]
+  ]
+  oraclelinux = ["ELSA-2023-2621", "ELSA-2023-3087"]

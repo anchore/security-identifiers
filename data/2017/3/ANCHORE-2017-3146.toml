@@ -2,30 +2,12 @@
 id = "ANCHORE-2017-3146"
 allocated = 2025-10-15T14:15:08.817024Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-6831",
-]
-gcve = [
-    "GCVE-0-2017-6831",
-]
-github = [
-    "GHSA-rwm3-cp72-9xhp",
-]
-debian = [
-    "DLA-867-1",
-    "DSA-3814-1",
-]
-suse = [
-    "SUSE-SU-2017:0940-1",
-    "SUSE-SU-2017:1182-1",
-]
-ubuntu = [
-    "USN-3241-1",
-]
-openeuler = [
-    "OESA-2021-1040",
-]
-amazonlinux = [
-    "ALAS2-2024-2601",
-]
+  [security.aliases]
+  cve = ["CVE-2017-6831"]
+  gcve = ["GCVE-0-2017-6831"]
+  github = ["GHSA-rwm3-cp72-9xhp"]
+  debian = ["DLA-867-1", "DSA-3814-1"]
+  suse = ["SUSE-SU-2017:0940-1", "SUSE-SU-2017:1182-1"]
+  ubuntu = ["USN-3241-1"]
+  openeuler = ["OESA-2021-1040"]
+  amazonlinux = ["ALAS2-2024-2601"]

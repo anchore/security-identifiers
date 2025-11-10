@@ -2,19 +2,9 @@
 id = "ANCHORE-2020-8768"
 allocated = 2025-10-15T14:15:50.697256Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-6453",
-]
-gcve = [
-    "GCVE-0-2020-6453",
-]
-github = [
-    "GHSA-g557-j994-6wpq",
-]
-debian = [
-    "DSA-4654-1",
-]
-redhat = [
-    "RHSA-2020:1350",
-]
+  [security.aliases]
+  cve = ["CVE-2020-6453"]
+  gcve = ["GCVE-0-2020-6453"]
+  github = ["GHSA-g557-j994-6wpq"]
+  debian = ["DSA-4654-1"]
+  redhat = ["RHSA-2020:1350"]

@@ -2,54 +2,36 @@
 id = "ANCHORE-2025-8236"
 allocated = 2025-10-15T14:17:25.077649Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-1795",
-]
-gcve = [
-    "GCVE-0-2025-1795",
-]
-github = [
-    "GHSA-c266-vjjr-2v8j",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2025-1795"]
+  gcve = ["GCVE-0-2025-1795"]
+  github = ["GHSA-c266-vjjr-2v8j"]
+  bitnami = [
     "BIT-libpython-2025-1795",
     "BIT-python-2025-1795",
     "BIT-python-min-2025-1795",
-]
-psf = [
-    "PSF-2025-3",
-]
-debian = [
-    "DLA-4087-1",
-]
-suse = [
+  ]
+  psf = ["PSF-2025-3"]
+  debian = ["DLA-4087-1"]
+  suse = [
     "SUSE-SU-2025:02074-1",
     "SUSE-SU-2025:0883-1",
     "SUSE-SU-2025:0981-1",
     "SUSE-SU-2025:0982-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2025:14872-1",
     "openSUSE-SU-2025:14873-1",
     "openSUSE-SU-2025:14885-1",
-]
-ubuntu = [
-    "USN-7570-1",
-]
-minimos = [
-    "MINI-gqgw-2f83-qcpf",
-]
-openeuler = [
+  ]
+  ubuntu = ["USN-7570-1"]
+  minimos = ["MINI-gqgw-2f83-qcpf"]
+  openeuler = [
     "OESA-2025-2290",
     "OESA-2025-2302",
     "OESA-2025-2303",
     "OESA-2025-2304",
     "OESA-2025-2305",
     "OESA-2025-2306",
-]
-amazonlinux = [
-    "ALAS2-2025-2808",
-    "ALAS2023-2025-871",
-    "ALAS2023-2025-917",
-]
+  ]
+  amazonlinux = ["ALAS2-2025-2808", "ALAS2023-2025-871", "ALAS2023-2025-917"]

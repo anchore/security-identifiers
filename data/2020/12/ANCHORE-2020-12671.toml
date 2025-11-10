@@ -2,19 +2,9 @@
 id = "ANCHORE-2020-12671"
 allocated = 2025-10-15T14:15:53.344227Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-7923",
-]
-gcve = [
-    "GCVE-0-2020-7923",
-]
-github = [
-    "GHSA-2cg2-x4m3-3vpp",
-]
-bitnami = [
-    "BIT-mongodb-2020-7923",
-]
-debian = [
-    "DLA-2344-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-7923"]
+  gcve = ["GCVE-0-2020-7923"]
+  github = ["GHSA-2cg2-x4m3-3vpp"]
+  bitnami = ["BIT-mongodb-2020-7923"]
+  debian = ["DLA-2344-1"]

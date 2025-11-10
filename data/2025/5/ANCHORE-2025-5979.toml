@@ -2,20 +2,12 @@
 id = "ANCHORE-2025-5979"
 allocated = 2025-10-15T14:17:23.525239Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-0426",
-]
-gcve = [
-    "GCVE-0-2025-0426",
-]
-github = [
-    "GHSA-jgfp-53c3-624w",
-]
-go = [
-    "GO-2025-3465",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-0426"]
+  gcve = ["GCVE-0-2025-0426"]
+  github = ["GHSA-jgfp-53c3-624w"]
+  go = ["GO-2025-3465"]
+  chainguard = [
     "CGA-3hvm-mf5g-45mx",
     "CGA-3mgf-5p4v-fxw2",
     "CGA-3r8j-cg39-f679",
@@ -46,20 +38,17 @@ chainguard = [
     "CGA-x5q7-q53h-58qx",
     "CGA-xc77-9rx9-7f3g",
     "CGA-xq9q-6r9h-vj3q",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2025:14816-1",
     "openSUSE-SU-2025:14817-1",
     "openSUSE-SU-2025:14818-1",
     "openSUSE-SU-2025:14819-1",
     "openSUSE-SU-2025:14889-1",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-rw7x-qp73-wv5p",
     "MINI-xf4v-mxxf-gvhw",
     "MINI-xh3c-rx24-fxrx",
-]
-openeuler = [
-    "OESA-2025-1259",
-    "OESA-2025-1273",
-]
+  ]
+  openeuler = ["OESA-2025-1259", "OESA-2025-1273"]

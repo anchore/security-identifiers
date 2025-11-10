@@ -2,46 +2,22 @@
 id = "ANCHORE-2024-8130"
 allocated = 2025-10-15T14:16:56.972083Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-1313",
-]
-gcve = [
-    "GCVE-0-2024-1313",
-]
-github = [
-    "GHSA-67rv-qpw2-6qrr",
-]
-bitnami = [
-    "BIT-grafana-2024-1313",
-]
-go = [
-    "GO-2024-2697",
-]
-almalinux = [
-    "ALSA-2024:2568",
-    "ALSA-2024:3265",
-]
-redhat = [
-    "RHSA-2024:2568",
-    "RHSA-2024:3265",
-]
-rockylinux = [
-    "RLSA-2024:2568",
-    "RLSA-2024:3265",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2024-1313"]
+  gcve = ["GCVE-0-2024-1313"]
+  github = ["GHSA-67rv-qpw2-6qrr"]
+  bitnami = ["BIT-grafana-2024-1313"]
+  go = ["GO-2024-2697"]
+  almalinux = ["ALSA-2024:2568", "ALSA-2024:3265"]
+  redhat = ["RHSA-2024:2568", "RHSA-2024:3265"]
+  rockylinux = ["RLSA-2024:2568", "RLSA-2024:3265"]
+  suse = [
     "SUSE-SU-2024:1508-1",
     "SUSE-SU-2024:1509-1",
     "SUSE-SU-2024:1530-1",
     "SUSE-SU-2024:1530-2",
     "SUSE-SU-2024:1814-1",
     "SUSE-SU-2024:1815-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:13831-1",
-]
-oraclelinux = [
-    "ELSA-2024-2568",
-    "ELSA-2024-3265",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:13831-1"]
+  oraclelinux = ["ELSA-2024-2568", "ELSA-2024-3265"]

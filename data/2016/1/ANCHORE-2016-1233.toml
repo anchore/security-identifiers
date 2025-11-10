@@ -2,21 +2,13 @@
 id = "ANCHORE-2016-1233"
 allocated = 2025-10-15T14:15:03.081129Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-1956",
-]
-gcve = [
-    "GCVE-0-2016-1956",
-]
-github = [
-    "GHSA-f987-fmmg-p98m",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2016-1956"]
+  gcve = ["GCVE-0-2016-1956"]
+  github = ["GHSA-f987-fmmg-p98m"]
+  opensuse = [
     "openSUSE-SU-2024:10071-1",
     "openSUSE-SU-2024:10230-1",
     "openSUSE-SU-2024:14572-1",
-]
-ubuntu = [
-    "USN-2917-1",
-]
+  ]
+  ubuntu = ["USN-2917-1"]

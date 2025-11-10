@@ -2,52 +2,31 @@
 id = "ANCHORE-2022-12718"
 allocated = 2025-10-15T14:16:21.378623Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-32082",
-]
-gcve = [
-    "GCVE-0-2022-32082",
-]
-github = [
-    "GHSA-hx5h-h8m3-hvw4",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2022-32082"]
+  gcve = ["GCVE-0-2022-32082"]
+  github = ["GHSA-hx5h-h8m3-hvw4"]
+  bitnami = [
     "BIT-mariadb-2022-32082",
     "BIT-mariadb-min-2022-32082",
     "BIT-mysql-client-2022-32082",
-]
-almalinux = [
-    "ALSA-2023:5683",
-    "ALSA-2023:5684",
-]
-redhat = [
+  ]
+  almalinux = ["ALSA-2023:5683", "ALSA-2023:5684"]
+  redhat = [
     "RHSA-2023:5683",
     "RHSA-2023:5684",
     "RHSA-2023:6821",
     "RHSA-2023:6822",
     "RHSA-2023:6883",
     "RHSA-2023:7633",
-]
-rockylinux = [
-    "RLSA-2023:5683",
-]
-suse = [
-    "SUSE-SU-2022:3159-1",
-    "SUSE-SU-2022:3391-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12360-1",
-]
-ubuntu = [
-    "USN-5739-1",
-]
-amazonlinux = [
+  ]
+  rockylinux = ["RLSA-2023:5683"]
+  suse = ["SUSE-SU-2022:3159-1", "SUSE-SU-2022:3391-1"]
+  opensuse = ["openSUSE-SU-2024:12360-1"]
+  ubuntu = ["USN-5739-1"]
+  amazonlinux = [
     "ALAS-2022-245",
     "ALAS2023-2023-037",
     "ALAS2MARIADB10.5-2023-002",
-]
-oraclelinux = [
-    "ELSA-2023-5683",
-    "ELSA-2023-5684",
-]
+  ]
+  oraclelinux = ["ELSA-2023-5683", "ELSA-2023-5684"]

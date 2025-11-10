@@ -2,31 +2,18 @@
 id = "ANCHORE-2020-2465"
 allocated = 2025-10-15T14:15:46.391296Z
 
-[security.aliases]
-cve = [
-    "CVE-2013-4535",
-]
-gcve = [
-    "GCVE-0-2013-4535",
-]
-github = [
-    "GHSA-4g6m-vjr9-mv9r",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2013-4535"]
+  gcve = ["GCVE-0-2013-4535"]
+  github = ["GHSA-4g6m-vjr9-mv9r"]
+  redhat = [
     "RHSA-2014:0674",
     "RHSA-2014:0743",
     "RHSA-2014:0744",
     "RHSA-2014:0888",
     "RHSA-2014:0927",
     "RHSA-2014:1268",
-]
-opensuse = [
-    "openSUSE-SU-2024:10233-1",
-]
-ubuntu = [
-    "USN-2342-1",
-]
-oraclelinux = [
-    "ELSA-2014-0743",
-    "ELSA-2014-0927",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:10233-1"]
+  ubuntu = ["USN-2342-1"]
+  oraclelinux = ["ELSA-2014-0743", "ELSA-2014-0927"]

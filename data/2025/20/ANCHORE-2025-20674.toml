@@ -2,29 +2,16 @@
 id = "ANCHORE-2025-20674"
 allocated = 2025-10-15T14:17:33.736502Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-36846",
-]
-gcve = [
-    "GCVE-0-2020-36846",
-]
-github = [
-    "GHSA-44qx-v2f9-7rq9",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2020-36846"]
+  gcve = ["GCVE-0-2020-36846"]
+  github = ["GHSA-44qx-v2f9-7rq9"]
+  bitnami = [
     "BIT-brotli-2020-8927",
     "BIT-dotnet-2020-8927",
     "BIT-dotnet-sdk-2020-8927",
     "BIT-powershell-2020-8927",
-]
-pypa = [
-    "PYSEC-2020-29",
-]
-go = [
-    "GO-2025-3726",
-]
-rustsec = [
-    "RUSTSEC-2021-0131",
-    "RUSTSEC-2021-0132",
-]
+  ]
+  pypa = ["PYSEC-2020-29"]
+  go = ["GO-2025-3726"]
+  rustsec = ["RUSTSEC-2021-0131", "RUSTSEC-2021-0132"]

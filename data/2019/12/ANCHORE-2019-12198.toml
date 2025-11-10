@@ -2,24 +2,16 @@
 id = "ANCHORE-2019-12198"
 allocated = 2025-10-15T14:15:39.953655Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-9454",
-]
-gcve = [
-    "GCVE-0-2019-9454",
-]
-github = [
-    "GHSA-25wx-2r9g-p2hv",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2019-9454"]
+  gcve = ["GCVE-0-2019-9454"]
+  github = ["GHSA-25wx-2r9g-p2hv"]
+  redhat = [
     "RHSA-2020:2104",
     "RHSA-2020:4060",
     "RHSA-2020:4062",
     "RHSA-2020:5206",
     "RHSA-2020:5430",
     "RHSA-2020:5656",
-]
-oraclelinux = [
-    "ELSA-2020-4060",
-]
+  ]
+  oraclelinux = ["ELSA-2020-4060"]

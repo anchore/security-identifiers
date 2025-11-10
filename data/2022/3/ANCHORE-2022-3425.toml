@@ -2,42 +2,19 @@
 id = "ANCHORE-2022-3425"
 allocated = 2025-10-15T14:16:15.086793Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-25255",
-]
-gcve = [
-    "GCVE-0-2022-25255",
-]
-github = [
-    "GHSA-fw78-qp2x-5gc7",
-]
-almalinux = [
-    "ALSA-2022:7482",
-    "ALSA-2022:8022",
-]
-redhat = [
-    "RHSA-2022:7482",
-    "RHSA-2022:8022",
-]
-rockylinux = [
-    "RLSA-2022:7482",
-    "RLSA-2022:8022",
-]
-suse = [
-    "SUSE-SU-2022:0841-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2022-25255"]
+  gcve = ["GCVE-0-2022-25255"]
+  github = ["GHSA-fw78-qp2x-5gc7"]
+  almalinux = ["ALSA-2022:7482", "ALSA-2022:8022"]
+  redhat = ["RHSA-2022:7482", "RHSA-2022:8022"]
+  rockylinux = ["RLSA-2022:7482", "RLSA-2022:8022"]
+  suse = ["SUSE-SU-2022:0841-1"]
+  opensuse = [
     "openSUSE-SU-2022:0841-1",
     "openSUSE-SU-2024:11879-1",
     "openSUSE-SU-2024:11886-1",
     "openSUSE-SU-2024:11974-1",
-]
-openeuler = [
-    "OESA-2022-1787",
-    "OESA-2022-1803",
-]
-oraclelinux = [
-    "ELSA-2022-7482",
-    "ELSA-2022-8022",
-]
+  ]
+  openeuler = ["OESA-2022-1787", "OESA-2022-1803"]
+  oraclelinux = ["ELSA-2022-7482", "ELSA-2022-8022"]

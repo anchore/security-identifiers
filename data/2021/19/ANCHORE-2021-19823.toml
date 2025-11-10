@@ -2,23 +2,13 @@
 id = "ANCHORE-2021-19823"
 allocated = 2025-10-15T14:16:11.333148Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-43798",
-]
-gcve = [
-    "GCVE-0-2021-43798",
-]
-github = [
-    "GHSA-8pjx-jj86-j47p",
-]
-bitnami = [
-    "BIT-grafana-2021-43798",
-]
-go = [
-    "GO-2022-0275",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2021-43798"]
+  gcve = ["GCVE-0-2021-43798"]
+  github = ["GHSA-8pjx-jj86-j47p"]
+  bitnami = ["BIT-grafana-2021-43798"]
+  go = ["GO-2022-0275"]
+  suse = [
     "SUSE-SU-2022:1396-1",
     "SUSE-SU-2022:2134-1",
     "SUSE-SU-2022:3676-1",
@@ -29,7 +19,5 @@ suse = [
     "SUSE-SU-2024:0196-1",
     "SUSE-SU-2024:0486-1",
     "SUSE-SU-2024:0487-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:11816-1",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:11816-1"]

@@ -2,26 +2,17 @@
 id = "ANCHORE-2023-22606"
 allocated = 2025-10-15T14:16:45.720724Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-5157",
-]
-gcve = [
-    "GCVE-0-2023-5157",
-]
-github = [
-    "GHSA-6589-j38p-mm8c",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2023-5157"]
+  gcve = ["GCVE-0-2023-5157"]
+  github = ["GHSA-6589-j38p-mm8c"]
+  bitnami = [
     "BIT-mariadb-2023-5157",
     "BIT-mariadb-min-2023-5157",
     "BIT-mysql-client-2023-5157",
-]
-almalinux = [
-    "ALSA-2023:5683",
-    "ALSA-2023:5684",
-]
-redhat = [
+  ]
+  almalinux = ["ALSA-2023:5683", "ALSA-2023:5684"]
+  redhat = [
     "RHSA-2023:5259",
     "RHSA-2023:5683",
     "RHSA-2023:5684",
@@ -29,17 +20,8 @@ redhat = [
     "RHSA-2023:6822",
     "RHSA-2023:6883",
     "RHSA-2023:7633",
-]
-rockylinux = [
-    "RLSA-2023:5683",
-]
-openeuler = [
-    "OESA-2023-1750",
-]
-amazonlinux = [
-    "ALAS2MARIADB10.5-2023-003",
-]
-oraclelinux = [
-    "ELSA-2023-5683",
-    "ELSA-2023-5684",
-]
+  ]
+  rockylinux = ["RLSA-2023:5683"]
+  openeuler = ["OESA-2023-1750"]
+  amazonlinux = ["ALAS2MARIADB10.5-2023-003"]
+  oraclelinux = ["ELSA-2023-5683", "ELSA-2023-5684"]

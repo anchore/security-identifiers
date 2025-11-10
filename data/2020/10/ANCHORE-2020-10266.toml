@@ -2,28 +2,16 @@
 id = "ANCHORE-2020-10266"
 allocated = 2025-10-15T14:15:51.700496Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-8022",
-]
-gcve = [
-    "GCVE-0-2020-8022",
-]
-github = [
-    "GHSA-gc58-v8h3-x2gr",
-]
-bitnami = [
-    "BIT-tomcat-2020-8022",
-]
-chainguard = [
-    "CGA-j493-r58r-jhqg",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2020-8022"]
+  gcve = ["GCVE-0-2020-8022"]
+  github = ["GHSA-gc58-v8h3-x2gr"]
+  bitnami = ["BIT-tomcat-2020-8022"]
+  chainguard = ["CGA-j493-r58r-jhqg"]
+  suse = [
     "SUSE-SU-2020:1788-1",
     "SUSE-SU-2020:1789-1",
     "SUSE-SU-2020:1790-1",
     "SUSE-SU-2020:1791-1",
-]
-opensuse = [
-    "openSUSE-SU-2020:0911-1",
-]
+  ]
+  opensuse = ["openSUSE-SU-2020:0911-1"]

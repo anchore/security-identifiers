@@ -2,21 +2,9 @@
 id = "ANCHORE-2022-2886"
 allocated = 2025-10-15T14:16:14.729242Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-0532",
-]
-gcve = [
-    "GCVE-0-2022-0532",
-]
-github = [
-    "GHSA-jqmc-79gx-7g8p",
-]
-go = [
-    "GO-2022-0608",
-]
-redhat = [
-    "RHSA-2022:0055",
-    "RHSA-2022:0866",
-    "RHSA-2022:0870",
-]
+  [security.aliases]
+  cve = ["CVE-2022-0532"]
+  gcve = ["GCVE-0-2022-0532"]
+  github = ["GHSA-jqmc-79gx-7g8p"]
+  go = ["GO-2022-0608"]
+  redhat = ["RHSA-2022:0055", "RHSA-2022:0866", "RHSA-2022:0870"]

@@ -2,21 +2,9 @@
 id = "ANCHORE-2005-2554"
 allocated = 2025-10-15T14:14:15.989440Z
 
-[security.aliases]
-cve = [
-    "CVE-2005-1514",
-]
-gcve = [
-    "GCVE-0-2005-1514",
-]
-github = [
-    "GHSA-45cm-3mvx-7pjc",
-]
-debian = [
-    "DLA-2234-1",
-    "DSA-4692-1",
-]
-ubuntu = [
-    "USN-4556-1",
-    "USN-4621-1",
-]
+  [security.aliases]
+  cve = ["CVE-2005-1514"]
+  gcve = ["GCVE-0-2005-1514"]
+  github = ["GHSA-45cm-3mvx-7pjc"]
+  debian = ["DLA-2234-1", "DSA-4692-1"]
+  ubuntu = ["USN-4556-1", "USN-4621-1"]

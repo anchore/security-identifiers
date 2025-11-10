@@ -2,23 +2,13 @@
 id = "ANCHORE-2025-4978"
 allocated = 2025-10-15T14:17:22.845757Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-22866",
-]
-gcve = [
-    "GCVE-0-2025-22866",
-]
-github = [
-    "GHSA-3whm-j4xm-rv8x",
-]
-bitnami = [
-    "BIT-golang-2025-22866",
-]
-go = [
-    "GO-2025-3447",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-22866"]
+  gcve = ["GCVE-0-2025-22866"]
+  github = ["GHSA-3whm-j4xm-rv8x"]
+  bitnami = ["BIT-golang-2025-22866"]
+  go = ["GO-2025-3447"]
+  chainguard = [
     "CGA-2264-wqjj-95qv",
     "CGA-227w-4c3j-9rq4",
     "CGA-22c3-c9cj-p73c",
@@ -646,16 +636,10 @@ chainguard = [
     "CGA-xwrc-69gm-xccc",
     "CGA-xww7-wr4p-j2j8",
     "CGA-xxc2-5cg2-f49j",
-]
-almalinux = [
-    "ALSA-2025:7466",
-]
-redhat = [
-    "RHSA-2025:3773",
-    "RHSA-2025:7326",
-    "RHSA-2025:7466",
-]
-suse = [
+  ]
+  almalinux = ["ALSA-2025:7466"]
+  redhat = ["RHSA-2025:3773", "RHSA-2025:7326", "RHSA-2025:7466"]
+  suse = [
     "SUSE-SU-2025:01731-1",
     "SUSE-SU-2025:03159-1",
     "SUSE-SU-2025:0392-1",
@@ -663,18 +647,16 @@ suse = [
     "SUSE-SU-2025:0429-1",
     "SUSE-SU-2025:0431-1",
     "SUSE-SU-2025:1555-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2025:14735-1",
     "openSUSE-SU-2025:14745-1",
     "openSUSE-SU-2025:14746-1",
     "openSUSE-SU-2025:14754-1",
     "openSUSE-SU-2025:15030-1",
-]
-ubuntu = [
-    "USN-7574-1",
-]
-minimos = [
+  ]
+  ubuntu = ["USN-7574-1"]
+  minimos = [
     "MINI-2qgc-4fwc-8r9q",
     "MINI-44pr-wwvj-3gh7",
     "MINI-5w58-7r87-cqcc",
@@ -692,10 +674,6 @@ minimos = [
     "MINI-vm6q-4grm-6hjc",
     "MINI-w887-c9h5-mh62",
     "MINI-x2g7-37cp-6m4m",
-]
-echo = [
-    "ECHO-2ad3-2ee4-a992",
-]
-oraclelinux = [
-    "ELSA-2025-7466",
-]
+  ]
+  echo = ["ECHO-2ad3-2ee4-a992"]
+  oraclelinux = ["ELSA-2025-7466"]

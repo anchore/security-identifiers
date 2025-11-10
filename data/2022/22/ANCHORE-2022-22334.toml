@@ -2,24 +2,14 @@
 id = "ANCHORE-2022-22334"
 allocated = 2025-10-15T14:16:27.897956Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-45196",
-]
-gcve = [
-    "GCVE-0-2022-45196",
-]
-github = [
-    "GHSA-wp68-67c6-87fh",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2022-45196"]
+  gcve = ["GCVE-0-2022-45196"]
+  github = ["GHSA-wp68-67c6-87fh"]
+  bitnami = [
     "BIT-hyperledger-fabric-orderer-2022-45196",
     "BIT-hyperledger-fabric-peer-2022-45196",
     "BIT-hyperledger-fabric-tools-2022-45196",
-]
-pypa = [
-    "PYSEC-2022-43055",
-]
-go = [
-    "GO-2022-1109",
-]
+  ]
+  pypa = ["PYSEC-2022-43055"]
+  go = ["GO-2022-1109"]

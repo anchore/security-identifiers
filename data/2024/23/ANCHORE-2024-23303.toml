@@ -2,20 +2,12 @@
 id = "ANCHORE-2024-23303"
 allocated = 2025-10-15T14:17:07.341103Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-41110",
-]
-gcve = [
-    "GCVE-0-2024-41110",
-]
-github = [
-    "GHSA-v23v-6jw2-98fq",
-]
-go = [
-    "GO-2024-3005",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-41110"]
+  gcve = ["GCVE-0-2024-41110"]
+  github = ["GHSA-v23v-6jw2-98fq"]
+  go = ["GO-2024-3005"]
+  chainguard = [
     "CGA-22pr-5vwr-fhjj",
     "CGA-278q-94pf-jqfx",
     "CGA-27j7-8xr9-hrcf",
@@ -159,11 +151,9 @@ chainguard = [
     "CGA-xmcc-q53c-4rp3",
     "CGA-xp4v-8f98-xcpm",
     "CGA-xxg7-c777-977q",
-]
-debian = [
-    "DLA-3918-1",
-]
-suse = [
+  ]
+  debian = ["DLA-3918-1"]
+  suse = [
     "SUSE-RU-2024:4391-1",
     "SUSE-SU-2024:2709-1",
     "SUSE-SU-2024:3120-1",
@@ -176,31 +166,21 @@ suse = [
     "SUSE-SU-2025:0980-1",
     "SUSE-SU-2025:1062-1",
     "SUSE-SU-2025:1102-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2024:14229-1",
     "openSUSE-SU-2024:14235-1",
     "openSUSE-SU-2024:14446-1",
     "openSUSE-SU-2025:14909-1",
-]
-ubuntu = [
-    "USN-7161-1",
-    "USN-7161-2",
-    "USN-7161-3",
-]
-minimos = [
-    "MINI-pw36-qm67-c4vg",
-    "MINI-vr82-hf5x-mv7m",
-]
-openeuler = [
-    "OESA-2024-1959",
-    "OESA-2024-2074",
-]
-amazonlinux = [
+  ]
+  ubuntu = ["USN-7161-1", "USN-7161-2", "USN-7161-3"]
+  minimos = ["MINI-pw36-qm67-c4vg", "MINI-vr82-hf5x-mv7m"]
+  openeuler = ["OESA-2024-1959", "OESA-2024-2074"]
+  amazonlinux = [
     "ALAS2-2024-2630",
     "ALAS2023-2024-674",
     "ALAS2023-2024-708",
     "ALAS2DOCKER-2024-040",
     "ALAS2ECS-2024-042",
     "ALAS2NITRO-ENCLAVES-2024-041",
-]
+  ]

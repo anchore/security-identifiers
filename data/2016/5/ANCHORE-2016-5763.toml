@@ -2,23 +2,10 @@
 id = "ANCHORE-2016-5763"
 allocated = 2025-10-15T14:15:06.125536Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-7146",
-]
-gcve = [
-    "GCVE-0-2016-7146",
-]
-github = [
-    "GHSA-fj26-q4vh-85f6",
-]
-pypa = [
-    "PYSEC-2016-30",
-]
-debian = [
-    "DLA-717-1",
-    "DSA-3715-1",
-]
-ubuntu = [
-    "USN-3137-1",
-]
+  [security.aliases]
+  cve = ["CVE-2016-7146"]
+  gcve = ["GCVE-0-2016-7146"]
+  github = ["GHSA-fj26-q4vh-85f6"]
+  pypa = ["PYSEC-2016-30"]
+  debian = ["DLA-717-1", "DSA-3715-1"]
+  ubuntu = ["USN-3137-1"]

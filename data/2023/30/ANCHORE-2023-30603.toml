@@ -2,53 +2,29 @@
 id = "ANCHORE-2023-30603"
 allocated = 2025-10-15T14:16:51.129294Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-7104",
-]
-gcve = [
-    "GCVE-0-2023-7104",
-]
-github = [
-    "GHSA-f92h-rw3f-8j92",
-]
-bitnami = [
-    "BIT-sqlite-2023-7104",
-]
-almalinux = [
-    "ALSA-2024:0253",
-    "ALSA-2024:0465",
-]
-debian = [
-    "DLA-3907-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2023-7104"]
+  gcve = ["GCVE-0-2023-7104"]
+  github = ["GHSA-f92h-rw3f-8j92"]
+  bitnami = ["BIT-sqlite-2023-7104"]
+  almalinux = ["ALSA-2024:0253", "ALSA-2024:0465"]
+  debian = ["DLA-3907-1"]
+  redhat = [
     "RHSA-2024:0253",
     "RHSA-2024:0465",
     "RHSA-2024:0589",
     "RHSA-2024:1081",
     "RHSA-2024:1107",
-]
-rockylinux = [
-    "RLSA-2024:0253",
-]
-ubuntu = [
-    "USN-6566-1",
-    "USN-6566-2",
-]
-openeuler = [
-    "OESA-2024-1058",
-    "OESA-2024-1063",
-]
-amazonlinux = [
+  ]
+  rockylinux = ["RLSA-2024:0253"]
+  ubuntu = ["USN-6566-1", "USN-6566-2"]
+  openeuler = ["OESA-2024-1058", "OESA-2024-1063"]
+  amazonlinux = [
     "ALAS2-2024-2417",
     "ALAS2-2024-2442",
     "ALAS2023-2024-490",
     "ALAS2023-2024-507",
     "ALAS2023-2024-508",
     "ALAS2FIREFOX-2024-020",
-]
-oraclelinux = [
-    "ELSA-2024-0253",
-    "ELSA-2024-0465",
-]
+  ]
+  oraclelinux = ["ELSA-2024-0253", "ELSA-2024-0465"]

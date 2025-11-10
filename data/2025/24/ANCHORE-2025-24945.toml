@@ -2,27 +2,11 @@
 id = "ANCHORE-2025-24945"
 allocated = 2025-10-15T14:17:36.740750Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-53367",
-]
-gcve = [
-    "GCVE-0-2025-53367",
-]
-debian = [
-    "DLA-4247-1",
-    "DSA-5960-1",
-]
-suse = [
-    "SUSE-SU-2025:02695-1",
-    "SUSE-SU-2025:02703-1",
-]
-ubuntu = [
-    "USN-7631-1",
-]
-openeuler = [
-    "OESA-2025-1756",
-]
-amazonlinux = [
-    "ALAS2MATE-DESKTOP1.X-2025-010",
-]
+  [security.aliases]
+  cve = ["CVE-2025-53367"]
+  gcve = ["GCVE-0-2025-53367"]
+  debian = ["DLA-4247-1", "DSA-5960-1"]
+  suse = ["SUSE-SU-2025:02695-1", "SUSE-SU-2025:02703-1"]
+  ubuntu = ["USN-7631-1"]
+  openeuler = ["OESA-2025-1756"]
+  amazonlinux = ["ALAS2MATE-DESKTOP1.X-2025-010"]

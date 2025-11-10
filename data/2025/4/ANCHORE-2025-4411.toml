@@ -2,42 +2,21 @@
 id = "ANCHORE-2025-4411"
 allocated = 2025-10-15T14:17:22.431442Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-0938",
-]
-gcve = [
-    "GCVE-0-2025-0938",
-]
-github = [
-    "GHSA-5qjr-cj9f-phrx",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2025-0938"]
+  gcve = ["GCVE-0-2025-0938"]
+  github = ["GHSA-5qjr-cj9f-phrx"]
+  bitnami = [
     "BIT-libpython-2025-0938",
     "BIT-python-2025-0938",
     "BIT-python-min-2025-0938",
-]
-psf = [
-    "PSF-2025-1",
-]
-chainguard = [
-    "CGA-c29j-rpwg-c93p",
-    "CGA-mfwm-8c36-vh8v",
-]
-almalinux = [
-    "ALSA-2025:6977",
-    "ALSA-2025:7107",
-    "ALSA-2025:7109",
-]
-debian = [
-    "DLA-4087-1",
-]
-redhat = [
-    "RHSA-2025:6977",
-    "RHSA-2025:7107",
-    "RHSA-2025:7109",
-]
-suse = [
+  ]
+  psf = ["PSF-2025-1"]
+  chainguard = ["CGA-c29j-rpwg-c93p", "CGA-mfwm-8c36-vh8v"]
+  almalinux = ["ALSA-2025:6977", "ALSA-2025:7107", "ALSA-2025:7109"]
+  debian = ["DLA-4087-1"]
+  redhat = ["RHSA-2025:6977", "RHSA-2025:7107", "RHSA-2025:7109"]
+  suse = [
     "SUSE-SU-2025:02074-1",
     "SUSE-SU-2025:0419-1",
     "SUSE-SU-2025:0434-1",
@@ -50,46 +29,40 @@ suse = [
     "SUSE-SU-2025:0554-1",
     "SUSE-SU-2025:0756-1",
     "SUSE-SU-2025:0814-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2025:14750-1",
     "openSUSE-SU-2025:14751-1",
     "openSUSE-SU-2025:14758-1",
     "openSUSE-SU-2025:14759-1",
     "openSUSE-SU-2025:14760-1",
     "openSUSE-SU-2025:14761-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-7280-1",
     "USN-7280-2",
     "USN-7280-3",
     "USN-7348-1",
     "USN-7348-2",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-4793-rxpp-vxmp",
     "MINI-4f3m-r4r7-7c3h",
     "MINI-grf7-9fgw-pmm3",
     "MINI-x6fh-v5m5-v96x",
-]
-echo = [
-    "ECHO-2b3d-4ba9-189d",
-]
-openeuler = [
+  ]
+  echo = ["ECHO-2b3d-4ba9-189d"]
+  openeuler = [
     "OESA-2025-1148",
     "OESA-2025-1149",
     "OESA-2025-1150",
     "OESA-2025-1151",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2-2025-2797",
     "ALAS2-2025-2815",
     "ALAS2023-2025-871",
     "ALAS2023-2025-898",
     "ALAS2023-2025-899",
-]
-oraclelinux = [
-    "ELSA-2025-6977",
-    "ELSA-2025-7107",
-    "ELSA-2025-7109",
-]
+  ]
+  oraclelinux = ["ELSA-2025-6977", "ELSA-2025-7107", "ELSA-2025-7109"]

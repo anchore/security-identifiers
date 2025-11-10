@@ -2,39 +2,19 @@
 id = "ANCHORE-2020-16011"
 allocated = 2025-10-15T14:15:55.591843Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-7754",
-]
-gcve = [
-    "GCVE-0-2020-7754",
-]
-github = [
-    "GHSA-pw54-mh39-w3hc",
-]
-almalinux = [
-    "ALSA-2021:0548",
-    "ALSA-2021:0549",
-    "ALSA-2021:0551",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2020-7754"]
+  gcve = ["GCVE-0-2020-7754"]
+  github = ["GHSA-pw54-mh39-w3hc"]
+  almalinux = ["ALSA-2021:0548", "ALSA-2021:0549", "ALSA-2021:0551"]
+  redhat = [
     "RHSA-2021:0421",
     "RHSA-2021:0485",
     "RHSA-2021:0521",
     "RHSA-2021:0548",
     "RHSA-2021:0549",
     "RHSA-2021:0551",
-]
-rockylinux = [
-    "RLSA-2021:0548",
-    "RLSA-2021:0549",
-    "RLSA-2021:0551",
-]
-openeuler = [
-    "OESA-2022-1769",
-]
-oraclelinux = [
-    "ELSA-2021-0548",
-    "ELSA-2021-0549",
-    "ELSA-2021-0551",
-]
+  ]
+  rockylinux = ["RLSA-2021:0548", "RLSA-2021:0549", "RLSA-2021:0551"]
+  openeuler = ["OESA-2022-1769"]
+  oraclelinux = ["ELSA-2021-0548", "ELSA-2021-0549", "ELSA-2021-0551"]

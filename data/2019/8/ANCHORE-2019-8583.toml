@@ -2,21 +2,9 @@
 id = "ANCHORE-2019-8583"
 allocated = 2025-10-15T14:15:37.445945Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-13283",
-]
-gcve = [
-    "GCVE-0-2019-13283",
-]
-github = [
-    "GHSA-29m3-xwpr-p76m",
-]
-suse = [
-    "SUSE-SU-2023:0480-1",
-    "SUSE-SU-2023:0494-1",
-    "SUSE-SU-2023:0496-1",
-]
-ubuntu = [
-    "USN-4646-1",
-]
+  [security.aliases]
+  cve = ["CVE-2019-13283"]
+  gcve = ["GCVE-0-2019-13283"]
+  github = ["GHSA-29m3-xwpr-p76m"]
+  suse = ["SUSE-SU-2023:0480-1", "SUSE-SU-2023:0494-1", "SUSE-SU-2023:0496-1"]
+  ubuntu = ["USN-4646-1"]

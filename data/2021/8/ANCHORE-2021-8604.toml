@@ -2,21 +2,9 @@
 id = "ANCHORE-2021-8604"
 allocated = 2025-10-15T14:16:03.720815Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-22051",
-]
-gcve = [
-    "GCVE-0-2020-22051",
-]
-github = [
-    "GHSA-8rfm-2pfj-5pq2",
-]
-ubuntu = [
-    "USN-6430-1",
-]
-openeuler = [
-    "OESA-2025-1771",
-    "OESA-2025-1772",
-    "OESA-2025-1773",
-]
+  [security.aliases]
+  cve = ["CVE-2020-22051"]
+  gcve = ["GCVE-0-2020-22051"]
+  github = ["GHSA-8rfm-2pfj-5pq2"]
+  ubuntu = ["USN-6430-1"]
+  openeuler = ["OESA-2025-1771", "OESA-2025-1772", "OESA-2025-1773"]

@@ -2,49 +2,28 @@
 id = "ANCHORE-2022-4460"
 allocated = 2025-10-15T14:16:15.780007Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-3733",
-]
-gcve = [
-    "GCVE-0-2021-3733",
-]
-github = [
-    "GHSA-wj55-vqcq-gxcp",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2021-3733"]
+  gcve = ["GCVE-0-2021-3733"]
+  github = ["GHSA-wj55-vqcq-gxcp"]
+  bitnami = [
     "BIT-libpython-2021-3733",
     "BIT-python-2021-3733",
     "BIT-python-min-2021-3733",
-]
-psf = [
-    "PSF-2022-6",
-]
-almalinux = [
-    "ALSA-2021:4160",
-    "ALSA-2022:1764",
-    "ALSA-2022:1821",
-]
-debian = [
-    "DLA-2808-1",
-    "DLA-3432-1",
-    "DLA-3477-1",
-    "DLA-3980-1",
-]
-redhat = [
+  ]
+  psf = ["PSF-2022-6"]
+  almalinux = ["ALSA-2021:4160", "ALSA-2022:1764", "ALSA-2022:1821"]
+  debian = ["DLA-2808-1", "DLA-3432-1", "DLA-3477-1", "DLA-3980-1"]
+  redhat = [
     "RHSA-2021:3254",
     "RHSA-2021:4057",
     "RHSA-2021:4160",
     "RHSA-2022:1663",
     "RHSA-2022:1764",
     "RHSA-2022:1821",
-]
-rockylinux = [
-    "RLSA-2021:4160",
-    "RLSA-2022:1764",
-    "RLSA-2022:1821",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2021:4160", "RLSA-2022:1764", "RLSA-2022:1821"]
+  suse = [
     "SUSE-SU-2021:3477-1",
     "SUSE-SU-2021:3486-1",
     "SUSE-SU-2021:3489-1",
@@ -53,30 +32,21 @@ suse = [
     "SUSE-SU-2021:4015-2",
     "SUSE-SU-2021:4104-1",
     "SUSE-SU-2022:1485-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:1418-1",
     "openSUSE-SU-2021:3489-1",
     "openSUSE-SU-2021:4104-1",
     "openSUSE-SU-2024:11202-1",
     "openSUSE-SU-2024:11284-1",
     "openSUSE-SU-2024:11286-1",
-]
-ubuntu = [
-    "USN-5083-1",
-    "USN-5199-1",
-    "USN-5200-1",
-    "USN-6891-1",
-]
-openeuler = [
-    "OESA-2021-1401",
-]
-amazonlinux = [
-    "ALAS2-2022-1802",
-]
-oraclelinux = [
+  ]
+  ubuntu = ["USN-5083-1", "USN-5199-1", "USN-5200-1", "USN-6891-1"]
+  openeuler = ["OESA-2021-1401"]
+  amazonlinux = ["ALAS2-2022-1802"]
+  oraclelinux = [
     "ELSA-2021-4057",
     "ELSA-2021-4160",
     "ELSA-2022-1764",
     "ELSA-2022-1821",
-]
+  ]

@@ -2,23 +2,15 @@
 id = "ANCHORE-2012-1300"
 allocated = 2025-10-15T14:14:43.208483Z
 
-[security.aliases]
-cve = [
-    "CVE-2011-3079",
-]
-gcve = [
-    "GCVE-0-2011-3079",
-]
-github = [
-    "GHSA-493h-4p68-8587",
-]
-debian = [
-    "DSA-3260-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2011-3079"]
+  gcve = ["GCVE-0-2011-3079"]
+  github = ["GHSA-493h-4p68-8587"]
+  debian = ["DSA-3260-1"]
+  opensuse = [
     "openSUSE-SU-2024:10071-1",
     "openSUSE-SU-2024:10171-1",
     "openSUSE-SU-2024:10230-1",
     "openSUSE-SU-2024:12948-1",
     "openSUSE-SU-2024:14572-1",
-]
+  ]

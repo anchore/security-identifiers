@@ -2,23 +2,10 @@
 id = "ANCHORE-2023-26873"
 allocated = 2025-10-15T14:16:48.597712Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-46445",
-]
-gcve = [
-    "GCVE-0-2023-46445",
-]
-github = [
-    "GHSA-cfc2-wr2v-gxm5",
-]
-pypa = [
-    "PYSEC-2023-237",
-]
-debian = [
-    "DLA-3899-1",
-]
-ubuntu = [
-    "USN-7108-1",
-    "USN-7108-2",
-]
+  [security.aliases]
+  cve = ["CVE-2023-46445"]
+  gcve = ["GCVE-0-2023-46445"]
+  github = ["GHSA-cfc2-wr2v-gxm5"]
+  pypa = ["PYSEC-2023-237"]
+  debian = ["DLA-3899-1"]
+  ubuntu = ["USN-7108-1", "USN-7108-2"]

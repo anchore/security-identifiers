@@ -2,25 +2,10 @@
 id = "ANCHORE-2017-17646"
 allocated = 2025-10-15T14:15:18.683211Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-17740",
-]
-gcve = [
-    "GCVE-0-2017-17740",
-]
-github = [
-    "GHSA-h7vm-9jwq-6c9r",
-]
-suse = [
-    "SUSE-SU-2018:4150-1",
-    "SUSE-SU-2019:0931-1",
-    "SUSE-SU-2019:2395-1",
-]
-opensuse = [
-    "openSUSE-SU-2019:2157-1",
-    "openSUSE-SU-2019:2176-1",
-]
-echo = [
-    "ECHO-b461-3162-6fb3",
-]
+  [security.aliases]
+  cve = ["CVE-2017-17740"]
+  gcve = ["GCVE-0-2017-17740"]
+  github = ["GHSA-h7vm-9jwq-6c9r"]
+  suse = ["SUSE-SU-2018:4150-1", "SUSE-SU-2019:0931-1", "SUSE-SU-2019:2395-1"]
+  opensuse = ["openSUSE-SU-2019:2157-1", "openSUSE-SU-2019:2176-1"]
+  echo = ["ECHO-b461-3162-6fb3"]

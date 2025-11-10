@@ -2,23 +2,15 @@
 id = "ANCHORE-2021-18176"
 allocated = 2025-10-15T14:16:10.193705Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-21694",
-]
-gcve = [
-    "GCVE-0-2021-21694",
-]
-github = [
-    "GHSA-pgj6-jmj5-wqfx",
-]
-bitnami = [
-    "BIT-jenkins-2021-21694",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2021-21694"]
+  gcve = ["GCVE-0-2021-21694"]
+  github = ["GHSA-pgj6-jmj5-wqfx"]
+  bitnami = ["BIT-jenkins-2021-21694"]
+  redhat = [
     "RHSA-2021:4799",
     "RHSA-2021:4801",
     "RHSA-2021:4827",
     "RHSA-2021:4829",
     "RHSA-2021:4833",
-]
+  ]

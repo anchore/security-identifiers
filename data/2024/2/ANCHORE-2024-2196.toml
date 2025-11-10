@@ -2,28 +2,17 @@
 id = "ANCHORE-2024-2196"
 allocated = 2025-10-15T14:16:52.918221Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-52076",
-]
-gcve = [
-    "GCVE-0-2023-52076",
-]
-debian = [
-    "DLA-3828-1",
-    "DSA-5688-1",
-]
-ubuntu = [
-    "USN-6808-1",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2023-52076"]
+  gcve = ["GCVE-0-2023-52076"]
+  debian = ["DLA-3828-1", "DSA-5688-1"]
+  ubuntu = ["USN-6808-1"]
+  openeuler = [
     "OESA-2024-1245",
     "OESA-2024-1246",
     "OESA-2024-1247",
     "OESA-2024-1248",
     "OESA-2024-1249",
     "OESA-2024-1492",
-]
-amazonlinux = [
-    "ALAS2MATE-DESKTOP1.X-2024-006",
-]
+  ]
+  amazonlinux = ["ALAS2MATE-DESKTOP1.X-2024-006"]

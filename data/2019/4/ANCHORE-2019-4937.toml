@@ -2,23 +2,15 @@
 id = "ANCHORE-2019-4937"
 allocated = 2025-10-15T14:15:34.977404Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-11191",
-]
-gcve = [
-    "GCVE-0-2019-11191",
-]
-github = [
-    "GHSA-wv63-pcg9-3x4q",
-]
-ubuntu = [
+  [security.aliases]
+  cve = ["CVE-2019-11191"]
+  gcve = ["GCVE-0-2019-11191"]
+  github = ["GHSA-wv63-pcg9-3x4q"]
+  ubuntu = [
     "USN-4006-2",
     "USN-4007-1",
     "USN-4007-2",
     "USN-4008-1",
     "USN-4008-3",
-]
-echo = [
-    "ECHO-1fd0-03c0-b9ef",
-]
+  ]
+  echo = ["ECHO-1fd0-03c0-b9ef"]

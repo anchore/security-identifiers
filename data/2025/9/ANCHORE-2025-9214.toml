@@ -2,57 +2,33 @@
 id = "ANCHORE-2025-9214"
 allocated = 2025-10-15T14:17:25.748470Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-52969",
-]
-gcve = [
-    "GCVE-0-2023-52969",
-]
-github = [
-    "GHSA-gx7h-6fr6-j29h",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2023-52969"]
+  gcve = ["GCVE-0-2023-52969"]
+  github = ["GHSA-gx7h-6fr6-j29h"]
+  bitnami = [
     "BIT-mariadb-2023-52969",
     "BIT-mariadb-min-2023-52969",
     "BIT-mysql-client-2023-52969",
-]
-debian = [
-    "DLA-4154-1",
-]
-ubuntu = [
-    "USN-7519-1",
-    "USN-7548-1",
-]
-minimos = [
+  ]
+  debian = ["DLA-4154-1"]
+  ubuntu = ["USN-7519-1", "USN-7548-1"]
+  minimos = [
     "MINI-8q79-4c58-x5hw",
     "MINI-99r8-hj73-v5cj",
     "MINI-gvrr-cj3h-cx7w",
     "MINI-p623-6vmr-vp5x",
     "MINI-w87h-w7qm-v7m3",
     "MINI-xqpm-j757-hwq6",
-]
-echo = [
-    "ECHO-857b-24ea-79c0",
-]
-openeuler = [
+  ]
+  echo = ["ECHO-857b-24ea-79c0"]
+  openeuler = [
     "OESA-2025-1516",
     "OESA-2025-1517",
     "OESA-2025-1518",
     "OESA-2025-1542",
-]
-amazonlinux = [
-    "ALAS2023-2025-990",
-    "ALAS2MARIADB10.5-2025-007",
-]
-redhat = [
-    "RHSA-2025:19572",
-    "RHSA-2025:19584",
-]
-oraclelinux = [
-    "ELSA-2025-19584",
-]
-almalinux = [
-    "ALSA-2025:19572",
-    "ALSA-2025:19584",
-]
+  ]
+  amazonlinux = ["ALAS2023-2025-990", "ALAS2MARIADB10.5-2025-007"]
+  redhat = ["RHSA-2025:19572", "RHSA-2025:19584"]
+  oraclelinux = ["ELSA-2025-19584"]
+  almalinux = ["ALSA-2025:19572", "ALSA-2025:19584"]

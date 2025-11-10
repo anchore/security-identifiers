@@ -2,17 +2,8 @@
 id = "ANCHORE-2022-22162"
 allocated = 2025-10-15T14:16:27.763664Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-39393",
-]
-gcve = [
-    "GCVE-0-2022-39393",
-]
-github = [
-    "GHSA-wh6w-3828-g9qf",
-]
-rustsec = [
-    "RUSTSEC-2022-0075",
-    "RUSTSEC-2022-0098",
-]
+  [security.aliases]
+  cve = ["CVE-2022-39393"]
+  gcve = ["GCVE-0-2022-39393"]
+  github = ["GHSA-wh6w-3828-g9qf"]
+  rustsec = ["RUSTSEC-2022-0075", "RUSTSEC-2022-0098"]

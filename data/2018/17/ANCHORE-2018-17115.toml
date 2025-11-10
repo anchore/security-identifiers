@@ -2,23 +2,13 @@
 id = "ANCHORE-2018-17115"
 allocated = 2025-10-15T14:15:30.837854Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-1002105",
-]
-gcve = [
-    "GCVE-0-2018-1002105",
-]
-github = [
-    "GHSA-579h-mv94-g4gp",
-]
-go = [
-    "GO-2022-0792",
-]
-chainguard = [
-    "CGA-3m3m-cw2j-cpvj",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2018-1002105"]
+  gcve = ["GCVE-0-2018-1002105"]
+  github = ["GHSA-579h-mv94-g4gp"]
+  go = ["GO-2022-0792"]
+  chainguard = ["CGA-3m3m-cw2j-cpvj"]
+  redhat = [
     "RHSA-2018:2906",
     "RHSA-2018:2908",
     "RHSA-2018:3537",
@@ -29,10 +19,6 @@ redhat = [
     "RHSA-2018:3742",
     "RHSA-2018:3752",
     "RHSA-2018:3754",
-]
-opensuse = [
-    "openSUSE-SU-2020:0554-1",
-]
-oraclelinux = [
-    "ELSA-2018-4303",
-]
+  ]
+  opensuse = ["openSUSE-SU-2020:0554-1"]
+  oraclelinux = ["ELSA-2018-4303"]

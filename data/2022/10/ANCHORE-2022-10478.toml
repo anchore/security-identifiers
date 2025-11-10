@@ -2,27 +2,11 @@
 id = "ANCHORE-2022-10478"
 allocated = 2025-10-15T14:16:19.881258Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-1786",
-]
-gcve = [
-    "GCVE-0-2022-1786",
-]
-github = [
-    "GHSA-pqgc-jq8x-49xv",
-]
-debian = [
-    "DSA-5161-1",
-]
-openeuler = [
-    "OESA-2022-1714",
-]
-amazonlinux = [
-    "ALAS2KERNEL-5.10-2022-014",
-    "ALAS2LIVEPATCH-2022-077",
-]
-oraclelinux = [
-    "ELSA-2022-9425",
-    "ELSA-2022-9426",
-]
+  [security.aliases]
+  cve = ["CVE-2022-1786"]
+  gcve = ["GCVE-0-2022-1786"]
+  github = ["GHSA-pqgc-jq8x-49xv"]
+  debian = ["DSA-5161-1"]
+  openeuler = ["OESA-2022-1714"]
+  amazonlinux = ["ALAS2KERNEL-5.10-2022-014", "ALAS2LIVEPATCH-2022-077"]
+  oraclelinux = ["ELSA-2022-9425", "ELSA-2022-9426"]

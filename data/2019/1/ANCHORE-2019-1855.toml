@@ -2,51 +2,23 @@
 id = "ANCHORE-2019-1855"
 allocated = 2025-10-15T14:15:32.841748Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-7548",
-]
-gcve = [
-    "GCVE-0-2019-7548",
-]
-github = [
-    "GHSA-38fc-9xqv-7f7q",
-]
-pypa = [
-    "PYSEC-2019-124",
-]
-almalinux = [
-    "ALSA-2019:0981",
-    "ALSA-2019:0984",
-]
-debian = [
-    "DLA-1718-1",
-    "DLA-2811-1",
-]
-redhat = [
-    "RHSA-2019:0981",
-    "RHSA-2019:0984",
-]
-rockylinux = [
-    "RLSA-2019:0981",
-    "RLSA-2019:0984",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2019-7548"]
+  gcve = ["GCVE-0-2019-7548"]
+  github = ["GHSA-38fc-9xqv-7f7q"]
+  pypa = ["PYSEC-2019-124"]
+  almalinux = ["ALSA-2019:0981", "ALSA-2019:0984"]
+  debian = ["DLA-1718-1", "DLA-2811-1"]
+  redhat = ["RHSA-2019:0981", "RHSA-2019:0984"]
+  rockylinux = ["RLSA-2019:0981", "RLSA-2019:0984"]
+  suse = [
     "SUSE-SU-2019:2253-1",
     "SUSE-SU-2019:2253-2",
     "SUSE-SU-2019:2261-1",
     "SUSE-SU-2019:2267-1",
     "SUSE-SU-2019:2350-1",
     "SUSE-SU-2019:2374-1",
-]
-opensuse = [
-    "openSUSE-SU-2019:2039-1",
-    "openSUSE-SU-2019:2064-1",
-]
-openeuler = [
-    "OESA-2021-1274",
-]
-oraclelinux = [
-    "ELSA-2019-0981",
-    "ELSA-2019-0984",
-]
+  ]
+  opensuse = ["openSUSE-SU-2019:2039-1", "openSUSE-SU-2019:2064-1"]
+  openeuler = ["OESA-2021-1274"]
+  oraclelinux = ["ELSA-2019-0981", "ELSA-2019-0984"]

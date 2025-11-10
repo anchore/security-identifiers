@@ -2,20 +2,12 @@
 id = "ANCHORE-2018-10053"
 allocated = 2025-10-15T14:15:25.934884Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-10874",
-]
-gcve = [
-    "GCVE-0-2018-10874",
-]
-github = [
-    "GHSA-3xvg-x47j-x75w",
-]
-pypa = [
-    "PYSEC-2018-81",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2018-10874"]
+  gcve = ["GCVE-0-2018-10874"]
+  github = ["GHSA-3xvg-x47j-x75w"]
+  pypa = ["PYSEC-2018-81"]
+  redhat = [
     "RHSA-2018:2150",
     "RHSA-2018:2151",
     "RHSA-2018:2152",
@@ -23,12 +15,6 @@ redhat = [
     "RHSA-2018:2321",
     "RHSA-2018:2585",
     "RHSA-2019:0054",
-]
-suse = [
-    "SUSE-SU-2018:4130-1",
-    "SUSE-SU-2024:1427-1",
-    "SUSE-SU-2024:1509-1",
-]
-ubuntu = [
-    "USN-4072-1",
-]
+  ]
+  suse = ["SUSE-SU-2018:4130-1", "SUSE-SU-2024:1427-1", "SUSE-SU-2024:1509-1"]
+  ubuntu = ["USN-4072-1"]

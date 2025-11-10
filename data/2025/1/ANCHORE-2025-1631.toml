@@ -2,44 +2,16 @@
 id = "ANCHORE-2025-1631"
 allocated = 2025-10-15T14:17:20.485501Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-56374",
-]
-gcve = [
-    "GCVE-0-2024-56374",
-]
-github = [
-    "GHSA-qcgg-j2x8-h9g8",
-]
-bitnami = [
-    "BIT-django-2024-56374",
-]
-pypa = [
-    "PYSEC-2025-1",
-]
-chainguard = [
-    "CGA-gfm5-g6hc-vxg4",
-]
-debian = [
-    "DLA-4030-1",
-]
-redhat = [
-    "RHSA-2025:0777",
-    "RHSA-2025:2399",
-    "RHSA-2025:4576",
-]
-suse = [
-    "SUSE-SU-2025:0149-1",
-]
-opensuse = [
-    "openSUSE-SU-2025:14651-1",
-    "openSUSE-SU-2025:14662-1",
-]
-ubuntu = [
-    "USN-7205-1",
-    "USN-7205-2",
-]
-openeuler = [
-    "OESA-2025-1069",
-]
+  [security.aliases]
+  cve = ["CVE-2024-56374"]
+  gcve = ["GCVE-0-2024-56374"]
+  github = ["GHSA-qcgg-j2x8-h9g8"]
+  bitnami = ["BIT-django-2024-56374"]
+  pypa = ["PYSEC-2025-1"]
+  chainguard = ["CGA-gfm5-g6hc-vxg4"]
+  debian = ["DLA-4030-1"]
+  redhat = ["RHSA-2025:0777", "RHSA-2025:2399", "RHSA-2025:4576"]
+  suse = ["SUSE-SU-2025:0149-1"]
+  opensuse = ["openSUSE-SU-2025:14651-1", "openSUSE-SU-2025:14662-1"]
+  ubuntu = ["USN-7205-1", "USN-7205-2"]
+  openeuler = ["OESA-2025-1069"]

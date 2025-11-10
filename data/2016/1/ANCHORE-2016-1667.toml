@@ -2,40 +2,25 @@
 id = "ANCHORE-2016-1667"
 allocated = 2025-10-15T14:15:03.376790Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-0775",
-]
-gcve = [
-    "GCVE-0-2016-0775",
-]
-github = [
-    "GHSA-8xjv-v9xq-m5h9",
-]
-pypa = [
-    "PYSEC-2016-6",
-]
-debian = [
-    "DLA-422-1",
-    "DSA-3499-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2016-0775"]
+  gcve = ["GCVE-0-2016-0775"]
+  github = ["GHSA-8xjv-v9xq-m5h9"]
+  pypa = ["PYSEC-2016-6"]
+  debian = ["DLA-422-1", "DSA-3499-1"]
+  suse = [
     "SUSE-SU-2016:0924-1",
     "SUSE-SU-2016:0935-1",
     "SUSE-SU-2016:1355-1",
     "SUSE-SU-2016:1569-1",
     "SUSE-SU-2020:2057-1",
     "SUSE-SU-2020:2911-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2024:10511-1",
     "openSUSE-SU-2024:10567-1",
     "openSUSE-SU-2024:11209-1",
     "openSUSE-SU-2024:13827-1",
-]
-ubuntu = [
-    "USN-3090-1",
-]
-amazonlinux = [
-    "ALAS2-2024-2472",
-]
+  ]
+  ubuntu = ["USN-3090-1"]
+  amazonlinux = ["ALAS2-2024-2472"]

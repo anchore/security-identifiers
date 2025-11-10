@@ -2,23 +2,13 @@
 id = "ANCHORE-2021-12471"
 allocated = 2025-10-15T14:16:06.342685Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-29923",
-]
-gcve = [
-    "GCVE-0-2021-29923",
-]
-github = [
-    "GHSA-38h6-vxp4-qxvm",
-]
-bitnami = [
-    "BIT-golang-2021-29923",
-]
-go = [
-    "GO-2022-0993",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2021-29923"]
+  gcve = ["GCVE-0-2021-29923"]
+  github = ["GHSA-38h6-vxp4-qxvm"]
+  bitnami = ["BIT-golang-2021-29923"]
+  go = ["GO-2022-0993"]
+  redhat = [
     "RHSA-2021:3431",
     "RHSA-2021:3585",
     "RHSA-2021:4722",
@@ -32,13 +22,7 @@ redhat = [
     "RHSA-2022:0997",
     "RHSA-2022:0998",
     "RHSA-2022:1276",
-]
-rockylinux = [
-    "RLSA-2021:3585",
-]
-openeuler = [
-    "OESA-2021-1402",
-]
-oraclelinux = [
-    "ELSA-2021-3585",
-]
+  ]
+  rockylinux = ["RLSA-2021:3585"]
+  openeuler = ["OESA-2021-1402"]
+  oraclelinux = ["ELSA-2021-3585"]

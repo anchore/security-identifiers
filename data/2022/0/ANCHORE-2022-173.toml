@@ -2,42 +2,16 @@
 id = "ANCHORE-2022-173"
 allocated = 2025-10-15T14:16:12.894077Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-45116",
-]
-gcve = [
-    "GCVE-0-2021-45116",
-]
-github = [
-    "GHSA-8c5j-9r9f-c6w8",
-]
-bitnami = [
-    "BIT-django-2021-45116",
-]
-pypa = [
-    "PYSEC-2022-2",
-]
-debian = [
-    "DLA-3177-1",
-]
-redhat = [
-    "RHSA-2022:5498",
-]
-rockylinux = [
-    "RLSA-2022:5498",
-]
-suse = [
-    "SUSE-SU-2022:0102-1",
-    "SUSE-SU-2022:0103-1",
-]
-opensuse = [
-    "openSUSE-SU-2023:0005-1",
-]
-ubuntu = [
-    "USN-5204-1",
-]
-openeuler = [
-    "OESA-2022-1530",
-    "OESA-2022-2055",
-]
+  [security.aliases]
+  cve = ["CVE-2021-45116"]
+  gcve = ["GCVE-0-2021-45116"]
+  github = ["GHSA-8c5j-9r9f-c6w8"]
+  bitnami = ["BIT-django-2021-45116"]
+  pypa = ["PYSEC-2022-2"]
+  debian = ["DLA-3177-1"]
+  redhat = ["RHSA-2022:5498"]
+  rockylinux = ["RLSA-2022:5498"]
+  suse = ["SUSE-SU-2022:0102-1", "SUSE-SU-2022:0103-1"]
+  opensuse = ["openSUSE-SU-2023:0005-1"]
+  ubuntu = ["USN-5204-1"]
+  openeuler = ["OESA-2022-1530", "OESA-2022-2055"]

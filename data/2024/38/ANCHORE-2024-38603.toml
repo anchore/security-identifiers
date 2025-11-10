@@ -2,23 +2,13 @@
 id = "ANCHORE-2024-38603"
 allocated = 2025-10-15T14:17:17.934864Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-54133",
-]
-gcve = [
-    "GCVE-0-2024-54133",
-]
-github = [
-    "GHSA-vfm5-rmrh-j26v",
-]
-bitnami = [
-    "BIT-rails-2024-54133",
-]
-debian = [
-    "DSA-5881-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2024-54133"]
+  gcve = ["GCVE-0-2024-54133"]
+  github = ["GHSA-vfm5-rmrh-j26v"]
+  bitnami = ["BIT-rails-2024-54133"]
+  debian = ["DSA-5881-1"]
+  opensuse = [
     "openSUSE-SU-2025:14668-1",
     "openSUSE-SU-2025:14669-1",
     "openSUSE-SU-2025:14670-1",
@@ -32,4 +22,4 @@ opensuse = [
     "openSUSE-SU-2025:14678-1",
     "openSUSE-SU-2025:14679-1",
     "openSUSE-SU-2025:14680-1",
-]
+  ]

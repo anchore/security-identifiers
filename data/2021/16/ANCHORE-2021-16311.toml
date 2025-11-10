@@ -2,36 +2,22 @@
 id = "ANCHORE-2021-16311"
 allocated = 2025-10-15T14:16:08.941010Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-32762",
-]
-gcve = [
-    "GCVE-0-2021-32762",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2021-32762"]
+  gcve = ["GCVE-0-2021-32762"]
+  bitnami = [
     "BIT-keydb-2021-32762",
     "BIT-redis-2021-32762",
     "BIT-valkey-2021-32762",
-]
-debian = [
-    "DLA-2810-1",
-    "DSA-5001-1",
-]
-suse = [
-    "SUSE-SU-2021:3772-1",
-]
-opensuse = [
-    "openSUSE-SU-2021:3772-1",
-    "openSUSE-SU-2024:11563-1",
-]
-openeuler = [
+  ]
+  debian = ["DLA-2810-1", "DSA-5001-1"]
+  suse = ["SUSE-SU-2021:3772-1"]
+  opensuse = ["openSUSE-SU-2021:3772-1", "openSUSE-SU-2024:11563-1"]
+  openeuler = [
     "OESA-2021-1452",
     "OESA-2021-1454",
     "OESA-2022-1948",
     "OESA-2022-1958",
     "OESA-2025-1157",
-]
-amazonlinux = [
-    "ALAS2REDIS6-2023-007",
-]
+  ]
+  amazonlinux = ["ALAS2REDIS6-2023-007"]

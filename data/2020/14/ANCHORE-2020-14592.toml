@@ -2,24 +2,10 @@
 id = "ANCHORE-2020-14592"
 allocated = 2025-10-15T14:15:54.637237Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-15204",
-]
-gcve = [
-    "GCVE-0-2020-15204",
-]
-github = [
-    "GHSA-q8gv-q7wr-9jf8",
-]
-bitnami = [
-    "BIT-tensorflow-2020-15204",
-]
-pypa = [
-    "PYSEC-2020-127",
-    "PYSEC-2020-284",
-    "PYSEC-2020-319",
-]
-opensuse = [
-    "openSUSE-SU-2020:1766-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-15204"]
+  gcve = ["GCVE-0-2020-15204"]
+  github = ["GHSA-q8gv-q7wr-9jf8"]
+  bitnami = ["BIT-tensorflow-2020-15204"]
+  pypa = ["PYSEC-2020-127", "PYSEC-2020-284", "PYSEC-2020-319"]
+  opensuse = ["openSUSE-SU-2020:1766-1"]

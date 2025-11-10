@@ -2,35 +2,19 @@
 id = "ANCHORE-2020-11589"
 allocated = 2025-10-15T14:15:52.612429Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-11110",
-]
-gcve = [
-    "GCVE-0-2020-11110",
-]
-github = [
-    "GHSA-xr3x-62qw-vc4w",
-]
-bitnami = [
-    "BIT-grafana-2020-11110",
-]
-go = [
-    "GO-2024-2523",
-]
-almalinux = [
-    "ALSA-2020:4682",
-]
-redhat = [
-    "RHSA-2020:4682",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2020-11110"]
+  gcve = ["GCVE-0-2020-11110"]
+  github = ["GHSA-xr3x-62qw-vc4w"]
+  bitnami = ["BIT-grafana-2020-11110"]
+  go = ["GO-2024-2523"]
+  almalinux = ["ALSA-2020:4682"]
+  redhat = ["RHSA-2020:4682"]
+  suse = [
     "SUSE-SU-2020:2715-1",
     "SUSE-SU-2020:2876-1",
     "SUSE-SU-2020:2911-1",
     "SUSE-SU-2020:3309-1",
     "SUSE-SU-2021:1962-1",
-]
-oraclelinux = [
-    "ELSA-2020-4682",
-]
+  ]
+  oraclelinux = ["ELSA-2020-4682"]

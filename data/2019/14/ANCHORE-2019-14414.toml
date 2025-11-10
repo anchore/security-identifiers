@@ -2,37 +2,19 @@
 id = "ANCHORE-2019-14414"
 allocated = 2025-10-15T14:15:41.478993Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-2968",
-]
-gcve = [
-    "GCVE-0-2019-2968",
-]
-github = [
-    "GHSA-h344-v784-26xf",
-]
-chainguard = [
-    "CGA-6g2m-rcgv-qrhj",
-]
-almalinux = [
-    "ALSA-2020:3732",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2019-2968"]
+  gcve = ["GCVE-0-2019-2968"]
+  github = ["GHSA-h344-v784-26xf"]
+  chainguard = ["CGA-6g2m-rcgv-qrhj"]
+  almalinux = ["ALSA-2020:3732"]
+  redhat = [
     "RHSA-2020:3518",
     "RHSA-2020:3732",
     "RHSA-2020:3755",
     "RHSA-2020:3757",
-]
-rockylinux = [
-    "RLSA-2020:3732",
-]
-ubuntu = [
-    "USN-4195-1",
-]
-openeuler = [
-    "OESA-2021-1088",
-]
-oraclelinux = [
-    "ELSA-2020-3732",
-]
+  ]
+  rockylinux = ["RLSA-2020:3732"]
+  ubuntu = ["USN-4195-1"]
+  openeuler = ["OESA-2021-1088"]
+  oraclelinux = ["ELSA-2020-3732"]

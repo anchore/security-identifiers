@@ -2,20 +2,9 @@
 id = "ANCHORE-2011-1741"
 allocated = 2025-10-15T14:14:40.664346Z
 
-[security.aliases]
-cve = [
-    "CVE-2011-1945",
-]
-gcve = [
-    "GCVE-0-2011-1945",
-]
-github = [
-    "GHSA-r4rf-h58w-4p76",
-]
-debian = [
-    "DSA-2309-1",
-]
-suse = [
-    "SUSE-SU-403",
-    "SUSE-SU-403 Forbidden-1",
-]
+  [security.aliases]
+  cve = ["CVE-2011-1945"]
+  gcve = ["GCVE-0-2011-1945"]
+  github = ["GHSA-r4rf-h58w-4p76"]
+  debian = ["DSA-2309-1"]
+  suse = ["SUSE-SU-403", "SUSE-SU-403 Forbidden-1"]

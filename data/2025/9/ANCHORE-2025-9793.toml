@@ -2,22 +2,10 @@
 id = "ANCHORE-2025-9793"
 allocated = 2025-10-15T14:17:26.142268Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-25291",
-]
-gcve = [
-    "GCVE-0-2025-25291",
-]
-github = [
-    "GHSA-4vc4-m8qh-g8jm",
-]
-bitnami = [
-    "BIT-gitlab-2025-25291",
-]
-debian = [
-    "DLA-4115-1",
-]
-ubuntu = [
-    "USN-7409-1",
-]
+  [security.aliases]
+  cve = ["CVE-2025-25291"]
+  gcve = ["GCVE-0-2025-25291"]
+  github = ["GHSA-4vc4-m8qh-g8jm"]
+  bitnami = ["BIT-gitlab-2025-25291"]
+  debian = ["DLA-4115-1"]
+  ubuntu = ["USN-7409-1"]

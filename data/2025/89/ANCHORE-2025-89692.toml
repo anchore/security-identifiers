@@ -2,30 +2,17 @@
 id = "ANCHORE-2025-89692"
 allocated = 2025-10-28T09:42:14.208323Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-55752",
-]
-gcve = [
-    "GCVE-0-2025-55752",
-]
-github = [
-    "GHSA-wmwf-9ccg-fff5",
-]
-chainguard = [
-    "CGA-wr6g-phvx-mg75",
-    "CGA-xrp3-jgrh-29hf",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2025-55752"]
+  gcve = ["GCVE-0-2025-55752"]
+  github = ["GHSA-wmwf-9ccg-fff5"]
+  chainguard = ["CGA-wr6g-phvx-mg75", "CGA-xrp3-jgrh-29hf"]
+  openeuler = [
     "OESA-2025-2559",
     "OESA-2025-2560",
     "OESA-2025-2561",
     "OESA-2025-2562",
     "OESA-2025-2563",
-]
-bitnami = [
-    "BIT-tomcat-2025-55752",
-]
-redhat = [
-    "RHSA-2025:19809",
-]
+  ]
+  bitnami = ["BIT-tomcat-2025-55752"]
+  redhat = ["RHSA-2025:19809"]

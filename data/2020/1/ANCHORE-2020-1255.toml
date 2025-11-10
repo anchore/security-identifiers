@@ -2,30 +2,12 @@
 id = "ANCHORE-2020-1255"
 allocated = 2025-10-15T14:15:45.538961Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-17570",
-]
-gcve = [
-    "GCVE-0-2019-17570",
-]
-github = [
-    "GHSA-6vwp-35w3-xph8",
-]
-debian = [
-    "DLA-2078-1",
-    "DSA-4619-1",
-]
-redhat = [
-    "RHSA-2020:0310",
-]
-ubuntu = [
-    "USN-4496-1",
-]
-openeuler = [
-    "OESA-2022-1545",
-    "OESA-2022-2096",
-]
-amazonlinux = [
-    "ALAS2-2023-2080",
-]
+  [security.aliases]
+  cve = ["CVE-2019-17570"]
+  gcve = ["GCVE-0-2019-17570"]
+  github = ["GHSA-6vwp-35w3-xph8"]
+  debian = ["DLA-2078-1", "DSA-4619-1"]
+  redhat = ["RHSA-2020:0310"]
+  ubuntu = ["USN-4496-1"]
+  openeuler = ["OESA-2022-1545", "OESA-2022-2096"]
+  amazonlinux = ["ALAS2-2023-2080"]

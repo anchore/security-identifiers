@@ -2,28 +2,18 @@
 id = "ANCHORE-2022-17140"
 allocated = 2025-10-15T14:16:24.356212Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-25857",
-]
-gcve = [
-    "GCVE-0-2022-25857",
-]
-github = [
-    "GHSA-3mc7-4q67-w48m",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2022-25857"]
+  gcve = ["GCVE-0-2022-25857"]
+  github = ["GHSA-3mc7-4q67-w48m"]
+  chainguard = [
     "CGA-8mhp-9r8c-whw4",
     "CGA-v8c3-wc4q-hfmx",
     "CGA-w753-xwwq-8ch4",
-]
-almalinux = [
-    "ALSA-2022:6820",
-]
-debian = [
-    "DLA-3132-1",
-]
-redhat = [
+  ]
+  almalinux = ["ALSA-2022:6820"]
+  debian = ["DLA-3132-1"]
+  redhat = [
     "RHSA-2022:6820",
     "RHSA-2022:6821",
     "RHSA-2022:6822",
@@ -43,29 +33,16 @@ redhat = [
     "RHSA-2024:0778",
     "RHSA-2025:4226",
     "RHSA-2025:4437",
-]
-rockylinux = [
-    "RLSA-2022:6820",
-]
-suse = [
-    "SUSE-SU-2022:3397-1",
-    "SUSE-SU-2022:3560-1",
-]
-ubuntu = [
-    "USN-5944-1",
-]
-minimos = [
-    "MINI-29f4-2pfm-qq4m",
-]
-openeuler = [
+  ]
+  rockylinux = ["RLSA-2022:6820"]
+  suse = ["SUSE-SU-2022:3397-1", "SUSE-SU-2022:3560-1"]
+  ubuntu = ["USN-5944-1"]
+  minimos = ["MINI-29f4-2pfm-qq4m"]
+  openeuler = [
     "OESA-2023-1162",
     "OESA-2023-1163",
     "OESA-2023-1164",
     "OESA-2023-1165",
-]
-amazonlinux = [
-    "ALAS2-2023-1976",
-]
-oraclelinux = [
-    "ELSA-2022-6820",
-]
+  ]
+  amazonlinux = ["ALAS2-2023-1976"]
+  oraclelinux = ["ELSA-2022-6820"]

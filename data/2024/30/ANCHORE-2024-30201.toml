@@ -2,21 +2,13 @@
 id = "ANCHORE-2024-30201"
 allocated = 2025-10-15T14:17:12.132682Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-8926",
-]
-gcve = [
-    "GCVE-0-2024-8926",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-8926"]
+  gcve = ["GCVE-0-2024-8926"]
+  bitnami = [
     "BIT-libphp-2024-8926",
     "BIT-php-2024-8926",
     "BIT-php-min-2024-8926",
-]
-debian = [
-    "DSA-5780-1",
-]
-openeuler = [
-    "OESA-2024-2248",
-]
+  ]
+  debian = ["DSA-5780-1"]
+  openeuler = ["OESA-2024-2248"]

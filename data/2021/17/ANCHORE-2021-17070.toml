@@ -2,44 +2,21 @@
 id = "ANCHORE-2021-17070"
 allocated = 2025-10-15T14:16:09.451669Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-37137",
-]
-gcve = [
-    "GCVE-0-2021-37137",
-]
-github = [
-    "GHSA-9vjp-v76f-g363",
-]
-chainguard = [
-    "CGA-rmxq-xv79-3xfc",
-]
-debian = [
-    "DLA-3268-1",
-    "DSA-5316-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2021-37137"]
+  gcve = ["GCVE-0-2021-37137"]
+  github = ["GHSA-9vjp-v76f-g363"]
+  chainguard = ["CGA-rmxq-xv79-3xfc"]
+  debian = ["DLA-3268-1", "DSA-5316-1"]
+  redhat = [
     "RHSA-2022:4918",
     "RHSA-2022:4919",
     "RHSA-2022:8506",
     "RHSA-2025:9582",
     "RHSA-2025:9583",
-]
-rockylinux = [
-    "RLSA-2022:8506",
-]
-suse = [
-    "SUSE-SU-2022:3617-1",
-    "SUSE-SU-2022:3760-1",
-    "SUSE-SU-2022:3793-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:14442-1",
-]
-ubuntu = [
-    "USN-6049-1",
-]
-openeuler = [
-    "OESA-2021-1423",
-]
+  ]
+  rockylinux = ["RLSA-2022:8506"]
+  suse = ["SUSE-SU-2022:3617-1", "SUSE-SU-2022:3760-1", "SUSE-SU-2022:3793-1"]
+  opensuse = ["openSUSE-SU-2024:14442-1"]
+  ubuntu = ["USN-6049-1"]
+  openeuler = ["OESA-2021-1423"]

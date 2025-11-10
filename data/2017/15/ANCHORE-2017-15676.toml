@@ -2,23 +2,10 @@
 id = "ANCHORE-2017-15676"
 allocated = 2025-10-15T14:15:17.327251Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-12158",
-]
-gcve = [
-    "GCVE-0-2017-12158",
-]
-github = [
-    "GHSA-v38p-mqq3-m6v5",
-]
-chainguard = [
-    "CGA-4w2c-v5hw-5v5c",
-]
-redhat = [
-    "RHSA-2017:2904",
-    "RHSA-2017:2905",
-]
-minimos = [
-    "MINI-2v2m-r65g-8m3q",
-]
+  [security.aliases]
+  cve = ["CVE-2017-12158"]
+  gcve = ["GCVE-0-2017-12158"]
+  github = ["GHSA-v38p-mqq3-m6v5"]
+  chainguard = ["CGA-4w2c-v5hw-5v5c"]
+  redhat = ["RHSA-2017:2904", "RHSA-2017:2905"]
+  minimos = ["MINI-2v2m-r65g-8m3q"]

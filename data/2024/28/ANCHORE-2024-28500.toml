@@ -2,20 +2,9 @@
 id = "ANCHORE-2024-28500"
 allocated = 2025-10-15T14:17:10.920787Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-8947",
-]
-gcve = [
-    "GCVE-0-2024-8947",
-]
-github = [
-    "GHSA-pwwp-3q7j-9mx8",
-]
-pypa = [
-    "PYSEC-2024-92",
-    "PYSEC-2024-94",
-]
-ubuntu = [
-    "USN-7472-1",
-]
+  [security.aliases]
+  cve = ["CVE-2024-8947"]
+  gcve = ["GCVE-0-2024-8947"]
+  github = ["GHSA-pwwp-3q7j-9mx8"]
+  pypa = ["PYSEC-2024-92", "PYSEC-2024-94"]
+  ubuntu = ["USN-7472-1"]

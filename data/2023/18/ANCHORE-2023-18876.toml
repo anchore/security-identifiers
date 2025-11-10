@@ -2,16 +2,8 @@
 id = "ANCHORE-2023-18876"
 allocated = 2025-10-15T14:16:43.224504Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-39949",
-]
-gcve = [
-    "GCVE-0-2023-39949",
-]
-debian = [
-    "DSA-5481-1",
-]
-ubuntu = [
-    "USN-6306-1",
-]
+  [security.aliases]
+  cve = ["CVE-2023-39949"]
+  gcve = ["GCVE-0-2023-39949"]
+  debian = ["DSA-5481-1"]
+  ubuntu = ["USN-6306-1"]

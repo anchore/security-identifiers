@@ -2,22 +2,12 @@
 id = "ANCHORE-2024-22168"
 allocated = 2025-10-15T14:17:06.548282Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-40902",
-]
-gcve = [
-    "GCVE-0-2024-40902",
-]
-github = [
-    "GHSA-rphx-6vqr-23h3",
-]
-debian = [
-    "DLA-4008-1",
-    "DSA-5730-1",
-    "DSA-5731-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2024-40902"]
+  gcve = ["GCVE-0-2024-40902"]
+  github = ["GHSA-rphx-6vqr-23h3"]
+  debian = ["DLA-4008-1", "DSA-5730-1", "DSA-5731-1"]
+  suse = [
     "SUSE-SU-2024:2894-1",
     "SUSE-SU-2024:2902-1",
     "SUSE-SU-2024:2929-1",
@@ -27,8 +17,8 @@ suse = [
     "SUSE-SU-2024:3195-1",
     "SUSE-SU-2024:3383-1",
     "SUSE-SU-2024:3617-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-6999-1",
     "USN-6999-2",
     "USN-7003-1",
@@ -51,16 +41,16 @@ ubuntu = [
     "USN-7028-2",
     "USN-7029-1",
     "USN-7039-1",
-]
-openeuler = [
+  ]
+  openeuler = [
     "OESA-2024-1963",
     "OESA-2024-2028",
     "OESA-2024-2029",
     "OESA-2024-2031",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2024-12610",
     "ELSA-2024-12612",
     "ELSA-2024-12618",
     "ELSA-2024-12779",
-]
+  ]

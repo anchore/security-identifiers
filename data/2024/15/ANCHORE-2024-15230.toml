@@ -2,43 +2,28 @@
 id = "ANCHORE-2024-15230"
 allocated = 2025-10-15T14:17:01.791689Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-30046",
-]
-gcve = [
-    "GCVE-0-2024-30046",
-]
-github = [
-    "GHSA-hhc7-x9w4-cw47",
-]
-bitnami = [
-    "BIT-dotnet-2024-30046",
-    "BIT-dotnet-sdk-2024-30046",
-]
-almalinux = [
+  [security.aliases]
+  cve = ["CVE-2024-30046"]
+  gcve = ["GCVE-0-2024-30046"]
+  github = ["GHSA-hhc7-x9w4-cw47"]
+  bitnami = ["BIT-dotnet-2024-30046", "BIT-dotnet-sdk-2024-30046"]
+  almalinux = [
     "ALSA-2024:2842",
     "ALSA-2024:2843",
     "ALSA-2024:3340",
     "ALSA-2024:3345",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2024:2842",
     "RHSA-2024:2843",
     "RHSA-2024:3340",
     "RHSA-2024:3345",
-]
-rockylinux = [
-    "RLSA-2024:2842",
-    "RLSA-2024:3340",
-    "RLSA-2024:3345",
-]
-ubuntu = [
-    "USN-6773-1",
-]
-oraclelinux = [
+  ]
+  rockylinux = ["RLSA-2024:2842", "RLSA-2024:3340", "RLSA-2024:3345"]
+  ubuntu = ["USN-6773-1"]
+  oraclelinux = [
     "ELSA-2024-2842",
     "ELSA-2024-2843",
     "ELSA-2024-3340",
     "ELSA-2024-3345",
-]
+  ]

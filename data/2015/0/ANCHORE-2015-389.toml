@@ -2,23 +2,10 @@
 id = "ANCHORE-2015-389"
 allocated = 2025-10-15T14:14:58.031837Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-0220",
-]
-gcve = [
-    "GCVE-0-2015-0220",
-]
-github = [
-    "GHSA-gv98-g628-m9x5",
-]
-pypa = [
-    "PYSEC-2015-5",
-]
-debian = [
-    "DLA-143-1",
-    "DSA-3151-1",
-]
-ubuntu = [
-    "USN-2469-1",
-]
+  [security.aliases]
+  cve = ["CVE-2015-0220"]
+  gcve = ["GCVE-0-2015-0220"]
+  github = ["GHSA-gv98-g628-m9x5"]
+  pypa = ["PYSEC-2015-5"]
+  debian = ["DLA-143-1", "DSA-3151-1"]
+  ubuntu = ["USN-2469-1"]

@@ -2,17 +2,11 @@
 id = "ANCHORE-2020-7757"
 allocated = 2025-10-15T14:15:50.017053Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-20225",
-]
-gcve = [
-    "GCVE-0-2018-20225",
-]
-github = [
-    "GHSA-7p5p-7qq5-cc86",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2018-20225"]
+  gcve = ["GCVE-0-2018-20225"]
+  github = ["GHSA-7p5p-7qq5-cc86"]
+  chainguard = [
     "CGA-33p6-5wqq-r5f2",
     "CGA-42hr-cm3w-4cm9",
     "CGA-4f97-m8hr-66cr",
@@ -23,10 +17,6 @@ chainguard = [
     "CGA-px95-g846-4rrq",
     "CGA-qc45-xwrj-86w8",
     "CGA-vfpc-g4p3-j9h4",
-]
-minimos = [
-    "MINI-4fr4-36h6-gcc5",
-]
-echo = [
-    "ECHO-072a-9ff7-3371",
-]
+  ]
+  minimos = ["MINI-4fr4-36h6-gcc5"]
+  echo = ["ECHO-072a-9ff7-3371"]

@@ -2,48 +2,36 @@
 id = "ANCHORE-2025-26393"
 allocated = 2025-10-15T14:17:37.766100Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-1220",
-]
-gcve = [
-    "GCVE-0-2025-1220",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2025-1220"]
+  gcve = ["GCVE-0-2025-1220"]
+  bitnami = [
     "BIT-libphp-2025-1220",
     "BIT-php-2025-1220",
     "BIT-php-min-2025-1220",
-]
-debian = [
-    "DLA-4254-1",
-    "DSA-5967-1",
-]
-opensuse = [
-    "openSUSE-SU-2025:15340-1",
-]
-ubuntu = [
-    "USN-7648-1",
-    "USN-7648-2",
-]
-minimos = [
+  ]
+  debian = ["DLA-4254-1", "DSA-5967-1"]
+  opensuse = ["openSUSE-SU-2025:15340-1"]
+  ubuntu = ["USN-7648-1", "USN-7648-2"]
+  minimos = [
     "MINI-jx7f-qh42-w677",
     "MINI-m7m2-w8h9-x632",
     "MINI-r4jj-xcc4-ppvm",
     "MINI-xvj9-mcp7-fv4p",
-]
-openeuler = [
+  ]
+  openeuler = [
     "OESA-2025-1760",
     "OESA-2025-1761",
     "OESA-2025-1762",
     "OESA-2025-1888",
     "OESA-2025-1889",
     "OESA-2025-1890",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2023-2025-1087",
     "ALAS2023-2025-1088",
     "ALAS2023-2025-1113",
     "ALAS2023-2025-1114",
     "ALAS2PHP8.1-2025-007",
     "ALAS2PHP8.2-2025-008",
-]
+  ]

@@ -2,24 +2,18 @@
 id = "ANCHORE-2018-2822"
 allocated = 2025-10-15T14:15:20.927175Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-1417",
-]
-gcve = [
-    "GCVE-0-2018-1417",
-]
-github = [
-    "GHSA-hjv6-rx46-p2h8",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2018-1417"]
+  gcve = ["GCVE-0-2018-1417"]
+  github = ["GHSA-hjv6-rx46-p2h8"]
+  redhat = [
     "RHSA-2018:0351",
     "RHSA-2018:0352",
     "RHSA-2018:0458",
     "RHSA-2018:0521",
     "RHSA-2018:1463",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2018:1447-1",
     "SUSE-SU-2018:1458-1",
     "SUSE-SU-2018:1738-1",
@@ -27,4 +21,4 @@ suse = [
     "SUSE-SU-2018:1764-1",
     "SUSE-SU-2018:1764-2",
     "SUSE-SU-2018:2068-1",
-]
+  ]

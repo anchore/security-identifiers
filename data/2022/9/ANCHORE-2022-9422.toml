@@ -2,29 +2,17 @@
 id = "ANCHORE-2022-9422"
 allocated = 2025-10-15T14:16:19.164655Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-25762",
-]
-gcve = [
-    "GCVE-0-2022-25762",
-]
-github = [
-    "GHSA-h3ch-5pp2-vh6w",
-]
-bitnami = [
-    "BIT-tomcat-2022-25762",
-]
-redhat = [
-    "RHSA-2020:4847",
-]
-rockylinux = [
-    "RLSA-2020:4847",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2022-25762"]
+  gcve = ["GCVE-0-2022-25762"]
+  github = ["GHSA-h3ch-5pp2-vh6w"]
+  bitnami = ["BIT-tomcat-2022-25762"]
+  redhat = ["RHSA-2020:4847"]
+  rockylinux = ["RLSA-2020:4847"]
+  openeuler = [
     "OESA-2024-2402",
     "OESA-2024-2403",
     "OESA-2024-2404",
     "OESA-2024-2405",
     "OESA-2024-2460",
-]
+  ]

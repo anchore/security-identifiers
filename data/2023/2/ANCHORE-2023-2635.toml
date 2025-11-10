@@ -2,44 +2,26 @@
 id = "ANCHORE-2023-2635"
 allocated = 2025-10-15T14:16:32.265884Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-23969",
-]
-gcve = [
-    "GCVE-0-2023-23969",
-]
-github = [
-    "GHSA-q2jf-h9jm-m7p4",
-]
-bitnami = [
-    "BIT-django-2023-23969",
-]
-pypa = [
-    "PYSEC-2023-12",
-]
-debian = [
-    "DLA-3306-1",
-]
-redhat = [
-    "RHSA-2023:2097",
-    "RHSA-2023:2101",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2023-23969"]
+  gcve = ["GCVE-0-2023-23969"]
+  github = ["GHSA-q2jf-h9jm-m7p4"]
+  bitnami = ["BIT-django-2023-23969"]
+  pypa = ["PYSEC-2023-12"]
+  debian = ["DLA-3306-1"]
+  redhat = ["RHSA-2023:2097", "RHSA-2023:2101"]
+  opensuse = [
     "openSUSE-SU-2023:0057-1",
     "openSUSE-SU-2023:0178-1",
     "openSUSE-SU-2024:0251-1",
     "openSUSE-SU-2024:12654-1",
     "openSUSE-SU-2024:14208-1",
     "openSUSE-SU-2025:14662-1",
-]
-ubuntu = [
-    "USN-5837-1",
-    "USN-5837-2",
-]
-openeuler = [
+  ]
+  ubuntu = ["USN-5837-1", "USN-5837-2"]
+  openeuler = [
     "OESA-2023-1097",
     "OESA-2023-1098",
     "OESA-2023-1099",
     "OESA-2023-1114",
-]
+  ]

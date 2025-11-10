@@ -2,20 +2,9 @@
 id = "ANCHORE-2020-14605"
 allocated = 2025-10-15T14:15:54.646867Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-25814",
-]
-gcve = [
-    "GCVE-0-2020-25814",
-]
-github = [
-    "GHSA-4vr7-m8p8-434h",
-]
-bitnami = [
-    "BIT-mediawiki-2020-25814",
-]
-debian = [
-    "DLA-2379-1",
-    "DSA-4767-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-25814"]
+  gcve = ["GCVE-0-2020-25814"]
+  github = ["GHSA-4vr7-m8p8-434h"]
+  bitnami = ["BIT-mediawiki-2020-25814"]
+  debian = ["DLA-2379-1", "DSA-4767-1"]

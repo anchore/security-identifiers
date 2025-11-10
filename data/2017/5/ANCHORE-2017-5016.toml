@@ -2,24 +2,16 @@
 id = "ANCHORE-2017-5016"
 allocated = 2025-10-15T14:15:10.125349Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-5483",
-]
-gcve = [
-    "GCVE-0-2016-5483",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2016-5483"]
+  gcve = ["GCVE-0-2016-5483"]
+  redhat = [
     "RHSA-2016:2131",
     "RHSA-2016:2927",
     "RHSA-2016:2928",
     "RHSA-2017:2192",
     "RHSA-2017:2787",
     "RHSA-2017:2886",
-]
-suse = [
-    "SUSE-SU-2017:1137-1",
-]
-oraclelinux = [
-    "ELSA-2017-2192",
-]
+  ]
+  suse = ["SUSE-SU-2017:1137-1"]
+  oraclelinux = ["ELSA-2017-2192"]

@@ -2,37 +2,20 @@
 id = "ANCHORE-2022-2548"
 allocated = 2025-10-15T14:16:14.501291Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-41816",
-]
-gcve = [
-    "GCVE-0-2021-41816",
-]
-github = [
-    "GHSA-5cqm-crxm-6qpv",
-]
-chainguard = [
-    "CGA-rwv5-454x-4xjp",
-]
-debian = [
-    "DSA-5067-1",
-]
-redhat = [
-    "RHSA-2022:6855",
-    "RHSA-2022:6856",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2021-41816"]
+  gcve = ["GCVE-0-2021-41816"]
+  github = ["GHSA-5cqm-crxm-6qpv"]
+  chainguard = ["CGA-rwv5-454x-4xjp"]
+  debian = ["DSA-5067-1"]
+  redhat = ["RHSA-2022:6855", "RHSA-2022:6856"]
+  opensuse = [
     "openSUSE-SU-2024:11657-1",
     "openSUSE-SU-2024:11658-1",
     "openSUSE-SU-2024:11786-1",
     "openSUSE-SU-2024:12712-1",
     "openSUSE-SU-2024:13623-1",
     "openSUSE-SU-2025:14621-1",
-]
-ubuntu = [
-    "USN-5235-1",
-]
-amazonlinux = [
-    "ALAS2RUBY3.0-2023-003",
-]
+  ]
+  ubuntu = ["USN-5235-1"]
+  amazonlinux = ["ALAS2RUBY3.0-2023-003"]

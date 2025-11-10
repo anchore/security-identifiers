@@ -2,51 +2,23 @@
 id = "ANCHORE-2025-8292"
 allocated = 2025-10-15T14:17:25.116278Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-25724",
-]
-gcve = [
-    "GCVE-0-2025-25724",
-]
-github = [
-    "GHSA-722w-734r-qg74",
-]
-chainguard = [
-    "CGA-m8v2-4459-jppx",
-]
-almalinux = [
-    "ALSA-2025:9420",
-    "ALSA-2025:9431",
-]
-redhat = [
-    "RHSA-2025:9420",
-    "RHSA-2025:9431",
-]
-suse = [
-    "SUSE-SU-2025:0985-1",
-    "SUSE-SU-2025:0986-1",
-]
-opensuse = [
-    "openSUSE-SU-2025:14882-1",
-]
-ubuntu = [
-    "USN-7454-1",
-]
-minimos = [
-    "MINI-95fg-pv3f-v6h7",
-]
-echo = [
-    "ECHO-fbe0-7de7-ac8d",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2025-25724"]
+  gcve = ["GCVE-0-2025-25724"]
+  github = ["GHSA-722w-734r-qg74"]
+  chainguard = ["CGA-m8v2-4459-jppx"]
+  almalinux = ["ALSA-2025:9420", "ALSA-2025:9431"]
+  redhat = ["RHSA-2025:9420", "RHSA-2025:9431"]
+  suse = ["SUSE-SU-2025:0985-1", "SUSE-SU-2025:0986-1"]
+  opensuse = ["openSUSE-SU-2025:14882-1"]
+  ubuntu = ["USN-7454-1"]
+  minimos = ["MINI-95fg-pv3f-v6h7"]
+  echo = ["ECHO-fbe0-7de7-ac8d"]
+  openeuler = [
     "OESA-2025-1309",
     "OESA-2025-1310",
     "OESA-2025-1311",
     "OESA-2025-1312",
     "OESA-2025-1313",
-]
-oraclelinux = [
-    "ELSA-2025-9420",
-    "ELSA-2025-9431",
-]
+  ]
+  oraclelinux = ["ELSA-2025-9420", "ELSA-2025-9431"]

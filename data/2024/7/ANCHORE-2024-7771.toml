@@ -2,48 +2,26 @@
 id = "ANCHORE-2024-7771"
 allocated = 2025-10-15T14:16:56.724895Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-28863",
-]
-gcve = [
-    "GCVE-0-2024-28863",
-]
-github = [
-    "GHSA-f5x3-32g6-xq36",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-28863"]
+  gcve = ["GCVE-0-2024-28863"]
+  github = ["GHSA-f5x3-32g6-xq36"]
+  chainguard = [
     "CGA-83pg-cr39-5m4j",
     "CGA-c2wv-3cp8-j2px",
     "CGA-jwhw-mwv5-2f36",
     "CGA-m34g-crj5-88g4",
     "CGA-qc6w-vg37-4pqm",
     "CGA-r5f8-hvj4-c8r9",
-]
-almalinux = [
-    "ALSA-2024:5814",
-    "ALSA-2024:6147",
-    "ALSA-2024:6148",
-]
-redhat = [
+  ]
+  almalinux = ["ALSA-2024:5814", "ALSA-2024:6147", "ALSA-2024:6148"]
+  redhat = [
     "RHSA-2024:5814",
     "RHSA-2024:6147",
     "RHSA-2024:6148",
     "RHSA-2024:8906",
-]
-rockylinux = [
-    "RLSA-2024:5814",
-    "RLSA-2024:6148",
-]
-minimos = [
-    "MINI-479r-3hcw-3xwc",
-]
-amazonlinux = [
-    "ALAS2023-2024-766",
-    "ALAS2023-2024-768",
-]
-oraclelinux = [
-    "ELSA-2024-5814",
-    "ELSA-2024-6147",
-    "ELSA-2024-6148",
-]
+  ]
+  rockylinux = ["RLSA-2024:5814", "RLSA-2024:6148"]
+  minimos = ["MINI-479r-3hcw-3xwc"]
+  amazonlinux = ["ALAS2023-2024-766", "ALAS2023-2024-768"]
+  oraclelinux = ["ELSA-2024-5814", "ELSA-2024-6147", "ELSA-2024-6148"]

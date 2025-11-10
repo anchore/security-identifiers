@@ -2,17 +2,8 @@
 id = "ANCHORE-2008-2127"
 allocated = 2025-10-15T14:14:30.012422Z
 
-[security.aliases]
-cve = [
-    "CVE-2008-2147",
-]
-gcve = [
-    "GCVE-0-2008-2147",
-]
-github = [
-    "GHSA-f2wq-qcrw-36wc",
-]
-debian = [
-    "DSA-1819-1",
-    "DTSA-132-1",
-]
+  [security.aliases]
+  cve = ["CVE-2008-2147"]
+  gcve = ["GCVE-0-2008-2147"]
+  github = ["GHSA-f2wq-qcrw-36wc"]
+  debian = ["DSA-1819-1", "DTSA-132-1"]

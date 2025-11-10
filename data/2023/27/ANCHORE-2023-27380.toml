@@ -2,22 +2,9 @@
 id = "ANCHORE-2023-27380"
 allocated = 2025-10-15T14:16:48.940864Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-48232",
-]
-gcve = [
-    "GCVE-0-2023-48232",
-]
-suse = [
-    "SUSE-SU-2024:0783-1",
-    "SUSE-SU-2024:0871-1",
-    "SUSE-SU-2024:1287-1",
-]
-echo = [
-    "ECHO-6c14-3d08-3f3a",
-]
-amazonlinux = [
-    "ALAS2-2023-2353",
-    "ALAS2023-2023-447",
-]
+  [security.aliases]
+  cve = ["CVE-2023-48232"]
+  gcve = ["GCVE-0-2023-48232"]
+  suse = ["SUSE-SU-2024:0783-1", "SUSE-SU-2024:0871-1", "SUSE-SU-2024:1287-1"]
+  echo = ["ECHO-6c14-3d08-3f3a"]
+  amazonlinux = ["ALAS2-2023-2353", "ALAS2023-2023-447"]

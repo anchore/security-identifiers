@@ -2,33 +2,17 @@
 id = "ANCHORE-2012-30"
 allocated = 2025-10-15T14:14:42.351470Z
 
-[security.aliases]
-cve = [
-    "CVE-2011-4619",
-]
-gcve = [
-    "GCVE-0-2011-4619",
-]
-github = [
-    "GHSA-9866-p82r-56gj",
-]
-debian = [
-    "DSA-2390-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2011-4619"]
+  gcve = ["GCVE-0-2011-4619"]
+  github = ["GHSA-9866-p82r-56gj"]
+  debian = ["DSA-2390-1"]
+  redhat = [
     "RHSA-2012:0059",
     "RHSA-2012:0060",
     "RHSA-2012:0086",
     "RHSA-2012:0109",
-]
-suse = [
-    "SUSE-SU-403",
-    "SUSE-SU-403 Forbidden-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:11127-1",
-]
-oraclelinux = [
-    "ELSA-2012-0059",
-    "ELSA-2012-0060",
-]
+  ]
+  suse = ["SUSE-SU-403", "SUSE-SU-403 Forbidden-1"]
+  opensuse = ["openSUSE-SU-2024:11127-1"]
+  oraclelinux = ["ELSA-2012-0059", "ELSA-2012-0060"]

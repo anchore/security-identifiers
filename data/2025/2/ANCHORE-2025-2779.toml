@@ -2,22 +2,12 @@
 id = "ANCHORE-2025-2779"
 allocated = 2025-10-15T14:17:21.276465Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-21647",
-]
-gcve = [
-    "GCVE-0-2025-21647",
-]
-github = [
-    "GHSA-j2g7-wj3p-j9c9",
-]
-debian = [
-    "DLA-4076-1",
-    "DLA-4178-1",
-    "DSA-5860-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2025-21647"]
+  gcve = ["GCVE-0-2025-21647"]
+  github = ["GHSA-j2g7-wj3p-j9c9"]
+  debian = ["DLA-4076-1", "DLA-4178-1", "DSA-5860-1"]
+  suse = [
     "SUSE-SU-2025:0784-1",
     "SUSE-SU-2025:0833-1",
     "SUSE-SU-2025:0833-2",
@@ -25,8 +15,8 @@ suse = [
     "SUSE-SU-2025:0853-1",
     "SUSE-SU-2025:0856-1",
     "SUSE-SU-2025:0955-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-7379-1",
     "USN-7381-1",
     "USN-7382-1",
@@ -71,17 +61,15 @@ ubuntu = [
     "USN-7593-1",
     "USN-7602-1",
     "USN-7640-1",
-]
-minimos = [
-    "MINI-j279-26c6-g7wc",
-]
-openeuler = [
+  ]
+  minimos = ["MINI-j279-26c6-g7wc"]
+  openeuler = [
     "OESA-2025-1158",
     "OESA-2025-1159",
     "OESA-2025-1160",
     "OESA-2025-1162",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2023-2025-823",
     "ALAS2023LIVEPATCH-2025-040",
     "ALAS2KERNEL-5.10-2025-085",
@@ -91,8 +79,5 @@ amazonlinux = [
     "ALAS2LIVEPATCH-2025-208",
     "ALAS2LIVEPATCH-2025-209",
     "ALAS2LIVEPATCH-2025-210",
-]
-oraclelinux = [
-    "ELSA-2025-20480",
-    "ELSA-2025-20530",
-]
+  ]
+  oraclelinux = ["ELSA-2025-20480", "ELSA-2025-20530"]

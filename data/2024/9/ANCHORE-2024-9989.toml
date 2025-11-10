@@ -2,21 +2,13 @@
 id = "ANCHORE-2024-9989"
 allocated = 2025-10-15T14:16:58.263065Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-21409",
-]
-gcve = [
-    "GCVE-0-2024-21409",
-]
-github = [
-    "GHSA-6qmx-42h2-j8h6",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-21409"]
+  gcve = ["GCVE-0-2024-21409"]
+  github = ["GHSA-6qmx-42h2-j8h6"]
+  bitnami = [
     "BIT-dotnet-2024-21409",
     "BIT-dotnet-sdk-2024-21409",
     "BIT-powershell-2024-21409",
-]
-amazonlinux = [
-    "ALAS2023-2024-597",
-]
+  ]
+  amazonlinux = ["ALAS2023-2024-597"]

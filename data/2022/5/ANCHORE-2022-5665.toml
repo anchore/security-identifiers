@@ -2,21 +2,9 @@
 id = "ANCHORE-2022-5665"
 allocated = 2025-10-15T14:16:16.583486Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-0886",
-]
-gcve = [
-    "GCVE-0-2022-0886",
-]
-suse = [
-    "SUSE-SU-2022:1255-1",
-    "SUSE-SU-2022:1320-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:11939-1",
-    "openSUSE-SU-2024:13704-1",
-]
-openeuler = [
-    "OESA-2022-1604",
-]
+  [security.aliases]
+  cve = ["CVE-2022-0886"]
+  gcve = ["GCVE-0-2022-0886"]
+  suse = ["SUSE-SU-2022:1255-1", "SUSE-SU-2022:1320-1"]
+  opensuse = ["openSUSE-SU-2024:11939-1", "openSUSE-SU-2024:13704-1"]
+  openeuler = ["OESA-2022-1604"]

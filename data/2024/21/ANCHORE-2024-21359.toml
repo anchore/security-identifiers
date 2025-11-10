@@ -2,20 +2,12 @@
 id = "ANCHORE-2024-21359"
 allocated = 2025-10-15T14:17:06.003655Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-3651",
-]
-gcve = [
-    "GCVE-0-2024-3651",
-]
-github = [
-    "GHSA-jjg7-2v4v-x38h",
-]
-pypa = [
-    "PYSEC-2024-60",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-3651"]
+  gcve = ["GCVE-0-2024-3651"]
+  github = ["GHSA-jjg7-2v4v-x38h"]
+  pypa = ["PYSEC-2024-60"]
+  chainguard = [
     "CGA-4vmg-xwqh-6xfw",
     "CGA-4w25-8r45-gxwf",
     "CGA-6445-8x27-cghw",
@@ -38,16 +30,10 @@ chainguard = [
     "CGA-v6qx-945c-jj8w",
     "CGA-xpcj-g2x8-wcc9",
     "CGA-xw8q-xp4x-825w",
-]
-almalinux = [
-    "ALSA-2024:3466",
-    "ALSA-2024:3846",
-    "ALSA-2024:4260",
-]
-debian = [
-    "DLA-3811-1",
-]
-redhat = [
+  ]
+  almalinux = ["ALSA-2024:3466", "ALSA-2024:3846", "ALSA-2024:4260"]
+  debian = ["DLA-3811-1"]
+  redhat = [
     "RHSA-2024:3466",
     "RHSA-2024:3543",
     "RHSA-2024:3552",
@@ -55,11 +41,9 @@ redhat = [
     "RHSA-2024:3846",
     "RHSA-2024:4260",
     "RHSA-2024:8365",
-]
-rockylinux = [
-    "RLSA-2024:3466",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2024:3466"]
+  suse = [
     "SUSE-SU-2024:1428-1",
     "SUSE-SU-2024:1439-1",
     "SUSE-SU-2024:1439-2",
@@ -67,23 +51,18 @@ suse = [
     "SUSE-SU-2024:4020-1",
     "SUSE-SU-2024:4021-1",
     "SUSE-SU-2024:4029-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:13874-1",
-]
-ubuntu = [
-    "USN-6780-1",
-    "USN-7762-1",
-]
-openeuler = [
+  ]
+  opensuse = ["openSUSE-SU-2024:13874-1"]
+  ubuntu = ["USN-6780-1", "USN-7762-1"]
+  openeuler = [
     "OESA-2024-1606",
     "OESA-2024-1653",
     "OESA-2024-1655",
     "OESA-2024-1673",
     "OESA-2024-1801",
     "OESA-2024-1802",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2-2024-2679",
     "ALAS2-2024-2680",
     "ALAS2-2024-2699",
@@ -91,10 +70,10 @@ amazonlinux = [
     "ALAS2023-2024-763",
     "ALAS2023-2024-764",
     "ALAS2PYTHON3.8-2024-015",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2024-3466",
     "ELSA-2024-3846",
     "ELSA-2024-4260",
     "ELSA-2024-8365",
-]
+  ]

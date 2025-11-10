@@ -2,20 +2,12 @@
 id = "ANCHORE-2025-20675"
 allocated = 2025-10-15T14:17:33.737440Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-12224",
-]
-gcve = [
-    "GCVE-0-2024-12224",
-]
-github = [
-    "GHSA-h97m-ww89-6jmq",
-]
-rustsec = [
-    "RUSTSEC-2024-0421",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-12224"]
+  gcve = ["GCVE-0-2024-12224"]
+  github = ["GHSA-h97m-ww89-6jmq"]
+  rustsec = ["RUSTSEC-2024-0421"]
+  chainguard = [
     "CGA-3f7v-m2x6-hx76",
     "CGA-5683-79rw-5g8w",
     "CGA-5938-fmq8-6q75",
@@ -37,10 +29,10 @@ chainguard = [
     "CGA-w8c5-crm7-p3m9",
     "CGA-x99g-77g2-8ggp",
     "CGA-xr7j-xw6p-fpq8",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-RU-2025:02203-1",
     "SUSE-RU-2025:02204-1",
     "SUSE-SU-2025:02586-1",
     "SUSE-SU-2025:03298-1",
-]
+  ]

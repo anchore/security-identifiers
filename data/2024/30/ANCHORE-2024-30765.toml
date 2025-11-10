@@ -2,24 +2,14 @@
 id = "ANCHORE-2024-30765"
 allocated = 2025-10-15T14:17:12.512692Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-8376",
-]
-gcve = [
-    "GCVE-0-2024-8376",
-]
-github = [
-    "GHSA-72qw-2vp3-gvg9",
-]
-redhat = [
-    "RHSA-2024:8718",
-    "RHSA-2024:8719",
-    "RHSA-2024:8906",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2024-8376"]
+  gcve = ["GCVE-0-2024-8376"]
+  github = ["GHSA-72qw-2vp3-gvg9"]
+  redhat = ["RHSA-2024:8718", "RHSA-2024:8719", "RHSA-2024:8906"]
+  openeuler = [
     "OESA-2024-2415",
     "OESA-2024-2416",
     "OESA-2024-2417",
     "OESA-2024-2418",
-]
+  ]

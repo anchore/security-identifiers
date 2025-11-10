@@ -2,19 +2,9 @@
 id = "ANCHORE-2022-11009"
 allocated = 2025-10-15T14:16:20.237970Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-31043",
-]
-gcve = [
-    "GCVE-0-2022-31043",
-]
-github = [
-    "GHSA-w248-ffj2-4v5q",
-]
-bitnami = [
-    "BIT-drupal-2022-31043",
-]
-debian = [
-    "DSA-5246-1",
-]
+  [security.aliases]
+  cve = ["CVE-2022-31043"]
+  gcve = ["GCVE-0-2022-31043"]
+  github = ["GHSA-w248-ffj2-4v5q"]
+  bitnami = ["BIT-drupal-2022-31043"]
+  debian = ["DSA-5246-1"]

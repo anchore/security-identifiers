@@ -2,24 +2,13 @@
 id = "ANCHORE-2023-22546"
 allocated = 2025-10-15T14:16:45.680608Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-5129",
-]
-gcve = [
-    "GCVE-0-2023-5129",
-]
-github = [
-    "GHSA-hhrh-69hc-fgg7",
-]
-go = [
-    "GO-2023-2064",
-]
-rustsec = [
-    "RUSTSEC-2023-0060",
-    "RUSTSEC-2023-0061",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2023-5129"]
+  gcve = ["GCVE-0-2023-5129"]
+  github = ["GHSA-hhrh-69hc-fgg7"]
+  go = ["GO-2023-2064"]
+  rustsec = ["RUSTSEC-2023-0060", "RUSTSEC-2023-0061"]
+  redhat = [
     "RHSA-2023:5183",
     "RHSA-2023:5184",
     "RHSA-2023:5185",
@@ -42,11 +31,6 @@ redhat = [
     "RHSA-2023:5224",
     "RHSA-2023:5236",
     "RHSA-2023:5309",
-]
-rockylinux = [
-    "RLSA-2023:5201",
-    "RLSA-2023:5214",
-]
-opensuse = [
-    "openSUSE-SU-2024:13304-1",
-]
+  ]
+  rockylinux = ["RLSA-2023:5201", "RLSA-2023:5214"]
+  opensuse = ["openSUSE-SU-2024:13304-1"]

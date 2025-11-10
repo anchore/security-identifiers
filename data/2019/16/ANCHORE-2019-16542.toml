@@ -2,20 +2,9 @@
 id = "ANCHORE-2019-16542"
 allocated = 2025-10-15T14:15:42.931329Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-19037",
-]
-gcve = [
-    "GCVE-0-2019-19037",
-]
-github = [
-    "GHSA-98hp-cmc8-vgp6",
-]
-debian = [
-    "DLA-2114-1",
-]
-oraclelinux = [
-    "ELSA-2020-5804",
-    "ELSA-2021-9002",
-]
+  [security.aliases]
+  cve = ["CVE-2019-19037"]
+  gcve = ["GCVE-0-2019-19037"]
+  github = ["GHSA-98hp-cmc8-vgp6"]
+  debian = ["DLA-2114-1"]
+  oraclelinux = ["ELSA-2020-5804", "ELSA-2021-9002"]

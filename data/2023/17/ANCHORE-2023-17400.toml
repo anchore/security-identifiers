@@ -2,28 +2,14 @@
 id = "ANCHORE-2023-17400"
 allocated = 2025-10-15T14:16:42.222447Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-37920",
-]
-gcve = [
-    "GCVE-0-2023-37920",
-]
-github = [
-    "GHSA-xqr8-7jwr-rhp7",
-]
-pypa = [
-    "PYSEC-2023-135",
-]
-chainguard = [
-    "CGA-3crq-3vh2-hxpf",
-    "CGA-vxhq-hwj6-cr7h",
-]
-almalinux = [
-    "ALSA-2023:7753",
-    "ALSA-2024:0133",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2023-37920"]
+  gcve = ["GCVE-0-2023-37920"]
+  github = ["GHSA-xqr8-7jwr-rhp7"]
+  pypa = ["PYSEC-2023-135"]
+  chainguard = ["CGA-3crq-3vh2-hxpf", "CGA-vxhq-hwj6-cr7h"]
+  almalinux = ["ALSA-2023:7753", "ALSA-2024:0133"]
+  redhat = [
     "RHSA-2023:6812",
     "RHSA-2023:7378",
     "RHSA-2023:7385",
@@ -33,18 +19,8 @@ redhat = [
     "RHSA-2023:7528",
     "RHSA-2023:7753",
     "RHSA-2024:0133",
-]
-echo = [
-    "ECHO-df75-5b71-a4be",
-]
-openeuler = [
-    "OESA-2023-1457",
-]
-amazonlinux = [
-    "ALAS2-2023-2224",
-    "ALAS2023-2023-297",
-]
-oraclelinux = [
-    "ELSA-2023-7753",
-    "ELSA-2024-0133",
-]
+  ]
+  echo = ["ECHO-df75-5b71-a4be"]
+  openeuler = ["OESA-2023-1457"]
+  amazonlinux = ["ALAS2-2023-2224", "ALAS2023-2023-297"]
+  oraclelinux = ["ELSA-2023-7753", "ELSA-2024-0133"]

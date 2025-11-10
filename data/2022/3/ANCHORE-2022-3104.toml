@@ -2,20 +2,12 @@
 id = "ANCHORE-2022-3104"
 allocated = 2025-10-15T14:16:14.873851Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-0185",
-]
-gcve = [
-    "GCVE-0-2022-0185",
-]
-almalinux = [
-    "ALSA-2022:0188",
-]
-debian = [
-    "DSA-5050-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2022-0185"]
+  gcve = ["GCVE-0-2022-0185"]
+  almalinux = ["ALSA-2022:0188"]
+  debian = ["DSA-5050-1"]
+  redhat = [
     "RHSA-2022:0176",
     "RHSA-2022:0186",
     "RHSA-2022:0187",
@@ -23,12 +15,9 @@ redhat = [
     "RHSA-2022:0231",
     "RHSA-2022:0232",
     "RHSA-2022:0540",
-]
-rockylinux = [
-    "RLSA-2022:0176",
-    "RLSA-2022:0188",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2022:0176", "RLSA-2022:0188"]
+  suse = [
     "SUSE-SU-2022:0169-1",
     "SUSE-SU-2022:0197-1",
     "SUSE-SU-2022:0198-1",
@@ -45,29 +34,26 @@ suse = [
     "SUSE-SU-2022:0292-1",
     "SUSE-SU-2022:0293-1",
     "SUSE-SU-2022:0295-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2022:0169-1",
     "openSUSE-SU-2022:0198-1",
     "openSUSE-SU-2024:11775-1",
     "openSUSE-SU-2024:13704-1",
-]
-ubuntu = [
-    "USN-5240-1",
-    "USN-5362-1",
-]
-amazonlinux = [
+  ]
+  ubuntu = ["USN-5240-1", "USN-5362-1"]
+  amazonlinux = [
     "ALAS-2022-024",
     "ALAS-2022-185",
     "ALAS2023-2023-070",
     "ALAS2KERNEL-5.10-2022-009",
     "ALAS2KERNEL-5.4-2022-021",
     "ALAS2LIVEPATCH-2022-076",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2022-0188",
     "ELSA-2022-9028",
     "ELSA-2022-9029",
     "ELSA-2022-9147",
     "ELSA-2022-9148",
-]
+  ]

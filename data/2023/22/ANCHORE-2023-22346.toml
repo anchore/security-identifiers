@@ -2,17 +2,11 @@
 id = "ANCHORE-2023-22346"
 allocated = 2025-10-15T14:16:45.546307Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-22024",
-]
-gcve = [
-    "GCVE-0-2023-22024",
-]
-github = [
-    "GHSA-22mc-c7v8-g2wp",
-]
-oraclelinux = [
+  [security.aliases]
+  cve = ["CVE-2023-22024"]
+  gcve = ["GCVE-0-2023-22024"]
+  github = ["GHSA-22mc-c7v8-g2wp"]
+  oraclelinux = [
     "ELSA-2023-12798",
     "ELSA-2023-12799",
     "ELSA-2023-12800",
@@ -27,4 +21,4 @@ oraclelinux = [
     "ELSA-2023-12911",
     "ELSA-2025-20480",
     "ELSA-2025-20530",
-]
+  ]

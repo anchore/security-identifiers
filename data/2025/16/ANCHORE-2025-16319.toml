@@ -2,43 +2,24 @@
 id = "ANCHORE-2025-16319"
 allocated = 2025-10-15T14:17:30.711276Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-31651",
-]
-gcve = [
-    "GCVE-0-2025-31651",
-]
-github = [
-    "GHSA-ff77-26x5-69cr",
-]
-bitnami = [
-    "BIT-tomcat-2025-31651",
-]
-chainguard = [
-    "CGA-576p-jvpw-wc6p",
-    "CGA-mm2j-x7m9-9wg3",
-]
-debian = [
-    "DLA-4244-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2025-31651"]
+  gcve = ["GCVE-0-2025-31651"]
+  github = ["GHSA-ff77-26x5-69cr"]
+  bitnami = ["BIT-tomcat-2025-31651"]
+  chainguard = ["CGA-576p-jvpw-wc6p", "CGA-mm2j-x7m9-9wg3"]
+  debian = ["DLA-4244-1"]
+  suse = [
     "SUSE-SU-2025:01521-1",
     "SUSE-SU-2025:01882-1",
     "SUSE-SU-2025:1521-1",
     "SUSE-SU-2025:1537-1",
-]
-ubuntu = [
-    "USN-7705-1",
-]
-openeuler = [
-    "OESA-2025-1484",
-]
-amazonlinux = [
+  ]
+  ubuntu = ["USN-7705-1"]
+  openeuler = ["OESA-2025-1484"]
+  amazonlinux = [
     "ALAS2023-2025-964",
     "ALAS2023-2025-965",
     "ALAS2TOMCAT9-2025-018",
-]
-redhat = [
-    "RHSA-2025:19809",
-]
+  ]
+  redhat = ["RHSA-2025:19809"]

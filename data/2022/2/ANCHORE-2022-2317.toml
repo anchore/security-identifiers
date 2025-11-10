@@ -2,20 +2,9 @@
 id = "ANCHORE-2022-2317"
 allocated = 2025-10-15T14:16:14.339893Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-21738",
-]
-gcve = [
-    "GCVE-0-2022-21738",
-]
-github = [
-    "GHSA-x4qx-4fjv-hmw6",
-]
-bitnami = [
-    "BIT-tensorflow-2022-21738",
-]
-pypa = [
-    "PYSEC-2022-117",
-    "PYSEC-2022-62",
-]
+  [security.aliases]
+  cve = ["CVE-2022-21738"]
+  gcve = ["GCVE-0-2022-21738"]
+  github = ["GHSA-x4qx-4fjv-hmw6"]
+  bitnami = ["BIT-tensorflow-2022-21738"]
+  pypa = ["PYSEC-2022-117", "PYSEC-2022-62"]

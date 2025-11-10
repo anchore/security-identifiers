@@ -2,17 +2,11 @@
 id = "ANCHORE-2021-6969"
 allocated = 2025-10-15T14:16:02.608178Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-23383",
-]
-gcve = [
-    "GCVE-0-2021-23383",
-]
-github = [
-    "GHSA-765h-qjxv-5f44",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2021-23383"]
+  gcve = ["GCVE-0-2021-23383"]
+  github = ["GHSA-765h-qjxv-5f44"]
+  chainguard = [
     "CGA-2cg2-8m24-9v59",
     "CGA-3h62-wh7r-4jxc",
     "CGA-522j-73h3-6f4m",
@@ -23,7 +17,5 @@ chainguard = [
     "CGA-gmf2-68r8-3ggf",
     "CGA-h394-5gmp-8wfr",
     "CGA-rp6g-6jr6-7r2f",
-]
-openeuler = [
-    "OESA-2021-1196",
-]
+  ]
+  openeuler = ["OESA-2021-1196"]

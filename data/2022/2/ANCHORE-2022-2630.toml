@@ -2,19 +2,9 @@
 id = "ANCHORE-2022-2630"
 allocated = 2025-10-15T14:16:14.556522Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-45325",
-]
-gcve = [
-    "GCVE-0-2021-45325",
-]
-github = [
-    "GHSA-8h8p-x289-vvqr",
-]
-bitnami = [
-    "BIT-gitea-2021-45325",
-]
-go = [
-    "GO-2022-0308",
-]
+  [security.aliases]
+  cve = ["CVE-2021-45325"]
+  gcve = ["GCVE-0-2021-45325"]
+  github = ["GHSA-8h8p-x289-vvqr"]
+  bitnami = ["BIT-gitea-2021-45325"]
+  go = ["GO-2022-0308"]

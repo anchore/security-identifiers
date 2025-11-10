@@ -2,17 +2,11 @@
 id = "ANCHORE-2024-11230"
 allocated = 2025-10-15T14:16:59.101426Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-21094",
-]
-gcve = [
-    "GCVE-0-2024-21094",
-]
-github = [
-    "GHSA-g3wm-f7gr-3fwh",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-21094"]
+  gcve = ["GCVE-0-2024-21094"]
+  github = ["GHSA-g3wm-f7gr-3fwh"]
+  chainguard = [
     "CGA-3626-w465-8r76",
     "CGA-6g46-qxjx-fj6r",
     "CGA-6j7w-mgpr-7fwp",
@@ -31,18 +25,10 @@ chainguard = [
     "CGA-rfwp-26m4-mwp7",
     "CGA-vcmj-g429-534x",
     "CGA-wv5q-jf2p-4g45",
-]
-almalinux = [
-    "ALSA-2024:1818",
-    "ALSA-2024:1822",
-    "ALSA-2024:1825",
-]
-debian = [
-    "DLA-3793-1",
-    "DSA-5671-1",
-    "DSA-5672-1",
-]
-redhat = [
+  ]
+  almalinux = ["ALSA-2024:1818", "ALSA-2024:1822", "ALSA-2024:1825"]
+  debian = ["DLA-3793-1", "DSA-5671-1", "DSA-5672-1"]
+  redhat = [
     "RHSA-2024:0248",
     "RHSA-2024:0249",
     "RHSA-2024:1817",
@@ -51,12 +37,9 @@ redhat = [
     "RHSA-2024:1822",
     "RHSA-2024:1825",
     "RHSA-2024:1828",
-]
-rockylinux = [
-    "RLSA-2024:1818",
-    "RLSA-2024:1822",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2024:1818", "RLSA-2024:1822"]
+  suse = [
     "SUSE-SU-2024:1450-1",
     "SUSE-SU-2024:1451-1",
     "SUSE-SU-2024:1452-1",
@@ -67,23 +50,23 @@ suse = [
     "SUSE-SU-2024:1793-1",
     "SUSE-SU-2024:1845-1",
     "SUSE-SU-2024:1859-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2024:13871-1",
     "openSUSE-SU-2024:13872-1",
     "openSUSE-SU-2024:13879-1",
     "openSUSE-SU-2024:13997-1",
     "openSUSE-SU-2025:0066-1",
     "openSUSE-SU-2025:0067-1",
-]
-ubuntu = [
+  ]
+  ubuntu = [
     "USN-6810-1",
     "USN-6811-1",
     "USN-6812-1",
     "USN-6813-1",
     "USN-7096-1",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-2qff-g2r9-mj64",
     "MINI-6526-9wmm-qjvw",
     "MINI-854h-cg67-wh4r",
@@ -93,8 +76,8 @@ minimos = [
     "MINI-q936-v4p8-4fr6",
     "MINI-qgwg-cx8f-r23q",
     "MINI-xx32-vwwc-3w5x",
-]
-openeuler = [
+  ]
+  openeuler = [
     "OESA-2024-1674",
     "OESA-2024-1704",
     "OESA-2024-2485",
@@ -102,8 +85,8 @@ openeuler = [
     "OESA-2024-2487",
     "OESA-2024-2488",
     "OESA-2024-2489",
-]
-amazonlinux = [
+  ]
+  amazonlinux = [
     "ALAS2-2024-2527",
     "ALAS2-2024-2528",
     "ALAS2-2024-2540",
@@ -113,11 +96,11 @@ amazonlinux = [
     "ALAS2023-2024-602",
     "ALAS2CORRETTO8-2024-011",
     "ALAS2JAVA-OPENJDK11-2024-008",
-]
-oraclelinux = [
+  ]
+  oraclelinux = [
     "ELSA-2024-1817",
     "ELSA-2024-1818",
     "ELSA-2024-1821",
     "ELSA-2024-1822",
     "ELSA-2024-1825",
-]
+  ]

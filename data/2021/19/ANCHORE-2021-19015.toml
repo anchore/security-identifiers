@@ -2,30 +2,15 @@
 id = "ANCHORE-2021-19015"
 allocated = 2025-10-15T14:16:10.795745Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-39922",
-]
-gcve = [
-    "GCVE-0-2021-39922",
-]
-github = [
-    "GHSA-xg58-j2w4-mjfm",
-]
-debian = [
-    "DLA-2849-1",
-    "DSA-5019-1",
-]
-suse = [
-    "SUSE-SU-2021:3938-1",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2021-39922"]
+  gcve = ["GCVE-0-2021-39922"]
+  github = ["GHSA-xg58-j2w4-mjfm"]
+  debian = ["DLA-2849-1", "DSA-5019-1"]
+  suse = ["SUSE-SU-2021:3938-1"]
+  opensuse = [
     "openSUSE-SU-2021:1566-1",
     "openSUSE-SU-2021:3938-1",
     "openSUSE-SU-2024:11641-1",
-]
-amazonlinux = [
-    "ALAS-2022-079",
-    "ALAS-2022-226",
-    "ALAS2023-2023-038",
-]
+  ]
+  amazonlinux = ["ALAS-2022-079", "ALAS-2022-226", "ALAS2023-2023-038"]

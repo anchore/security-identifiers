@@ -2,28 +2,17 @@
 id = "ANCHORE-2012-94"
 allocated = 2025-10-15T14:14:42.394714Z
 
-[security.aliases]
-cve = [
-    "CVE-2011-5063",
-]
-gcve = [
-    "GCVE-0-2011-5063",
-]
-github = [
-    "GHSA-hffm-fqv4-w27r",
-]
-debian = [
-    "DSA-2401-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2011-5063"]
+  gcve = ["GCVE-0-2011-5063"]
+  github = ["GHSA-hffm-fqv4-w27r"]
+  debian = ["DSA-2401-1"]
+  redhat = [
     "RHSA-2011:1780",
     "RHSA-2011:1845",
     "RHSA-2012:0074",
     "RHSA-2012:0076",
     "RHSA-2012:0680",
     "RHSA-2012:0682",
-]
-oraclelinux = [
-    "ELSA-2011-1780",
-    "ELSA-2011-1845",
-]
+  ]
+  oraclelinux = ["ELSA-2011-1780", "ELSA-2011-1845"]

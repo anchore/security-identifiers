@@ -2,27 +2,18 @@
 id = "ANCHORE-2013-1575"
 allocated = 2025-10-15T14:14:49.716309Z
 
-[security.aliases]
-cve = [
-    "CVE-2013-2384",
-]
-gcve = [
-    "GCVE-0-2013-2384",
-]
-github = [
-    "GHSA-4g67-62qq-2rv4",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2013-2384"]
+  gcve = ["GCVE-0-2013-2384"]
+  github = ["GHSA-4g67-62qq-2rv4"]
+  chainguard = [
     "CGA-jwf8-vvm7-fj79",
     "CGA-m9j5-h524-4xp8",
     "CGA-prpm-9jqw-h82q",
     "CGA-r4hh-x2jh-h5g5",
-]
-debian = [
-    "DLA-219-1",
-    "DSA-3187-1",
-]
-redhat = [
+  ]
+  debian = ["DLA-219-1", "DSA-3187-1"]
+  redhat = [
     "RHSA-2013:0751",
     "RHSA-2013:0752",
     "RHSA-2013:0757",
@@ -33,15 +24,7 @@ redhat = [
     "RHSA-2013:0855",
     "RHSA-2013:1455",
     "RHSA-2013:1456",
-]
-opensuse = [
-    "openSUSE-SU-2024:10534-1",
-]
-ubuntu = [
-    "USN-2522-1",
-]
-oraclelinux = [
-    "ELSA-2013-0751",
-    "ELSA-2013-0752",
-    "ELSA-2013-0770",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:10534-1"]
+  ubuntu = ["USN-2522-1"]
+  oraclelinux = ["ELSA-2013-0751", "ELSA-2013-0752", "ELSA-2013-0770"]

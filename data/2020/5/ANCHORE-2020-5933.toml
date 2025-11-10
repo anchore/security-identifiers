@@ -2,38 +2,15 @@
 id = "ANCHORE-2020-5933"
 allocated = 2025-10-15T14:15:48.775260Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-11761",
-]
-gcve = [
-    "GCVE-0-2020-11761",
-]
-github = [
-    "GHSA-pc2j-g7xf-qpcq",
-]
-debian = [
-    "DLA-2358-1",
-    "DSA-4755-1",
-]
-redhat = [
-    "RHSA-2020:4039",
-]
-suse = [
-    "SUSE-SU-2020:1293-1",
-]
-opensuse = [
-    "openSUSE-SU-2020:0682-1",
-]
-ubuntu = [
-    "USN-4339-1",
-]
-openeuler = [
-    "OESA-2021-1268",
-]
-amazonlinux = [
-    "ALAS2-2020-1499",
-]
-oraclelinux = [
-    "ELSA-2020-4039",
-]
+  [security.aliases]
+  cve = ["CVE-2020-11761"]
+  gcve = ["GCVE-0-2020-11761"]
+  github = ["GHSA-pc2j-g7xf-qpcq"]
+  debian = ["DLA-2358-1", "DSA-4755-1"]
+  redhat = ["RHSA-2020:4039"]
+  suse = ["SUSE-SU-2020:1293-1"]
+  opensuse = ["openSUSE-SU-2020:0682-1"]
+  ubuntu = ["USN-4339-1"]
+  openeuler = ["OESA-2021-1268"]
+  amazonlinux = ["ALAS2-2020-1499"]
+  oraclelinux = ["ELSA-2020-4039"]

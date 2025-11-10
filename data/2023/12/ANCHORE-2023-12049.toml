@@ -2,37 +2,14 @@
 id = "ANCHORE-2023-12049"
 allocated = 2025-10-15T14:16:38.598802Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-32700",
-]
-gcve = [
-    "GCVE-0-2023-32700",
-]
-github = [
-    "GHSA-7xcp-5fvh-7fwm",
-]
-almalinux = [
-    "ALSA-2023:3661",
-]
-debian = [
-    "DLA-3427-1",
-    "DSA-5406-1",
-]
-suse = [
-    "SUSE-SU-2023:2284-1",
-    "SUSE-SU-2023:2285-1",
-    "SUSE-SU-2023:2287-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12936-1",
-]
-ubuntu = [
-    "USN-6115-1",
-]
-openeuler = [
-    "OESA-2023-1421",
-]
-oraclelinux = [
-    "ELSA-2023-3661",
-]
+  [security.aliases]
+  cve = ["CVE-2023-32700"]
+  gcve = ["GCVE-0-2023-32700"]
+  github = ["GHSA-7xcp-5fvh-7fwm"]
+  almalinux = ["ALSA-2023:3661"]
+  debian = ["DLA-3427-1", "DSA-5406-1"]
+  suse = ["SUSE-SU-2023:2284-1", "SUSE-SU-2023:2285-1", "SUSE-SU-2023:2287-1"]
+  opensuse = ["openSUSE-SU-2024:12936-1"]
+  ubuntu = ["USN-6115-1"]
+  openeuler = ["OESA-2023-1421"]
+  oraclelinux = ["ELSA-2023-3661"]

@@ -2,21 +2,9 @@
 id = "ANCHORE-2015-5236"
 allocated = 2025-10-15T14:15:01.302875Z
 
-[security.aliases]
-cve = [
-    "CVE-2015-7627",
-]
-gcve = [
-    "GCVE-0-2015-7627",
-]
-github = [
-    "GHSA-prmp-8vr8-5c42",
-]
-redhat = [
-    "RHSA-2015:1893",
-    "RHSA-2015:2024",
-]
-suse = [
-    "SUSE-SU-2015:1740-1",
-    "SUSE-SU-2015:1742-1",
-]
+  [security.aliases]
+  cve = ["CVE-2015-7627"]
+  gcve = ["GCVE-0-2015-7627"]
+  github = ["GHSA-prmp-8vr8-5c42"]
+  redhat = ["RHSA-2015:1893", "RHSA-2015:2024"]
+  suse = ["SUSE-SU-2015:1740-1", "SUSE-SU-2015:1742-1"]

@@ -2,21 +2,9 @@
 id = "ANCHORE-2018-3323"
 allocated = 2025-10-15T14:15:21.270626Z
 
-[security.aliases]
-cve = [
-    "CVE-2017-18222",
-]
-gcve = [
-    "GCVE-0-2017-18222",
-]
-github = [
-    "GHSA-hwr8-7vg6-gmxx",
-]
-debian = [
-    "DSA-4188-1",
-]
-ubuntu = [
-    "USN-3654-1",
-    "USN-3654-2",
-    "USN-3656-1",
-]
+  [security.aliases]
+  cve = ["CVE-2017-18222"]
+  gcve = ["GCVE-0-2017-18222"]
+  github = ["GHSA-hwr8-7vg6-gmxx"]
+  debian = ["DSA-4188-1"]
+  ubuntu = ["USN-3654-1", "USN-3654-2", "USN-3656-1"]

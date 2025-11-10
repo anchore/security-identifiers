@@ -2,47 +2,30 @@
 id = "ANCHORE-2025-23377"
 allocated = 2025-10-15T14:17:35.611087Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-50181",
-]
-gcve = [
-    "GCVE-0-2025-50181",
-]
-github = [
-    "GHSA-pq67-6m6q-mj2v",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2025-50181"]
+  gcve = ["GCVE-0-2025-50181"]
+  github = ["GHSA-pq67-6m6q-mj2v"]
+  chainguard = [
     "CGA-3hxw-cr3x-p4c5",
     "CGA-4p7h-xgpg-2mxx",
     "CGA-4qgw-vjh8-cq98",
     "CGA-5phw-374r-3675",
     "CGA-j2ph-8qfq-2q24",
     "CGA-pfx8-jp22-3rcr",
-]
-suse = [
-    "SUSE-SU-2025:02735-1",
-    "SUSE-SU-2025:02736-1",
-]
-ubuntu = [
-    "USN-7599-1",
-    "USN-7599-2",
-]
-minimos = [
+  ]
+  suse = ["SUSE-SU-2025:02735-1", "SUSE-SU-2025:02736-1"]
+  ubuntu = ["USN-7599-1", "USN-7599-2"]
+  minimos = [
     "MINI-3pxj-fv3g-fcmw",
     "MINI-4wqw-jxcf-vhwx",
     "MINI-5jg9-rf79-w63f",
     "MINI-g8cr-599c-g56j",
     "MINI-r6wh-mfm7-qp25",
-]
-echo = [
-    "ECHO-25d6-11bf-b17d",
-]
-openeuler = [
-    "OESA-2025-1958",
-    "OESA-2025-2317",
-]
-amazonlinux = [
+  ]
+  echo = ["ECHO-25d6-11bf-b17d"]
+  openeuler = ["OESA-2025-1958", "OESA-2025-2317"]
+  amazonlinux = [
     "ALAS2-2025-2915",
     "ALAS2-2025-2916",
     "ALAS2-2025-2935",
@@ -50,4 +33,4 @@ amazonlinux = [
     "ALAS2023-2025-1095",
     "ALAS2023-2025-1096",
     "ALAS2023-2025-1097",
-]
+  ]

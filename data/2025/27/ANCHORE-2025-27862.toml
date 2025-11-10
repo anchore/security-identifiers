@@ -2,27 +2,15 @@
 id = "ANCHORE-2025-27862"
 allocated = 2025-10-15T14:17:38.833101Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-38429",
-]
-gcve = [
-    "GCVE-0-2025-38429",
-]
-github = [
-    "GHSA-f5fc-m65h-gr9j",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2025-38429"]
+  gcve = ["GCVE-0-2025-38429"]
+  github = ["GHSA-f5fc-m65h-gr9j"]
+  suse = [
     "SUSE-SU-2025:02853-1",
     "SUSE-SU-2025:02923-1",
     "SUSE-SU-2025:02969-1",
     "SUSE-SU-2025:03023-1",
-]
-echo = [
-    "ECHO-ba32-29e7-da16",
-]
-ubuntu = [
-    "USN-7833-1",
-    "USN-7833-2",
-    "USN-7834-1",
-]
+  ]
+  echo = ["ECHO-ba32-29e7-da16"]
+  ubuntu = ["USN-7833-1", "USN-7833-2", "USN-7834-1"]

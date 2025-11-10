@@ -2,15 +2,11 @@
 id = "ANCHORE-2024-6586"
 allocated = 2025-10-15T14:16:55.928648Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-26190",
-]
-gcve = [
-    "GCVE-0-2024-26190",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-26190"]
+  gcve = ["GCVE-0-2024-26190"]
+  bitnami = [
     "BIT-dotnet-2024-26190",
     "BIT-dotnet-sdk-2024-26190",
     "BIT-powershell-2024-26190",
-]
+  ]

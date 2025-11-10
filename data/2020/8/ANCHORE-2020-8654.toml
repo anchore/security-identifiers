@@ -2,34 +2,15 @@
 id = "ANCHORE-2020-8654"
 allocated = 2025-10-15T14:15:50.621398Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-11080",
-]
-gcve = [
-    "GCVE-0-2020-11080",
-]
-bitnami = [
-    "BIT-node-2020-11080",
-    "BIT-node-min-2020-11080",
-]
-go = [
-    "GO-2023-2268",
-]
-chainguard = [
-    "CGA-xqv3-gww7-whx6",
-]
-almalinux = [
-    "ALSA-2020:2755",
-    "ALSA-2020:2848",
-    "ALSA-2020:2852",
-]
-debian = [
-    "DLA-2786-1",
-    "DLA-3621-1",
-    "DSA-4696-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2020-11080"]
+  gcve = ["GCVE-0-2020-11080"]
+  bitnami = ["BIT-node-2020-11080", "BIT-node-min-2020-11080"]
+  go = ["GO-2023-2268"]
+  chainguard = ["CGA-xqv3-gww7-whx6"]
+  almalinux = ["ALSA-2020:2755", "ALSA-2020:2848", "ALSA-2020:2852"]
+  debian = ["DLA-2786-1", "DLA-3621-1", "DSA-4696-1"]
+  redhat = [
     "RHSA-2020:2523",
     "RHSA-2020:2524",
     "RHSA-2020:2644",
@@ -44,13 +25,9 @@ redhat = [
     "RHSA-2020:2895",
     "RHSA-2020:3042",
     "RHSA-2020:3084",
-]
-rockylinux = [
-    "RLSA-2020:2755",
-    "RLSA-2020:2848",
-    "RLSA-2020:2852",
-]
-suse = [
+  ]
+  rockylinux = ["RLSA-2020:2755", "RLSA-2020:2848", "RLSA-2020:2852"]
+  suse = [
     "SUSE-SU-2020:1568-1",
     "SUSE-SU-2020:1575-1",
     "SUSE-SU-2020:1576-1",
@@ -59,22 +36,18 @@ suse = [
     "SUSE-SU-2021:0930-1",
     "SUSE-SU-2021:0931-1",
     "SUSE-SU-2021:0932-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2020:0802-1",
     "openSUSE-SU-2021:0468-1",
     "openSUSE-SU-2024:11091-1",
     "openSUSE-SU-2024:11096-1",
-]
-ubuntu = [
-    "USN-6142-1",
-]
-amazonlinux = [
-    "ALAS2-2020-1445",
-]
-oraclelinux = [
+  ]
+  ubuntu = ["USN-6142-1"]
+  amazonlinux = ["ALAS2-2020-1445"]
+  oraclelinux = [
     "ELSA-2020-2755",
     "ELSA-2020-2848",
     "ELSA-2020-2852",
     "ELSA-2020-5765",
-]
+  ]

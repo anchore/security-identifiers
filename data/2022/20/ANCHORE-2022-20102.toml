@@ -2,47 +2,27 @@
 id = "ANCHORE-2022-20102"
 allocated = 2025-10-15T14:16:26.343180Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-31130",
-]
-gcve = [
-    "GCVE-0-2022-31130",
-]
-github = [
-    "GHSA-jv32-5578-pxjc",
-]
-bitnami = [
-    "BIT-grafana-2022-31130",
-]
-go = [
-    "GO-2024-2851",
-]
-chainguard = [
-    "CGA-2qgq-fpm6-x7h5",
-]
-almalinux = [
-    "ALSA-2023:6420",
-]
-redhat = [
-    "RHSA-2023:6420",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2022-31130"]
+  gcve = ["GCVE-0-2022-31130"]
+  github = ["GHSA-jv32-5578-pxjc"]
+  bitnami = ["BIT-grafana-2022-31130"]
+  go = ["GO-2024-2851"]
+  chainguard = ["CGA-2qgq-fpm6-x7h5"]
+  almalinux = ["ALSA-2023:6420"]
+  redhat = ["RHSA-2023:6420"]
+  suse = [
     "SUSE-SU-2023:0352-1",
     "SUSE-SU-2023:0353-1",
     "SUSE-SU-2023:0362-1",
     "SUSE-SU-2024:0191-1",
     "SUSE-SU-2024:0196-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:12508-1",
-]
-openeuler = [
+  ]
+  opensuse = ["openSUSE-SU-2024:12508-1"]
+  openeuler = [
     "OESA-2025-1186",
     "OESA-2025-1187",
     "OESA-2025-1188",
     "OESA-2025-1189",
-]
-oraclelinux = [
-    "ELSA-2023-6420",
-]
+  ]
+  oraclelinux = ["ELSA-2023-6420"]

@@ -2,22 +2,14 @@
 id = "ANCHORE-2019-15224"
 allocated = 2025-10-15T14:15:42.027283Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-18423",
-]
-gcve = [
-    "GCVE-0-2019-18423",
-]
-github = [
-    "GHSA-jvp4-26qw-rfm7",
-]
-debian = [
-    "DSA-4602-1",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2019-18423"]
+  gcve = ["GCVE-0-2019-18423"]
+  github = ["GHSA-jvp4-26qw-rfm7"]
+  debian = ["DSA-4602-1"]
+  suse = [
     "SUSE-SU-2019:2961-1",
     "SUSE-SU-2019:3297-1",
     "SUSE-SU-2019:3309-1",
     "SUSE-SU-2019:3310-1",
-]
+  ]

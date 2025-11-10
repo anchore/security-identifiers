@@ -2,20 +2,12 @@
 id = "ANCHORE-2022-6011"
 allocated = 2025-10-15T14:16:16.821636Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-22941",
-]
-gcve = [
-    "GCVE-0-2022-22941",
-]
-github = [
-    "GHSA-qcr3-hr2f-6557",
-]
-pypa = [
-    "PYSEC-2022-174",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2022-22941"]
+  gcve = ["GCVE-0-2022-22941"]
+  github = ["GHSA-qcr3-hr2f-6557"]
+  pypa = ["PYSEC-2022-174"]
+  suse = [
     "SUSE-FU-2022:2042-1",
     "SUSE-FU-2022:2135-1",
     "SUSE-RU-2022:1384-1",
@@ -30,7 +22,5 @@ suse = [
     "SUSE-SU-2022:1058-1",
     "SUSE-SU-2022:1059-1",
     "SUSE-SU-2022:1060-1",
-]
-opensuse = [
-    "openSUSE-SU-2022:1059-1",
-]
+  ]
+  opensuse = ["openSUSE-SU-2022:1059-1"]

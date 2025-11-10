@@ -2,20 +2,12 @@
 id = "ANCHORE-2025-5768"
 allocated = 2025-10-15T14:17:23.380765Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-12379",
-]
-gcve = [
-    "GCVE-0-2024-12379",
-]
-github = [
-    "GHSA-v488-9cvj-5mx7",
-]
-bitnami = [
-    "BIT-gitlab-2024-12379",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-12379"]
+  gcve = ["GCVE-0-2024-12379"]
+  github = ["GHSA-v488-9cvj-5mx7"]
+  bitnami = ["BIT-gitlab-2024-12379"]
+  chainguard = [
     "CGA-2x8f-5xj3-9phm",
     "CGA-374p-r2h9-ghqq",
     "CGA-4qhm-6r85-jrc3",
@@ -31,4 +23,4 @@ chainguard = [
     "CGA-rp39-8f66-9462",
     "CGA-w98h-9pgf-crxh",
     "CGA-xvjv-vjxw-xm62",
-]
+  ]

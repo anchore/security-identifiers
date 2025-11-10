@@ -2,29 +2,20 @@
 id = "ANCHORE-2023-27126"
 allocated = 2025-10-15T14:16:48.767833Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-36049",
-]
-gcve = [
-    "GCVE-0-2023-36049",
-]
-github = [
-    "GHSA-c3hf-8vgx-72rh",
-]
-bitnami = [
-    "BIT-dotnet-2023-36049",
-    "BIT-dotnet-sdk-2023-36049",
-]
-almalinux = [
+  [security.aliases]
+  cve = ["CVE-2023-36049"]
+  gcve = ["GCVE-0-2023-36049"]
+  github = ["GHSA-c3hf-8vgx-72rh"]
+  bitnami = ["BIT-dotnet-2023-36049", "BIT-dotnet-sdk-2023-36049"]
+  almalinux = [
     "ALSA-2023:7253",
     "ALSA-2023:7254",
     "ALSA-2023:7255",
     "ALSA-2023:7256",
     "ALSA-2023:7257",
     "ALSA-2023:7258",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2023:7253",
     "RHSA-2023:7254",
     "RHSA-2023:7255",
@@ -32,21 +23,14 @@ redhat = [
     "RHSA-2023:7257",
     "RHSA-2023:7258",
     "RHSA-2023:7259",
-]
-rockylinux = [
-    "RLSA-2023:7256",
-    "RLSA-2023:7258",
-]
-ubuntu = [
-    "USN-6480-1",
-]
-amazonlinux = [
-    "ALAS2023-2023-457",
-]
-oraclelinux = [
+  ]
+  rockylinux = ["RLSA-2023:7256", "RLSA-2023:7258"]
+  ubuntu = ["USN-6480-1"]
+  amazonlinux = ["ALAS2023-2023-457"]
+  oraclelinux = [
     "ELSA-2023-7253",
     "ELSA-2023-7255",
     "ELSA-2023-7256",
     "ELSA-2023-7257",
     "ELSA-2023-7258",
-]
+  ]

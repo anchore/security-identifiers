@@ -2,20 +2,9 @@
 id = "ANCHORE-2021-3871"
 allocated = 2025-10-15T14:16:00.499203Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-3411",
-]
-gcve = [
-    "GCVE-0-2021-3411",
-]
-github = [
-    "GHSA-wmhx-48c3-f3gj",
-]
-ubuntu = [
-    "USN-4912-1",
-]
-oraclelinux = [
-    "ELSA-2021-9220",
-    "ELSA-2021-9221",
-]
+  [security.aliases]
+  cve = ["CVE-2021-3411"]
+  gcve = ["GCVE-0-2021-3411"]
+  github = ["GHSA-wmhx-48c3-f3gj"]
+  ubuntu = ["USN-4912-1"]
+  oraclelinux = ["ELSA-2021-9220", "ELSA-2021-9221"]

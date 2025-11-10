@@ -2,23 +2,10 @@
 id = "ANCHORE-2018-1815"
 allocated = 2025-10-15T14:15:20.231122Z
 
-[security.aliases]
-cve = [
-    "CVE-2018-6594",
-]
-gcve = [
-    "GCVE-0-2018-6594",
-]
-github = [
-    "GHSA-6528-wvf6-f6qg",
-]
-pypa = [
-    "PYSEC-2018-97",
-]
-ubuntu = [
-    "USN-3616-1",
-]
-amazonlinux = [
-    "ALAS2023-2025-1051",
-    "ALAS2ANSIBLE2-2025-012",
-]
+  [security.aliases]
+  cve = ["CVE-2018-6594"]
+  gcve = ["GCVE-0-2018-6594"]
+  github = ["GHSA-6528-wvf6-f6qg"]
+  pypa = ["PYSEC-2018-97"]
+  ubuntu = ["USN-3616-1"]
+  amazonlinux = ["ALAS2023-2025-1051", "ALAS2ANSIBLE2-2025-012"]

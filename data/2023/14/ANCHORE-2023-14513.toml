@@ -2,28 +2,16 @@
 id = "ANCHORE-2023-14513"
 allocated = 2025-10-15T14:16:40.252473Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-3220",
-]
-gcve = [
-    "GCVE-0-2023-3220",
-]
-github = [
-    "GHSA-xp6q-cm7h-qg74",
-]
-suse = [
-    "SUSE-SU-2023:2809-1",
-    "SUSE-SU-2023:2871-1",
-    "SUSE-SU-2023:2892-1",
-]
-ubuntu = [
-    "USN-6385-1",
-]
-openeuler = [
+  [security.aliases]
+  cve = ["CVE-2023-3220"]
+  gcve = ["GCVE-0-2023-3220"]
+  github = ["GHSA-xp6q-cm7h-qg74"]
+  suse = ["SUSE-SU-2023:2809-1", "SUSE-SU-2023:2871-1", "SUSE-SU-2023:2892-1"]
+  ubuntu = ["USN-6385-1"]
+  openeuler = [
     "OESA-2023-1435",
     "OESA-2023-1436",
     "OESA-2023-1437",
     "OESA-2023-1438",
     "OESA-2023-1439",
-]
+  ]

@@ -2,26 +2,11 @@
 id = "ANCHORE-2019-245"
 allocated = 2025-10-15T14:15:31.724037Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-9651",
-]
-gcve = [
-    "GCVE-0-2016-9651",
-]
-github = [
-    "GHSA-wp7w-fjvj-wrv2",
-]
-debian = [
-    "DSA-3731-1",
-]
-redhat = [
-    "RHSA-2016:2919",
-]
-opensuse = [
-    "openSUSE-SU-2024:10171-1",
-    "openSUSE-SU-2024:12948-1",
-]
-ubuntu = [
-    "USN-3153-1",
-]
+  [security.aliases]
+  cve = ["CVE-2016-9651"]
+  gcve = ["GCVE-0-2016-9651"]
+  github = ["GHSA-wp7w-fjvj-wrv2"]
+  debian = ["DSA-3731-1"]
+  redhat = ["RHSA-2016:2919"]
+  opensuse = ["openSUSE-SU-2024:10171-1", "openSUSE-SU-2024:12948-1"]
+  ubuntu = ["USN-3153-1"]

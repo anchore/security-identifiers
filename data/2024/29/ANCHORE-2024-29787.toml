@@ -2,17 +2,11 @@
 id = "ANCHORE-2024-29787"
 allocated = 2025-10-15T14:17:11.850371Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-47554",
-]
-gcve = [
-    "GCVE-0-2024-47554",
-]
-github = [
-    "GHSA-78wr-2p64-hpwj",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2024-47554"]
+  gcve = ["GCVE-0-2024-47554"]
+  github = ["GHSA-78wr-2p64-hpwj"]
+  chainguard = [
     "CGA-252j-5hcw-3x22",
     "CGA-32hx-qx96-46q6",
     "CGA-7c3h-fr9p-6vxc",
@@ -28,24 +22,13 @@ chainguard = [
     "CGA-vppp-hq87-2m8x",
     "CGA-w8v5-m4jv-f5hj",
     "CGA-wcj9-xx49-cqh2",
-]
-suse = [
-    "SUSE-RU-2025:1150-1",
-    "SUSE-SU-2024:3596-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:14387-1",
-]
-minimos = [
+  ]
+  suse = ["SUSE-RU-2025:1150-1", "SUSE-SU-2024:3596-1"]
+  opensuse = ["openSUSE-SU-2024:14387-1"]
+  minimos = [
     "MINI-f6wp-5xgf-67vw",
     "MINI-fm77-f42h-xxcg",
     "MINI-vg8j-ff7x-247f",
-]
-openeuler = [
-    "OESA-2024-2558",
-]
-amazonlinux = [
-    "ALAS2-2025-2927",
-    "ALAS2023-2025-970",
-    "ALAS2023-2025-986",
-]
+  ]
+  openeuler = ["OESA-2024-2558"]
+  amazonlinux = ["ALAS2-2025-2927", "ALAS2023-2025-970", "ALAS2023-2025-986"]

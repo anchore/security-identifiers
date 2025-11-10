@@ -2,24 +2,14 @@
 id = "ANCHORE-2025-29945"
 allocated = 2025-10-15T14:17:40.392095Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-55668",
-]
-gcve = [
-    "GCVE-0-2025-55668",
-]
-github = [
-    "GHSA-23hv-mwm6-g8jf",
-]
-bitnami = [
-    "BIT-tomcat-2025-55668",
-]
-openeuler = [
-    "OESA-2025-2243",
-]
-amazonlinux = [
+  [security.aliases]
+  cve = ["CVE-2025-55668"]
+  gcve = ["GCVE-0-2025-55668"]
+  github = ["GHSA-23hv-mwm6-g8jf"]
+  bitnami = ["BIT-tomcat-2025-55668"]
+  openeuler = ["OESA-2025-2243"]
+  amazonlinux = [
     "ALAS2023-2025-1065",
     "ALAS2023-2025-1093",
     "ALAS2TOMCAT9-2025-020",
-]
+  ]

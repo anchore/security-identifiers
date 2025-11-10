@@ -2,25 +2,16 @@
 id = "ANCHORE-2016-1733"
 allocated = 2025-10-15T14:15:03.420559Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-3961",
-]
-gcve = [
-    "GCVE-0-2016-3961",
-]
-github = [
-    "GHSA-46vh-jm43-r5pj",
-]
-debian = [
-    "DLA-516-1",
-    "DSA-3607-1",
-]
-ubuntu = [
+  [security.aliases]
+  cve = ["CVE-2016-3961"]
+  gcve = ["GCVE-0-2016-3961"]
+  github = ["GHSA-46vh-jm43-r5pj"]
+  debian = ["DLA-516-1", "DSA-3607-1"]
+  ubuntu = [
     "USN-3001-1",
     "USN-3002-1",
     "USN-3005-1",
     "USN-3006-1",
     "USN-3007-1",
     "USN-3127-1",
-]
+  ]

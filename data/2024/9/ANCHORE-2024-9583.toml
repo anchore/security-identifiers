@@ -2,20 +2,12 @@
 id = "ANCHORE-2024-9583"
 allocated = 2025-10-15T14:16:57.986393Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-31083",
-]
-gcve = [
-    "GCVE-0-2024-31083",
-]
-github = [
-    "GHSA-q6w6-rjjj-5p52",
-]
-chainguard = [
-    "CGA-556j-hxrf-vr48",
-]
-almalinux = [
+  [security.aliases]
+  cve = ["CVE-2024-31083"]
+  gcve = ["GCVE-0-2024-31083"]
+  github = ["GHSA-q6w6-rjjj-5p52"]
+  chainguard = ["CGA-556j-hxrf-vr48"]
+  almalinux = [
     "ALSA-2024:2037",
     "ALSA-2024:2616",
     "ALSA-2024:3258",
@@ -23,12 +15,9 @@ almalinux = [
     "ALSA-2024:3343",
     "ALSA-2024:9093",
     "ALSA-2024:9122",
-]
-debian = [
-    "DLA-3787-1",
-    "DSA-5657-1",
-]
-redhat = [
+  ]
+  debian = ["DLA-3787-1", "DSA-5657-1"]
+  redhat = [
     "RHSA-2024:1785",
     "RHSA-2024:2036",
     "RHSA-2024:2037",
@@ -45,8 +34,8 @@ redhat = [
     "RHSA-2024:9093",
     "RHSA-2024:9122",
     "RHSA-2025:12751",
-]
-rockylinux = [
+  ]
+  rockylinux = [
     "RLSA-2024:2037",
     "RLSA-2024:2616",
     "RLSA-2024:3258",
@@ -54,8 +43,8 @@ rockylinux = [
     "RLSA-2024:3343",
     "RLSA-2024:9093",
     "RLSA-2024:9122",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2024:1199-1",
     "SUSE-SU-2024:1260-1",
     "SUSE-SU-2024:1261-1",
@@ -63,25 +52,12 @@ suse = [
     "SUSE-SU-2024:1263-1",
     "SUSE-SU-2024:1264-1",
     "SUSE-SU-2024:2776-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:13828-1",
-    "openSUSE-SU-2024:13829-1",
-]
-ubuntu = [
-    "USN-6721-1",
-]
-openeuler = [
-    "OESA-2024-1416",
-    "OESA-2024-2041",
-    "OESA-2024-2042",
-]
-amazonlinux = [
-    "ALAS2-2024-2510",
-    "ALAS2-2024-2511",
-    "ALAS2023-2024-583",
-]
-oraclelinux = [
+  ]
+  opensuse = ["openSUSE-SU-2024:13828-1", "openSUSE-SU-2024:13829-1"]
+  ubuntu = ["USN-6721-1"]
+  openeuler = ["OESA-2024-1416", "OESA-2024-2041", "OESA-2024-2042"]
+  amazonlinux = ["ALAS2-2024-2510", "ALAS2-2024-2511", "ALAS2023-2024-583"]
+  oraclelinux = [
     "ELSA-2024-1785",
     "ELSA-2024-2037",
     "ELSA-2024-2080",
@@ -91,4 +67,4 @@ oraclelinux = [
     "ELSA-2024-3343",
     "ELSA-2024-9093",
     "ELSA-2024-9122",
-]
+  ]

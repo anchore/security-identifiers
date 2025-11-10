@@ -2,23 +2,10 @@
 id = "ANCHORE-2023-19470"
 allocated = 2025-10-15T14:16:43.624422Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-18768",
-]
-gcve = [
-    "GCVE-0-2020-18768",
-]
-github = [
-    "GHSA-mqcp-f5vw-2vmj",
-]
-debian = [
-    "DLA-2777-1",
-]
-suse = [
-    "SUSE-SU-2023:4370-1",
-    "SUSE-SU-2023:4371-1",
-]
-amazonlinux = [
-    "ALAS2-2023-2300",
-]
+  [security.aliases]
+  cve = ["CVE-2020-18768"]
+  gcve = ["GCVE-0-2020-18768"]
+  github = ["GHSA-mqcp-f5vw-2vmj"]
+  debian = ["DLA-2777-1"]
+  suse = ["SUSE-SU-2023:4370-1", "SUSE-SU-2023:4371-1"]
+  amazonlinux = ["ALAS2-2023-2300"]

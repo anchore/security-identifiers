@@ -2,31 +2,25 @@
 id = "ANCHORE-2021-6395"
 allocated = 2025-10-15T14:16:02.210389Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-2161",
-]
-gcve = [
-    "GCVE-0-2021-2161",
-]
-github = [
-    "GHSA-f8w7-hh6g-979x",
-]
-chainguard = [
+  [security.aliases]
+  cve = ["CVE-2021-2161"]
+  gcve = ["GCVE-0-2021-2161"]
+  github = ["GHSA-f8w7-hh6g-979x"]
+  chainguard = [
     "CGA-4r33-rx29-qgmw",
     "CGA-72qr-88xp-7qpp",
     "CGA-96r7-pwff-cfrh",
     "CGA-hc94-45qj-xq6h",
     "CGA-pfxp-95cm-c5jw",
-]
-suse = [
+  ]
+  suse = [
     "SUSE-SU-2021:1314-1",
     "SUSE-SU-2021:1554-1",
     "SUSE-SU-2021:2797-1",
     "SUSE-SU-2021:2798-1",
     "SUSE-SU-2021:3007-1",
-]
-opensuse = [
+  ]
+  opensuse = [
     "openSUSE-SU-2021:0719-1",
     "openSUSE-SU-2021:1176-1",
     "openSUSE-SU-2021:1455-1",
@@ -37,8 +31,8 @@ opensuse = [
     "openSUSE-SU-2024:10873-1",
     "openSUSE-SU-2024:10874-1",
     "openSUSE-SU-2024:10876-1",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-29jp-c29r-hcjp",
     "MINI-h9v4-v63v-5mx2",
     "MINI-px9w-f279-2w7m",
@@ -46,9 +40,5 @@ minimos = [
     "MINI-qwh2-hg86-w5cm",
     "MINI-v4g6-5phg-64p2",
     "MINI-w5mm-3xm7-pgfm",
-]
-openeuler = [
-    "OESA-2021-1213",
-    "OESA-2021-1220",
-    "OESA-2022-1702",
-]
+  ]
+  openeuler = ["OESA-2021-1213", "OESA-2021-1220", "OESA-2022-1702"]

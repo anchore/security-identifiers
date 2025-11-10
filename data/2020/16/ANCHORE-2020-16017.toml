@@ -2,20 +2,9 @@
 id = "ANCHORE-2020-16017"
 allocated = 2025-10-15T14:15:55.595775Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-15238",
-]
-gcve = [
-    "GCVE-0-2020-15238",
-]
-debian = [
-    "DLA-2430-1",
-    "DSA-4781-1",
-]
-opensuse = [
-    "openSUSE-SU-2020:1997-1",
-]
-ubuntu = [
-    "USN-4605-1",
-]
+  [security.aliases]
+  cve = ["CVE-2020-15238"]
+  gcve = ["GCVE-0-2020-15238"]
+  debian = ["DLA-2430-1", "DSA-4781-1"]
+  opensuse = ["openSUSE-SU-2020:1997-1"]
+  ubuntu = ["USN-4605-1"]

@@ -2,26 +2,16 @@
 id = "ANCHORE-2024-17524"
 allocated = 2025-10-15T14:17:03.408015Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-36884",
-]
-gcve = [
-    "GCVE-0-2024-36884",
-]
-redhat = [
-    "RHSA-2024:9315",
-]
-ubuntu = [
+  [security.aliases]
+  cve = ["CVE-2024-36884"]
+  gcve = ["GCVE-0-2024-36884"]
+  redhat = ["RHSA-2024:9315"]
+  ubuntu = [
     "USN-6949-1",
     "USN-6949-2",
     "USN-6952-1",
     "USN-6952-2",
     "USN-6955-1",
-]
-openeuler = [
-    "OESA-2024-2325",
-]
-oraclelinux = [
-    "ELSA-2024-9315",
-]
+  ]
+  openeuler = ["OESA-2024-2325"]
+  oraclelinux = ["ELSA-2024-9315"]

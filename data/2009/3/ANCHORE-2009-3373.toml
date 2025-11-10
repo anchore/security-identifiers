@@ -2,27 +2,16 @@
 id = "ANCHORE-2009-3373"
 allocated = 2025-10-15T14:14:34.707864Z
 
-[security.aliases]
-cve = [
-    "CVE-2009-1895",
-]
-gcve = [
-    "GCVE-0-2009-1895",
-]
-github = [
-    "GHSA-rgcw-fh34-72mm",
-]
-debian = [
-    "DSA-1844-1",
-    "DSA-1845-1",
-]
-redhat = [
+  [security.aliases]
+  cve = ["CVE-2009-1895"]
+  gcve = ["GCVE-0-2009-1895"]
+  github = ["GHSA-rgcw-fh34-72mm"]
+  debian = ["DSA-1844-1", "DSA-1845-1"]
+  redhat = [
     "RHSA-2009:1193",
     "RHSA-2009:1438",
     "RHSA-2009:1540",
     "RHSA-2009:1550",
     "RHSA-2010:0079",
-]
-oraclelinux = [
-    "ELSA-2009-1193",
-]
+  ]
+  oraclelinux = ["ELSA-2009-1193"]

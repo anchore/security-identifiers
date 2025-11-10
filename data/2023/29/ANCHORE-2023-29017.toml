@@ -2,27 +2,15 @@
 id = "ANCHORE-2023-29017"
 allocated = 2025-10-15T14:16:50.046442Z
 
-[security.aliases]
-cve = [
-    "CVE-2023-6507",
-]
-gcve = [
-    "GCVE-0-2023-6507",
-]
-github = [
-    "GHSA-4wxh-fpjf-c8wf",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2023-6507"]
+  gcve = ["GCVE-0-2023-6507"]
+  github = ["GHSA-4wxh-fpjf-c8wf"]
+  bitnami = [
     "BIT-libpython-2023-6507",
     "BIT-python-2023-6507",
     "BIT-python-min-2023-6507",
-]
-psf = [
-    "PSF-2023-12",
-]
-opensuse = [
-    "openSUSE-SU-2024:13511-1",
-]
-ubuntu = [
-    "USN-6891-1",
-]
+  ]
+  psf = ["PSF-2023-12"]
+  opensuse = ["openSUSE-SU-2024:13511-1"]
+  ubuntu = ["USN-6891-1"]

@@ -2,26 +2,15 @@
 id = "ANCHORE-2025-15862"
 allocated = 2025-10-15T14:17:30.392095Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-2703",
-]
-gcve = [
-    "GCVE-0-2025-2703",
-]
-github = [
-    "GHSA-p2mq-5mvf-j4j6",
-]
-bitnami = [
-    "BIT-grafana-2025-2703",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2025-2703"]
+  gcve = ["GCVE-0-2025-2703"]
+  github = ["GHSA-p2mq-5mvf-j4j6"]
+  bitnami = ["BIT-grafana-2025-2703"]
+  suse = [
     "SUSE-SU-2025:01985-1",
     "SUSE-SU-2025:01987-1",
     "SUSE-SU-2025:01989-1",
     "SUSE-SU-2025:01991-1",
-]
-minimos = [
-    "MINI-h2c6-jp2h-f763",
-    "MINI-p868-58g5-v44j",
-]
+  ]
+  minimos = ["MINI-h2c6-jp2h-f763", "MINI-p868-58g5-v44j"]

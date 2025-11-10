@@ -2,19 +2,8 @@
 id = "ANCHORE-2024-12723"
 allocated = 2025-10-15T14:17:00.111751Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-26985",
-]
-gcve = [
-    "GCVE-0-2024-26985",
-]
-github = [
-    "GHSA-vv6j-gm22-qxx9",
-]
-ubuntu = [
-    "USN-6893-1",
-    "USN-6893-2",
-    "USN-6893-3",
-    "USN-6918-1",
-]
+  [security.aliases]
+  cve = ["CVE-2024-26985"]
+  gcve = ["GCVE-0-2024-26985"]
+  github = ["GHSA-vv6j-gm22-qxx9"]
+  ubuntu = ["USN-6893-1", "USN-6893-2", "USN-6893-3", "USN-6918-1"]

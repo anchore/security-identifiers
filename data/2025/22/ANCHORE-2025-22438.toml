@@ -2,29 +2,19 @@
 id = "ANCHORE-2025-22438"
 allocated = 2025-10-15T14:17:34.976711Z
 
-[security.aliases]
-cve = [
-    "CVE-2025-0913",
-]
-gcve = [
-    "GCVE-0-2025-0913",
-]
-github = [
-    "GHSA-jw54-c8rr-pjpq",
-]
-bitnami = [
-    "BIT-golang-2025-0913",
-]
-go = [
-    "GO-2025-3750",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2025-0913"]
+  gcve = ["GCVE-0-2025-0913"]
+  github = ["GHSA-jw54-c8rr-pjpq"]
+  bitnami = ["BIT-golang-2025-0913"]
+  go = ["GO-2025-3750"]
+  suse = [
     "SUSE-SU-2025:01846-1",
     "SUSE-SU-2025:01848-1",
     "SUSE-SU-2025:03158-1",
     "SUSE-SU-2025:03159-1",
-]
-minimos = [
+  ]
+  minimos = [
     "MINI-2725-w8cw-3jqv",
     "MINI-47jr-4hq5-qhwf",
     "MINI-48q5-3mw4-65cx",
@@ -70,7 +60,5 @@ minimos = [
     "MINI-wv7h-5pvg-mwq6",
     "MINI-x84w-6m68-3jcg",
     "MINI-x8mx-99h4-4mr4",
-]
-echo = [
-    "ECHO-6c2b-4775-07f5",
-]
+  ]
+  echo = ["ECHO-6c2b-4775-07f5"]

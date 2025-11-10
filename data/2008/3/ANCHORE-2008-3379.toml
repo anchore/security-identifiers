@@ -2,34 +2,13 @@
 id = "ANCHORE-2008-3379"
 allocated = 2025-10-15T14:14:30.861409Z
 
-[security.aliases]
-cve = [
-    "CVE-2008-3142",
-]
-gcve = [
-    "GCVE-0-2008-3142",
-]
-github = [
-    "GHSA-p7xr-j3cg-2w5r",
-]
-psf = [
-    "PSF-2008-6",
-]
-debian = [
-    "DSA-1667-1",
-    "DTSA-157-1",
-]
-redhat = [
-    "RHSA-2009:1176",
-    "RHSA-2009:1177",
-    "RHSA-2009:1178",
-]
-suse = [
-    "SUSE-SU-2020:0234-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:11202-1",
-]
-oraclelinux = [
-    "ELSA-2009-1176",
-]
+  [security.aliases]
+  cve = ["CVE-2008-3142"]
+  gcve = ["GCVE-0-2008-3142"]
+  github = ["GHSA-p7xr-j3cg-2w5r"]
+  psf = ["PSF-2008-6"]
+  debian = ["DSA-1667-1", "DTSA-157-1"]
+  redhat = ["RHSA-2009:1176", "RHSA-2009:1177", "RHSA-2009:1178"]
+  suse = ["SUSE-SU-2020:0234-1"]
+  opensuse = ["openSUSE-SU-2024:11202-1"]
+  oraclelinux = ["ELSA-2009-1176"]

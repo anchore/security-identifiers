@@ -2,20 +2,9 @@
 id = "ANCHORE-2020-13746"
 allocated = 2025-10-15T14:15:54.067171Z
 
-[security.aliases]
-cve = [
-    "CVE-2013-7490",
-]
-gcve = [
-    "GCVE-0-2013-7490",
-]
-github = [
-    "GHSA-g483-mcjg-g334",
-]
-suse = [
-    "SUSE-SU-2020:14510-1",
-    "SUSE-SU-2020:2856-1",
-]
-ubuntu = [
-    "USN-4509-1",
-]
+  [security.aliases]
+  cve = ["CVE-2013-7490"]
+  gcve = ["GCVE-0-2013-7490"]
+  github = ["GHSA-g483-mcjg-g334"]
+  suse = ["SUSE-SU-2020:14510-1", "SUSE-SU-2020:2856-1"]
+  ubuntu = ["USN-4509-1"]

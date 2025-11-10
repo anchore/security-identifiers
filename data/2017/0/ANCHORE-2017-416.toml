@@ -2,34 +2,18 @@
 id = "ANCHORE-2017-416"
 allocated = 2025-10-15T14:15:06.907801Z
 
-[security.aliases]
-cve = [
-    "CVE-2016-9311",
-]
-gcve = [
-    "GCVE-0-2016-9311",
-]
-github = [
-    "GHSA-fwm3-rx8m-qmv5",
-]
-redhat = [
-    "RHSA-2017:0252",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2016-9311"]
+  gcve = ["GCVE-0-2016-9311"]
+  github = ["GHSA-fwm3-rx8m-qmv5"]
+  redhat = ["RHSA-2017:0252"]
+  suse = [
     "SUSE-SU-2016:3193-1",
     "SUSE-SU-2016:3195-1",
     "SUSE-SU-2016:3196-1",
     "SUSE-SU-2017:0255-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:10181-1",
-]
-ubuntu = [
-    "USN-3349-1",
-]
-amazonlinux = [
-    "ALAS2-2018-1009",
-]
-oraclelinux = [
-    "ELSA-2017-0252",
-]
+  ]
+  opensuse = ["openSUSE-SU-2024:10181-1"]
+  ubuntu = ["USN-3349-1"]
+  amazonlinux = ["ALAS2-2018-1009"]
+  oraclelinux = ["ELSA-2017-0252"]

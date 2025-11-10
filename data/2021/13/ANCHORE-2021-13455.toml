@@ -2,32 +2,13 @@
 id = "ANCHORE-2021-13455"
 allocated = 2025-10-15T14:16:07.013311Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-39358",
-]
-gcve = [
-    "GCVE-0-2021-39358",
-]
-github = [
-    "GHSA-hxcj-gvxh-8944",
-]
-almalinux = [
-    "ALSA-2022:1801",
-]
-redhat = [
-    "RHSA-2022:1801",
-]
-rockylinux = [
-    "RLSA-2022:1801",
-]
-suse = [
-    "SUSE-SU-2022:2876-1",
-]
-openeuler = [
-    "OESA-2021-1434",
-    "OESA-2022-1937",
-]
-oraclelinux = [
-    "ELSA-2022-1801",
-]
+  [security.aliases]
+  cve = ["CVE-2021-39358"]
+  gcve = ["GCVE-0-2021-39358"]
+  github = ["GHSA-hxcj-gvxh-8944"]
+  almalinux = ["ALSA-2022:1801"]
+  redhat = ["RHSA-2022:1801"]
+  rockylinux = ["RLSA-2022:1801"]
+  suse = ["SUSE-SU-2022:2876-1"]
+  openeuler = ["OESA-2021-1434", "OESA-2022-1937"]
+  oraclelinux = ["ELSA-2022-1801"]

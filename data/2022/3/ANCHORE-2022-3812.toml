@@ -2,20 +2,9 @@
 id = "ANCHORE-2022-3812"
 allocated = 2025-10-15T14:16:15.349965Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-21654",
-]
-gcve = [
-    "GCVE-0-2022-21654",
-]
-bitnami = [
-    "BIT-envoy-2022-21654",
-]
-go = [
-    "GO-2022-0333",
-]
-redhat = [
-    "RHSA-2022:1275",
-    "RHSA-2022:1276",
-]
+  [security.aliases]
+  cve = ["CVE-2022-21654"]
+  gcve = ["GCVE-0-2022-21654"]
+  bitnami = ["BIT-envoy-2022-21654"]
+  go = ["GO-2022-0333"]
+  redhat = ["RHSA-2022:1275", "RHSA-2022:1276"]

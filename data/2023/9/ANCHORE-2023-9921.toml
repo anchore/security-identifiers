@@ -2,19 +2,9 @@
 id = "ANCHORE-2023-9921"
 allocated = 2025-10-15T14:16:37.163140Z
 
-[security.aliases]
-cve = [
-    "CVE-2021-45111",
-]
-gcve = [
-    "GCVE-0-2021-45111",
-]
-github = [
-    "GHSA-wf33-pghc-9qmj",
-]
-bitnami = [
-    "BIT-odoo-2021-45111",
-]
-debian = [
-    "DSA-5399-1",
-]
+  [security.aliases]
+  cve = ["CVE-2021-45111"]
+  gcve = ["GCVE-0-2021-45111"]
+  github = ["GHSA-wf33-pghc-9qmj"]
+  bitnami = ["BIT-odoo-2021-45111"]
+  debian = ["DSA-5399-1"]

@@ -2,48 +2,29 @@
 id = "ANCHORE-2024-36311"
 allocated = 2025-10-15T14:17:16.350068Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-8932",
-]
-gcve = [
-    "GCVE-0-2024-8932",
-]
-bitnami = [
+  [security.aliases]
+  cve = ["CVE-2024-8932"]
+  gcve = ["GCVE-0-2024-8932"]
+  bitnami = [
     "BIT-libphp-2024-8932",
     "BIT-php-2024-8932",
     "BIT-php-min-2024-8932",
-]
-chainguard = [
-    "CGA-28h4-j49v-6gqr",
-]
-debian = [
-    "DLA-3986-1",
-    "DSA-5819-1",
-]
-suse = [
-    "SUSE-SU-2024:4136-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:14521-1",
-]
-ubuntu = [
-    "USN-7157-1",
-    "USN-7157-2",
-    "USN-7157-3",
-]
-minimos = [
+  ]
+  chainguard = ["CGA-28h4-j49v-6gqr"]
+  debian = ["DLA-3986-1", "DSA-5819-1"]
+  suse = ["SUSE-SU-2024:4136-1"]
+  opensuse = ["openSUSE-SU-2024:14521-1"]
+  ubuntu = ["USN-7157-1", "USN-7157-2", "USN-7157-3"]
+  minimos = [
     "MINI-7wmj-jh3w-mxwq",
     "MINI-8fpx-gmgc-q86v",
     "MINI-mmvj-p6qv-8wr4",
-]
-openeuler = [
-    "OESA-2024-2478",
-]
-amazonlinux = [
+  ]
+  openeuler = ["OESA-2024-2478"]
+  amazonlinux = [
     "ALAS2023-2025-845",
     "ALAS2023-2025-872",
     "ALAS2023-2025-873",
     "ALAS2PHP8.1-2025-006",
     "ALAS2PHP8.2-2025-006",
-]
+  ]

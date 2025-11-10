@@ -2,24 +2,10 @@
 id = "ANCHORE-2023-19492"
 allocated = 2025-10-15T14:16:43.638780Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-21469",
-]
-gcve = [
-    "GCVE-0-2020-21469",
-]
-github = [
-    "GHSA-w8hm-59h4-7ff2",
-]
-bitnami = [
-    "BIT-postgresql-2020-21469",
-]
-chainguard = [
-    "CGA-4x8g-73qr-j8vf",
-]
-openeuler = [
-    "OESA-2023-1567",
-    "OESA-2023-1568",
-    "OESA-2023-1569",
-]
+  [security.aliases]
+  cve = ["CVE-2020-21469"]
+  gcve = ["GCVE-0-2020-21469"]
+  github = ["GHSA-w8hm-59h4-7ff2"]
+  bitnami = ["BIT-postgresql-2020-21469"]
+  chainguard = ["CGA-4x8g-73qr-j8vf"]
+  openeuler = ["OESA-2023-1567", "OESA-2023-1568", "OESA-2023-1569"]

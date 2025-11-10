@@ -2,32 +2,13 @@
 id = "ANCHORE-2024-13148"
 allocated = 2025-10-15T14:17:00.398820Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-34403",
-]
-gcve = [
-    "GCVE-0-2024-34403",
-]
-github = [
-    "GHSA-c6h3-4727-9w7w",
-]
-suse = [
-    "SUSE-SU-2024:1860-1",
-]
-opensuse = [
-    "openSUSE-SU-2024:13957-1",
-]
-ubuntu = [
-    "USN-7356-1",
-]
-echo = [
-    "ECHO-ee82-100a-75fe",
-]
-openeuler = [
-    "OESA-2024-1534",
-    "OESA-2024-1627",
-]
-amazonlinux = [
-    "ALAS2-2024-2546",
-]
+  [security.aliases]
+  cve = ["CVE-2024-34403"]
+  gcve = ["GCVE-0-2024-34403"]
+  github = ["GHSA-c6h3-4727-9w7w"]
+  suse = ["SUSE-SU-2024:1860-1"]
+  opensuse = ["openSUSE-SU-2024:13957-1"]
+  ubuntu = ["USN-7356-1"]
+  echo = ["ECHO-ee82-100a-75fe"]
+  openeuler = ["OESA-2024-1534", "OESA-2024-1627"]
+  amazonlinux = ["ALAS2-2024-2546"]

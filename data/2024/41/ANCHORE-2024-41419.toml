@@ -2,11 +2,9 @@
 id = "ANCHORE-2024-41419"
 allocated = 2025-10-15T14:17:48.232768Z
 
-[security.aliases]
-github = [
-    "GHSA-wwq9-3cpr-mm53",
-]
-chainguard = [
+  [security.aliases]
+  github = ["GHSA-wwq9-3cpr-mm53"]
+  chainguard = [
     "CGA-25q2-xqvw-c65c",
     "CGA-475j-fr33-j6xg",
     "CGA-5w43-vvgj-p984",
@@ -20,7 +18,5 @@ chainguard = [
     "CGA-w9xm-mhpf-8rw7",
     "CGA-wjjh-84v2-frv2",
     "CGA-x8q5-4432-qq34",
-]
-rustsec = [
-    "RUSTSEC-2024-0402",
-]
+  ]
+  rustsec = ["RUSTSEC-2024-0402"]

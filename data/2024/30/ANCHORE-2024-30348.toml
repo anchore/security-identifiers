@@ -2,27 +2,18 @@
 id = "ANCHORE-2024-30348"
 allocated = 2025-10-15T14:17:12.230932Z
 
-[security.aliases]
-cve = [
-    "CVE-2024-43483",
-]
-gcve = [
-    "GCVE-0-2024-43483",
-]
-github = [
-    "GHSA-qj66-m88j-hmgj",
-]
-bitnami = [
-    "BIT-dotnet-2024-43483",
-    "BIT-dotnet-sdk-2024-43483",
-]
-almalinux = [
+  [security.aliases]
+  cve = ["CVE-2024-43483"]
+  gcve = ["GCVE-0-2024-43483"]
+  github = ["GHSA-qj66-m88j-hmgj"]
+  bitnami = ["BIT-dotnet-2024-43483", "BIT-dotnet-sdk-2024-43483"]
+  almalinux = [
     "ALSA-2024:7851",
     "ALSA-2024:7867",
     "ALSA-2024:7868",
     "ALSA-2024:7869",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2024:7851",
     "RHSA-2024:7867",
     "RHSA-2024:7868",
@@ -31,23 +22,18 @@ redhat = [
     "RHSA-2024:8047",
     "RHSA-2024:8048",
     "RHSA-2024:8082",
-]
-rockylinux = [
+  ]
+  rockylinux = [
     "RLSA-2024:7851",
     "RLSA-2024:7867",
     "RLSA-2024:7868",
     "RLSA-2024:7869",
-]
-ubuntu = [
-    "USN-7058-1",
-]
-amazonlinux = [
-    "ALAS2023-2024-776",
-    "ALAS2023-2024-777",
-]
-oraclelinux = [
+  ]
+  ubuntu = ["USN-7058-1"]
+  amazonlinux = ["ALAS2023-2024-776", "ALAS2023-2024-777"]
+  oraclelinux = [
     "ELSA-2024-7851",
     "ELSA-2024-7867",
     "ELSA-2024-7868",
     "ELSA-2024-7869",
-]
+  ]

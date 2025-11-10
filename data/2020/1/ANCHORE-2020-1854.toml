@@ -2,43 +2,31 @@
 id = "ANCHORE-2020-1854"
 allocated = 2025-10-15T14:15:45.940109Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-20444",
-]
-gcve = [
-    "GCVE-0-2019-20444",
-]
-github = [
-    "GHSA-cqqj-4p63-rrmm",
-]
-chainguard = [
-    "CGA-gg6m-vh7x-6jr4",
-]
-debian = [
+  [security.aliases]
+  cve = ["CVE-2019-20444"]
+  gcve = ["GCVE-0-2019-20444"]
+  github = ["GHSA-cqqj-4p63-rrmm"]
+  chainguard = ["CGA-gg6m-vh7x-6jr4"]
+  debian = [
     "DLA-2109-1",
     "DLA-2110-1",
     "DLA-2364-1",
     "DLA-2365-1",
     "DSA-4885-1",
-]
-redhat = [
+  ]
+  redhat = [
     "RHSA-2020:0601",
     "RHSA-2020:0605",
     "RHSA-2020:0804",
     "RHSA-2020:0805",
     "RHSA-2020:0806",
     "RHSA-2024:5856",
-]
-ubuntu = [
-    "USN-4532-1",
-    "USN-4600-1",
-    "USN-4600-2",
-]
-openeuler = [
+  ]
+  ubuntu = ["USN-4532-1", "USN-4600-1", "USN-4600-2"]
+  openeuler = [
     "OESA-2024-2066",
     "OESA-2024-2067",
     "OESA-2024-2068",
     "OESA-2024-2069",
     "OESA-2024-2103",
-]
+  ]

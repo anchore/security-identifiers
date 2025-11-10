@@ -2,21 +2,13 @@
 id = "ANCHORE-2020-10830"
 allocated = 2025-10-15T14:15:52.080427Z
 
-[security.aliases]
-cve = [
-    "CVE-2020-13845",
-]
-gcve = [
-    "GCVE-0-2020-13845",
-]
-github = [
-    "GHSA-pmfr-63c2-jr5c",
-]
-go = [
-    "GO-2022-0898",
-]
-opensuse = [
+  [security.aliases]
+  cve = ["CVE-2020-13845"]
+  gcve = ["GCVE-0-2020-13845"]
+  github = ["GHSA-pmfr-63c2-jr5c"]
+  go = ["GO-2022-0898"]
+  opensuse = [
     "openSUSE-SU-2020:1011-1",
     "openSUSE-SU-2020:1037-1",
     "openSUSE-SU-2024:11384-1",
-]
+  ]

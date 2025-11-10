@@ -2,17 +2,11 @@
 id = "ANCHORE-2020-611"
 allocated = 2025-10-15T14:15:45.098600Z
 
-[security.aliases]
-cve = [
-    "CVE-2019-19727",
-]
-gcve = [
-    "GCVE-0-2019-19727",
-]
-github = [
-    "GHSA-wmqm-x8vm-v6mh",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2019-19727"]
+  gcve = ["GCVE-0-2019-19727"]
+  github = ["GHSA-wmqm-x8vm-v6mh"]
+  suse = [
     "SUSE-SU-2020:0110-1",
     "SUSE-SU-2020:0228-1",
     "SUSE-SU-2020:0434-1",
@@ -21,8 +15,5 @@ suse = [
     "SUSE-SU-2020:2602-1",
     "SUSE-SU-2020:2607-1",
     "SUSE-SU-2021:0773-1",
-]
-opensuse = [
-    "openSUSE-SU-2020:0085-1",
-    "openSUSE-SU-2024:11389-1",
-]
+  ]
+  opensuse = ["openSUSE-SU-2020:0085-1", "openSUSE-SU-2024:11389-1"]

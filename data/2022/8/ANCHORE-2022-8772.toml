@@ -2,46 +2,20 @@
 id = "ANCHORE-2022-8772"
 allocated = 2025-10-15T14:16:18.691768Z
 
-[security.aliases]
-cve = [
-    "CVE-2022-30293",
-]
-gcve = [
-    "GCVE-0-2022-30293",
-]
-github = [
-    "GHSA-vmhh-gfrw-g264",
-]
-almalinux = [
-    "ALSA-2022:7704",
-    "ALSA-2022:8054",
-]
-debian = [
-    "DSA-5154-1",
-    "DSA-5155-1",
-]
-redhat = [
-    "RHSA-2022:7704",
-    "RHSA-2022:8054",
-    "RHSA-2025:10364",
-]
-rockylinux = [
-    "RLSA-2022:7704",
-    "RLSA-2022:8054",
-]
-suse = [
+  [security.aliases]
+  cve = ["CVE-2022-30293"]
+  gcve = ["GCVE-0-2022-30293"]
+  github = ["GHSA-vmhh-gfrw-g264"]
+  almalinux = ["ALSA-2022:7704", "ALSA-2022:8054"]
+  debian = ["DSA-5154-1", "DSA-5155-1"]
+  redhat = ["RHSA-2022:7704", "RHSA-2022:8054", "RHSA-2025:10364"]
+  rockylinux = ["RLSA-2022:7704", "RLSA-2022:8054"]
+  suse = [
     "SUSE-SU-2022:2030-1",
     "SUSE-SU-2022:2071-1",
     "SUSE-SU-2022:2072-1",
     "SUSE-SU-2022:2089-1",
-]
-openeuler = [
-    "OESA-2022-1698",
-]
-amazonlinux = [
-    "ALAS2-2023-2088",
-]
-oraclelinux = [
-    "ELSA-2022-7704",
-    "ELSA-2022-8054",
-]
+  ]
+  openeuler = ["OESA-2022-1698"]
+  amazonlinux = ["ALAS2-2023-2088"]
+  oraclelinux = ["ELSA-2022-7704", "ELSA-2022-8054"]
