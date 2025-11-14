@@ -1,0 +1,188 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Anchore Security Identifier",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "security": {
+            "$ref": "#/$defs/security"
+        }
+    },
+    "required": [
+        "security"
+    ],
+    "$defs": {
+        "securityAliases": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+                "cve": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "gcve": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "github": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "openssf_malicious_packages": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "chainguard": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "bitnami": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "psf": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "pypa": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "go": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "rustsec": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "rconsortium": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "almalinux": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "debian": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "redhat": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "rockylinux": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "suse": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "opensuse": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "ubuntu": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "minimos": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "echo": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "openeuler": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "amazonlinux": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "oraclelinux": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "security": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "pattern": "^ANCHORE-[0-9]{4}-[0-9]+$"
+                },
+                "duplicates": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "pattern": "^ANCHORE-[0-9]{4}-[0-9]+$"
+                    }
+                },
+                "allocated": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "aliases": {
+                    "$ref": "#/$defs/securityAliases"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "id",
+                "allocated"
+            ]
+        }
+    }
+}
