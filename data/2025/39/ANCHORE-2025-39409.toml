@@ -1,9 +1,12 @@
 [security]
 id = "ANCHORE-2025-39409"
 allocated = 2025-10-15T14:17:48.464665Z
+duplicates = ["ANCHORE-2025-233896"]
 
   [security.aliases]
-  github = ["GHSA-mm7p-fcc7-pg87"]
+  cve = ["CVE-2025-13033"]
+  gcve = ["GCVE-0-2025-13033"]
+  github = ["GHSA-jj37-3377-m6vv", "GHSA-mm7p-fcc7-pg87"]
   chainguard = ["CGA-w4mf-7pqf-pr6v"]
   minimos = [
     "MINI-333q-78w5-2p5w",
