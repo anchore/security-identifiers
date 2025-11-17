@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   allocate-security-identifiers:
-    name: "Allocate Security Identfiers"
+    name: "Allocate Security Identifiers"
     runs-on: runs-on=${{ github.run_id }}/runner=medium-arm
     container:
       image: python:3.13-alpine
