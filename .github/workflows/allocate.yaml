@@ -27,6 +27,8 @@ jobs:
       - name: Install python dependencies
         run: pip install check-jsonschema cpe git+https://github.com/anchore/security-cli
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 #v5.0.0
+        with:
+          ssh-key: ${{ secrets.SECURITY_IDENTIFIERS_CI_PUSH_TOKEN }}
       - name: Allocate security identifiers
         run: anchore-security-cli id allocate --data-path data
       - name: Run TOML formatting
