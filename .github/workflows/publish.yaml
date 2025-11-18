@@ -31,7 +31,7 @@ jobs:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 #v5.0.0
         with:
           persist-credentials: false
-      - name: Render security identifiers sqlite index
-        run: anchore-security-cli -v id index render --data-path=data -o=${{ runner.temp }}/security-identifiers-index
-      - name: Publish security identifiers sqlite index
-        run: anchore-security-cli -vvv id index publish --index-dir=${{ runner.temp }}/security-identifiers-index --deploy-to=development
+      - name: Render and publish the security identifiers sqlite index
+        run: |
+          anchore-security-cli -v id index render --data-path=data -o=${{ runner.temp }}/security-identifiers-index
+          anchore-security-cli -vvv id index publish --index-dir=${{ runner.temp }}/security-identifiers-index --deploy-to=development
