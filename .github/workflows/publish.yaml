@@ -34,4 +34,4 @@ jobs:
       - name: Render security identifiers sqlite index
         run: anchore-security-cli -v id index render --data-path=data -o=${{ runner.temp }}/security-identifiers-index
       - name: Publish security identifiers sqlite index
-        run: publish --index-dir=${{ runner.temp }}/security-identifiers-index --deploy-to=development
+        run: anchore-security-cli -vvv id index publish --index-dir=${{ runner.temp }}/security-identifiers-index --deploy-to=development
