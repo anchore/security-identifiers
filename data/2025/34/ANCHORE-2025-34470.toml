@@ -1,8 +1,10 @@
 [security]
 id = "ANCHORE-2025-34470"
+duplicates = ["ANCHORE-2025-86381"]
 allocated = 2025-10-15T14:17:43.583567Z
 
   [security.aliases]
   cve = ["CVE-2025-59144"]
   gcve = ["GCVE-0-2025-59144"]
-  github = ["GHSA-4x49-vf9v-38px"]
+  github = ["GHSA-4x49-vf9v-38px", "GHSA-8mgj-vmr8-frr6"]
+  openssf_malicious_packages = ["MAL-2025-46974"]

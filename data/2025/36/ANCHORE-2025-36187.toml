@@ -1,8 +1,28 @@
 [security]
 id = "ANCHORE-2025-36187"
+duplicates = [
+  "ANCHORE-2025-80948",
+  "ANCHORE-2025-80949",
+  "ANCHORE-2025-80950",
+  "ANCHORE-2025-80951",
+  "ANCHORE-2025-80952",
+  "ANCHORE-2025-80953",
+  "ANCHORE-2025-80954",
+  "ANCHORE-2025-80955",
+]
 allocated = 2025-10-15T14:17:44.783432Z
 
   [security.aliases]
   cve = ["CVE-2025-10894"]
   gcve = ["GCVE-0-2025-10894"]
   github = ["GHSA-cxm3-wv7p-598c"]
+  openssf_malicious_packages = [
+    "MAL-2025-41436",
+    "MAL-2025-41437",
+    "MAL-2025-41438",
+    "MAL-2025-41439",
+    "MAL-2025-41440",
+    "MAL-2025-41441",
+    "MAL-2025-41442",
+    "MAL-2025-41443",
+  ]
