@@ -1,30 +1,62 @@
 [security]
 id = "ANCHORE-2025-18025"
 allocated = 2025-10-15T14:17:31.915850Z
+duplicates = ["ANCHORE-2025-39133"]
 
   [security.aliases]
   cve = ["CVE-2025-4432"]
   gcve = ["GCVE-0-2025-4432"]
-  github = ["GHSA-c86p-w88r-qvqr"]
+  github = ["GHSA-c86p-w88r-qvqr", "GHSA-4p46-pwfr-66x6"]
   go = ["GO-2025-3678"]
   chainguard = [
+    "CGA-2ghq-vwg6-p2gr",
+    "CGA-2hpr-374j-w484",
+    "CGA-325j-mxcp-j9pm",
+    "CGA-3993-pvwh-4q44",
+    "CGA-3j2j-3qpj-c259",
     "CGA-3vxh-8h2h-945c",
+    "CGA-3xvg-vvq8-mfrp",
     "CGA-44hx-37wq-3rj2",
+    "CGA-47fg-ffmv-48mr",
+    "CGA-4vpr-q7q8-45rq",
     "CGA-54fg-j725-xrwh",
     "CGA-583v-2g7f-qpjc",
+    "CGA-5cp6-wm6x-6hh6",
+    "CGA-5v8x-j4fr-5h89",
     "CGA-66h8-v68c-gjm3",
     "CGA-746c-hv25-cqgq",
+    "CGA-77hv-73ff-6p3m",
+    "CGA-7h72-423x-qhqr",
+    "CGA-7hv3-6gvw-jfj8",
+    "CGA-7rp2-pxrc-m6j6",
+    "CGA-8h2p-j7jc-r2wp",
     "CGA-8mj8-h4cm-cgc8",
     "CGA-98fm-755r-6vg7",
+    "CGA-9fm9-vjjx-mf36",
+    "CGA-cc96-f268-ww84",
+    "CGA-f8ph-q5fp-5wr6",
+    "CGA-fxj3-vmqj-rf6g",
     "CGA-g48m-j9c6-6hp4",
+    "CGA-g4h7-8whc-6fqq",
     "CGA-g53v-492v-r582",
+    "CGA-gfh3-6776-2vgq",
+    "CGA-gv57-w86f-7xwv",
+    "CGA-h2qv-wgxw-vgg3",
+    "CGA-h74q-3jxh-cgx8",
+    "CGA-hfh9-h79c-6gr9",
+    "CGA-hxpj-j9j6-83g3",
     "CGA-jc92-x76f-j9fp",
     "CGA-jw4q-hg7w-rpqq",
+    "CGA-m5p6-prv7-5gp8",
     "CGA-mf22-cc26-82g9",
+    "CGA-p33v-c452-5cqq",
     "CGA-qq3w-v44c-7pxf",
     "CGA-qwpx-47c8-7x56",
+    "CGA-vjfj-c95x-wm93",
     "CGA-wm6r-cf7j-2mq8",
+    "CGA-xc88-5jwg-v32r",
+    "CGA-xhw2-37v3-58vp",
   ]
   opensuse = ["openSUSE-SU-2025:15135-1"]
-  minimos = ["MINI-jg25-4r5p-c94g"]
+  minimos = ["MINI-jg25-4r5p-c94g", "MINI-9g92-h3hc-33w4"]
   rustsec = ["RUSTSEC-2025-0009"]
