@@ -1,9 +1,10 @@
 [security]
 id = "ANCHORE-2021-22059"
 allocated = 2025-10-15T14:17:47.329720Z
+duplicates = ["ANCHORE-2022-25820"]
 
   [security.aliases]
-  github = ["GHSA-xg2h-wx96-xgxr"]
+  github = ["GHSA-3839-6r69-m497", "GHSA-xg2h-wx96-xgxr"]
   go = ["GO-2022-0411"]
   chainguard = [
     "CGA-9rff-4hmf-h58r",
