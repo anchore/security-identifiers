@@ -3,6 +3,9 @@ id = "ANCHORE-2024-53625"
 allocated = 2025-10-15T14:18:04.468335Z
 
   [security.aliases]
-  openssf_malicious_packages = ["MAL-2024-12164"]
+  openssf_malicious_packages = [
+    "MAL-0000-ghsa-malware-c2e673b1ea4bf126",
+    "MAL-2024-12164",
+  ]
   github = ["GHSA-rc4h-g3gj-3h2g"]
   snyk = ["SNYK-JS-SWIGGYPRIVATEAATMNIRBHARBUILD-8553965"]

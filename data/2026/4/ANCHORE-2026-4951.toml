@@ -7,8 +7,14 @@ allocated = 2026-01-28T11:40:52.945011Z
   gcve = ["GCVE-0-2025-66199"]
   github = ["GHSA-5888-36j9-c92p"]
   chainguard = ["CGA-5h8h-83x5-5c7f"]
-  redhat = ["RHSA-2026:1473"]
+  redhat = ["RHSA-2026:1472", "RHSA-2026:1473"]
   minimos = ["MINI-mgc9-4rpq-57xp"]
-  oraclelinux = ["ELSA-2026-1472", "ELSA-2026-1473", "ELSA-2026-50075"]
+  oraclelinux = [
+    "ELSA-2026-1472",
+    "ELSA-2026-1473",
+    "ELSA-2026-50075",
+    "ELSA-2026-50080",
+    "ELSA-2026-50081",
+  ]
   almalinux = ["ALSA-2026:1472"]
   ubuntu = ["USN-7980-1"]

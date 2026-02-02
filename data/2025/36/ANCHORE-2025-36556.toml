@@ -8,25 +8,57 @@ allocated = 2025-10-15T14:17:45.038615Z
   github = ["GHSA-fmx9-hrmg-3x9v"]
   minimos = ["MINI-c5pw-gc33-gw37"]
   echo = ["ECHO-ce4e-90c2-9f62"]
-  ubuntu = ["USN-7847-1"]
+  ubuntu = ["USN-7847-1", "USN-7919-1"]
   openeuler = [
     "OESA-2025-2566",
     "OESA-2025-2567",
     "OESA-2025-2568",
     "OESA-2025-2569",
     "OESA-2025-2570",
+    "OESA-2025-2628",
+    "openEuler-SA-2025-2566",
+    "openEuler-SA-2025-2567",
+    "openEuler-SA-2025-2568",
+    "openEuler-SA-2025-2569",
+    "openEuler-SA-2025-2570",
+    "openEuler-SA-2025-2628",
   ]
-  chainguard = ["CGA-66w8-2685-979g"]
-  redhat = ["RHSA-2025:23232", "RHSA-2025:23233"]
+  chainguard = ["CGA-66w8-2685-979g", "CGA-pjq6-c9q8-2wrq"]
+  redhat = [
+    "RHSA-2025:23232",
+    "RHSA-2025:23233",
+    "RHSA-2025:23306",
+    "RHSA-2025:23336",
+    "RHSA-2025:23343",
+    "RHSA-2025:23359",
+    "RHSA-2025:23382",
+    "RHSA-2025:23400",
+    "RHSA-2025:23405",
+    "RHSA-2026:0052",
+    "RHSA-2026:0108",
+    "RHSA-2026:0341",
+    "RHSA-2026:0342",
+    "RHSA-2026:0343",
+    "RHSA-2026:0479",
+    "RHSA-2026:0480",
+    "RHSA-2026:0481",
+    "RHSA-2026:0482",
+    "RHSA-2026:1359",
+  ]
   oraclelinux = [
     "ELSA-2025-23306",
     "ELSA-2025-23336",
     "ELSA-2025-23343",
     "ELSA-2025-23382",
+    "ELSA-2026-0052",
+    "ELSA-2026-0108",
+    "ELSA-2026-1359",
   ]
   almalinux = [
     "ALSA-2025:23306",
     "ALSA-2025:23336",
     "ALSA-2025:23343",
     "ALSA-2025:23382",
+    "ALSA-2026:0052",
+    "ALSA-2026:0108",
   ]

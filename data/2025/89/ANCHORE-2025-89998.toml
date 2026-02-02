@@ -7,6 +7,10 @@ allocated = 2025-10-30T18:05:38.533541Z
   gcve = ["GCVE-0-2025-40068"]
   github = ["GHSA-gv9m-p4c7-mxp3"]
   echo = ["ECHO-7957-8e59-4472"]
-  debian = ["DSA-6053-1"]
-  amazonlinux = ["ALAS2023-2025-1253"]
+  debian = ["DLA-4379-1", "DSA-6053-1"]
+  amazonlinux = [
+    "ALAS2023-2025-1253",
+    "ALAS2023-2025-1254",
+    "ALAS2KERNEL-5.15-2025-095",
+  ]
   mageia = ["MGASA-2025-0309", "MGASA-2025-0310"]

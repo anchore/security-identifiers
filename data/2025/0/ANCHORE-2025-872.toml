@@ -6,7 +6,11 @@ allocated = 2025-10-15T14:17:19.956020Z
   cve = ["CVE-2025-0242"]
   gcve = ["GCVE-0-2025-0242"]
   github = ["GHSA-qw28-p6qx-vj78"]
-  chainguard = ["CGA-4w6j-4c4x-2923", "CGA-mjjm-396j-rwj3"]
+  chainguard = [
+    "CGA-4w6j-4c4x-2923",
+    "CGA-mjjm-396j-rwj3",
+    "CGA-r8vc-vr72-v969",
+  ]
   almalinux = [
     "ALSA-2025:0080",
     "ALSA-2025:0144",
@@ -43,7 +47,14 @@ allocated = 2025-10-15T14:17:19.956020Z
     "openSUSE-SU-2025:14648-1",
   ]
   ubuntu = ["USN-7191-1", "USN-7663-1"]
-  openeuler = ["OESA-2025-1085", "OESA-2025-1086", "OESA-2025-1835"]
+  openeuler = [
+    "OESA-2025-1085",
+    "OESA-2025-1086",
+    "OESA-2025-1835",
+    "openEuler-SA-2025-1085",
+    "openEuler-SA-2025-1086",
+    "openEuler-SA-2025-1835",
+  ]
   amazonlinux = ["ALAS2-2025-2789", "ALAS2FIREFOX-2025-035"]
   oraclelinux = [
     "ELSA-2025-0080",

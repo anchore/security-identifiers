@@ -7,7 +7,12 @@ allocated = 2025-10-15T14:16:55.342371Z
   gcve = ["GCVE-0-2023-52513"]
   github = ["GHSA-2m3h-p692-qjp7"]
   almalinux = ["ALSA-2024:3618", "ALSA-2024:3627"]
-  redhat = ["RHSA-2024:3618", "RHSA-2024:3627", "RHSA-2024:9315"]
+  redhat = [
+    "RHSA-2024:3618",
+    "RHSA-2024:3627",
+    "RHSA-2024:9315",
+    "RHSA-2026:0173",
+  ]
   rockylinux = ["RLSA-2024:3618", "RLSA-2024:3627"]
   suse = [
     "SUSE-SU-2024:1320-1",
@@ -16,5 +21,5 @@ allocated = 2025-10-15T14:16:55.342371Z
     "SUSE-SU-2024:1480-1",
     "SUSE-SU-2024:1490-1",
   ]
-  openeuler = ["OESA-2025-1095"]
+  openeuler = ["OESA-2025-1095", "openEuler-SA-2025-1095"]
   oraclelinux = ["ELSA-2024-3618", "ELSA-2024-9315"]

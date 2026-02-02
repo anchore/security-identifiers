@@ -27,10 +27,29 @@ allocated = 2025-10-15T14:17:25.748470Z
     "OESA-2025-1517",
     "OESA-2025-1518",
     "OESA-2025-1542",
+    "openEuler-SA-2025-1516",
+    "openEuler-SA-2025-1517",
+    "openEuler-SA-2025-1518",
+    "openEuler-SA-2025-1542",
   ]
   amazonlinux = ["ALAS2023-2025-990", "ALAS2MARIADB10.5-2025-007"]
-  redhat = ["RHSA-2025:19572", "RHSA-2025:19584"]
-  oraclelinux = ["ELSA-2025-19584"]
-  almalinux = ["ALSA-2025:19572", "ALSA-2025:19584"]
+  redhat = [
+    "RHSA-2025:19572",
+    "RHSA-2025:19584",
+    "RHSA-2026:0136",
+    "RHSA-2026:0247",
+  ]
+  oraclelinux = [
+    "ELSA-2025-19572",
+    "ELSA-2025-19584",
+    "ELSA-2026-0136",
+    "ELSA-2026-0247",
+  ]
+  almalinux = [
+    "ALSA-2025:19572",
+    "ALSA-2025:19584",
+    "ALSA-2026:0136",
+    "ALSA-2026:0247",
+  ]
   mageia = ["MGASA-2025-0186"]
   chainguard = ["CGA-6gvf-j55p-pj8m"]

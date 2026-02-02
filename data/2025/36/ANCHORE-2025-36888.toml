@@ -8,8 +8,20 @@ allocated = 2025-10-15T14:17:45.268925Z
   github = ["GHSA-53x5-9xgx-8wwp"]
   debian = ["DLA-4328-1"]
   echo = ["ECHO-ccda-e994-adde"]
-  amazonlinux = ["ALAS2KERNEL-5.10-2025-109"]
-  oraclelinux = ["ELSA-2025-25754"]
-  suse = ["SUSE-SU-2025:4057-1"]
+  amazonlinux = ["ALAS2KERNEL-5.10-2025-109", "ALAS2KERNEL-5.4-2025-113"]
+  oraclelinux = ["ELSA-2025-25754", "ELSA-2025-28048", "ELSA-2025-28049"]
+  suse = [
+    "SUSE-SU-2025:4057-1",
+    "SUSE-SU-2025:4128-1",
+    "SUSE-SU-2025:4132-1",
+    "SUSE-SU-2025:4301-1",
+  ]
   mageia = ["MGASA-2025-0309", "MGASA-2025-0310"]
-  openeuler = ["OESA-2025-2776"]
+  openeuler = [
+    "OESA-2025-2776",
+    "OESA-2025-2802",
+    "OESA-2025-2803",
+    "openEuler-SA-2025-2776",
+    "openEuler-SA-2025-2802",
+    "openEuler-SA-2025-2803",
+  ]

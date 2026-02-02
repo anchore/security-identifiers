@@ -13,9 +13,23 @@ allocated = 2025-10-15T14:17:38.784512Z
     "SUSE-SU-2025:03023-1",
   ]
   echo = ["ECHO-0aaa-8316-39de"]
-  openeuler = ["OESA-2025-2077", "OESA-2025-2078", "OESA-2025-2079"]
-  oraclelinux = ["ELSA-2025-20551"]
-  ubuntu = ["USN-7833-1", "USN-7833-2", "USN-7834-1"]
+  openeuler = [
+    "OESA-2025-2077",
+    "OESA-2025-2078",
+    "OESA-2025-2079",
+    "openEuler-SA-2025-2077",
+    "openEuler-SA-2025-2078",
+    "openEuler-SA-2025-2079",
+  ]
+  oraclelinux = ["ELSA-2025-20095-0", "ELSA-2025-20551"]
+  ubuntu = [
+    "USN-7833-1",
+    "USN-7833-2",
+    "USN-7833-3",
+    "USN-7833-4",
+    "USN-7834-1",
+    "USN-7856-1",
+  ]
   redhat = ["RHSA-2025:20095"]
   mageia = ["MGASA-2025-0218", "MGASA-2025-0219"]
   minimos = ["MINI-c4g2-jf6p-5qv4"]

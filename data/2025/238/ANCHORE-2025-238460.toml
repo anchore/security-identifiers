@@ -6,7 +6,7 @@ allocated = 2025-12-09T03:13:16.772254Z
   cve = ["CVE-2023-53821"]
   gcve = ["GCVE-0-2023-53821"]
   github = ["GHSA-j65p-q5f6-5q5p"]
-  redhat = ["RHSA-2024:2394"]
+  redhat = ["RHSA-2024:2394", "RHSA-2024:3138"]
   amazonlinux = [
     "ALAS2-2023-2264",
     "ALAS2023-2023-330",
@@ -14,4 +14,9 @@ allocated = 2025-12-09T03:13:16.772254Z
     "ALAS2KERNEL-5.15-2023-026",
     "ALAS2KERNEL-5.4-2023-053",
   ]
-  openeuler = ["OESA-2026-1075"]
+  openeuler = [
+    "OESA-2026-1075",
+    "OESA-2026-1231",
+    "openEuler-SA-2026-1075",
+    "openEuler-SA-2026-1231",
+  ]

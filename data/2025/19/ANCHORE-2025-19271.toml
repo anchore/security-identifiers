@@ -7,7 +7,11 @@ allocated = 2025-10-15T14:17:32.775143Z
   gcve = ["GCVE-0-2025-23166"]
   github = ["GHSA-rrjv-57mm-j6cm"]
   bitnami = ["BIT-node-2025-23166", "BIT-node-min-2025-23166"]
-  chainguard = ["CGA-9vcx-qhww-f532", "CGA-jr43-mvxp-jw79"]
+  chainguard = [
+    "CGA-9vcx-qhww-f532",
+    "CGA-jr43-mvxp-jw79",
+    "CGA-vv7x-rh59-x526",
+  ]
   almalinux = [
     "ALSA-2025:8467",
     "ALSA-2025:8468",
@@ -26,12 +30,18 @@ allocated = 2025-10-15T14:17:32.775143Z
   suse = ["SUSE-SU-2025:01878-1", "SUSE-SU-2025:01879-1"]
   minimos = [
     "MINI-2prp-x8rh-8mp7",
+    "MINI-3vg7-jpx8-vxc8",
     "MINI-9mpm-m2v9-52c3",
     "MINI-v75q-79p7-9qw6",
     "MINI-v8rv-8mgh-626r",
   ]
   echo = ["ECHO-37c8-1bfa-4cd1"]
-  openeuler = ["OESA-2025-1533", "OESA-2025-1534"]
+  openeuler = [
+    "OESA-2025-1533",
+    "OESA-2025-1534",
+    "openEuler-SA-2025-1533",
+    "openEuler-SA-2025-1534",
+  ]
   amazonlinux = ["ALAS2023-2025-1009", "ALAS2023-2025-1010"]
   oraclelinux = [
     "ELSA-2025-8467",

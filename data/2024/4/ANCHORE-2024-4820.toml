@@ -5,7 +5,7 @@ allocated = 2025-10-15T14:16:54.743310Z
   [security.aliases]
   cve = ["CVE-2024-25629"]
   gcve = ["GCVE-0-2024-25629"]
-  chainguard = ["CGA-8v32-hwgh-pr5j"]
+  chainguard = ["CGA-8v32-hwgh-pr5j", "CGA-fw55-q4p4-jvq2"]
   almalinux = [
     "ALSA-2024:2778",
     "ALSA-2024:2779",
@@ -30,7 +30,14 @@ allocated = 2025-10-15T14:16:54.743310Z
   suse = ["SUSE-SU-2024:1135-1", "SUSE-SU-2024:1136-1", "SUSE-SU-2024:1136-2"]
   opensuse = ["openSUSE-SU-2024:13722-1"]
   ubuntu = ["USN-6676-1"]
-  openeuler = ["OESA-2024-2019", "OESA-2024-2020", "OESA-2024-2021"]
+  openeuler = [
+    "OESA-2024-2019",
+    "OESA-2024-2020",
+    "OESA-2024-2021",
+    "openEuler-SA-2024-2019",
+    "openEuler-SA-2024-2020",
+    "openEuler-SA-2024-2021",
+  ]
   amazonlinux = [
     "ALAS2-2024-2494",
     "ALAS2023-2024-562",

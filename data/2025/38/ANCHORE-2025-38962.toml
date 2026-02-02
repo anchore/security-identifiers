@@ -7,7 +7,18 @@ allocated = 2025-10-15T14:17:46.724333Z
   gcve = ["GCVE-0-2025-39981"]
   github = ["GHSA-rvm4-4vv7-vq58"]
   echo = ["ECHO-4e46-ea8b-f7f7"]
-  suse = ["SUSE-SU-2025:4057-1"]
-  redhat = ["RHSA-2025:22405"]
-  oraclelinux = ["ELSA-2025-22405"]
-  almalinux = ["ALSA-2025:22405"]
+  suse = [
+    "SUSE-SU-2025:4057-1",
+    "SUSE-SU-2025:4128-1",
+    "SUSE-SU-2025:4132-1",
+    "SUSE-SU-2025:4301-1",
+    "SUSE-SU-2025:4320-1",
+  ]
+  redhat = [
+    "RHSA-2025:22405",
+    "RHSA-2025:22854",
+    "RHSA-2026:0271",
+    "RHSA-2026:0457",
+  ]
+  oraclelinux = ["ELSA-2025-22405", "ELSA-2025-22854", "ELSA-2026-50006"]
+  almalinux = ["ALSA-2025:22405", "ALSA-2025:22854"]

@@ -8,7 +8,19 @@ allocated = 2025-10-15T14:17:20.669322Z
   github = ["GHSA-9x68-7qq6-v523"]
   almalinux = ["ALSA-2025:2600", "ALSA-2025:7050"]
   debian = ["DLA-4015-1", "DSA-5843-1"]
-  redhat = ["RHSA-2025:2600", "RHSA-2025:7050"]
+  redhat = [
+    "RHSA-2025:23154",
+    "RHSA-2025:23235",
+    "RHSA-2025:23407",
+    "RHSA-2025:23415",
+    "RHSA-2025:23416",
+    "RHSA-2025:23842",
+    "RHSA-2025:23853",
+    "RHSA-2025:23854",
+    "RHSA-2025:23858",
+    "RHSA-2025:2600",
+    "RHSA-2025:7050",
+  ]
   suse = [
     "SUSE-SU-2025:0156-1",
     "SUSE-SU-2025:0157-1",
@@ -23,9 +35,14 @@ allocated = 2025-10-15T14:17:20.669322Z
     "OESA-2025-1062",
     "OESA-2025-1063",
     "OESA-2025-1064",
+    "openEuler-SA-2025-1060",
+    "openEuler-SA-2025-1061",
+    "openEuler-SA-2025-1062",
+    "openEuler-SA-2025-1063",
+    "openEuler-SA-2025-1064",
   ]
   amazonlinux = ["ALAS2-2025-2731", "ALAS2023-2025-801"]
-  oraclelinux = ["ELSA-2025-2600", "ELSA-2025-7050"]
+  oraclelinux = ["ELSA-2025-23415", "ELSA-2025-2600", "ELSA-2025-7050"]
   mageia = ["MGASA-2025-0019"]
   julia = ["JLSEC-2025-326"]
   arch = ["ASA-202501-1", "AVG-2858"]

@@ -6,7 +6,13 @@ allocated = 2025-10-15T14:17:42.884827Z
   cve = ["CVE-2025-8277"]
   gcve = ["GCVE-0-2025-8277"]
   github = ["GHSA-39mw-228p-wr6v"]
-  suse = ["SUSE-SU-2025:03368-1", "SUSE-SU-2025:03369-1"]
-  openeuler = ["OESA-2025-2342"]
+  suse = [
+    "SUSE-SU-2025:03368-1",
+    "SUSE-SU-2025:03369-1",
+    "SUSE-SU-2025:3787-1",
+    "SUSE-SU-2025:3788-1",
+    "SUSE-SU-2025:3897-1",
+  ]
+  openeuler = ["OESA-2025-2342", "openEuler-SA-2025-2342"]
   amazonlinux = ["ALAS2023-2025-1264"]
   debian = ["DLA-4385-1"]

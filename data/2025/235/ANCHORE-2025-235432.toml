@@ -8,19 +8,39 @@ allocated = 2025-11-25T01:03:25.578543Z
   echo = ["ECHO-ad7d-93e1-b804"]
   opensuse = ["openSUSE-SU-2025:15781-1"]
   minimos = ["MINI-x2fw-4f8q-cp73"]
-  openeuler = ["OESA-2025-2763"]
+  openeuler = ["OESA-2025-2763", "openEuler-SA-2025-2763"]
   julia = ["JLSEC-2025-330"]
-  mageia = ["MGASA-2025-0314"]
-  debian = ["DLA-4396-1"]
-  amazonlinux = ["ALAS2-2025-3091", "ALAS2FIREFOX-2025-048"]
+  mageia = ["MGASA-2025-0314", "MGASA-2026-0024"]
+  debian = ["DLA-4396-1", "DSA-6076-1"]
+  amazonlinux = [
+    "ALAS2-2025-3091",
+    "ALAS2-2025-3112",
+    "ALAS2-2025-3113",
+    "ALAS2023-2025-1305",
+    "ALAS2023-2025-1306",
+    "ALAS2FIREFOX-2025-048",
+  ]
   ubuntu = ["USN-7924-1"]
   suse = ["SUSE-SU-2025:4533-1"]
-  oraclelinux = ["ELSA-2026-0237", "ELSA-2026-0238"]
+  oraclelinux = [
+    "ELSA-2026-0125",
+    "ELSA-2026-0237",
+    "ELSA-2026-0238",
+    "ELSA-2026-0241",
+    "ELSA-2026-0251",
+    "ELSA-2026-0927",
+    "ELSA-2026-0928",
+    "ELSA-2026-0932",
+  ]
   almalinux = [
     "ALSA-2026:0125",
     "ALSA-2026:0237",
     "ALSA-2026:0238",
     "ALSA-2026:0241",
+    "ALSA-2026:0927",
+    "ALSA-2026:0928",
+    "ALSA-2026:0932",
+    "ALSA-2026:0933",
   ]
   redhat = [
     "RHSA-2026:0125",
@@ -33,4 +53,13 @@ allocated = 2025-11-25T01:03:25.578543Z
     "RHSA-2026:0238",
     "RHSA-2026:0241",
     "RHSA-2026:0251",
+    "RHSA-2026:0313",
+    "RHSA-2026:0321",
+    "RHSA-2026:0322",
+    "RHSA-2026:0323",
+    "RHSA-2026:0847",
+    "RHSA-2026:0927",
+    "RHSA-2026:0928",
+    "RHSA-2026:0932",
+    "RHSA-2026:0933",
   ]

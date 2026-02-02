@@ -6,7 +6,11 @@ allocated = 2025-10-15T14:16:11.458947Z
   cve = ["CVE-2021-43797"]
   gcve = ["GCVE-0-2021-43797"]
   github = ["GHSA-wx5j-54mm-rqqq"]
-  chainguard = ["CGA-2vx5-qv6g-67jq", "CGA-qxv3-xxff-qffv"]
+  chainguard = [
+    "CGA-2vx5-qv6g-67jq",
+    "CGA-9pj8-4gmp-wp6g",
+    "CGA-qxv3-xxff-qffv",
+  ]
   debian = ["DLA-3268-1", "DSA-5316-1"]
   redhat = [
     "RHSA-2022:4918",
@@ -22,4 +26,9 @@ allocated = 2025-10-15T14:16:11.458947Z
   suse = ["SUSE-SU-2022:2047-1"]
   opensuse = ["openSUSE-SU-2024:11743-1", "openSUSE-SU-2024:11981-1"]
   ubuntu = ["USN-6049-1"]
-  openeuler = ["OESA-2021-1472", "OESA-2022-1930"]
+  openeuler = [
+    "OESA-2021-1472",
+    "OESA-2022-1930",
+    "openEuler-SA-2021-1472",
+    "openEuler-SA-2022-1930",
+  ]

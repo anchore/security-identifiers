@@ -6,11 +6,30 @@ allocated = 2025-10-15T14:17:38.282821Z
   cve = ["CVE-2025-38351"]
   gcve = ["GCVE-0-2025-38351"]
   github = ["GHSA-x77v-68j6-p42v"]
-  almalinux = ["ALSA-2025:17377"]
+  almalinux = ["ALSA-2025:17377", "ALSA-2025:18318"]
   debian = ["DSA-5975-1"]
-  redhat = ["RHSA-2025:17377"]
-  openeuler = ["OESA-2025-2120", "OESA-2025-2121", "OESA-2025-2122"]
-  oraclelinux = ["ELSA-2025-17377", "ELSA-2025-20662"]
-  suse = ["SUSE-SU-2025:3725-1"]
+  redhat = ["RHSA-2025:17377", "RHSA-2025:18318", "RHSA-2025:21469"]
+  openeuler = [
+    "OESA-2025-2120",
+    "OESA-2025-2121",
+    "OESA-2025-2122",
+    "openEuler-SA-2025-2120",
+    "openEuler-SA-2025-2121",
+    "openEuler-SA-2025-2122",
+  ]
+  oraclelinux = [
+    "ELSA-2025-17377",
+    "ELSA-2025-18318",
+    "ELSA-2025-20662",
+    "ELSA-2025-21469",
+  ]
+  suse = ["SUSE-SU-2025:3725-1", "SUSE-SU-2025:3751-1"]
   minimos = ["MINI-8x27-j957-mc38"]
-  ubuntu = ["USN-7879-1", "USN-7879-2", "USN-7880-1"]
+  ubuntu = [
+    "USN-7879-1",
+    "USN-7879-2",
+    "USN-7879-3",
+    "USN-7879-4",
+    "USN-7880-1",
+    "USN-7934-1",
+  ]

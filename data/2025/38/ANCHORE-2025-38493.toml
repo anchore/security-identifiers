@@ -7,14 +7,59 @@ allocated = 2025-10-15T14:17:46.394952Z
   gcve = ["GCVE-0-2025-39964"]
   github = ["GHSA-wr5g-mfhw-rpfj"]
   echo = ["ECHO-f6fa-e508-7a91"]
-  oraclelinux = ["ELSA-2025-20719"]
-  amazonlinux = ["ALAS2023-2025-1254", "ALAS2KERNEL-5.10-2025-109"]
-  debian = ["DSA-6053-1"]
+  oraclelinux = [
+    "ELSA-2025-20719",
+    "ELSA-2025-20721",
+    "ELSA-2025-25757",
+    "ELSA-2025-28048",
+    "ELSA-2026-50061",
+  ]
+  amazonlinux = [
+    "ALAS2023-2025-1223",
+    "ALAS2023-2025-1254",
+    "ALAS2KERNEL-5.10-2025-109",
+    "ALAS2KERNEL-5.15-2025-093",
+  ]
+  debian = ["DLA-4379-1", "DSA-6053-1"]
   mageia = ["MGASA-2025-0309", "MGASA-2025-0310"]
   openeuler = [
     "OESA-2025-2765",
     "OESA-2025-2766",
     "OESA-2025-2767",
     "OESA-2025-2768",
+    "openEuler-SA-2025-2765",
+    "openEuler-SA-2025-2766",
+    "openEuler-SA-2025-2767",
+    "openEuler-SA-2025-2768",
   ]
-  ubuntu = ["USN-7907-1", "USN-7907-2"]
+  ubuntu = [
+    "USN-7907-1",
+    "USN-7907-2",
+    "USN-7907-3",
+    "USN-7907-4",
+    "USN-7907-5",
+    "USN-7921-1",
+    "USN-7921-2",
+    "USN-7922-1",
+    "USN-7922-2",
+    "USN-7922-3",
+    "USN-7922-4",
+    "USN-7922-5",
+    "USN-7928-5",
+    "USN-7930-1",
+    "USN-7930-2",
+    "USN-7931-1",
+    "USN-7931-2",
+    "USN-7931-3",
+    "USN-7931-4",
+    "USN-7931-5",
+    "USN-7934-1",
+    "USN-7935-1",
+    "USN-7936-1",
+    "USN-7937-1",
+    "USN-7938-1",
+    "USN-7939-1",
+    "USN-7939-2",
+    "USN-7940-1",
+    "USN-7940-2",
+  ]

@@ -5,7 +5,14 @@ allocated = 2025-10-20T08:11:19.101959Z
   [security.aliases]
   cve = ["CVE-2025-62168"]
   gcve = ["GCVE-0-2025-62168"]
-  openeuler = ["OESA-2025-2531"]
+  openeuler = [
+    "OESA-2025-2531",
+    "OESA-2025-2606",
+    "OESA-2025-2607",
+    "openEuler-SA-2025-2531",
+    "openEuler-SA-2025-2606",
+    "openEuler-SA-2025-2607",
+  ]
   redhat = [
     "RHSA-2025:19107",
     "RHSA-2025:19114",
@@ -13,9 +20,21 @@ allocated = 2025-10-20T08:11:19.101959Z
     "RHSA-2025:19118",
     "RHSA-2025:19167",
     "RHSA-2025:19277",
+    "RHSA-2025:19398",
+    "RHSA-2025:19967",
+    "RHSA-2025:20935",
+    "RHSA-2025:21002",
+    "RHSA-2025:21065",
+    "RHSA-2025:21066",
+    "RHSA-2025:21090",
   ]
   ubuntu = ["USN-7845-1"]
   amazonlinux = ["ALAS2-2025-3045", "ALAS2023-2025-1238"]
-  oraclelinux = ["ELSA-2025-19107"]
-  almalinux = ["ALSA-2025:19107"]
-  debian = ["DSA-6047-1"]
+  oraclelinux = [
+    "ELSA-2025-19107",
+    "ELSA-2025-19167",
+    "ELSA-2025-20935",
+    "ELSA-2025-21002",
+  ]
+  almalinux = ["ALSA-2025:19107", "ALSA-2025:20935", "ALSA-2025:21002"]
+  debian = ["DLA-4369-1", "DSA-6047-1"]

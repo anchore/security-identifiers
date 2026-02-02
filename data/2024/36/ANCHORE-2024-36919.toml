@@ -6,7 +6,7 @@ allocated = 2025-10-15T14:17:16.764994Z
   cve = ["CVE-2024-11697"]
   gcve = ["GCVE-0-2024-11697"]
   github = ["GHSA-4jp9-q9g7-48gr"]
-  chainguard = ["CGA-9m29-wxcw-r764"]
+  chainguard = ["CGA-734p-jgrm-g4pr", "CGA-9m29-wxcw-r764"]
   almalinux = [
     "ALSA-2024:10591",
     "ALSA-2024:10592",
@@ -44,7 +44,12 @@ allocated = 2025-10-15T14:17:16.764994Z
     "openSUSE-SU-2024:14583-1",
   ]
   ubuntu = ["USN-7134-1"]
-  openeuler = ["OESA-2024-2523", "OESA-2025-1835"]
+  openeuler = [
+    "OESA-2024-2523",
+    "OESA-2025-1835",
+    "openEuler-SA-2024-2523",
+    "openEuler-SA-2025-1835",
+  ]
   oraclelinux = [
     "ELSA-2024-10591",
     "ELSA-2024-10592",

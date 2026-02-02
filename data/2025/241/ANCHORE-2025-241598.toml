@@ -7,8 +7,22 @@ allocated = 2025-12-23T01:06:30.304369Z
   gcve = ["GCVE-0-2025-68615"]
   ubuntu = ["USN-7944-1"]
   mageia = ["MGASA-2026-0008"]
-  redhat = ["RHSA-2026:0668"]
-  oraclelinux = ["ELSA-2026-0668", "ELSA-2026-0696"]
-  almalinux = ["ALSA-2026:0668"]
-  amazonlinux = ["ALAS2-2026-3124"]
-  openeuler = ["OESA-2026-1227"]
+  redhat = [
+    "RHSA-2026:0668",
+    "RHSA-2026:0696",
+    "RHSA-2026:0750",
+    "RHSA-2026:0810",
+    "RHSA-2026:0812",
+    "RHSA-2026:0813",
+    "RHSA-2026:0814",
+    "RHSA-2026:0815",
+    "RHSA-2026:0850",
+    "RHSA-2026:0851",
+    "RHSA-2026:0852",
+    "RHSA-2026:0853",
+    "RHSA-2026:0926",
+  ]
+  oraclelinux = ["ELSA-2026-0668", "ELSA-2026-0696", "ELSA-2026-0750"]
+  almalinux = ["ALSA-2026:0668", "ALSA-2026:0696", "ALSA-2026:0750"]
+  amazonlinux = ["ALAS2-2026-3124", "ALAS2023-2026-1362"]
+  openeuler = ["OESA-2026-1227", "openEuler-SA-2026-1227"]

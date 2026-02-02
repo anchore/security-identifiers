@@ -8,9 +8,18 @@ allocated = 2025-11-06T11:46:47.177961Z
   gcve = ["GCVE-0-2025-31133"]
   ubuntu = ["USN-7851-1"]
   minimos = [
+    "MINI-3q7j-42w7-87jc",
+    "MINI-5p2j-h4jh-2945",
     "MINI-6998-rgw4-5gqr",
     "MINI-6f6g-7xp4-3m56",
+    "MINI-6vp9-3gm2-vq9x",
+    "MINI-8p5q-v73p-6qrm",
+    "MINI-98v7-rcf7-2234",
+    "MINI-fgrf-7vpq-9mvv",
+    "MINI-h2rj-cr24-c8v7",
+    "MINI-h83g-3x45-h3pg",
     "MINI-hqcp-jhrr-qwfw",
+    "MINI-qmw8-6947-94p6",
   ]
   amazonlinux = [
     "ALAS2023-2025-1263",
@@ -28,16 +37,34 @@ allocated = 2025-11-06T11:46:47.177961Z
     "CGA-7f93-7xfq-q45h",
     "CGA-7v3m-9776-q7ww",
     "CGA-8ggx-55h4-h6vm",
+    "CGA-j6fg-v38r-fmwc",
     "CGA-jchc-m4q4-hwmj",
     "CGA-vwg5-38v9-3mh8",
     "CGA-x722-g652-7933",
     "CGA-xfcp-w5jv-5v25",
   ]
-  redhat = ["RHSA-2025:19927"]
-  oraclelinux = ["ELSA-2025-19927"]
-  almalinux = ["ALSA-2025:19927"]
-  suse = ["SUSE-SU-2025:4079-1", "SUSE-SU-2025:4080-1", "SUSE-SU-2025:4081-1"]
+  redhat = [
+    "RHSA-2025:19927",
+    "RHSA-2025:20957",
+    "RHSA-2025:21232",
+    "RHSA-2025:21328",
+    "RHSA-2026:0315",
+    "RHSA-2026:0331",
+    "RHSA-2026:0418",
+    "RHSA-2026:0425",
+    "RHSA-2026:0676",
+    "RHSA-2026:0701",
+    "RHSA-2026:0995",
+  ]
+  oraclelinux = ["ELSA-2025-19927", "ELSA-2025-20957", "ELSA-2025-21232"]
+  almalinux = ["ALSA-2025:19927", "ALSA-2025:20957", "ALSA-2025:21232"]
+  suse = [
+    "SUSE-SU-2025:4073-2",
+    "SUSE-SU-2025:4079-1",
+    "SUSE-SU-2025:4080-1",
+    "SUSE-SU-2025:4081-1",
+  ]
   go = ["GO-2025-4096"]
   mageia = ["MGASA-2025-0271"]
   echo = ["ECHO-7751-7a0a-383b"]
-  openeuler = ["OESA-2025-2820"]
+  openeuler = ["OESA-2025-2820", "openEuler-SA-2025-2820"]

@@ -7,6 +7,12 @@ allocated = 2025-10-15T14:17:45.718334Z
   gcve = ["GCVE-0-2023-53615"]
   github = ["GHSA-fq5x-5f3p-8v6r"]
   redhat = ["RHSA-2024:2394", "RHSA-2024:3138"]
-  amazonlinux = ["ALAS2KERNEL-5.10-2023-040"]
-  openeuler = ["OESA-2025-2554"]
-  suse = ["SUSE-SU-2025:4057-1"]
+  amazonlinux = ["ALAS2KERNEL-5.10-2023-040", "ALAS2KERNEL-5.4-2025-112"]
+  openeuler = ["OESA-2025-2554", "openEuler-SA-2025-2554"]
+  suse = [
+    "SUSE-SU-2025:4057-1",
+    "SUSE-SU-2025:4128-1",
+    "SUSE-SU-2025:4132-1",
+    "SUSE-SU-2025:4301-1",
+    "SUSE-SU-2025:4320-1",
+  ]

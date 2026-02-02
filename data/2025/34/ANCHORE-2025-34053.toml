@@ -9,9 +9,17 @@ allocated = 2025-10-15T14:17:43.276016Z
   suse = ["SUSE-SU-2025:03267-1", "SUSE-SU-2025:03268-1"]
   minimos = ["MINI-vr3g-7rxg-wq23"]
   echo = ["ECHO-6a25-e091-8eb3"]
-  openeuler = ["OESA-2025-2319"]
-  amazonlinux = ["ALAS2-2025-3056"]
+  openeuler = ["OESA-2025-2319", "openEuler-SA-2025-2319"]
+  amazonlinux = ["ALAS2-2025-3056", "ALAS2023-2025-1351"]
   mageia = ["MGASA-2025-0232"]
-  redhat = ["RHSA-2025:23043"]
-  oraclelinux = ["ELSA-2025-23383"]
+  redhat = [
+    "RHSA-2025:23043",
+    "RHSA-2025:23125",
+    "RHSA-2025:23126",
+    "RHSA-2025:23127",
+    "RHSA-2025:23383",
+    "RHSA-2026:1350",
+    "RHSA-2026:1477",
+  ]
+  oraclelinux = ["ELSA-2025-23383", "ELSA-2026-1350"]
   almalinux = ["ALSA-2025:23383"]

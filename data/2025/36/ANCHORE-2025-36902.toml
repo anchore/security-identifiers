@@ -7,9 +7,26 @@ allocated = 2025-10-15T14:17:45.278203Z
   gcve = ["GCVE-0-2025-39925"]
   github = ["GHSA-g35j-5v93-p28m"]
   echo = ["ECHO-af2b-c0e4-7404"]
-  suse = ["SUSE-SU-2025:3751-1"]
-  redhat = ["RHSA-2025:22854", "RHSA-2025:22865"]
+  suse = ["SUSE-SU-2025:3751-1", "SUSE-SU-2025:4057-1", "SUSE-SU-2025:4132-1"]
+  redhat = [
+    "RHSA-2025:22854",
+    "RHSA-2025:22865",
+    "RHSA-2025:23789",
+    "RHSA-2026:0173",
+    "RHSA-2026:0271",
+    "RHSA-2026:0534",
+    "RHSA-2026:0535",
+    "RHSA-2026:0537",
+    "RHSA-2026:0576",
+  ]
   oraclelinux = ["ELSA-2025-22854", "ELSA-2025-22865"]
-  almalinux = ["ALSA-2025:22854"]
-  openeuler = ["OESA-2026-1228", "OESA-2026-1229", "OESA-2026-1230"]
+  almalinux = ["ALSA-2025:22854", "ALSA-2025:22865"]
+  openeuler = [
+    "OESA-2026-1228",
+    "OESA-2026-1229",
+    "OESA-2026-1230",
+    "openEuler-SA-2026-1228",
+    "openEuler-SA-2026-1229",
+    "openEuler-SA-2026-1230",
+  ]
   chainguard = ["CGA-5h9m-92rc-6gph"]

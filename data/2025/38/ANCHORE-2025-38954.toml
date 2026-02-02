@@ -7,17 +7,40 @@ allocated = 2025-10-15T14:17:46.718941Z
   gcve = ["GCVE-0-2025-39973"]
   github = ["GHSA-j9g6-49hr-w92p"]
   echo = ["ECHO-290a-8a49-79db"]
-  oraclelinux = ["ELSA-2025-20719"]
-  amazonlinux = ["ALAS2KERNEL-5.10-2025-109"]
+  oraclelinux = [
+    "ELSA-2025-20719",
+    "ELSA-2025-25731",
+    "ELSA-2025-25733",
+    "ELSA-2025-25755",
+    "ELSA-2025-25757",
+    "ELSA-2025-28048",
+    "ELSA-2025-28049",
+  ]
+  amazonlinux = ["ALAS2KERNEL-5.10-2025-109", "ALAS2KERNEL-5.4-2025-113"]
   openeuler = [
     "OESA-2025-2632",
     "OESA-2025-2633",
     "OESA-2025-2634",
     "OESA-2025-2635",
     "OESA-2025-2636",
+    "OESA-2025-2659",
+    "openEuler-SA-2025-2632",
+    "openEuler-SA-2025-2633",
+    "openEuler-SA-2025-2634",
+    "openEuler-SA-2025-2635",
+    "openEuler-SA-2025-2636",
+    "openEuler-SA-2025-2659",
   ]
-  debian = ["DSA-6053-1"]
-  suse = ["SUSE-SU-2025:4057-1"]
+  debian = ["DLA-4379-1", "DSA-6053-1"]
+  suse = [
+    "SUSE-SU-2025:4057-1",
+    "SUSE-SU-2025:4128-1",
+    "SUSE-SU-2025:4132-1",
+    "SUSE-SU-2025:4135-1",
+    "SUSE-SU-2025:4301-1",
+    "SUSE-SU-2025:4315-1",
+    "SUSE-SU-2025:4320-1",
+  ]
   mageia = ["MGASA-2025-0309", "MGASA-2025-0310"]
   redhat = [
     "RHSA-2025:21469",

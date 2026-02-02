@@ -20,9 +20,14 @@ allocated = 2025-10-15T14:17:05.613295Z
   ]
   opensuse = ["openSUSE-SU-2024:14253-1", "openSUSE-SU-2024:14256-1"]
   amazonlinux = ["ALAS2-2025-2743", "ALAS2-2025-2744"]
-  openeuler = ["OESA-2025-2637", "OESA-2025-2638"]
-  redhat = ["RHSA-2025:23530"]
-  oraclelinux = ["ELSA-2025-23342"]
+  openeuler = [
+    "OESA-2025-2637",
+    "OESA-2025-2638",
+    "openEuler-SA-2025-2637",
+    "openEuler-SA-2025-2638",
+  ]
+  redhat = ["RHSA-2025:23342", "RHSA-2025:23530"]
+  oraclelinux = ["ELSA-2025-23342", "ELSA-2025-23530"]
   almalinux = ["ALSA-2025:23342", "ALSA-2025:23530"]
   echo = ["ECHO-92bd-fc28-530b"]
   chainguard = ["CGA-wvq5-364w-25wg"]

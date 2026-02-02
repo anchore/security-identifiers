@@ -7,7 +7,35 @@ allocated = 2025-11-06T11:46:47.178913Z
   cve = ["CVE-2025-52881"]
   gcve = ["GCVE-0-2025-52881"]
   ubuntu = ["USN-7851-1"]
-  minimos = ["MINI-c2mm-v9xp-6rx3"]
+  minimos = [
+    "MINI-227j-4f5c-gw3h",
+    "MINI-3ch9-64mf-2mrc",
+    "MINI-3mj7-h29w-ph56",
+    "MINI-3w7g-cv64-6vm2",
+    "MINI-56c9-8fv4-mwj2",
+    "MINI-5jg6-mrjv-p8jp",
+    "MINI-5x66-34qq-q22q",
+    "MINI-6288-6r3g-7j2r",
+    "MINI-697q-h9mm-m7hm",
+    "MINI-6xj5-vgr2-c8gh",
+    "MINI-77px-vm35-4v4h",
+    "MINI-7hv2-v256-vxcv",
+    "MINI-833m-q65x-r4qj",
+    "MINI-c2mm-v9xp-6rx3",
+    "MINI-chhh-hw5w-fj5m",
+    "MINI-cqx6-v6mf-2hfm",
+    "MINI-h5vc-6wr2-r8rv",
+    "MINI-hg5x-5qvv-mhr6",
+    "MINI-hp4q-52mg-xv5f",
+    "MINI-hw8r-33rf-j9j3",
+    "MINI-jv7r-m6w8-9c96",
+    "MINI-m283-2mf8-vfh5",
+    "MINI-qf85-r74g-4wpg",
+    "MINI-rjhc-m36h-435j",
+    "MINI-vh7x-r6jp-jx5f",
+    "MINI-wrgr-hhrm-2w9p",
+    "MINI-x8vj-wf8m-q2jc",
+  ]
   amazonlinux = [
     "ALAS2023-2025-1263",
     "ALAS2023-2025-1286",
@@ -24,12 +52,16 @@ allocated = 2025-11-06T11:46:47.178913Z
     "CGA-2x39-g34w-6723",
     "CGA-2xp7-7w7f-2rmq",
     "CGA-3576-m9wx-2pv5",
+    "CGA-3gqx-r38m-93r6",
+    "CGA-3whg-8mjg-92j9",
     "CGA-49ww-v7rm-v8gq",
     "CGA-532x-4frr-wrpf",
     "CGA-635p-h8j3-fxg9",
     "CGA-63g9-559m-8p23",
     "CGA-684j-9c2g-g28m",
+    "CGA-6mg2-mjwq-xq6r",
     "CGA-7rpx-j3r7-vj6h",
+    "CGA-827j-3grc-494x",
     "CGA-82m8-29h7-xq2h",
     "CGA-8f8w-cx2h-4f25",
     "CGA-8gv6-w4qj-5q4c",
@@ -40,19 +72,67 @@ allocated = 2025-11-06T11:46:47.178913Z
     "CGA-h954-rh68-2mv6",
     "CGA-hhwh-w49r-ww24",
     "CGA-jg85-xh46-vwcc",
+    "CGA-jv7g-95rc-58g4",
     "CGA-p8vg-vx5w-pchq",
     "CGA-pmrr-4gjv-4qm6",
+    "CGA-qgqf-m239-v8qw",
     "CGA-qjh3-8c6h-w58g",
     "CGA-v9wp-cq3j-8ph6",
     "CGA-wrrj-2p4x-vx2c",
     "CGA-wx9r-8438-pmx7",
     "CGA-xhcg-7vm9-m5hh",
   ]
-  redhat = ["RHSA-2025:19927"]
-  oraclelinux = ["ELSA-2025-19927"]
-  almalinux = ["ALSA-2025:19927"]
-  suse = ["SUSE-SU-2025:4079-1", "SUSE-SU-2025:4080-1", "SUSE-SU-2025:4081-1"]
+  redhat = [
+    "RHSA-2025:19927",
+    "RHSA-2025:20957",
+    "RHSA-2025:21220",
+    "RHSA-2025:21232",
+    "RHSA-2025:21328",
+    "RHSA-2025:21633",
+    "RHSA-2025:21634",
+    "RHSA-2025:21702",
+    "RHSA-2025:22011",
+    "RHSA-2025:22012",
+    "RHSA-2025:22030",
+    "RHSA-2025:23347",
+    "RHSA-2025:23543",
+    "RHSA-2026:0315",
+    "RHSA-2026:0331",
+    "RHSA-2026:0418",
+    "RHSA-2026:0424",
+    "RHSA-2026:0425",
+    "RHSA-2026:0426",
+    "RHSA-2026:0676",
+    "RHSA-2026:0701",
+    "RHSA-2026:0995",
+  ]
+  oraclelinux = [
+    "ELSA-2025-19927",
+    "ELSA-2025-20957",
+    "ELSA-2025-21220",
+    "ELSA-2025-21232",
+    "ELSA-2025-21702",
+    "ELSA-2025-22011",
+    "ELSA-2025-22012",
+    "ELSA-2025-23543",
+  ]
+  almalinux = [
+    "ALSA-2025:19927",
+    "ALSA-2025:20957",
+    "ALSA-2025:21220",
+    "ALSA-2025:21232",
+    "ALSA-2025:21702",
+    "ALSA-2025:22011",
+    "ALSA-2025:22012",
+    "ALSA-2025:23543",
+  ]
+  suse = [
+    "SUSE-SU-2025:4073-2",
+    "SUSE-SU-2025:4079-1",
+    "SUSE-SU-2025:4080-1",
+    "SUSE-SU-2025:4081-1",
+  ]
   go = ["GO-2025-4098"]
   mageia = ["MGASA-2025-0271"]
   echo = ["ECHO-4e92-dcc8-abdf"]
-  openeuler = ["OESA-2025-2820"]
+  openeuler = ["OESA-2025-2820", "openEuler-SA-2025-2820"]

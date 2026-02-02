@@ -6,7 +6,16 @@ allocated = 2025-10-15T14:17:46.250337Z
   cve = ["CVE-2025-61919"]
   gcve = ["GCVE-0-2025-61919"]
   github = ["GHSA-6xw4-3v39-52mm"]
-  chainguard = ["CGA-2xf9-cc6g-vfg6", "CGA-3w4h-4m6p-mmwq"]
+  chainguard = [
+    "CGA-2xf9-cc6g-vfg6",
+    "CGA-3w4h-4m6p-mmwq",
+    "CGA-4h2x-x9qp-52wc",
+    "CGA-52rc-8wc8-cxvc",
+    "CGA-5rpm-j635-gchv",
+    "CGA-c2wm-592v-3v8c",
+    "CGA-fqhg-2pfm-qm9j",
+    "CGA-vgrh-v88x-f2p4",
+  ]
   minimos = [
     "MINI-3fw6-qqrc-g7qf",
     "MINI-833x-5hmg-wrh4",
@@ -21,10 +30,32 @@ allocated = 2025-10-15T14:17:46.250337Z
     "MINI-rg5x-gfh4-4c2m",
     "MINI-xqpv-cjvc-48w4",
   ]
-  debian = ["DLA-4357-1"]
-  redhat = ["RHSA-2025:19512", "RHSA-2025:19513"]
-  oraclelinux = ["ELSA-2025-19512"]
-  almalinux = ["ALSA-2025:19719"]
+  debian = ["DLA-4357-1", "DSA-6048-1"]
+  redhat = [
+    "RHSA-2025:19512",
+    "RHSA-2025:19513",
+    "RHSA-2025:19647",
+    "RHSA-2025:19719",
+    "RHSA-2025:19733",
+    "RHSA-2025:19734",
+    "RHSA-2025:19736",
+    "RHSA-2025:19800",
+    "RHSA-2025:19832",
+    "RHSA-2025:19855",
+    "RHSA-2025:19856",
+    "RHSA-2025:19948",
+    "RHSA-2025:20962",
+    "RHSA-2025:21036",
+    "RHSA-2025:21696",
+  ]
+  oraclelinux = [
+    "ELSA-2025-19512",
+    "ELSA-2025-19513",
+    "ELSA-2025-19719",
+    "ELSA-2025-20962",
+    "ELSA-2025-21036",
+  ]
+  almalinux = ["ALSA-2025:19719", "ALSA-2025:20962", "ALSA-2025:21036"]
   suse = ["SUSE-SU-2025:4273-1"]
   mageia = ["MGASA-2025-0334"]
   ubuntu = ["USN-7960-1"]

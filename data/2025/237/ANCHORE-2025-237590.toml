@@ -5,12 +5,22 @@ allocated = 2025-12-03T22:43:46.464355Z
   [security.aliases]
   cve = ["CVE-2025-66293"]
   gcve = ["GCVE-0-2025-66293"]
-  debian = ["DLA-4396-1"]
+  debian = ["DLA-4396-1", "DSA-6076-1"]
   minimos = ["MINI-x659-r72g-8hc3"]
   echo = ["ECHO-91c2-e6d0-2b32"]
   mageia = ["MGASA-2025-0323"]
-  amazonlinux = ["ALAS2-2025-3108", "ALAS2FIREFOX-2025-049"]
-  oraclelinux = ["ELSA-2026-0237", "ELSA-2026-0238"]
+  amazonlinux = [
+    "ALAS2-2025-3108",
+    "ALAS2023-2025-1332",
+    "ALAS2023-2025-1337",
+    "ALAS2FIREFOX-2025-049",
+  ]
+  oraclelinux = [
+    "ELSA-2026-0125",
+    "ELSA-2026-0237",
+    "ELSA-2026-0238",
+    "ELSA-2026-0241",
+  ]
   almalinux = [
     "ALSA-2026:0125",
     "ALSA-2026:0237",
@@ -27,6 +37,10 @@ allocated = 2025-12-03T22:43:46.464355Z
     "RHSA-2026:0237",
     "RHSA-2026:0238",
     "RHSA-2026:0241",
+    "RHSA-2026:0313",
+    "RHSA-2026:0321",
+    "RHSA-2026:0322",
+    "RHSA-2026:0323",
   ]
   suse = ["SUSE-SU-2026:0085-1"]
   ubuntu = ["USN-7963-1"]
@@ -37,4 +51,10 @@ allocated = 2025-12-03T22:43:46.464355Z
     "OESA-2026-1127",
     "OESA-2026-1128",
     "OESA-2026-1129",
+    "openEuler-SA-2026-1124",
+    "openEuler-SA-2026-1125",
+    "openEuler-SA-2026-1126",
+    "openEuler-SA-2026-1127",
+    "openEuler-SA-2026-1128",
+    "openEuler-SA-2026-1129",
   ]

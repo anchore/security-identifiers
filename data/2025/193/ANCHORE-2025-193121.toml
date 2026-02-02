@@ -11,6 +11,7 @@ allocated = 2025-11-13T14:20:53.992764Z
   bitnami = ["BIT-postgresql-2025-12818"]
   minimos = [
     "MINI-6rc9-w57h-93mp",
+    "MINI-m9v4-qwcc-xx36",
     "MINI-mh59-cgg3-mhrq",
     "MINI-vj32-phj6-h22m",
     "MINI-w86v-w9v2-8787",
@@ -22,12 +23,74 @@ allocated = 2025-11-13T14:20:53.992764Z
     "openSUSE-SU-2025:15784-1",
     "openSUSE-SU-2025:15785-1",
     "openSUSE-SU-2025:15786-1",
+    "openSUSE-SU-2025:15789-1",
   ]
   ubuntu = ["USN-7908-1"]
-  redhat = ["RHSA-2025:22728"]
-  amazonlinux = ["ALAS2POSTGRESQL14-2025-020", "ALAS2POSTGRESQL14-2025-021"]
-  suse = ["SUSE-SU-2025:4334-1"]
-  oraclelinux = ["ELSA-2026-0458"]
+  redhat = [
+    "RHSA-2025:22728",
+    "RHSA-2025:23022",
+    "RHSA-2025:23023",
+    "RHSA-2025:23123",
+    "RHSA-2025:23124",
+    "RHSA-2025:23157",
+    "RHSA-2025:23158",
+    "RHSA-2026:0262",
+    "RHSA-2026:0263",
+    "RHSA-2026:0264",
+    "RHSA-2026:0265",
+    "RHSA-2026:0266",
+    "RHSA-2026:0267",
+    "RHSA-2026:0268",
+    "RHSA-2026:0269",
+    "RHSA-2026:0270",
+    "RHSA-2026:0455",
+    "RHSA-2026:0456",
+    "RHSA-2026:0458",
+    "RHSA-2026:0491",
+    "RHSA-2026:0492",
+    "RHSA-2026:0493",
+    "RHSA-2026:0519",
+    "RHSA-2026:0523",
+    "RHSA-2026:0524",
+    "RHSA-2026:0525",
+    "RHSA-2026:0594",
+    "RHSA-2026:0695",
+    "RHSA-2026:0744",
+    "RHSA-2026:0745",
+    "RHSA-2026:0746",
+    "RHSA-2026:0835",
+    "RHSA-2026:0865",
+  ]
+  amazonlinux = [
+    "ALAS2023-2025-1299",
+    "ALAS2023-2025-1300",
+    "ALAS2023-2025-1313",
+    "ALAS2023-2025-1314",
+    "ALAS2POSTGRESQL14-2025-020",
+    "ALAS2POSTGRESQL14-2025-021",
+  ]
+  suse = [
+    "SUSE-SU-2025:4334-1",
+    "SUSE-SU-2025:4370-1",
+    "SUSE-SU-2025:4371-1",
+    "SUSE-SU-2025:4372-1",
+    "SUSE-SU-2025:4386-1",
+    "SUSE-SU-2025:4387-1",
+    "SUSE-SU-2025:4388-1",
+    "SUSE-SU-2025:4406-1",
+  ]
+  oraclelinux = [
+    "ELSA-2026-0458",
+    "ELSA-2026-0491",
+    "ELSA-2026-0492",
+    "ELSA-2026-0493",
+    "ELSA-2026-0519",
+    "ELSA-2026-0523",
+    "ELSA-2026-0524",
+    "ELSA-2026-0525",
+    "ELSA-2026-0594",
+    "ELSA-2026-0695",
+  ]
   almalinux = [
     "ALSA-2026:0458",
     "ALSA-2026:0491",

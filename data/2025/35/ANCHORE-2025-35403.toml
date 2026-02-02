@@ -9,7 +9,22 @@ allocated = 2025-10-15T14:17:44.230749Z
   debian = ["DLA-4328-1", "DSA-6008-1", "DSA-6009-1"]
   echo = ["ECHO-83e8-6747-3085"]
   amazonlinux = ["ALAS2023-2025-1210"]
-  oraclelinux = ["ELSA-2025-18281"]
-  redhat = ["RHSA-2025:18281"]
-  suse = ["SUSE-SU-2025:3751-1"]
-  almalinux = ["ALSA-2025:18281"]
+  oraclelinux = [
+    "ELSA-2025-18281",
+    "ELSA-2025-19102",
+    "ELSA-2025-19106",
+    "ELSA-2025-21112",
+    "ELSA-2025-21118",
+    "ELSA-2025-25754",
+  ]
+  redhat = [
+    "RHSA-2025:18281",
+    "RHSA-2025:19102",
+    "RHSA-2025:19103",
+    "RHSA-2025:19106",
+    "RHSA-2025:21112",
+    "RHSA-2025:21118",
+    "RHSA-2025:21760",
+  ]
+  suse = ["SUSE-SU-2025:3751-1", "SUSE-SU-2025:4057-1", "SUSE-SU-2025:4132-1"]
+  almalinux = ["ALSA-2025:18281", "ALSA-2025:19102", "ALSA-2025:19103"]

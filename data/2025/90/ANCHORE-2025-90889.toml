@@ -20,13 +20,19 @@ allocated = 2025-11-03T09:44:59.926126Z
     "MINI-q66w-gmvc-pfc4",
     "MINI-q8m9-wcpp-cv9m",
   ]
-  ubuntu = ["USN-7886-1"]
-  suse = ["SUSE-SU-2025:4297-1"]
+  ubuntu = ["USN-7886-1", "USN-7886-2"]
+  suse = ["SUSE-SU-2025:4297-1", "SUSE-SU-2025:4368-1", "SUSE-SU-2025:4389-1"]
   opensuse = ["openSUSE-SU-2025:15791-1", "openSUSE-SU-2025:15792-1"]
-  amazonlinux = ["ALAS2-2025-3084"]
-  redhat = ["RHSA-2025:23530"]
-  oraclelinux = ["ELSA-2025-23342"]
+  amazonlinux = [
+    "ALAS2-2025-3084",
+    "ALAS2023-2025-1293",
+    "ALAS2023-2025-1294",
+    "ALAS2023-2025-1308",
+    "ALAS2023-2025-1309",
+  ]
+  redhat = ["RHSA-2025:23342", "RHSA-2025:23530"]
+  oraclelinux = ["ELSA-2025-23342", "ELSA-2025-23530"]
   almalinux = ["ALSA-2025:23342", "ALSA-2025:23530"]
-  openeuler = ["OESA-2025-2869"]
+  openeuler = ["OESA-2025-2869", "openEuler-SA-2025-2869"]
   debian = ["DLA-4445-1"]
   chainguard = ["CGA-3jxx-qmh5-7q8p"]

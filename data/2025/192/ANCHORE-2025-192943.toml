@@ -7,7 +7,23 @@ allocated = 2025-11-12T12:29:11.456836Z
   gcve = ["GCVE-0-2025-40173"]
   github = ["GHSA-hr9g-hq4q-3hfj"]
   debian = ["DLA-4379-1"]
-  openeuler = ["OESA-2025-2765", "OESA-2025-2766", "OESA-2025-2767"]
-  amazonlinux = ["ALAS2KERNEL-5.15-2025-094", "ALAS2KERNEL-5.4-2025-114"]
+  openeuler = [
+    "OESA-2025-2765",
+    "OESA-2025-2766",
+    "OESA-2025-2767",
+    "openEuler-SA-2025-2765",
+    "openEuler-SA-2025-2766",
+    "openEuler-SA-2025-2767",
+  ]
+  amazonlinux = [
+    "ALAS2023-2025-1297",
+    "ALAS2023-2025-1316",
+    "ALAS2023LIVEPATCH-2025-110",
+    "ALAS2023LIVEPATCH-2025-111",
+    "ALAS2023LIVEPATCH-2025-112",
+    "ALAS2KERNEL-5.15-2025-094",
+    "ALAS2KERNEL-5.4-2025-114",
+    "ALAS2LIVEPATCH-2025-283",
+  ]
   oraclelinux = ["ELSA-2025-28048", "ELSA-2025-28049"]
   suse = ["SUSE-SU-2025:4505-1"]

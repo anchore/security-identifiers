@@ -35,14 +35,25 @@ allocated = 2025-10-15T14:17:26.103275Z
     "USN-7737-1",
   ]
   minimos = ["MINI-66j6-28m8-h2v6"]
-  openeuler = ["OESA-2025-1339", "OESA-2025-1340"]
+  openeuler = [
+    "OESA-2025-1339",
+    "OESA-2025-1340",
+    "openEuler-SA-2025-1339",
+    "openEuler-SA-2025-1340",
+  ]
   amazonlinux = [
     "ALAS2023-2025-1050",
     "ALAS2KERNEL-5.10-2025-094",
     "ALAS2KERNEL-5.15-2025-073",
   ]
-  oraclelinux = ["ELSA-2025-20470", "ELSA-2025-20480", "ELSA-2025-20530"]
+  oraclelinux = [
+    "ELSA-2025-20095-0",
+    "ELSA-2025-20470",
+    "ELSA-2025-20480",
+    "ELSA-2025-20518-0",
+    "ELSA-2025-20530",
+  ]
   redhat = ["RHSA-2025:20095", "RHSA-2025:20518"]
   mageia = ["MGASA-2025-0111", "MGASA-2025-0112"]
-  almalinux = ["ALSA-2025:20518"]
+  almalinux = ["ALSA-2025:20095", "ALSA-2025:20518"]
   echo = ["ECHO-0533-4032-afff"]

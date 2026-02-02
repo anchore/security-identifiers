@@ -6,7 +6,7 @@ allocated = 2025-10-15T14:17:44.824656Z
   cve = ["CVE-2025-59830"]
   gcve = ["GCVE-0-2025-59830"]
   github = ["GHSA-625h-95r8-8xpm"]
-  ubuntu = ["USN-7784-1"]
+  ubuntu = ["USN-7784-1", "USN-7960-1"]
   minimos = [
     "MINI-g4w3-gvr3-h232",
     "MINI-jcj8-ph3h-wxv8",
@@ -14,8 +14,29 @@ allocated = 2025-10-15T14:17:44.824656Z
     "MINI-wr88-5f8m-8fhq",
   ]
   debian = ["DLA-4357-1"]
-  redhat = ["RHSA-2025:19512", "RHSA-2025:19513"]
-  oraclelinux = ["ELSA-2025-19512"]
-  almalinux = ["ALSA-2025:19719"]
+  redhat = [
+    "RHSA-2025:19512",
+    "RHSA-2025:19513",
+    "RHSA-2025:19647",
+    "RHSA-2025:19719",
+    "RHSA-2025:19733",
+    "RHSA-2025:19734",
+    "RHSA-2025:19736",
+    "RHSA-2025:19800",
+    "RHSA-2025:19832",
+    "RHSA-2025:19855",
+    "RHSA-2025:19856",
+    "RHSA-2025:19948",
+    "RHSA-2025:20962",
+    "RHSA-2025:21036",
+  ]
+  oraclelinux = [
+    "ELSA-2025-19512",
+    "ELSA-2025-19513",
+    "ELSA-2025-19719",
+    "ELSA-2025-20962",
+    "ELSA-2025-21036",
+  ]
+  almalinux = ["ALSA-2025:19719", "ALSA-2025:20962", "ALSA-2025:21036"]
   mageia = ["MGASA-2025-0334"]
   chainguard = ["CGA-8fhh-662x-5cqf"]

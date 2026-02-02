@@ -7,7 +7,12 @@ allocated = 2025-10-30T18:05:38.642852Z
   gcve = ["GCVE-0-2025-40085"]
   github = ["GHSA-2cjq-ppmx-48x5"]
   echo = ["ECHO-40dd-6389-8b4e"]
-  debian = ["DSA-6053-1"]
-  suse = ["SUSE-SU-2025:4057-1"]
+  debian = ["DLA-4379-1", "DSA-6053-1"]
+  suse = [
+    "SUSE-SU-2025:4057-1",
+    "SUSE-SU-2025:4128-1",
+    "SUSE-SU-2025:4132-1",
+    "SUSE-SU-2025:4301-1",
+  ]
   mageia = ["MGASA-2025-0309", "MGASA-2025-0310"]
-  oraclelinux = ["ELSA-2025-28040"]
+  oraclelinux = ["ELSA-2025-28040", "ELSA-2025-28048"]

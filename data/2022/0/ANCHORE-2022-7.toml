@@ -8,7 +8,12 @@ allocated = 2025-10-15T14:16:12.761104Z
   github = ["GHSA-pfmv-2r4f-j9mj"]
   almalinux = ["ALSA-2022:0951"]
   debian = ["DLA-2904-1", "DSA-5073-1"]
-  redhat = ["RHSA-2022:0951", "RHSA-2022:1069"]
+  redhat = [
+    "RHSA-2022:0951",
+    "RHSA-2022:1069",
+    "RHSA-2025:22785",
+    "RHSA-2025:22871",
+  ]
   rockylinux = ["RLSA-2022:0951"]
   suse = ["SUSE-SU-2022:0178-1", "SUSE-SU-2022:0179-1", "SUSE-SU-2022:14878-1"]
   opensuse = ["openSUSE-SU-2022:0178-1", "openSUSE-SU-2024:11762-1"]
@@ -18,6 +23,10 @@ allocated = 2025-10-15T14:16:12.761104Z
     "OESA-2023-1464",
     "OESA-2023-1465",
     "OESA-2024-1815",
+    "openEuler-SA-2022-1490",
+    "openEuler-SA-2023-1464",
+    "openEuler-SA-2023-1465",
+    "openEuler-SA-2024-1815",
   ]
   amazonlinux = [
     "ALAS-2022-017",

@@ -7,11 +7,25 @@ allocated = 2025-11-26T16:44:35.159064Z
   gcve = ["GCVE-0-2025-13601"]
   github = ["GHSA-v6c5-9mp4-mwq4"]
   echo = ["ECHO-5abc-0c11-05f1"]
-  amazonlinux = ["ALAS2-2025-3094"]
+  amazonlinux = ["ALAS2-2025-3094", "ALAS2023-2025-1311"]
   debian = ["DLA-4412-1"]
   suse = ["SUSE-SU-2025:4504-1"]
   ubuntu = ["USN-7942-1"]
-  redhat = ["RHSA-2026:0936"]
+  redhat = [
+    "RHSA-2026:0936",
+    "RHSA-2026:0975",
+    "RHSA-2026:0991",
+    "RHSA-2026:1323",
+    "RHSA-2026:1324",
+    "RHSA-2026:1326",
+    "RHSA-2026:1327",
+    "RHSA-2026:1465",
+    "RHSA-2026:1608",
+    "RHSA-2026:1624",
+    "RHSA-2026:1625",
+    "RHSA-2026:1626",
+    "RHSA-2026:1627",
+  ]
   almalinux = ["ALSA-2026:0936", "ALSA-2026:0975", "ALSA-2026:0991"]
   oraclelinux = ["ELSA-2026-0936", "ELSA-2026-0975", "ELSA-2026-0991"]
   mageia = ["MGASA-2026-0023"]

@@ -6,8 +6,22 @@ allocated = 2025-10-15T14:17:40.774237Z
   cve = ["CVE-2025-38526"]
   gcve = ["GCVE-0-2025-38526"]
   github = ["GHSA-f2wc-6g38-9vmc"]
-  openeuler = ["OESA-2025-2077", "OESA-2025-2078", "OESA-2025-2079"]
+  openeuler = [
+    "OESA-2025-2077",
+    "OESA-2025-2078",
+    "OESA-2025-2079",
+    "openEuler-SA-2025-2077",
+    "openEuler-SA-2025-2078",
+    "openEuler-SA-2025-2079",
+  ]
   oraclelinux = ["ELSA-2025-20551"]
-  suse = ["SUSE-SU-2025:3725-1"]
+  suse = ["SUSE-SU-2025:3725-1", "SUSE-SU-2025:3751-1"]
   minimos = ["MINI-v345-rh93-7whp"]
-  ubuntu = ["USN-7879-1", "USN-7879-2", "USN-7880-1"]
+  ubuntu = [
+    "USN-7879-1",
+    "USN-7879-2",
+    "USN-7879-3",
+    "USN-7879-4",
+    "USN-7880-1",
+    "USN-7934-1",
+  ]

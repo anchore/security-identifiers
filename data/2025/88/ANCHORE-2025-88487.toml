@@ -6,11 +6,15 @@ allocated = 2025-10-22T09:42:27.705099Z
   cve = ["CVE-2025-61748"]
   gcve = ["GCVE-0-2025-61748"]
   github = ["GHSA-6ch4-24w6-v6jv"]
-  redhat = ["RHSA-2025:18824"]
+  redhat = ["RHSA-2025:18824", "RHSA-2025:21485"]
   debian = ["DSA-6037-1", "DSA-6039-1"]
-  oraclelinux = ["ELSA-2025-18824"]
+  oraclelinux = ["ELSA-2025-18824", "ELSA-2025-21485"]
   amazonlinux = ["ALAS2023-2025-1240", "ALAS2023-2025-1241"]
-  chainguard = ["CGA-gmgm-f2vw-mw49", "CGA-wx8g-h55q-9fcm"]
+  chainguard = [
+    "CGA-7jxc-9wmh-x6rw",
+    "CGA-gmgm-f2vw-mw49",
+    "CGA-wx8g-h55q-9fcm",
+  ]
   almalinux = ["ALSA-2025:18824"]
-  ubuntu = ["USN-7884-1", "USN-7885-1"]
+  ubuntu = ["USN-7884-1", "USN-7885-1", "USN-7901-1", "USN-7902-1"]
   suse = ["SUSE-SU-2025:4287-1"]

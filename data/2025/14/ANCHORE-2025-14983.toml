@@ -6,8 +6,8 @@ allocated = 2025-10-15T14:17:29.736636Z
   cve = ["CVE-2025-22068"]
   gcve = ["GCVE-0-2025-22068"]
   github = ["GHSA-5vwg-96q8-mm82"]
-  almalinux = ["ALSA-2025:15782"]
-  redhat = ["RHSA-2025:15782"]
+  almalinux = ["ALSA-2025:15782", "ALSA-2025:22395"]
+  redhat = ["RHSA-2025:15782", "RHSA-2025:22395"]
   ubuntu = [
     "USN-7594-1",
     "USN-7594-2",
@@ -16,6 +16,21 @@ allocated = 2025-10-15T14:17:29.736636Z
     "USN-7605-2",
     "USN-7606-1",
     "USN-7628-1",
+    "USN-7835-1",
+    "USN-7835-2",
+    "USN-7835-3",
+    "USN-7835-4",
+    "USN-7835-5",
+    "USN-7835-6",
+    "USN-7887-1",
+    "USN-7887-2",
+    "USN-7940-1",
+    "USN-7940-2",
   ]
   minimos = ["MINI-pmp2-h486-2hcv"]
-  oraclelinux = ["ELSA-2025-15782", "ELSA-2025-20480", "ELSA-2025-20530"]
+  oraclelinux = [
+    "ELSA-2025-15782",
+    "ELSA-2025-20480",
+    "ELSA-2025-20530",
+    "ELSA-2025-22395",
+  ]

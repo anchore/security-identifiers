@@ -6,9 +6,21 @@ allocated = 2025-11-04T11:01:17.595808Z
   cve = ["CVE-2025-43430"]
   gcve = ["GCVE-0-2025-43430"]
   github = ["GHSA-hmxw-42mv-c458"]
-  debian = ["DSA-6070-1"]
+  debian = ["DLA-4394-1", "DSA-6070-1"]
   mageia = ["MGASA-2025-0319"]
-  redhat = ["RHSA-2025:22789", "RHSA-2025:22790"]
+  redhat = [
+    "RHSA-2025:22789",
+    "RHSA-2025:22790",
+    "RHSA-2025:23110",
+    "RHSA-2025:23433",
+    "RHSA-2025:23434",
+    "RHSA-2025:23451",
+    "RHSA-2025:23452",
+    "RHSA-2025:23583",
+    "RHSA-2025:23591",
+    "RHSA-2025:23742",
+    "RHSA-2025:23743",
+  ]
   ubuntu = ["USN-7914-1"]
   oraclelinux = ["ELSA-2025-22789", "ELSA-2025-22790"]
   almalinux = ["ALSA-2025:22789", "ALSA-2025:22790"]

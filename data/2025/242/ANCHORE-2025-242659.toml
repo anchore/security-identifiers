@@ -8,9 +8,20 @@ allocated = 2025-12-29T01:10:43.440920Z
   github = ["GHSA-pj23-86ww-f72p"]
   echo = ["ECHO-28ba-d9bf-3b84"]
   minimos = ["MINI-jj25-4j8g-8w2m"]
-  ubuntu = ["USN-7946-2"]
-  oraclelinux = ["ELSA-2026-0697"]
+  ubuntu = ["USN-7946-1", "USN-7946-2"]
+  oraclelinux = ["ELSA-2026-0697", "ELSA-2026-0719", "ELSA-2026-0728"]
   almalinux = ["ALSA-2026:0697", "ALSA-2026:0719", "ALSA-2026:0728"]
-  redhat = ["RHSA-2026:0697", "RHSA-2026:0728"]
-  openeuler = ["OESA-2026-1072"]
+  redhat = [
+    "RHSA-2026:0697",
+    "RHSA-2026:0719",
+    "RHSA-2026:0728",
+    "RHSA-2026:0935",
+    "RHSA-2026:0974",
+    "RHSA-2026:1014",
+    "RHSA-2026:1229",
+    "RHSA-2026:1230",
+    "RHSA-2026:1468",
+    "RHSA-2026:1629",
+  ]
+  openeuler = ["OESA-2026-1072", "openEuler-SA-2026-1072"]
   amazonlinux = ["ALAS2-2026-3125"]

@@ -10,9 +10,32 @@ allocated = 2025-10-15T14:17:38.899980Z
   minimos = ["MINI-jrph-rv6c-x9qc"]
   echo = ["ECHO-3fcb-a0e8-6a1c"]
   amazonlinux = ["ALAS2-2025-2965", "ALAS2023-2025-1153"]
-  redhat = ["RHSA-2025:19113"]
-  oraclelinux = ["ELSA-2025-19113"]
-  almalinux = ["ALSA-2025:19113"]
+  redhat = [
+    "RHSA-2025:19113",
+    "RHSA-2025:19906",
+    "RHSA-2025:20034",
+    "RHSA-2025:20956",
+    "RHSA-2025:21407",
+    "RHSA-2025:21507",
+    "RHSA-2025:21508",
+    "RHSA-2026:0001",
+    "RHSA-2026:0076",
+    "RHSA-2026:0077",
+    "RHSA-2026:0078",
+  ]
+  oraclelinux = [
+    "ELSA-2025-19113",
+    "ELSA-2025-19906",
+    "ELSA-2025-20034-0",
+    "ELSA-2025-20956",
+    "ELSA-2025-21407",
+  ]
+  almalinux = [
+    "ALSA-2025:19113",
+    "ALSA-2025:19906",
+    "ALSA-2025:20034",
+    "ALSA-2025:20956",
+  ]
   mageia = ["MGASA-2025-0240", "MGASA-2025-0252"]
   julia = ["JLSEC-2025-317"]
   chainguard = ["CGA-pm6r-52vx-4287"]

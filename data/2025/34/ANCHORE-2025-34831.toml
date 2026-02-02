@@ -6,11 +6,21 @@ allocated = 2025-10-15T14:17:43.826692Z
   cve = ["CVE-2022-50341"]
   gcve = ["GCVE-0-2022-50341"]
   github = ["GHSA-frfp-g383-4xwm"]
-  redhat = ["RHSA-2023:6583", "RHSA-2024:10772", "RHSA-2024:8856"]
+  redhat = [
+    "RHSA-2023:6583",
+    "RHSA-2024:10772",
+    "RHSA-2024:8856",
+    "RHSA-2025:22006",
+    "RHSA-2025:22066",
+    "RHSA-2025:22072",
+    "RHSA-2025:22087",
+    "RHSA-2025:22910",
+    "RHSA-2025:22914",
+  ]
   amazonlinux = [
     "ALAS2KERNEL-5.10-2023-026",
     "ALAS2KERNEL-5.15-2023-013",
     "ALAS2KERNEL-5.4-2023-042",
   ]
-  openeuler = ["OESA-2025-2533"]
+  openeuler = ["OESA-2025-2533", "openEuler-SA-2025-2533"]
   oraclelinux = ["ELSA-2025-22910"]

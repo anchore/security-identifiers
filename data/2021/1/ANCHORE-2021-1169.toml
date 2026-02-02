@@ -11,10 +11,15 @@ allocated = 2025-10-15T14:15:58.687258Z
     "BIT-mariadb-min-2021-2011",
     "BIT-mysql-client-2021-2011",
   ]
-  chainguard = ["CGA-rc6g-j46h-5x47"]
+  chainguard = ["CGA-9q5p-h5xg-5g6r", "CGA-rc6g-j46h-5x47"]
   almalinux = ["ALSA-2021:3590"]
   redhat = ["RHSA-2019:2327", "RHSA-2021:3590", "RHSA-2021:3811"]
   rockylinux = ["RLSA-2021:3590"]
   ubuntu = ["USN-4716-1"]
-  openeuler = ["OESA-2021-1113", "OESA-2022-1634"]
+  openeuler = [
+    "OESA-2021-1113",
+    "OESA-2022-1634",
+    "openEuler-SA-2021-1113",
+    "openEuler-SA-2022-1634",
+  ]
   oraclelinux = ["ELSA-2021-3590"]

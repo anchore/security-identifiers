@@ -12,7 +12,7 @@ allocated = 2025-10-15T14:17:45.960729Z
     "BIT-python-min-2025-8291",
   ]
   psf = ["PSF-2025-12"]
-  chainguard = ["CGA-vf3r-jmrx-6v96"]
+  chainguard = ["CGA-38xq-jhr9-7p8p", "CGA-vf3r-jmrx-6v96"]
   minimos = [
     "MINI-2cgr-58w5-438j",
     "MINI-f23m-2chc-2rhj",
@@ -28,22 +28,48 @@ allocated = 2025-10-15T14:17:45.960729Z
     "ALAS2023-2025-1236",
     "ALAS2023-2025-1237",
   ]
-  debian = ["DLA-4354-1"]
+  debian = ["DLA-4354-1", "DLA-4445-1"]
   openeuler = [
     "OESA-2025-2574",
     "OESA-2025-2575",
     "OESA-2025-2576",
     "OESA-2025-2577",
     "OESA-2025-2578",
+    "openEuler-SA-2025-2574",
+    "openEuler-SA-2025-2575",
+    "openEuler-SA-2025-2576",
+    "openEuler-SA-2025-2577",
+    "openEuler-SA-2025-2578",
   ]
-  ubuntu = ["USN-7886-1"]
-  suse = ["SUSE-SU-2025:4297-1"]
+  ubuntu = ["USN-7886-1", "USN-7886-2"]
+  suse = [
+    "SUSE-SU-2025:4297-1",
+    "SUSE-SU-2025:4313-1",
+    "SUSE-SU-2025:4368-1",
+    "SUSE-SU-2025:4389-1",
+  ]
   opensuse = ["openSUSE-SU-2025:15792-1"]
-  redhat = ["RHSA-2025:23530"]
-  oraclelinux = ["ELSA-2025-23323", "ELSA-2025-23342"]
+  redhat = [
+    "RHSA-2025:23323",
+    "RHSA-2025:23342",
+    "RHSA-2025:23530",
+    "RHSA-2025:23940",
+    "RHSA-2026:0123",
+    "RHSA-2026:0353",
+    "RHSA-2026:0354",
+    "RHSA-2026:0355",
+  ]
+  oraclelinux = [
+    "ELSA-2025-23323",
+    "ELSA-2025-23342",
+    "ELSA-2025-23530",
+    "ELSA-2025-23940",
+    "ELSA-2026-0123",
+  ]
   almalinux = [
     "ALSA-2025:23323",
     "ALSA-2025:23342",
     "ALSA-2025:23530",
     "ALSA-2025:23940",
+    "ALSA-2026:0123",
   ]

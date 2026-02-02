@@ -8,10 +8,15 @@ allocated = 2025-11-25T01:03:25.577550Z
   echo = ["ECHO-db6d-1c5e-5e4d"]
   opensuse = ["openSUSE-SU-2025:15781-1"]
   minimos = ["MINI-9h67-8994-rpw6"]
-  openeuler = ["OESA-2025-2763"]
+  openeuler = ["OESA-2025-2763", "openEuler-SA-2025-2763"]
   julia = ["JLSEC-2025-329"]
   mageia = ["MGASA-2025-0314"]
-  debian = ["DLA-4396-1"]
-  amazonlinux = ["ALAS2-2025-3091", "ALAS2FIREFOX-2025-048"]
+  debian = ["DLA-4396-1", "DSA-6076-1"]
+  amazonlinux = [
+    "ALAS2-2025-3091",
+    "ALAS2023-2025-1305",
+    "ALAS2023-2025-1306",
+    "ALAS2FIREFOX-2025-048",
+  ]
   ubuntu = ["USN-7924-1"]
   suse = ["SUSE-SU-2025:4533-1"]

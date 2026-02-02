@@ -12,10 +12,24 @@ allocated = 2025-10-15T14:17:22.431442Z
     "BIT-python-min-2025-0938",
   ]
   psf = ["PSF-2025-1"]
-  chainguard = ["CGA-c29j-rpwg-c93p", "CGA-mfwm-8c36-vh8v"]
-  almalinux = ["ALSA-2025:6977", "ALSA-2025:7107", "ALSA-2025:7109"]
-  debian = ["DLA-4087-1"]
-  redhat = ["RHSA-2025:6977", "RHSA-2025:7107", "RHSA-2025:7109"]
+  chainguard = [
+    "CGA-c29j-rpwg-c93p",
+    "CGA-m5w4-vf4q-538c",
+    "CGA-mfwm-8c36-vh8v",
+  ]
+  almalinux = [
+    "ALSA-2025:23530",
+    "ALSA-2025:6977",
+    "ALSA-2025:7107",
+    "ALSA-2025:7109",
+  ]
+  debian = ["DLA-4087-1", "DLA-4354-1"]
+  redhat = [
+    "RHSA-2025:23530",
+    "RHSA-2025:6977",
+    "RHSA-2025:7107",
+    "RHSA-2025:7109",
+  ]
   suse = [
     "SUSE-SU-2025:02074-1",
     "SUSE-SU-2025:0419-1",
@@ -57,6 +71,10 @@ allocated = 2025-10-15T14:17:22.431442Z
     "OESA-2025-1149",
     "OESA-2025-1150",
     "OESA-2025-1151",
+    "openEuler-SA-2025-1148",
+    "openEuler-SA-2025-1149",
+    "openEuler-SA-2025-1150",
+    "openEuler-SA-2025-1151",
   ]
   amazonlinux = [
     "ALAS2-2025-2797",
@@ -65,5 +83,10 @@ allocated = 2025-10-15T14:17:22.431442Z
     "ALAS2023-2025-898",
     "ALAS2023-2025-899",
   ]
-  oraclelinux = ["ELSA-2025-6977", "ELSA-2025-7107", "ELSA-2025-7109"]
+  oraclelinux = [
+    "ELSA-2025-23530",
+    "ELSA-2025-6977",
+    "ELSA-2025-7107",
+    "ELSA-2025-7109",
+  ]
   mageia = ["MGASA-2025-0280"]

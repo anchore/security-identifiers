@@ -5,8 +5,13 @@ allocated = 2025-12-12T06:45:48.184685Z
   [security.aliases]
   cve = ["CVE-2025-67726"]
   gcve = ["GCVE-0-2025-67726"]
-  openeuler = ["OESA-2025-2881"]
-  amazonlinux = ["ALAS2-2025-3106", "ALAS2-2025-3109"]
+  openeuler = [
+    "OESA-2025-2881",
+    "OESA-2026-1018",
+    "openEuler-SA-2025-2881",
+    "openEuler-SA-2026-1018",
+  ]
+  amazonlinux = ["ALAS2-2025-3106", "ALAS2-2025-3109", "ALAS2023-2025-1338"]
   ubuntu = ["USN-7950-1"]
   redhat = ["RHSA-2026:0930"]
   almalinux = ["ALSA-2026:0930"]

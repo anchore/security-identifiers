@@ -23,8 +23,23 @@ allocated = 2025-10-15T14:17:25.749196Z
   ]
   echo = ["ECHO-605d-2ba1-6ba6"]
   amazonlinux = ["ALAS2023-2025-990", "ALAS2MARIADB10.5-2025-007"]
-  redhat = ["RHSA-2025:19572", "RHSA-2025:19584"]
-  oraclelinux = ["ELSA-2025-19584"]
-  almalinux = ["ALSA-2025:19572", "ALSA-2025:19584"]
+  redhat = [
+    "RHSA-2025:19572",
+    "RHSA-2025:19584",
+    "RHSA-2026:0136",
+    "RHSA-2026:0247",
+  ]
+  oraclelinux = [
+    "ELSA-2025-19572",
+    "ELSA-2025-19584",
+    "ELSA-2026-0136",
+    "ELSA-2026-0247",
+  ]
+  almalinux = [
+    "ALSA-2025:19572",
+    "ALSA-2025:19584",
+    "ALSA-2026:0136",
+    "ALSA-2026:0247",
+  ]
   mageia = ["MGASA-2025-0186"]
   chainguard = ["CGA-g7pq-fcrh-x8c2"]

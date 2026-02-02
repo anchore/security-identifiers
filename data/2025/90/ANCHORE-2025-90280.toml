@@ -7,9 +7,16 @@ allocated = 2025-10-30T18:05:38.719121Z
   gcve = ["GCVE-0-2025-40104"]
   github = ["GHSA-326q-28hh-wvjc"]
   echo = ["ECHO-fcad-3928-9f92"]
-  debian = ["DSA-6053-1"]
-  suse = ["SUSE-SU-2025:4057-1"]
+  debian = ["DLA-4379-1", "DSA-6053-1"]
+  suse = ["SUSE-SU-2025:4057-1", "SUSE-SU-2025:4132-1"]
   mageia = ["MGASA-2025-0309", "MGASA-2025-0310"]
   amazonlinux = ["ALAS2023-2025-1297", "ALAS2023-2025-1316"]
   oraclelinux = ["ELSA-2025-28040"]
-  openeuler = ["OESA-2025-2802", "OESA-2025-2803", "OESA-2025-2804"]
+  openeuler = [
+    "OESA-2025-2802",
+    "OESA-2025-2803",
+    "OESA-2025-2804",
+    "openEuler-SA-2025-2802",
+    "openEuler-SA-2025-2803",
+    "openEuler-SA-2025-2804",
+  ]

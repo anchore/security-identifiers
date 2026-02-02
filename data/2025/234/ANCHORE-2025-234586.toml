@@ -5,9 +5,22 @@ allocated = 2025-11-20T18:44:30.200738Z
   [security.aliases]
   cve = ["CVE-2025-64524"]
   gcve = ["GCVE-0-2025-64524"]
-  ubuntu = ["USN-7878-1"]
+  ubuntu = ["USN-7878-1", "USN-7878-2"]
   suse = ["SUSE-SU-2025:4158-1"]
   mageia = ["MGASA-2025-0312"]
   debian = ["DLA-4380-1"]
-  openeuler = ["OESA-2025-2751"]
-  amazonlinux = ["ALAS2-2025-3082"]
+  openeuler = [
+    "OESA-2025-2751",
+    "OESA-2026-1119",
+    "OESA-2026-1120",
+    "OESA-2026-1121",
+    "OESA-2026-1122",
+    "OESA-2026-1123",
+    "openEuler-SA-2025-2751",
+    "openEuler-SA-2026-1119",
+    "openEuler-SA-2026-1120",
+    "openEuler-SA-2026-1121",
+    "openEuler-SA-2026-1122",
+    "openEuler-SA-2026-1123",
+  ]
+  amazonlinux = ["ALAS2-2025-3082", "ALAS2023-2025-1291"]

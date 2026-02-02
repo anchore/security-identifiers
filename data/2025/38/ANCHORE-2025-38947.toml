@@ -6,6 +6,11 @@ allocated = 2025-10-15T14:17:46.714448Z
   cve = ["CVE-2025-39966"]
   gcve = ["GCVE-0-2025-39966"]
   github = ["GHSA-jrgc-8xmv-4r2m"]
-  redhat = ["RHSA-2025:22802"]
-  oraclelinux = ["ELSA-2025-23241"]
-  almalinux = ["ALSA-2025:23241"]
+  redhat = [
+    "RHSA-2025:22802",
+    "RHSA-2025:23241",
+    "RHSA-2025:23250",
+    "RHSA-2026:0453",
+  ]
+  oraclelinux = ["ELSA-2025-23241", "ELSA-2026-0453"]
+  almalinux = ["ALSA-2025:23241", "ALSA-2026:0453"]

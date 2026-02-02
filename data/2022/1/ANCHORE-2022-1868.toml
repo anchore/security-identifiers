@@ -8,11 +8,18 @@ allocated = 2025-10-15T14:16:14.032830Z
   github = ["GHSA-r3g2-gw56-v728"]
   almalinux = ["ALSA-2022:7811"]
   debian = ["DLA-2904-1", "DSA-5073-1"]
-  redhat = ["RHSA-2022:7811"]
+  redhat = [
+    "RHSA-2022:7811",
+    "RHSA-2025:21776",
+    "RHSA-2025:22607",
+    "RHSA-2025:22785",
+    "RHSA-2025:22842",
+    "RHSA-2025:22871",
+  ]
   suse = ["SUSE-SU-2022:0495-1", "SUSE-SU-2022:0498-1", "SUSE-SU-2022:14884-1"]
   opensuse = ["openSUSE-SU-2022:0498-1", "openSUSE-SU-2024:11793-1"]
   ubuntu = ["USN-5288-1"]
-  openeuler = ["OESA-2022-1511"]
+  openeuler = ["OESA-2022-1511", "openEuler-SA-2022-1511"]
   amazonlinux = [
     "ALAS-2022-028",
     "ALAS-2022-232",

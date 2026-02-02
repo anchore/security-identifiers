@@ -6,18 +6,61 @@ allocated = 2025-10-28T09:42:14.208323Z
   cve = ["CVE-2025-55752"]
   gcve = ["GCVE-0-2025-55752"]
   github = ["GHSA-wmwf-9ccg-fff5"]
-  chainguard = ["CGA-wr6g-phvx-mg75", "CGA-xrp3-jgrh-29hf"]
+  chainguard = [
+    "CGA-ffp8-8jhj-qx69",
+    "CGA-hcvw-c48v-9fv2",
+    "CGA-jg26-97xh-9744",
+    "CGA-rh33-r33p-x528",
+    "CGA-wr6g-phvx-mg75",
+    "CGA-xrp3-jgrh-29hf",
+  ]
   openeuler = [
     "OESA-2025-2559",
     "OESA-2025-2560",
     "OESA-2025-2561",
     "OESA-2025-2562",
     "OESA-2025-2563",
+    "OESA-2025-2630",
+    "openEuler-SA-2025-2559",
+    "openEuler-SA-2025-2560",
+    "openEuler-SA-2025-2561",
+    "openEuler-SA-2025-2562",
+    "openEuler-SA-2025-2563",
+    "openEuler-SA-2025-2630",
   ]
   bitnami = ["BIT-tomcat-2025-55752"]
-  redhat = ["RHSA-2025:19809"]
-  amazonlinux = ["ALAS2TOMCAT9-2025-023"]
-  suse = ["SUSE-SU-2025:4086-1"]
+  redhat = [
+    "RHSA-2025:19809",
+    "RHSA-2025:22925",
+    "RHSA-2025:23044",
+    "RHSA-2025:23045",
+    "RHSA-2025:23046",
+    "RHSA-2025:23047",
+    "RHSA-2025:23048",
+    "RHSA-2025:23049",
+    "RHSA-2025:23050",
+    "RHSA-2025:23051",
+    "RHSA-2025:23052",
+    "RHSA-2025:23053",
+    "RHSA-2026:0292",
+    "RHSA-2026:0293",
+  ]
+  amazonlinux = [
+    "ALAS2023-2025-1280",
+    "ALAS2023-2025-1281",
+    "ALAS2TOMCAT9-2025-023",
+  ]
+  suse = ["SUSE-SU-2025:4086-1", "SUSE-SU-2025:4159-1"]
   mageia = ["MGASA-2025-0250"]
-  oraclelinux = ["ELSA-2025-23050", "ELSA-2025-23052"]
-  almalinux = ["ALSA-2025:23048"]
+  oraclelinux = [
+    "ELSA-2025-23048",
+    "ELSA-2025-23049",
+    "ELSA-2025-23050",
+    "ELSA-2025-23052",
+  ]
+  almalinux = [
+    "ALSA-2025:23048",
+    "ALSA-2025:23049",
+    "ALSA-2025:23050",
+    "ALSA-2025:23052",
+  ]

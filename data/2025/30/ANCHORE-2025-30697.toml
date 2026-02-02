@@ -6,11 +6,45 @@ allocated = 2025-10-15T14:17:40.912644Z
   cve = ["CVE-2025-38566"]
   gcve = ["GCVE-0-2025-38566"]
   github = ["GHSA-64hp-5254-q6pc"]
-  almalinux = ["ALSA-2025:16354"]
-  redhat = ["RHSA-2025:16354", "RHSA-2025:17958"]
-  suse = ["SUSE-SU-2025:03301-1"]
+  almalinux = ["ALSA-2025:16354", "ALSA-2025:18281"]
+  redhat = [
+    "RHSA-2025:16354",
+    "RHSA-2025:17958",
+    "RHSA-2025:18281",
+    "RHSA-2025:21112",
+  ]
+  suse = [
+    "SUSE-SU-2025:03301-1",
+    "SUSE-SU-2025:3742-1",
+    "SUSE-SU-2025:3748-1",
+    "SUSE-SU-2025:3755-1",
+    "SUSE-SU-2025:3768-1",
+    "SUSE-SU-2025:3770-1",
+    "SUSE-SU-2025:3771-1",
+    "SUSE-SU-2025:3772-1",
+  ]
   amazonlinux = ["ALAS2023-2025-1208"]
-  oraclelinux = ["ELSA-2025-16354", "ELSA-2025-20608", "ELSA-2025-20662"]
+  oraclelinux = [
+    "ELSA-2025-16354",
+    "ELSA-2025-18281",
+    "ELSA-2025-20608",
+    "ELSA-2025-20662",
+    "ELSA-2025-21112",
+  ]
   mageia = ["MGASA-2025-0234", "MGASA-2025-0235"]
-  ubuntu = ["USN-7879-1", "USN-7879-2", "USN-7880-1"]
-  openeuler = ["OESA-2025-2776"]
+  ubuntu = [
+    "USN-7879-1",
+    "USN-7879-2",
+    "USN-7879-3",
+    "USN-7879-4",
+    "USN-7880-1",
+    "USN-7934-1",
+  ]
+  openeuler = [
+    "OESA-2025-2776",
+    "OESA-2025-2802",
+    "OESA-2025-2803",
+    "openEuler-SA-2025-2776",
+    "openEuler-SA-2025-2802",
+    "openEuler-SA-2025-2803",
+  ]

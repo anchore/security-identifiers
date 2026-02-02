@@ -6,12 +6,19 @@ allocated = 2025-11-25T01:03:25.576525Z
   cve = ["CVE-2025-64505"]
   gcve = ["GCVE-0-2025-64505"]
   echo = ["ECHO-1949-597a-9e78"]
-  opensuse = ["openSUSE-SU-2025:15781-1"]
+  opensuse = ["openSUSE-SU-2025:15781-1", "openSUSE-SU-2025:15797-1"]
   minimos = ["MINI-5rgh-w6qx-pxvv"]
-  openeuler = ["OESA-2025-2763"]
+  openeuler = ["OESA-2025-2763", "openEuler-SA-2025-2763"]
   julia = ["JLSEC-2025-328"]
   mageia = ["MGASA-2025-0314"]
-  debian = ["DLA-4396-1"]
-  amazonlinux = ["ALAS2-2025-3091", "ALAS2FIREFOX-2025-048"]
+  debian = ["DLA-4396-1", "DSA-6076-1"]
+  amazonlinux = [
+    "ALAS2-2025-3091",
+    "ALAS2-2025-3112",
+    "ALAS2-2025-3113",
+    "ALAS2023-2025-1305",
+    "ALAS2023-2025-1306",
+    "ALAS2FIREFOX-2025-048",
+  ]
   ubuntu = ["USN-7924-1"]
-  suse = ["SUSE-SU-2025:4383-1"]
+  suse = ["SUSE-SU-2025:4383-1", "SUSE-SU-2025:4533-1"]

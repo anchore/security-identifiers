@@ -9,9 +9,20 @@ allocated = 2025-10-15T14:17:43.119832Z
   debian = ["DLA-4319-1"]
   ubuntu = ["USN-7743-1"]
   echo = ["ECHO-8406-e671-1093"]
-  openeuler = ["OESA-2025-2255", "OESA-2025-2285"]
+  openeuler = [
+    "OESA-2025-2255",
+    "OESA-2025-2285",
+    "openEuler-SA-2025-2255",
+    "openEuler-SA-2025-2285",
+  ]
   suse = ["SUSE-SU-2025:4115-1", "SUSE-SU-2025:4116-1"]
   julia = ["JLSEC-2025-91"]
-  redhat = ["RHSA-2025:22162", "RHSA-2025:22163"]
+  redhat = [
+    "RHSA-2025:22162",
+    "RHSA-2025:22163",
+    "RHSA-2025:22177",
+    "RHSA-2025:22376",
+    "RHSA-2025:22377",
+  ]
   oraclelinux = ["ELSA-2025-22376"]
   almalinux = ["ALSA-2025:22376"]

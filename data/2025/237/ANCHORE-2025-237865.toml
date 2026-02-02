@@ -9,10 +9,23 @@ allocated = 2025-12-05T12:44:50.230559Z
   mageia = ["MGASA-2025-0322"]
   bitnami = ["BIT-apache-2025-55753"]
   minimos = ["MINI-cqqf-m5p4-rcx3"]
-  redhat = ["RHSA-2025:23732", "RHSA-2025:23739"]
-  oraclelinux = ["ELSA-2025-23738", "ELSA-2025-23739"]
+  redhat = [
+    "RHSA-2025:23732",
+    "RHSA-2025:23738",
+    "RHSA-2025:23739",
+    "RHSA-2026:0009",
+    "RHSA-2026:0010",
+    "RHSA-2026:0011",
+    "RHSA-2026:0012",
+    "RHSA-2026:0029",
+    "RHSA-2026:0030",
+    "RHSA-2026:0092",
+    "RHSA-2026:0093",
+    "RHSA-2026:0094",
+  ]
+  oraclelinux = ["ELSA-2025-23732", "ELSA-2025-23738", "ELSA-2025-23739"]
   almalinux = ["ALSA-2025:23732", "ALSA-2025:23738", "ALSA-2025:23739"]
   amazonlinux = ["ALAS2-2025-3099"]
-  openeuler = ["OESA-2026-1064"]
+  openeuler = ["OESA-2026-1064", "openEuler-SA-2026-1064"]
   ubuntu = ["USN-7968-1"]
   debian = ["DLA-4452-1"]

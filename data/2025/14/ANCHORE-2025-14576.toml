@@ -20,9 +20,16 @@ allocated = 2025-10-15T14:17:29.438412Z
     "RHSA-2025:9418",
     "RHSA-2025:9430",
   ]
-  suse = ["SUSE-SU-2025:03270-1"]
+  suse = ["SUSE-SU-2025:03270-1", "SUSE-SU-2025:3698-1", "SUSE-SU-2025:3699-1"]
   ubuntu = ["USN-7542-1"]
   echo = ["ECHO-64ee-f30c-7bc0"]
-  openeuler = ["OESA-2025-2124", "OESA-2025-2125", "OESA-2025-2126"]
+  openeuler = [
+    "OESA-2025-2124",
+    "OESA-2025-2125",
+    "OESA-2025-2126",
+    "openEuler-SA-2025-2124",
+    "openEuler-SA-2025-2125",
+    "openEuler-SA-2025-2126",
+  ]
   amazonlinux = ["ALAS2-2025-2985", "ALAS2023-2025-1173"]
   oraclelinux = ["ELSA-2025-8411", "ELSA-2025-9418", "ELSA-2025-9430"]

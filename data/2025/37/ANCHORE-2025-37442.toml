@@ -6,7 +6,22 @@ allocated = 2025-10-15T14:17:45.650917Z
   cve = ["CVE-2023-53539"]
   gcve = ["GCVE-0-2023-53539"]
   github = ["GHSA-v36f-cm3w-p7vq"]
-  redhat = ["RHSA-2024:2394"]
-  suse = ["SUSE-SU-2025:4057-1"]
+  redhat = [
+    "RHSA-2024:2394",
+    "RHSA-2025:22800",
+    "RHSA-2025:22801",
+    "RHSA-2026:0534",
+    "RHSA-2026:0535",
+    "RHSA-2026:1445",
+    "RHSA-2026:1494",
+    "RHSA-2026:1495",
+  ]
+  suse = [
+    "SUSE-SU-2025:4057-1",
+    "SUSE-SU-2025:4128-1",
+    "SUSE-SU-2025:4132-1",
+    "SUSE-SU-2025:4301-1",
+    "SUSE-SU-2025:4320-1",
+  ]
   almalinux = ["ALSA-2025:22800", "ALSA-2025:22801"]
   oraclelinux = ["ELSA-2025-22801"]

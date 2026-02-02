@@ -7,7 +7,11 @@ allocated = 2025-10-15T14:17:30.711276Z
   gcve = ["GCVE-0-2025-31651"]
   github = ["GHSA-ff77-26x5-69cr"]
   bitnami = ["BIT-tomcat-2025-31651"]
-  chainguard = ["CGA-576p-jvpw-wc6p", "CGA-mm2j-x7m9-9wg3"]
+  chainguard = [
+    "CGA-576p-jvpw-wc6p",
+    "CGA-895g-cq6h-8w43",
+    "CGA-mm2j-x7m9-9wg3",
+  ]
   debian = ["DLA-4244-1"]
   suse = [
     "SUSE-SU-2025:01521-1",
@@ -16,13 +20,38 @@ allocated = 2025-10-15T14:17:30.711276Z
     "SUSE-SU-2025:1537-1",
   ]
   ubuntu = ["USN-7705-1"]
-  openeuler = ["OESA-2025-1484"]
+  openeuler = ["OESA-2025-1484", "openEuler-SA-2025-1484"]
   amazonlinux = [
     "ALAS2023-2025-964",
     "ALAS2023-2025-965",
     "ALAS2TOMCAT9-2025-018",
   ]
-  redhat = ["RHSA-2025:19809"]
+  redhat = [
+    "RHSA-2025:19809",
+    "RHSA-2025:22925",
+    "RHSA-2025:23044",
+    "RHSA-2025:23045",
+    "RHSA-2025:23046",
+    "RHSA-2025:23047",
+    "RHSA-2025:23048",
+    "RHSA-2025:23049",
+    "RHSA-2025:23050",
+    "RHSA-2025:23051",
+    "RHSA-2025:23052",
+    "RHSA-2025:23053",
+    "RHSA-2026:0292",
+    "RHSA-2026:0293",
+  ]
   mageia = ["MGASA-2025-0145"]
-  oraclelinux = ["ELSA-2025-23050", "ELSA-2025-23052"]
-  almalinux = ["ALSA-2025:23048"]
+  oraclelinux = [
+    "ELSA-2025-23048",
+    "ELSA-2025-23049",
+    "ELSA-2025-23050",
+    "ELSA-2025-23052",
+  ]
+  almalinux = [
+    "ALSA-2025:23048",
+    "ALSA-2025:23049",
+    "ALSA-2025:23050",
+    "ALSA-2025:23052",
+  ]

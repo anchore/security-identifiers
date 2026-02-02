@@ -8,7 +8,12 @@ allocated = 2025-10-15T14:17:14.718960Z
   github = ["GHSA-r9cc-7xcq-fpxg"]
   almalinux = ["ALSA-2025:0578", "ALSA-2025:11455", "ALSA-2025:11456"]
   debian = ["DLA-4008-1", "DLA-4178-1"]
-  redhat = ["RHSA-2025:0578", "RHSA-2025:11455", "RHSA-2025:11456"]
+  redhat = [
+    "RHSA-2025:0578",
+    "RHSA-2025:11455",
+    "RHSA-2025:11456",
+    "RHSA-2025:1658",
+  ]
   suse = [
     "SUSE-SU-2024:4313-1",
     "SUSE-SU-2024:4314-1",
@@ -37,6 +42,7 @@ allocated = 2025-10-15T14:17:14.718960Z
     "SUSE-SU-2025:03503-1",
     "SUSE-SU-2025:03539-1",
     "SUSE-SU-2025:03580-1",
+    "SUSE-SU-2025:4123-1",
   ]
   opensuse = ["openSUSE-SU-2024:14500-1", "openSUSE-SU-2025:14705-1"]
   ubuntu = [
@@ -71,6 +77,11 @@ allocated = 2025-10-15T14:17:14.718960Z
     "OESA-2024-2426",
     "OESA-2024-2492",
     "OESA-2024-2495",
+    "openEuler-SA-2024-2424",
+    "openEuler-SA-2024-2425",
+    "openEuler-SA-2024-2426",
+    "openEuler-SA-2024-2492",
+    "openEuler-SA-2024-2495",
   ]
   amazonlinux = [
     "ALAS2023-2025-794",
