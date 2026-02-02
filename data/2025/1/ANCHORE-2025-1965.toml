@@ -8,7 +8,13 @@ allocated = 2025-10-15T14:17:20.713993Z
   github = ["GHSA-mvph-h5j7-4h2g"]
   bitnami = ["BIT-dotnet-2025-21173", "BIT-dotnet-sdk-2025-21173"]
   almalinux = ["ALSA-2025:0381", "ALSA-2025:0382"]
-  redhat = ["RHSA-2025:0381", "RHSA-2025:0382", "RHSA-2025:0532"]
+  redhat = [
+    "RHBA-2025:0304",
+    "RHBA-2025:0305",
+    "RHSA-2025:0381",
+    "RHSA-2025:0382",
+    "RHSA-2025:0532",
+  ]
   rockylinux = ["RLSA-2025:0381", "RLSA-2025:0382"]
   ubuntu = ["USN-7210-1"]
   amazonlinux = ["ALAS2023-2025-844"]

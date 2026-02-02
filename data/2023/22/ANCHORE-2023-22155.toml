@@ -7,7 +7,12 @@ allocated = 2025-10-15T14:16:45.416667Z
   gcve = ["GCVE-0-2023-4806"]
   github = ["GHSA-5f52-v49r-796w"]
   almalinux = ["ALSA-2023:5453", "ALSA-2023:5455"]
-  redhat = ["RHSA-2023:5453", "RHSA-2023:5455", "RHSA-2023:7409"]
+  redhat = [
+    "RHBA-2024:2413",
+    "RHSA-2023:5453",
+    "RHSA-2023:5455",
+    "RHSA-2023:7409",
+  ]
   rockylinux = ["RLSA-2023:5455"]
   opensuse = ["openSUSE-SU-2024:13273-1"]
   ubuntu = ["USN-6541-1"]
