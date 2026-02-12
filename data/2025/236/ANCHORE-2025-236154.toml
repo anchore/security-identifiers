@@ -10,7 +10,7 @@ allocated = 2025-11-26T16:44:35.159064Z
   amazonlinux = ["ALAS2-2025-3094", "ALAS2023-2025-1311"]
   debian = ["DLA-4412-1"]
   suse = ["SUSE-SU-2025:4504-1"]
-  ubuntu = ["USN-7942-1"]
+  ubuntu = ["USN-7942-1", "USN-7942-2"]
   redhat = [
     "RHSA-2026:0936",
     "RHSA-2026:0975",
@@ -27,6 +27,11 @@ allocated = 2025-11-26T16:44:35.159064Z
     "RHSA-2026:1627",
   ]
   almalinux = ["ALSA-2026:0936", "ALSA-2026:0975", "ALSA-2026:0991"]
-  oraclelinux = ["ELSA-2026-0936", "ELSA-2026-0975", "ELSA-2026-0991"]
+  oraclelinux = [
+    "ELSA-2026-0936",
+    "ELSA-2026-0975",
+    "ELSA-2026-0991",
+    "ELSA-2026-1608",
+  ]
   mageia = ["MGASA-2026-0023"]
   minimos = ["MINI-72v4-hrcg-x2pf"]
