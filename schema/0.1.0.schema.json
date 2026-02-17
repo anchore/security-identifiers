@@ -16,6 +16,13 @@
             "type": "object",
             "additionalProperties": true,
             "properties": {
+                "name": {
+                    "description": "Names which the security event is widely recognised by such as `log4j` or `heartbleed`",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
                 "cve": {
                     "type": "array",
                     "items": {
