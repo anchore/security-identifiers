@@ -14,7 +14,7 @@ permissions:
 jobs:
   validate-schema:
     name: "Validate Schema"
-    runs-on: runs-on=${{ github.run_id }}/runner=medium-arm
+    runs-on: ubuntu-latest
     container:
       image: python:3.13-alpine
     permissions:
@@ -23,6 +23,8 @@ jobs:
       - name: Install OS dependencies
         run: apk add --no-cache taplo
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
+        with:
+          persist-credentials: false
       - name: Run schema validation
         run: taplo validate --schema file:${PWD}/schema/0.1.0.schema.json
       - name: Run format validation
