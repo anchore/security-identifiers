@@ -34,6 +34,6 @@ jobs:
       - name: Render the security identifiers sqlite index
         run: anchore-security-cli -v id index render --data-path data -o ${{ runner.temp }}/security-identifiers-index
       - name: Login to GHCR via oras
-        run: echo ${{ secrets.GITHUB_TOKEN }} | oras login ghcr.io --username ${{ github.actor }} --password-stdin
+        run: echo ${{ secrets.GITHUB_TOKEN }} | oras login ghcr.io --username "${GITHUB_ACTOR}" --password-stdin
       - name: Publish the security identifiers sqlite index
         run: anchore-security-cli -vvv id index publish --index-dir ${{ runner.temp }}/security-identifiers-index --deploy-to=development
