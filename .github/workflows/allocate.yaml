@@ -2,7 +2,7 @@ name: "Allocate Security Identifiers"
 on: 
   workflow_dispatch:
   schedule:
-    - cron: '12 */2 * * MON-FRI'
+    - cron: '27 5 * * MON-FRI'
 
 concurrency:
   group: allocate-security-identifiers
