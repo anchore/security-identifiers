@@ -6,7 +6,7 @@ allocated = 2025-10-15T14:15:40.072254Z
   cve = ["CVE-2019-1547"]
   gcve = ["GCVE-0-2019-1547"]
   github = ["GHSA-q2qv-648h-wcqp"]
-  debian = ["DLA-1932-1", "DSA-4539-1", "DSA-4540-1"]
+  debian = ["DLA-1932-1", "DSA-4539-1", "DSA-4539-3", "DSA-4540-1"]
   redhat = ["RHSA-2020:1337", "RHSA-2020:1840"]
   suse = [
     "SUSE-SU-2019:14171-1",
@@ -32,3 +32,10 @@ allocated = 2025-10-15T14:15:40.072254Z
   amazonlinux = ["ALAS2-2020-1406", "ALAS2-2020-1456"]
   oraclelinux = ["ELSA-2020-1840"]
   mageia = ["MGASA-2019-0354"]
+  fedora = [
+    "FEDORA-2019-9ab7ee6309",
+    "FEDORA-2019-d15aac6c4e",
+    "FEDORA-2019-d51641f152",
+  ]
+  fedora_epel = ["FEDORA-EPEL-2020-ff94ccbdec"]
+  photon = ["PHSA-2019-0177", "PHSA-2019-1.0-0252", "PHSA-2019-3.0-0032"]

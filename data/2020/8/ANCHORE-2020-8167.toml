@@ -6,7 +6,7 @@ allocated = 2025-10-15T14:15:50.294878Z
   cve = ["CVE-2020-6459"]
   gcve = ["GCVE-0-2020-6459"]
   github = ["GHSA-647j-cjrc-j33x"]
-  debian = ["DSA-4714-1"]
+  debian = ["DSA-4714-1", "DSA-4714-2", "DSA-4714-3"]
   redhat = ["RHSA-2020:1970"]
   opensuse = [
     "openSUSE-SU-2020:0604-1",
@@ -16,3 +16,9 @@ allocated = 2025-10-15T14:15:50.294878Z
   ]
   mageia = ["MGASA-2020-0185"]
   archlinux = ["ASA-202004-20", "AVG-1140"]
+  fedora = [
+    "FEDORA-2020-0e7f1b663b",
+    "FEDORA-2020-b82a634e27",
+    "FEDORA-2020-da49fbb17c",
+  ]
+  fedora_epel = ["FEDORA-EPEL-2020-03d5f14bbe", "FEDORA-EPEL-2020-cd30b5b1cf"]

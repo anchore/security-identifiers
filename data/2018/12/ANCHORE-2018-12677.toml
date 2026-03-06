@@ -6,7 +6,13 @@ allocated = 2025-10-15T14:15:27.750578Z
   cve = ["CVE-2018-3620"]
   gcve = ["GCVE-0-2018-3620"]
   github = ["GHSA-h9mf-j5vf-pc99"]
-  debian = ["DLA-1481-1", "DLA-1529-1", "DSA-4274-1", "DSA-4279-1"]
+  debian = [
+    "DLA-1481-1",
+    "DLA-1529-1",
+    "DSA-4274-1",
+    "DSA-4279-1",
+    "DSA-4279-2",
+  ]
   redhat = [
     "RHSA-2018:2384",
     "RHSA-2018:2387",
@@ -64,3 +70,5 @@ allocated = 2025-10-15T14:15:27.750578Z
     "MGASA-2018-0347",
   ]
   archlinux = ["AVG-756", "AVG-757", "AVG-758"]
+  fedora = ["FEDORA-2018-1c80fea1cd", "FEDORA-2018-f8cba144ae"]
+  photon = ["PHSA-2018-0088", "PHSA-2018-1.0-0180"]

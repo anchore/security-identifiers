@@ -6,9 +6,17 @@ allocated = 2025-10-15T14:14:57.025301Z
   cve = ["CVE-2014-3660"]
   gcve = ["GCVE-0-2014-3660"]
   github = ["GHSA-xrph-4qjj-gj25"]
-  debian = ["DLA-151-1", "DLA-80-1", "DSA-2978-2", "DSA-3057-1"]
+  debian = [
+    "DLA-151-1",
+    "DLA-80-1",
+    "DSA-2978-1",
+    "DSA-2978-2",
+    "DSA-3057-1",
+    "DSA-3057-2",
+  ]
   redhat = ["RHSA-2014:1655", "RHSA-2014:1885"]
   opensuse = ["openSUSE-SU-2024:10192-1"]
   ubuntu = ["USN-2389-1"]
   oraclelinux = ["ELSA-2014-1655", "ELSA-2014-1885"]
   mageia = ["MGASA-2014-0418"]
+  fedora = ["FEDORA-2014-12915"]

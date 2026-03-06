@@ -9,7 +9,13 @@ allocated = 2025-10-15T14:16:43.890709Z
   bitnami = ["BIT-tomcat-2023-41080"]
   chainguard = ["CGA-chc4-69mh-93g6", "CGA-wpfj-6gvf-94pp"]
   almalinux = ["ALSA-2024:0125", "ALSA-2024:0474"]
-  debian = ["DLA-3617-1", "DSA-5521-1", "DSA-5522-1"]
+  debian = [
+    "DLA-3617-1",
+    "DSA-5521-1",
+    "DSA-5522-1",
+    "DSA-5522-2",
+    "DSA-5522-3",
+  ]
   redhat = [
     "RHSA-2023:7622",
     "RHSA-2024:0125",

@@ -6,7 +6,7 @@ allocated = 2025-10-15T14:15:13.454660Z
   cve = ["CVE-2017-1000364"]
   gcve = ["GCVE-0-2017-1000364"]
   github = ["GHSA-8495-qjxw-fcp2"]
-  debian = ["DLA-993-1", "DSA-3886-1"]
+  debian = ["DLA-993-1", "DSA-3886-1", "DSA-3886-2"]
   redhat = [
     "RHSA-2017:1482",
     "RHSA-2017:1483",
@@ -90,3 +90,9 @@ allocated = 2025-10-15T14:15:13.454660Z
     "AVG-324",
     "AVG-325",
   ]
+  fedora = [
+    "FEDORA-2017-05f10e29f4",
+    "FEDORA-2017-d3ed702fe4",
+    "FEDORA-2017-d7bc1b3056",
+  ]
+  photon = ["PHSA-2017-0052", "PHSA-2018-0031"]
