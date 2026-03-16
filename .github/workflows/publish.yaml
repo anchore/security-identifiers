@@ -1,6 +1,8 @@
 name: "Publish Security Identifiers Index (development)"
 on: 
   workflow_dispatch:
+    branches:
+      - main
   push:
     branches:
       - main
@@ -21,6 +23,7 @@ jobs:
     permissions:
       contents: write
       packages: write
+    if: github.repository == 'anchore/security-identifiers' # only run for main repo
     steps:
       - name: Install OS dependencies
         run: apk add --no-cache git taplo sqlite tar zstd curl oras-cli bash

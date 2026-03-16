@@ -1,6 +1,8 @@
 name: "Allocate Security Identifiers"
 on: 
   workflow_dispatch:
+    branches:
+      - main
   schedule:
     - cron: '27 5 * * MON-FRI'
 
@@ -19,6 +21,7 @@ jobs:
       image: python:3.13-alpine
     permissions:
       contents: write
+    if: github.repository == 'anchore/security-identifiers' # only run for main repo
     steps:
       - name: Install OS dependencies
         run: apk add --no-cache git openssh taplo sqlite tar zstd curl oras-cli bash date grype
