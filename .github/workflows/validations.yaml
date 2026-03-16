@@ -16,7 +16,7 @@ jobs:
     name: "Validate Schema"
     runs-on: ubuntu-latest
     container:
-      image: python:3.13-alpine
+      image: python:3.14-alpine
     permissions:
       contents: read
     steps:

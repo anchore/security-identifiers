@@ -19,7 +19,7 @@ jobs:
     name: "Publish Security Identifiers Index (development)"
     runs-on: runs-on=${{ github.run_id }}/runner=medium-arm
     container:
-      image: python:3.13-alpine
+      image: python:3.14-alpine
     permissions:
       contents: write
       packages: write
