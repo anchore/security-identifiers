@@ -18,7 +18,7 @@ jobs:
     name: "Allocate Security Identifiers"
     runs-on: runs-on=${{ github.run_id }}/runner=medium-arm
     container:
-      image: python:3.13-alpine
+      image: python:3.14-alpine
     permissions:
       contents: write
     if: github.repository == 'anchore/security-identifiers' # only run for main repo
