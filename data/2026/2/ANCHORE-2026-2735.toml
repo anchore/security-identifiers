@@ -5,7 +5,13 @@ allocated = 2026-01-14T18:46:51.949128Z
   [security.aliases]
   cve = ["CVE-2026-22855"]
   gcve = ["GCVE-0-2026-22855"]
-  suse = ["SUSE-SU-2026:0345-1", "SUSE-SU-2026:0761-1", "SUSE-SU-2026:0762-1"]
+  suse = [
+    "SUSE-SU-2026:0345-1",
+    "SUSE-SU-2026:0656-1",
+    "SUSE-SU-2026:0683-1",
+    "SUSE-SU-2026:0761-1",
+    "SUSE-SU-2026:0762-1",
+  ]
   amazonlinux = ["ALAS2-2026-3166", "ALAS2023-2026-1433"]
   redhat = [
     "RHSA-2026:3067",
@@ -39,3 +45,5 @@ allocated = 2026-01-14T18:46:51.949128Z
     "openEuler-SA-2026-1521",
   ]
   enisa = ["EUVD-2026-2672"]
+  opensuse = ["openSUSE-SU-2026:10059-1", "openSUSE-SU-2026:20339-1"]
+  ubuntu = ["USN-8105-1"]

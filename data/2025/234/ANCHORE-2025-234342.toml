@@ -6,7 +6,17 @@ allocated = 2025-11-18T22:43:01.837641Z
   cve = ["CVE-2025-61662"]
   gcve = ["GCVE-0-2025-61662"]
   github = ["GHSA-g7mr-vm94-3rv7"]
-  suse = ["SUSE-SU-2025:4143-1", "SUSE-SU-2025:4152-1", "SUSE-SU-2025:4305-1"]
+  suse = [
+    "SUSE-SU-2025:21062-1",
+    "SUSE-SU-2025:21212-1",
+    "SUSE-SU-2025:21223-1",
+    "SUSE-SU-2025:4143-1",
+    "SUSE-SU-2025:4152-1",
+    "SUSE-SU-2025:4196-1",
+    "SUSE-SU-2025:4197-1",
+    "SUSE-SU-2025:4224-1",
+    "SUSE-SU-2025:4305-1",
+  ]
   openeuler = [
     "OESA-2025-2735",
     "OESA-2025-2736",
@@ -35,5 +45,9 @@ allocated = 2025-11-18T22:43:01.837641Z
     "RHSA-2026:4823",
     "RHSA-2026:4830",
     "RHSA-2026:4900",
+    "RHSA-2026:4998",
+    "RHSA-2026:5074",
   ]
-  oraclelinux = ["ELSA-2026-4649"]
+  oraclelinux = ["ELSA-2026-4648", "ELSA-2026-4649", "ELSA-2026-4760"]
+  almalinux = ["ALSA-2026:4648"]
+  opensuse = ["openSUSE-SU-2025:15749-1", "openSUSE-SU-2025:20163-1"]

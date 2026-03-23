@@ -7,14 +7,26 @@ allocated = 2026-02-16T01:19:11.876309Z
   gcve = ["GCVE-0-2026-23209"]
   github = ["GHSA-89j4-f3cq-gm32"]
   echo = ["ECHO-44da-a032-4003"]
-  debian = ["DSA-6141-1", "DSA-6163-1"]
+  debian = ["DLA-4498-1", "DLA-4499-1", "DSA-6141-1", "DSA-6163-1"]
   photon = ["PHSA-2026-4.0-0965", "PHSA-2026-5.0-0770"]
   enisa = ["EUVD-2026-5839"]
   openeuler = [
     "OESA-2026-1568",
     "OESA-2026-1569",
+    "OESA-2026-1642",
+    "OESA-2026-1643",
+    "OESA-2026-1644",
     "openEuler-SA-2026-1568",
     "openEuler-SA-2026-1569",
+    "openEuler-SA-2026-1642",
+    "openEuler-SA-2026-1643",
+    "openEuler-SA-2026-1644",
   ]
-  amazonlinux = ["ALAS2023-2026-1468", "ALAS2KERNEL-5.15-2026-098"]
+  amazonlinux = [
+    "ALAS2023-2026-1468",
+    "ALAS2KERNEL-5.10-2026-114",
+    "ALAS2KERNEL-5.15-2026-098",
+    "ALAS2KERNEL-5.15-2026-099",
+  ]
   oraclelinux = ["ELSA-2026-50145"]
+  suse = ["SUSE-SU-2026:20667-1", "SUSE-SU-2026:20720-1"]

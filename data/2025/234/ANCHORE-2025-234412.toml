@@ -6,7 +6,15 @@ allocated = 2025-11-19T11:10:13.807211Z
   cve = ["CVE-2025-11230"]
   gcve = ["GCVE-0-2025-11230"]
   debian = ["DSA-6017-1"]
-  suse = ["SUSE-SU-2025:03587-1", "SUSE-SU-2025:03589-1"]
+  suse = [
+    "SUSE-SU-2025:03587-1",
+    "SUSE-SU-2025:03589-1",
+    "SUSE-SU-2025:20872-1",
+    "SUSE-SU-2025:20900-1",
+    "SUSE-SU-2026:20092-1",
+    "SUSE-SU-2026:20094-1",
+    "SUSE-SU-2026:20109-1",
+  ]
   ubuntu = ["USN-7805-1"]
   openeuler = [
     "OESA-2025-2418",
@@ -44,3 +52,4 @@ allocated = 2025-11-19T11:10:13.807211Z
   ]
   chainguard = ["CGA-58mp-cc8x-v99g", "CGA-g657-hjmh-7pg6"]
   enisa = ["EUVD-2025-198149"]
+  opensuse = ["openSUSE-SU-2025:15599-1", "openSUSE-SU-2026:20032-1"]

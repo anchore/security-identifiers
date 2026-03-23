@@ -6,7 +6,16 @@ allocated = 2025-12-26T18:07:09.883008Z
   cve = ["CVE-2022-50730"]
   gcve = ["GCVE-0-2022-50730"]
   github = ["GHSA-m98r-2fg7-rppv"]
-  suse = ["SUSE-SU-2026:0263-1", "SUSE-SU-2026:0411-1", "SUSE-SU-2026:0617-1"]
+  suse = [
+    "SUSE-SU-2026:0263-1",
+    "SUSE-SU-2026:0316-1",
+    "SUSE-SU-2026:0317-1",
+    "SUSE-SU-2026:0350-1",
+    "SUSE-SU-2026:0369-1",
+    "SUSE-SU-2026:0411-1",
+    "SUSE-SU-2026:0617-1",
+  ]
   amazonlinux = ["ALAS2KERNEL-5.10-2023-026", "ALAS2KERNEL-5.15-2023-013"]
   photon = ["PHSA-2021-4.0-0065"]
   enisa = ["EUVD-2022-55759"]
+  redhat = ["RHSA-2023:2458", "RHSA-2024:3138"]

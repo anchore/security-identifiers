@@ -7,7 +7,11 @@ allocated = 2026-03-09T09:50:09.974220Z
   gcve = ["GCVE-0-2026-25679"]
   github = ["GHSA-j3gx-2473-5fp8"]
   go = ["GO-2026-4601"]
-  opensuse = ["openSUSE-SU-2026:10299-1", "openSUSE-SU-2026:10310-1"]
+  opensuse = [
+    "openSUSE-SU-2026:10299-1",
+    "openSUSE-SU-2026:10310-1",
+    "openSUSE-SU-2026:20342-1",
+  ]
   echo = ["ECHO-f5e8-7c14-1850"]
   bitnami = ["BIT-golang-2026-25679"]
   chainguard = ["CGA-6v2j-7r4c-vm8g"]
@@ -35,6 +39,7 @@ allocated = 2026-03-09T09:50:09.974220Z
     "MINI-373f-62wj-fvw8",
     "MINI-37p3-hwfg-g2wg",
     "MINI-39fr-fhrp-g8gh",
+    "MINI-39j3-rxmp-w3g6",
     "MINI-3c5q-5vfc-g5x5",
     "MINI-3cqp-3gxh-vvqf",
     "MINI-3f7m-jrgr-8mvr",
@@ -42,6 +47,7 @@ allocated = 2026-03-09T09:50:09.974220Z
     "MINI-3gh2-h72f-x864",
     "MINI-3gmf-c83q-9hj9",
     "MINI-3hcw-cxm2-3r3q",
+    "MINI-3j7h-93c3-8qhf",
     "MINI-3jm5-cr75-rp3w",
     "MINI-3mrg-pgrp-pxh2",
     "MINI-3q6r-q72c-6x24",
@@ -57,6 +63,7 @@ allocated = 2026-03-09T09:50:09.974220Z
     "MINI-4889-rr9v-w4q8",
     "MINI-49q5-58mr-6x65",
     "MINI-4cvr-qmhm-m34f",
+    "MINI-4g75-787p-9c7c",
     "MINI-4g8v-7xvq-q3h3",
     "MINI-4gx3-rh8r-gvw8",
     "MINI-4jrh-m85h-vjf7",
@@ -86,6 +93,7 @@ allocated = 2026-03-09T09:50:09.974220Z
     "MINI-5cw8-q5c4-h5qc",
     "MINI-5jgx-73r2-5jfm",
     "MINI-5jqq-4wx2-f2fg",
+    "MINI-5mqr-c68j-rf59",
     "MINI-5pcv-8w68-gr2x",
     "MINI-5pj8-vhmv-xx84",
     "MINI-5qwp-q663-xvgw",
@@ -107,6 +115,7 @@ allocated = 2026-03-09T09:50:09.974220Z
     "MINI-689f-2xpg-7jqh",
     "MINI-68hg-4fqq-pvf3",
     "MINI-6ccr-gfc5-p8qc",
+    "MINI-6cvm-3mh3-rm7m",
     "MINI-6g8r-gqh5-hcc5",
     "MINI-6gxp-9qw3-2hc6",
     "MINI-6j57-m7c5-2ww6",
@@ -278,9 +287,11 @@ allocated = 2026-03-09T09:50:09.974220Z
     "MINI-hg77-2q46-xvwf",
     "MINI-hh6h-6vw4-pw5p",
     "MINI-hj75-pf2h-482p",
+    "MINI-hp8h-82fw-r42h",
     "MINI-hqfw-69q8-hq5p",
     "MINI-hqpm-p44g-q6wj",
     "MINI-hqrw-wg2q-7748",
+    "MINI-hw42-p376-7v8g",
     "MINI-hx57-qcqf-769g",
     "MINI-j279-mpr6-mcgh",
     "MINI-j2mf-99cp-x9wg",
@@ -294,6 +305,7 @@ allocated = 2026-03-09T09:50:09.974220Z
     "MINI-jcx4-rq4j-wp42",
     "MINI-jfg4-6c3f-x494",
     "MINI-jgvc-7h4c-vv2w",
+    "MINI-jh3h-9vc6-3v8g",
     "MINI-jh6r-wjfj-wcxp",
     "MINI-jhmm-jw6g-54fr",
     "MINI-jhmp-v9wp-53wp",
@@ -314,9 +326,11 @@ allocated = 2026-03-09T09:50:09.974220Z
     "MINI-m3f7-qvvv-9c55",
     "MINI-m3jw-gpq9-x65x",
     "MINI-m3pf-97fg-5f52",
+    "MINI-m3v5-3w96-fx8q",
     "MINI-m3wj-2vpv-97pj",
     "MINI-m3wq-pfj9-x63j",
     "MINI-m5j6-q235-hjmj",
+    "MINI-m5pm-rcf7-p8vm",
     "MINI-m6xh-wg33-mh2f",
     "MINI-m7g5-6p52-qqx9",
     "MINI-m7vq-9jqf-gx35",
@@ -399,6 +413,7 @@ allocated = 2026-03-09T09:50:09.974220Z
     "MINI-rm5x-xhmv-f622",
     "MINI-rmfg-w446-xf67",
     "MINI-rmgq-mgg4-7qw8",
+    "MINI-rmj8-2w3v-2349",
     "MINI-rqxq-pqmp-g99m",
     "MINI-rrwx-7gjf-2rcq",
     "MINI-rvx5-xvxx-7wgp",
@@ -491,4 +506,5 @@ allocated = 2026-03-09T09:50:09.974220Z
     "MINI-xxvj-xv4q-936r",
   ]
   enisa = ["EUVD-2026-10084"]
-  suse = ["SUSE-SU-2026:0875-1", "SUSE-SU-2026:0876-1"]
+  suse = ["SUSE-SU-2026:0875-1", "SUSE-SU-2026:0876-1", "SUSE-SU-2026:0947-1"]
+  amazonlinux = ["ALAS2-2026-3202", "ALAS2-2026-3203"]

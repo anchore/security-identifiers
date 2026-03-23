@@ -28,12 +28,22 @@ allocated = 2026-01-15T22:45:54.150971Z
   oraclelinux = [
     "ELSA-2026-1334",
     "ELSA-2026-2786",
+    "ELSA-2026-4772",
     "ELSA-2026-50078",
     "ELSA-2026-50120",
   ]
-  almalinux = ["ALSA-2026:1334", "ALSA-2026:2786"]
+  almalinux = ["ALSA-2026:1334", "ALSA-2026:2786", "ALSA-2026:4772"]
   ubuntu = ["USN-8005-1"]
-  suse = ["SUSE-SU-2026:0371-1", "SUSE-SU-2026:0896-1", "SUSE-SU-2026:20536-1"]
+  suse = [
+    "SUSE-SU-2026:0371-1",
+    "SUSE-SU-2026:0680-1",
+    "SUSE-SU-2026:0896-1",
+    "SUSE-SU-2026:20178-1",
+    "SUSE-SU-2026:20198-1",
+    "SUSE-SU-2026:20527-1",
+    "SUSE-SU-2026:20536-1",
+  ]
   fedora = ["FEDORA-2026-205d532069", "FEDORA-2026-a2f3af8a86"]
   photon = ["PHSA-2026-5.0-0749"]
   enisa = ["EUVD-2026-2855"]
+  opensuse = ["openSUSE-SU-2026:20133-1"]

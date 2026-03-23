@@ -1,8 +1,12 @@
 [security]
 id = "ANCHORE-2026-14748"
 allocated = 2026-03-17T06:20:02.548698Z
+duplicates = ["ANCHORE-2026-15145"]
 
   [security.aliases]
   github = ["GHSA-vvp9-7p8x-rfvv"]
-  chainguard = ["CGA-3wrp-9247-xpp6"]
+  chainguard = ["CGA-3wrp-9247-xpp6", "CGA-j97m-c2rf-xr76"]
   rustsec = ["RUSTSEC-2026-0041"]
+  cve = ["CVE-2026-32829"]
+  gcve = ["GCVE-0-2026-32829"]
+  enisa = ["EUVD-2026-13426"]
