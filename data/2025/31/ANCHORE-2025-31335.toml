@@ -7,7 +7,22 @@ allocated = 2025-10-15T14:17:41.370113Z
   gcve = ["GCVE-0-2025-38643"]
   github = ["GHSA-mw57-63xv-7mx2"]
   echo = ["ECHO-5a43-789f-ec29"]
-  suse = ["SUSE-SU-2025:3725-1", "SUSE-SU-2025:3751-1"]
+  suse = [
+    "SUSE-SU-2025:03600-1",
+    "SUSE-SU-2025:03601-1",
+    "SUSE-SU-2025:03602-1",
+    "SUSE-SU-2025:03633-1",
+    "SUSE-SU-2025:03634-1",
+    "SUSE-SU-2025:20851-1",
+    "SUSE-SU-2025:20861-1",
+    "SUSE-SU-2025:20870-1",
+    "SUSE-SU-2025:20898-1",
+    "SUSE-SU-2025:21074-1",
+    "SUSE-SU-2025:21139-1",
+    "SUSE-SU-2025:21179-1",
+    "SUSE-SU-2025:3725-1",
+    "SUSE-SU-2025:3751-1",
+  ]
   ubuntu = [
     "USN-7879-1",
     "USN-7879-2",
@@ -23,4 +38,5 @@ allocated = 2025-10-15T14:17:41.370113Z
   oraclelinux = ["ELSA-2026-50006"]
   photon = ["PHSA-2026-5.0-0779"]
   enisa = ["EUVD-2025-25559"]
-  debian = ["DSA-6163-1"]
+  debian = ["DLA-4499-1", "DSA-6163-1"]
+  opensuse = ["openSUSE-SU-2025:20081-1"]

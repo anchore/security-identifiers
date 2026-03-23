@@ -6,7 +6,13 @@ allocated = 2026-01-19T18:46:30.256900Z
   cve = ["CVE-2026-23533"]
   gcve = ["GCVE-0-2026-23533"]
   chainguard = ["CGA-wmfh-gw96-9p4r"]
-  suse = ["SUSE-SU-2026:0345-1", "SUSE-SU-2026:0761-1", "SUSE-SU-2026:0762-1"]
+  suse = [
+    "SUSE-SU-2026:0345-1",
+    "SUSE-SU-2026:0656-1",
+    "SUSE-SU-2026:0683-1",
+    "SUSE-SU-2026:0761-1",
+    "SUSE-SU-2026:0762-1",
+  ]
   amazonlinux = ["ALAS2-2026-3162", "ALAS2023-2026-1379"]
   oraclelinux = [
     "ELSA-2026-2048",
@@ -29,7 +35,7 @@ allocated = 2026-01-19T18:46:30.256900Z
     "RHSA-2026:3039",
     "RHSA-2026:3041",
   ]
-  ubuntu = ["USN-8004-1", "USN-8004-2"]
+  ubuntu = ["USN-8004-1", "USN-8004-2", "USN-8105-1"]
   almalinux = ["ALSA-2026:2048", "ALSA-2026:2081", "ALSA-2026:2222"]
   mageia = ["MGASA-2026-0046"]
   fedora = ["FEDORA-2026-23d669bf94", "FEDORA-2026-943caf40d9"]
@@ -48,3 +54,4 @@ allocated = 2026-01-19T18:46:30.256900Z
     "openEuler-SA-2026-1521",
   ]
   enisa = ["EUVD-2026-3315"]
+  opensuse = ["openSUSE-SU-2026:10107-1", "openSUSE-SU-2026:20339-1"]

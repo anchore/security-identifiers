@@ -6,8 +6,13 @@ allocated = 2025-10-15T14:15:56.384261Z
   cve = ["CVE-2020-12912"]
   gcve = ["GCVE-0-2020-12912"]
   github = ["GHSA-329v-cj6c-rhmq"]
-  suse = ["SUSE-SU-2023:4625-1", "SUSE-SU-2023:4936-1", "SUSE-SU-2025:03540-1"]
-  opensuse = ["openSUSE-SU-2024:13469-1"]
+  suse = [
+    "SUSE-SU-2023:4625-1",
+    "SUSE-SU-2023:4936-1",
+    "SUSE-SU-2025:03540-1",
+    "SUSE-SU-2025:03545-1",
+  ]
+  opensuse = ["openSUSE-SU-2024:13469-1", "openSUSE-SU-2025:15589-1"]
   ubuntu = ["USN-4678-1"]
   mageia = ["MGASA-2021-0030", "MGASA-2021-0031"]
   archlinux = ["AVG-1301"]

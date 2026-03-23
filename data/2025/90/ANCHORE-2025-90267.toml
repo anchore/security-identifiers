@@ -6,7 +6,14 @@ allocated = 2025-10-30T18:05:38.712638Z
   cve = ["CVE-2025-40091"]
   gcve = ["GCVE-0-2025-40091"]
   github = ["GHSA-gq9j-j338-8fvx"]
-  suse = ["SUSE-SU-2025:4057-1", "SUSE-SU-2025:4132-1"]
+  suse = [
+    "SUSE-SU-2025:21080-1",
+    "SUSE-SU-2025:21147-1",
+    "SUSE-SU-2025:21180-1",
+    "SUSE-SU-2025:4057-1",
+    "SUSE-SU-2025:4132-1",
+    "SUSE-SU-2025:4141-1",
+  ]
   ubuntu = [
     "USN-8029-1",
     "USN-8029-2",
@@ -14,5 +21,9 @@ allocated = 2025-10-30T18:05:38.712638Z
     "USN-8030-1",
     "USN-8048-1",
   ]
-  opensuse = ["openSUSE-SU-2026:10301-1"]
+  opensuse = [
+    "openSUSE-SU-2025:15702-1",
+    "openSUSE-SU-2025:20091-1",
+    "openSUSE-SU-2026:10301-1",
+  ]
   enisa = ["EUVD-2025-36987"]

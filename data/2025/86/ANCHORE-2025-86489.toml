@@ -3,5 +3,9 @@ id = "ANCHORE-2025-86489"
 allocated = 2025-10-15T14:18:30.475613Z
 
   [security.aliases]
-  openssf_malicious_packages = ["MAL-2025-47051"]
+  openssf_malicious_packages = [
+    "MAL-0000-ghsa-malware-9ced7f49df57d71e",
+    "MAL-2025-47051",
+  ]
   github = ["GHSA-j8cg-574v-gjqc"]
+  snyk = ["SNYK-JS-TEAMEVENTV2-12613675"]

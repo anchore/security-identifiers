@@ -7,8 +7,13 @@ allocated = 2026-02-13T14:54:20.116603Z
   gcve = ["GCVE-0-2026-23111"]
   github = ["GHSA-jh9m-9mr6-3ghc"]
   echo = ["ECHO-f61a-db70-feb9"]
-  debian = ["DSA-6141-1", "DSA-6163-1"]
+  debian = ["DLA-4499-1", "DSA-6141-1", "DSA-6163-1"]
   photon = ["PHSA-2026-5.0-0770"]
   enisa = ["EUVD-2026-6170"]
-  amazonlinux = ["ALAS2023-2026-1468", "ALAS2KERNEL-5.15-2026-098"]
+  amazonlinux = [
+    "ALAS2023-2026-1468",
+    "ALAS2KERNEL-5.15-2026-098",
+    "ALAS2KERNEL-5.15-2026-099",
+  ]
   oraclelinux = ["ELSA-2026-50145"]
+  suse = ["SUSE-SU-2026:20667-1", "SUSE-SU-2026:20720-1"]

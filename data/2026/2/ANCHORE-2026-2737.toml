@@ -5,7 +5,13 @@ allocated = 2026-01-14T18:46:51.950760Z
   [security.aliases]
   cve = ["CVE-2026-22857"]
   gcve = ["GCVE-0-2026-22857"]
-  suse = ["SUSE-SU-2026:0345-1", "SUSE-SU-2026:0761-1", "SUSE-SU-2026:0762-1"]
+  suse = [
+    "SUSE-SU-2026:0345-1",
+    "SUSE-SU-2026:0656-1",
+    "SUSE-SU-2026:0683-1",
+    "SUSE-SU-2026:0761-1",
+    "SUSE-SU-2026:0762-1",
+  ]
   fedora = ["FEDORA-2026-79f923d917", "FEDORA-2026-a193f1698f"]
   openeuler = [
     "OESA-2026-1516",
@@ -22,3 +28,5 @@ allocated = 2026-01-14T18:46:51.950760Z
     "openEuler-SA-2026-1521",
   ]
   enisa = ["EUVD-2026-2670"]
+  opensuse = ["openSUSE-SU-2026:10059-1", "openSUSE-SU-2026:20339-1"]
+  ubuntu = ["USN-8105-1"]

@@ -36,7 +36,13 @@ allocated = 2025-12-05T14:43:13.109225Z
   amazonlinux = ["ALAS2-2025-3099", "ALAS2023-2025-1318"]
   ubuntu = ["USN-7968-1"]
   debian = ["DLA-4452-1"]
-  suse = ["SUSE-SU-2025:4488-1", "SUSE-SU-2025:4518-1"]
+  suse = [
+    "SUSE-SU-2025:4488-1",
+    "SUSE-SU-2025:4518-1",
+    "SUSE-SU-2026:0019-1",
+    "SUSE-SU-2026:0020-1",
+    "SUSE-SU-2026:20081-1",
+  ]
   fedora = ["FEDORA-2025-9621c19da8", "FEDORA-2025-f7c75ffee2"]
   photon = ["PHSA-2025-5.0-0710"]
   openeuler = [
@@ -53,3 +59,4 @@ allocated = 2025-12-05T14:43:13.109225Z
   ]
   cnvd = ["CNVD-2025-30564"]
   enisa = ["EUVD-2025-201408"]
+  opensuse = ["openSUSE-SU-2025:15808-1", "openSUSE-SU-2026:20030-1"]

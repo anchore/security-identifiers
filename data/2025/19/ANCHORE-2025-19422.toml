@@ -6,7 +6,15 @@ allocated = 2025-10-15T14:17:32.876369Z
   cve = ["CVE-2025-4945"]
   gcve = ["GCVE-0-2025-4945"]
   github = ["GHSA-mwcf-jv2p-mmpx"]
-  suse = ["SUSE-SU-2025:02212-1"]
+  suse = [
+    "SUSE-SU-2025:02212-1",
+    "SUSE-SU-2025:02276-1",
+    "SUSE-SU-2025:02277-1",
+    "SUSE-SU-2025:03026-1",
+    "SUSE-SU-2025:03091-1",
+    "SUSE-SU-2025:20453-1",
+    "SUSE-SU-2025:20598-1",
+  ]
   ubuntu = ["USN-7643-1"]
   redhat = [
     "RHSA-2025:19713",
@@ -42,3 +50,4 @@ allocated = 2025-10-15T14:17:32.876369Z
   ]
   photon = ["PHSA-2025-5.0-0666"]
   enisa = ["EUVD-2025-16034"]
+  opensuse = ["openSUSE-SU-2025:15241-1", "openSUSE-SU-2025:15242-1"]
