@@ -20,6 +20,8 @@ jobs:
       image: python:3.14-alpine
     permissions:
       contents: write
+    environment:
+      name: allocation
     if: github.repository == 'anchore/security-identifiers' # only run for main repo
     steps:
       - name: Install OS dependencies
@@ -30,6 +32,7 @@ jobs:
         run: pip install git+https://github.com/anchore/security-cli
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
         with:
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
           persist-credentials: true
       - name: Allocate security identifiers
         run: anchore-security-cli id allocate --data-path data
