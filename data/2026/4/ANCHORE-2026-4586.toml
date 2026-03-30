@@ -9,7 +9,11 @@ allocated = 2026-01-28T11:40:52.691118Z
   echo = ["ECHO-0518-d6c6-abe8"]
   debian = ["DLA-4476-1", "DSA-6126-1", "DSA-6127-1"]
   photon = ["PHSA-2026-5.0-0745"]
-  amazonlinux = ["ALAS2KERNEL-5.15-2026-098"]
+  amazonlinux = [
+    "ALAS2023-2026-1488",
+    "ALAS2023-2026-1494",
+    "ALAS2KERNEL-5.15-2026-098",
+  ]
   enisa = ["EUVD-2026-4302"]
   oraclelinux = ["ELSA-2026-50144", "ELSA-2026-50145"]
   ubuntu = [
@@ -29,5 +33,7 @@ allocated = 2026-01-28T11:40:52.691118Z
     "SUSE-SU-2026:20555-1",
     "SUSE-SU-2026:20599-1",
     "SUSE-SU-2026:20615-1",
+    "SUSE-SU-2026:20845-1",
   ]
   opensuse = ["openSUSE-SU-2026:20287-1"]
+  openeuler = ["OESA-2026-1760", "openEuler-SA-2026-1760"]
