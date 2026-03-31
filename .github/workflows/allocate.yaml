@@ -4,7 +4,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '15 8 * * MON-FRI'
+    - cron: '15 3 * * MON-FRI'
 
 concurrency:
   group: allocate-security-identifiers
