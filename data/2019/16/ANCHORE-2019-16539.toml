@@ -11,10 +11,15 @@ allocated = 2025-10-15T14:15:42.929256Z
   redhat = ["RHSA-2020:4443"]
   suse = ["SUSE-SU-2021:3722-1"]
   opensuse = ["openSUSE-SU-2024:10925-1"]
-  ubuntu = ["USN-4293-1"]
+  ubuntu = ["USN-4293-1", "USN-8147-1"]
   oraclelinux = ["ELSA-2020-4443"]
   mageia = ["MGASA-2020-0127"]
   fedora = ["FEDORA-2020-235688c222"]
-  photon = ["PHSA-2020-0207", "PHSA-2020-1.0-0272", "PHSA-2020-3.0-0055"]
+  photon = [
+    "PHSA-2020-0207",
+    "PHSA-2020-0272",
+    "PHSA-2020-1.0-0272",
+    "PHSA-2020-3.0-0055",
+  ]
   cnvd = ["CNVD-2020-14714"]
   enisa = ["EUVD-2019-8847"]
