@@ -35,16 +35,30 @@ jobs:
           ssh-key: ${{ secrets.DEPLOY_KEY }}
           persist-credentials: true
       - name: Allocate security identifiers
-        run: anchore-security-cli id allocate --data-path data
-      - name: Run TOML formatting
+        # We run the allocation step without validation because we want to separate resolving duplicates 
+        # from mass id allocation to make the change history more useful
+        run: anchore-security-cli id allocate --data-path data --no-validate
+      - name: Format TOML files
         run: taplo format
-      - name: Run TOML schema validation
-        run: taplo validate --schema file:${PWD}/schema/0.1.0.schema.json
-      - name: Run TOML formatting validation
-        run: taplo format --check
-      - name: Commit changes
+      - name: Commit allocations
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           ./scripts/commit.sh
+      - name: Resolve duplicates
+        run: anchore-security-cli id consolidate --data-path data --validate
+      - name: Format TOML files again
+        run: taplo format
+      - name: Commit resolved duplicates
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add .
+          git diff-index --quiet HEAD || git commit --message "resolve duplicates"
+      - name: Validate TOML schema
+        run: taplo validate --schema file:${PWD}/schema/0.1.0.schema.json
+      - name: Validate TOML formatting
+        run: taplo format --check
+      - name: Push changes
+        run: |
           git push
