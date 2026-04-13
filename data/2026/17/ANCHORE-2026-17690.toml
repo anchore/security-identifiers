@@ -13,10 +13,25 @@ allocated = 2026-03-26T10:48:00.945204Z
     "MINI-32gw-w7gv-h9m9",
     "MINI-492r-pc2g-2wg5",
     "MINI-7q5j-jh2h-5hpm",
+    "MINI-97jq-gqf8-599q",
     "MINI-cv89-6xw4-w943",
     "MINI-pw39-qm2v-8425",
     "MINI-r7vg-g62m-xr5g",
   ]
   bitnami = ["BIT-node-2026-21710", "BIT-node-min-2026-21710"]
-  redhat = ["RHSA-2026:7080", "RHSA-2026:7123"]
+  redhat = [
+    "RHSA-2026:7080",
+    "RHSA-2026:7123",
+    "RHSA-2026:7302",
+    "RHSA-2026:7310",
+    "RHSA-2026:7350",
+  ]
   opensuse = ["openSUSE-SU-2026:10504-1"]
+  chainguard = ["CGA-fmmf-9rjw-6f83"]
+  oraclelinux = [
+    "ELSA-2026-7080",
+    "ELSA-2026-7123",
+    "ELSA-2026-7302",
+    "ELSA-2026-7350",
+  ]
+  photon = ["PHSA-2026-4.0-0995", "PHSA-2026-5.0-0814"]
