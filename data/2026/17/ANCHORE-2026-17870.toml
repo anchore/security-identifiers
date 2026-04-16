@@ -16,14 +16,23 @@ allocated = 2026-03-27T09:03:12.852525Z
     "FEDORA-2026-7576b56379",
     "FEDORA-2026-f911c124c2",
   ]
-  photon = ["PHSA-2026-5.0-0802"]
+  photon = ["PHSA-2026-4.0-0994", "PHSA-2026-5.0-0802"]
   openeuler = ["OESA-2026-1852", "openEuler-SA-2026-1852"]
-  redhat = ["RHSA-2026:7671", "RHSA-2026:7672"]
+  redhat = ["RHSA-2026:7671", "RHSA-2026:7672", "RHSA-2026:8052"]
   julia = ["JLSEC-2026-95"]
   suse = [
+    "SUSE-SU-2026:1311-1",
+    "SUSE-SU-2026:1323-1",
     "SUSE-SU-2026:21000-1",
     "SUSE-SU-2026:21038-1",
     "SUSE-SU-2026:21067-1",
   ]
-  amazonlinux = ["ALAS2023-2026-1554", "ALAS2023-2026-1563"]
-  oraclelinux = ["ELSA-2026-7671", "ELSA-2026-7672"]
+  amazonlinux = [
+    "ALAS2-2026-3241",
+    "ALAS2-2026-3243",
+    "ALAS2-2026-3244",
+    "ALAS2023-2026-1554",
+    "ALAS2023-2026-1563",
+    "ALAS2FIREFOX-2026-056",
+  ]
+  oraclelinux = ["ELSA-2026-7671", "ELSA-2026-7672", "ELSA-2026-8052"]
