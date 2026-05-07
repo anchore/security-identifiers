@@ -1,9 +1,10 @@
 [security]
 id = "ANCHORE-2026-19594"
 allocated = 2026-04-03T04:42:33.489630Z
+duplicates = ["ANCHORE-2026-25429"]
 
   [security.aliases]
-  github = ["GHSA-cg7q-fg22-4g98"]
+  github = ["GHSA-5mh4-3rv3-fpcf", "GHSA-cg7q-fg22-4g98"]
   minimos = ["MINI-9m7q-86jw-j8w3", "MINI-mvf5-h2v6-qvhp"]
   cve = ["CVE-2026-41369"]
   gcve = ["GCVE-0-2026-41369"]
