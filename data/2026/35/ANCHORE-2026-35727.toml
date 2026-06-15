@@ -7,7 +7,12 @@ allocated = 2026-06-02T05:26:48.673419Z
   gcve = ["GCVE-0-2026-46243"]
   enisa = ["EUVD-2026-33668"]
   github = ["GHSA-3mg7-pfmq-9qfv"]
-  almalinux = ["ALSA-2026:23258", "ALSA-2026:23259", "ALSA-2026:23329"]
+  almalinux = [
+    "ALSA-2026:23258",
+    "ALSA-2026:23259",
+    "ALSA-2026:23329",
+    "ALSA-2026:24381",
+  ]
   redhat = [
     "RHSA-2026:23258",
     "RHSA-2026:23259",
@@ -23,4 +28,12 @@ allocated = 2026-06-02T05:26:48.673419Z
     "SUSE-SU-2026:2317-1",
     "SUSE-SU-2026:2331-1",
     "SUSE-SU-2026:2332-1",
+    "SUSE-SU-2026:2383-1",
   ]
+  openeuler = [
+    "OESA-2026-2673",
+    "OESA-2026-2674",
+    "openEuler-SA-2026-2673",
+    "openEuler-SA-2026-2674",
+  ]
+  photon = ["PHSA-2026-4.0-1028"]
