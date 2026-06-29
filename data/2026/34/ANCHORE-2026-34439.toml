@@ -9,6 +9,16 @@ allocated = 2026-05-29T05:18:43.132575Z
   github = ["GHSA-h8h4-4mrv-wh3h"]
   opensuse = ["openSUSE-SU-2026:10954-1"]
   amazonlinux = ["ALAS2023-2026-1753", "ALAS2023-2026-1754"]
-  redhat = ["RHSA-2026:27353", "RHSA-2026:27354", "RHSA-2026:27789"]
-  almalinux = ["ALSA-2026:27353", "ALSA-2026:27354", "ALSA-2026:27789"]
-  oraclelinux = ["ELSA-2026-27353"]
+  redhat = [
+    "RHSA-2026:27353",
+    "RHSA-2026:27354",
+    "RHSA-2026:27789",
+    "RHSA-2026:30129",
+  ]
+  almalinux = [
+    "ALSA-2026:27353",
+    "ALSA-2026:27354",
+    "ALSA-2026:27789",
+    "ALSA-2026:30129",
+  ]
+  oraclelinux = ["ELSA-2026-27353", "ELSA-2026-27789"]
