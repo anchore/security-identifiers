@@ -31,10 +31,15 @@ allocated = 2026-05-28T05:18:01.238770Z
     "SUSE-SU-2026:2658-1",
   ]
   amazonlinux = ["ALAS2KERNEL-5.10-2026-115"]
-  almalinux = ["ALSA-2026:27789", "ALSA-2026:33743"]
-  redhat = ["RHSA-2026:27789", "RHSA-2026:33743"]
+  almalinux = ["ALSA-2026:27789", "ALSA-2026:33743", "ALSA-2026:36049"]
+  redhat = [
+    "RHSA-2026:27789",
+    "RHSA-2026:33743",
+    "RHSA-2026:35894",
+    "RHSA-2026:36049",
+  ]
   opensuse = ["openSUSE-SU-2026:20965-1"]
-  oraclelinux = ["ELSA-2026-27789"]
+  oraclelinux = ["ELSA-2026-27789", "ELSA-2026-50372"]
   ubuntu = [
     "USN-8492-1",
     "USN-8492-2",
