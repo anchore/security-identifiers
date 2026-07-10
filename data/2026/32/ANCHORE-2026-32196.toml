@@ -19,6 +19,8 @@ allocated = 2026-05-22T05:15:28.960234Z
     "openSUSE-SU-2026:21084-1",
     "openSUSE-SU-2026:21120-1",
     "openSUSE-SU-2026:21210-1",
+    "openSUSE-SU-2026:21244-1",
+    "openSUSE-SU-2026:21251-1",
   ]
   chainguard = ["CGA-jw4w-5j43-rpwr"]
   minimos = [
@@ -787,6 +789,7 @@ allocated = 2026-05-22T05:15:28.960234Z
     "MINI-qgcf-5fw3-pq33",
     "MINI-qgxj-7676-q6j6",
     "MINI-qh24-2345-p6h9",
+    "MINI-qj6f-2v3m-25mh",
     "MINI-qj7q-4fgf-3crv",
     "MINI-qjj5-6mj8-7g9m",
     "MINI-qjwr-rwg5-h7pr",
@@ -1017,6 +1020,7 @@ allocated = 2026-05-22T05:15:28.960234Z
     "SUSE-SU-2026:22423-1",
     "SUSE-SU-2026:22442-1",
     "SUSE-SU-2026:22451-1",
+    "SUSE-SU-2026:22516-1",
     "SUSE-SU-2026:2467-1",
     "SUSE-SU-2026:2468-1",
     "SUSE-SU-2026:2581-1",
@@ -1030,7 +1034,13 @@ allocated = 2026-05-22T05:15:28.960234Z
   ubuntu = ["USN-8447-1"]
   github = ["GHSA-f5wc-c3c7-36mc"]
   almalinux = ["ALSA-2026:35833", "ALSA-2026:36199"]
-  redhat = ["RHSA-2026:35833", "RHSA-2026:36199"]
+  redhat = [
+    "RHSA-2026:35833",
+    "RHSA-2026:36199",
+    "RHSA-2026:36796",
+    "RHSA-2026:37072",
+    "RHSA-2026:37123",
+  ]
   fedora_epel = ["FEDORA-EPEL-2026-1412b0b07b", "FEDORA-EPEL-2026-b71dcc8e7e"]
   fedora = [
     "FEDORA-2026-1842aaea5d",
@@ -1038,3 +1048,4 @@ allocated = 2026-05-22T05:15:28.960234Z
     "FEDORA-2026-d5c6299162",
     "FEDORA-2026-f366154bec",
   ]
+  oraclelinux = ["ELSA-2026-35833"]
