@@ -10,7 +10,11 @@ allocated = 2026-05-21T05:19:48.752072Z
   ubuntu = ["USN-8282-1"]
   echo = ["ECHO-a689-363a-cb69"]
   redhat = ["RHSA-2026:19752", "RHSA-2026:23231", "RHSA-2026:24369"]
-  amazonlinux = ["ALAS2-2026-3322", "ALAS2023-2026-1756"]
+  amazonlinux = [
+    "ALAS2-2026-3322",
+    "ALAS2023-2026-1756",
+    "ALAS2UNBOUND-1.17-2026-008",
+  ]
   debian = ["DSA-6304-1"]
   opensuse = ["openSUSE-SU-2026:10903-1", "openSUSE-SU-2026:21083-1"]
   almalinux = ["ALSA-2026:23231", "ALSA-2026:24369"]

@@ -11,7 +11,12 @@ allocated = 2026-05-05T04:54:45.126428Z
   minimos = ["MINI-hcch-qqxq-7m9v"]
   debian = ["DSA-6248-1"]
   ubuntu = ["USN-8239-1", "USN-8396-1"]
-  redhat = ["RHSA-2026:17080", "RHSA-2026:27200", "RHSA-2026:34109"]
+  redhat = [
+    "RHSA-2026:17080",
+    "RHSA-2026:27200",
+    "RHSA-2026:34109",
+    "RHSA-2026:41906",
+  ]
   opensuse = ["openSUSE-SU-2026:10785-1", "openSUSE-SU-2026:21115-1"]
   openeuler = [
     "OESA-2026-2316",
@@ -35,5 +40,5 @@ allocated = 2026-05-05T04:54:45.126428Z
     "SUSE-SU-2026:2641-1",
     "SUSE-SU-2026:2686-1",
   ]
-  almalinux = ["ALSA-2026:34109"]
-  oraclelinux = ["ELSA-2026-34109"]
+  almalinux = ["ALSA-2026:34109", "ALSA-2026:41906"]
+  oraclelinux = ["ELSA-2026-34109", "ELSA-2026-41906"]
