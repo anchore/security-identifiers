@@ -7,7 +7,7 @@ allocated = 2026-06-10T10:52:33.868910Z
   gcve = ["GCVE-0-2026-46322"]
   enisa = ["EUVD-2026-35412"]
   github = ["GHSA-3r6q-v9jg-jvv4"]
-  opensuse = ["openSUSE-SU-2026:11014-1"]
+  opensuse = ["openSUSE-SU-2026:11014-1", "openSUSE-SU-2026:21388-1"]
   echo = ["ECHO-9e0f-ec7f-5e47"]
   debian = ["DSA-6355-1"]
   amazonlinux = [
@@ -30,4 +30,10 @@ allocated = 2026-06-10T10:52:33.868910Z
     "SUSE-SU-2026:3130-1",
     "SUSE-SU-2026:3166-1",
   ]
-  ubuntu = ["USN-8566-1", "USN-8568-1", "USN-8569-1", "USN-8593-1"]
+  ubuntu = [
+    "USN-8566-1",
+    "USN-8568-1",
+    "USN-8569-1",
+    "USN-8593-1",
+    "USN-8603-1",
+  ]

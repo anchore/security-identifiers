@@ -8,7 +8,7 @@ allocated = 2026-05-29T05:18:43.101380Z
   enisa = ["EUVD-2026-32875"]
   github = ["GHSA-96hg-7p79-ggx2"]
   echo = ["ECHO-c00c-e4ec-3a9b"]
-  opensuse = ["openSUSE-SU-2026:10954-1"]
+  opensuse = ["openSUSE-SU-2026:10954-1", "openSUSE-SU-2026:21388-1"]
   openeuler = ["OESA-2026-2674", "openEuler-SA-2026-2674"]
   amazonlinux = [
     "ALAS2023-2026-1753",
@@ -33,7 +33,12 @@ allocated = 2026-05-29T05:18:43.101380Z
     "SUSE-SU-2026:2800-1",
     "SUSE-SU-2026:3156-1",
   ]
-  oraclelinux = ["ELSA-2026-36018", "ELSA-2026-39179", "ELSA-2026-50319"]
+  oraclelinux = [
+    "ELSA-2026-36018",
+    "ELSA-2026-39179",
+    "ELSA-2026-42919",
+    "ELSA-2026-50319",
+  ]
   photon = ["PHSA-2026-4.0-1049", "PHSA-2026-5.0-0904"]
   redhat = [
     "RHSA-2026:36018",
@@ -44,8 +49,14 @@ allocated = 2026-05-29T05:18:43.101380Z
     "RHSA-2026:41235",
     "RHSA-2026:42919",
     "RHSA-2026:43231",
+    "RHSA-2026:44385",
   ]
-  almalinux = ["ALSA-2026:36018", "ALSA-2026:39179", "ALSA-2026:39180"]
+  almalinux = [
+    "ALSA-2026:36018",
+    "ALSA-2026:39179",
+    "ALSA-2026:39180",
+    "ALSA-2026:42919",
+  ]
   ubuntu = [
     "USN-8566-1",
     "USN-8567-1",
@@ -55,5 +66,11 @@ allocated = 2026-05-29T05:18:43.101380Z
     "USN-8574-2",
     "USN-8593-1",
     "USN-8595-1",
+    "USN-8595-2",
     "USN-8596-1",
+    "USN-8603-1",
+    "USN-8606-1",
+    "USN-8607-1",
+    "USN-8608-1",
+    "USN-8609-1",
   ]
