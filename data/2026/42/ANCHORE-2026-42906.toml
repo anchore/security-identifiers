@@ -7,12 +7,17 @@ allocated = 2026-06-24T12:54:29.380144Z
   gcve = ["GCVE-0-2026-52928"]
   github = ["GHSA-3jxv-h97q-rq3x"]
   enisa = ["EUVD-2026-38698"]
-  amazonlinux = ["ALAS2023-2026-1753", "ALAS2023-2026-1754"]
+  amazonlinux = [
+    "ALAS2023-2026-1753",
+    "ALAS2023-2026-1754",
+    "ALAS2KERNEL-5.15-2026-111",
+  ]
   ubuntu = [
     "USN-8566-1",
     "USN-8568-1",
     "USN-8569-1",
     "USN-8593-1",
     "USN-8603-1",
+    "USN-8618-1",
   ]
   photon = ["PHSA-2026-5.0-0926"]
