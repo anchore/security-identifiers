@@ -11,14 +11,21 @@ allocated = 2026-07-15T04:52:19.469567Z
     "openSUSE-SU-2026:11311-1",
     "openSUSE-SU-2026:11329-1",
     "openSUSE-SU-2026:11359-1",
+    "openSUSE-SU-2026:21519-1",
   ]
   debian = ["DSA-6394-1"]
   suse = ["SUSE-SU-2026:3200-1", "SUSE-SU-2026:3221-1"]
-  redhat = ["RHSA-2026:47101", "RHSA-2026:47105"]
-  oraclelinux = ["ELSA-2026-47104", "ELSA-2026-47105"]
+  redhat = [
+    "RHSA-2026:47101",
+    "RHSA-2026:47104",
+    "RHSA-2026:47105",
+    "RHSA-2026:49621",
+  ]
+  oraclelinux = ["ELSA-2026-47104", "ELSA-2026-47105", "ELSA-2026-49621"]
   openeuler = [
     "OESA-2026-3195",
     "OESA-2026-3196",
     "openEuler-SA-2026-3195",
     "openEuler-SA-2026-3196",
   ]
+  almalinux = ["ALSA-2026:49922"]
