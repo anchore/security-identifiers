@@ -9,9 +9,20 @@ allocated = 2026-06-30T05:16:18.687579Z
   github = ["GHSA-xxx6-g6jv-xq96"]
   echo = ["ECHO-af42-4f18-f2fa"]
   almalinux = ["ALSA-2026:42062", "ALSA-2026:42088"]
-  redhat = ["RHSA-2026:42062", "RHSA-2026:42088"]
+  redhat = [
+    "RHSA-2026:42062",
+    "RHSA-2026:42088",
+    "RHSA-2026:54572",
+    "RHSA-2026:54634",
+  ]
   oraclelinux = ["ELSA-2026-42062", "ELSA-2026-42088"]
   debian = ["DSA-6398-1"]
-  suse = ["SUSE-SU-2026:3338-1", "SUSE-SU-2026:3396-1", "SUSE-SU-2026:3555-1"]
+  suse = [
+    "SUSE-SU-2026:23111-1",
+    "SUSE-SU-2026:23133-1",
+    "SUSE-SU-2026:3338-1",
+    "SUSE-SU-2026:3396-1",
+    "SUSE-SU-2026:3555-1",
+  ]
   opensuse = ["openSUSE-SU-2026:21508-1"]
   amazonlinux = ["ALAS2-2026-3843"]
