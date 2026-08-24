@@ -7,7 +7,13 @@ allocated = 2026-07-20T04:58:57.930627Z
   gcve = ["GCVE-0-2026-63888"]
   enisa = ["EUVD-2026-45661"]
   github = ["GHSA-ww53-m8wh-v825"]
-  ubuntu = ["USN-8593-1", "USN-8603-1", "USN-8618-1"]
+  ubuntu = [
+    "USN-8593-1",
+    "USN-8603-1",
+    "USN-8618-1",
+    "USN-8663-1",
+    "USN-8664-1",
+  ]
   photon = ["PHSA-2026-5.0-0895", "PHSA-2026-5.0-0926"]
   openeuler = [
     "OESA-2026-3302",
@@ -22,10 +28,11 @@ allocated = 2026-07-20T04:58:57.930627Z
     "ALAS2KERNEL-5.10-2026-124",
     "ALAS2KERNEL-5.15-2026-110",
   ]
-  almalinux = ["ALSA-2026:57254"]
+  almalinux = ["ALSA-2026:57253", "ALSA-2026:57254"]
   redhat = [
     "RHSA-2026:57251",
     "RHSA-2026:57252",
     "RHSA-2026:57253",
     "RHSA-2026:57254",
   ]
+  oraclelinux = ["ELSA-2026-57251", "ELSA-2026-57252"]

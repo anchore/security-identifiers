@@ -7,7 +7,13 @@ allocated = 2026-07-20T04:58:58.046075Z
   gcve = ["GCVE-0-2026-64007"]
   enisa = ["EUVD-2026-45580"]
   github = ["GHSA-rf6c-225m-p2p4"]
-  ubuntu = ["USN-8593-1", "USN-8603-1", "USN-8618-1"]
+  ubuntu = [
+    "USN-8593-1",
+    "USN-8603-1",
+    "USN-8618-1",
+    "USN-8663-1",
+    "USN-8664-1",
+  ]
   photon = ["PHSA-2026-5.0-0895", "PHSA-2026-5.0-0926"]
   amazonlinux = [
     "ALAS2023-2026-1881",
@@ -17,3 +23,4 @@ allocated = 2026-07-20T04:58:58.046075Z
     "ALAS2KERNEL-5.15-2026-110",
   ]
   redhat = ["RHSA-2026:57252"]
+  oraclelinux = ["ELSA-2026-57252"]
