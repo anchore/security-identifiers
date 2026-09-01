@@ -15,7 +15,7 @@ permissions: {}
 jobs:
   allocate-security-identifiers:
     name: "Allocate Security Identifiers"
-    runs-on: runs-on=${{ github.run_id }}/runner=medium-arm
+    runs-on: runs-on=${{ github.run_id }}/runner=large-arm
     container:
       image: python:3.14-alpine
     permissions:
