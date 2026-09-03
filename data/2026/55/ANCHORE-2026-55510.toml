@@ -8,7 +8,12 @@ allocated = 2026-07-22T04:55:27.852135Z
   enisa = ["EUVD-2026-46255"]
   github = ["GHSA-mq2j-7vq4-77m8"]
   echo = ["ECHO-c402-a16c-cfd9"]
-  redhat = ["RHSA-2026:42922", "RHSA-2026:55855"]
+  redhat = [
+    "RHSA-2026:42922",
+    "RHSA-2026:55855",
+    "RHSA-2026:62217",
+    "RHSA-2026:62218",
+  ]
   opensuse = ["openSUSE-SU-2026:11377-1", "openSUSE-SU-2026:21444-1"]
   fedora = ["FEDORA-2026-063caa9112", "FEDORA-2026-0e46c91ccf"]
   suse = [
@@ -35,6 +40,6 @@ allocated = 2026-07-22T04:55:27.852135Z
     "openEuler-SA-2026-3324",
     "openEuler-SA-2026-3476",
   ]
-  almalinux = ["ALSA-2026:55855"]
+  almalinux = ["ALSA-2026:55855", "ALSA-2026:62217", "ALSA-2026:62218"]
   oraclelinux = ["ELSA-2026-55855"]
   ubuntu = ["USN-8699-1"]

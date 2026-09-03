@@ -8,7 +8,12 @@ allocated = 2026-07-22T04:55:27.853295Z
   enisa = ["EUVD-2026-46256"]
   github = ["GHSA-4h4r-q9xg-gfmm"]
   echo = ["ECHO-b7fc-a7ac-f445"]
-  redhat = ["RHSA-2026:42922", "RHSA-2026:55855"]
+  redhat = [
+    "RHSA-2026:42922",
+    "RHSA-2026:55855",
+    "RHSA-2026:62217",
+    "RHSA-2026:62218",
+  ]
   opensuse = ["openSUSE-SU-2026:11377-1", "openSUSE-SU-2026:21444-1"]
   fedora = ["FEDORA-2026-063caa9112", "FEDORA-2026-0e46c91ccf"]
   suse = [
@@ -23,6 +28,6 @@ allocated = 2026-07-22T04:55:27.853295Z
   ]
   debian = ["DSA-6410-1"]
   chainguard = ["CGA-v2c7-63vj-6v7c"]
-  almalinux = ["ALSA-2026:55855"]
+  almalinux = ["ALSA-2026:55855", "ALSA-2026:62217", "ALSA-2026:62218"]
   oraclelinux = ["ELSA-2026-55855"]
   ubuntu = ["USN-8699-1"]
