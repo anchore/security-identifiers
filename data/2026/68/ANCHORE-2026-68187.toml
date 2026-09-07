@@ -7,7 +7,14 @@ allocated = 2026-08-17T04:05:49.237169Z
   gcve = ["GCVE-0-2026-72135"]
   enisa = ["EUVD-2026-58893"]
   github = ["GHSA-mgw8-pg67-5pw5"]
-  openeuler = ["OESA-2026-3532", "openEuler-SA-2026-3532"]
+  openeuler = [
+    "OESA-2026-3532",
+    "OESA-2026-3703",
+    "OESA-2026-3704",
+    "openEuler-SA-2026-3532",
+    "openEuler-SA-2026-3703",
+    "openEuler-SA-2026-3704",
+  ]
   amazonlinux = [
     "ALAS2023-2026-2057",
     "ALAS2023-2026-2058",
@@ -15,3 +22,4 @@ allocated = 2026-08-17T04:05:49.237169Z
     "ALAS2KERNEL-5.10-2026-129",
     "ALAS2KERNEL-5.15-2026-113",
   ]
+  oraclelinux = ["ELSA-2026-500248", "ELSA-2026-500249"]
