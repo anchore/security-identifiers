@@ -10,7 +10,12 @@ allocated = 2026-06-05T05:21:44.837205Z
   echo = ["ECHO-d2db-9152-3e07"]
   openeuler = ["OESA-2026-2680", "openEuler-SA-2026-2680"]
   chainguard = ["CGA-gjp2-qvw3-j4qm"]
-  redhat = ["RHSA-2026:30647"]
+  redhat = [
+    "RHSA-2026:30647",
+    "RHSA-2026:64809",
+    "RHSA-2026:64810",
+    "RHSA-2026:64812",
+  ]
   fedora = ["FEDORA-2026-3cb1034453", "FEDORA-2026-6666907a26"]
   amazonlinux = [
     "ALAS2-2026-3795",
@@ -20,3 +25,4 @@ allocated = 2026-06-05T05:21:44.837205Z
   debian = ["DSA-6404-1"]
   julia = ["JLSEC-2026-1224"]
   opensuse = ["openSUSE-SU-2026:11584-1"]
+  almalinux = ["ALSA-2026:64809"]
