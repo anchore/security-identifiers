@@ -1,9 +1,10 @@
 [security]
 id = "ANCHORE-2026-1796"
 allocated = 2026-01-09T10:45:46.216455Z
+duplicates = ["ANCHORE-2026-42012"]
 
   [security.aliases]
-  github = ["GHSA-mcmc-2m55-j8jj"]
+  github = ["GHSA-78fp-cf4h-g36p", "GHSA-mcmc-2m55-j8jj"]
   pypa = ["PYSEC-2026-250"]
   cve = ["CVE-2026-56340"]
   gcve = ["GCVE-0-2026-56340"]
