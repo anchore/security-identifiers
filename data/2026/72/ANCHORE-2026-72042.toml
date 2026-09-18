@@ -9,10 +9,16 @@ allocated = 2026-08-21T04:07:53.515473Z
   openeuler = ["OESA-2026-3268", "openEuler-SA-2026-3268"]
   echo = ["ECHO-ea71-be9c-766f"]
   ubuntu = ["USN-8710-1"]
-  redhat = ["RHSA-2026:63388"]
+  redhat = [
+    "RHSA-2026:63388",
+    "RHSA-2026:67908",
+    "RHSA-2026:67909",
+    "RHSA-2026:67910",
+  ]
   fedora = [
     "FEDORA-2026-0a83f1b852",
     "FEDORA-2026-728dd9f704",
     "FEDORA-2026-72d10c874d",
   ]
   debian = ["DSA-6493-1"]
+  almalinux = ["ALSA-2026:67908", "ALSA-2026:67909", "ALSA-2026:67910"]
