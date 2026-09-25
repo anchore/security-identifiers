@@ -1,13 +1,18 @@
 [security]
 id = "ANCHORE-2024-31218"
 allocated = 2025-10-15T14:17:12.816603Z
+duplicates = ["ANCHORE-2024-41371", "ANCHORE-2025-14845"]
 
   [security.aliases]
   cve = ["CVE-2023-32196", "CVE-2023-32197"]
   gcve = ["GCVE-0-2023-32196", "GCVE-0-2023-32197"]
   github = ["GHSA-64jq-m7rq-768h", "GHSA-7h8m-pvw3-5gh4", "GHSA-x7xj-jvwp-97rv"]
-  go = ["GO-2024-2929", "GO-2024-3220"]
+  go = ["GO-2024-2929", "GO-2024-3220", "GO-2024-3222"]
   enisa = ["EUVD-2024-1940", "EUVD-2024-2981"]
-  chainguard = ["CGA-377r-qpqp-m3p6", "CGA-4h94-mgm6-c3q8"]
+  chainguard = [
+    "CGA-377r-qpqp-m3p6",
+    "CGA-4h94-mgm6-c3q8",
+    "CGA-rcmm-59p9-x6jg",
+  ]
   suse = ["SUSE-SU-2024:3911-1"]
   opensuse = ["openSUSE-SU-2024:0350-1", "openSUSE-SU-2024:14447-1"]

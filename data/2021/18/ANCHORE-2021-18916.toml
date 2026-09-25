@@ -1,12 +1,13 @@
 [security]
 id = "ANCHORE-2021-18916"
 allocated = 2025-10-15T14:16:10.729376Z
+duplicates = ["ANCHORE-2022-26264"]
 
   [security.aliases]
   cve = ["CVE-2021-41190"]
   gcve = ["GCVE-0-2021-41190"]
   github = ["GHSA-mc8v-mgrf-8f4m", "GHSA-qq97-vm5h-rrhg"]
-  go = ["GO-2022-0257"]
+  go = ["GO-2022-0257", "GO-2022-0379"]
   redhat = ["RHSA-2022:0055", "RHSA-2022:7457"]
   rockylinux = ["RLSA-2022:7457"]
   suse = [
@@ -68,3 +69,4 @@ allocated = 2025-10-15T14:16:10.729376Z
     "FEDORA-2021-eb2742b148",
   ]
   enisa = ["EUVD-2021-2367"]
+  chainguard = ["CGA-r76w-6wm4-g4g6", "CGA-v68r-2v6m-52pq"]
