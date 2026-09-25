@@ -9,7 +9,14 @@ allocated = 2025-10-15T14:15:55.488321Z
   debian = ["DLA-2237-1"]
   redhat = ["RHSA-2020:4469"]
   rockylinux = ["RLSA-2020:4469"]
-  suse = ["SUSE-SU-2020:1045-1", "SUSE-SU-2020:1083-1", "SUSE-SU-2020:14341-1"]
+  suse = [
+    "SUSE-IU-2020:87-1",
+    "SUSE-IU-2020:88-1",
+    "SUSE-IU-2021:605-1",
+    "SUSE-SU-2020:1045-1",
+    "SUSE-SU-2020:1083-1",
+    "SUSE-SU-2020:14341-1",
+  ]
   opensuse = ["openSUSE-SU-2020:0555-1", "openSUSE-SU-2024:10707-1"]
   ubuntu = ["USN-4340-1"]
   oraclelinux = ["ELSA-2020-4469"]

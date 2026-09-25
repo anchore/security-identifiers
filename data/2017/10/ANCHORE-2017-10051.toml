@@ -6,8 +6,13 @@ allocated = 2025-10-15T14:15:13.442406Z
   cve = ["CVE-2017-9746"]
   gcve = ["GCVE-0-2017-9746"]
   github = ["GHSA-662q-3q2v-hc7r"]
-  suse = ["SUSE-SU-2017:3170-1", "SUSE-SU-2018:3207-1", "SUSE-SU-2018:3207-2"]
-  opensuse = ["openSUSE-SU-2024:10651-1"]
+  suse = [
+    "SUSE-CU-2019:723-1",
+    "SUSE-SU-2017:3170-1",
+    "SUSE-SU-2018:3207-1",
+    "SUSE-SU-2018:3207-2",
+  ]
+  opensuse = ["openSUSE-SU-2018:3223-1", "openSUSE-SU-2024:10651-1"]
   ubuntu = ["USN-4336-2"]
   mageia = ["MGASA-2019-0169"]
   photon = ["PHSA-2023-3.0-0601", "PHSA-2023-4.0-0414"]

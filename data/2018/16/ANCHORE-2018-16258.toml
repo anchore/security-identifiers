@@ -7,8 +7,18 @@ allocated = 2025-10-15T14:15:30.245431Z
   gcve = ["GCVE-0-2018-19210"]
   github = ["GHSA-2f42-4gxp-5g75"]
   debian = ["DLA-1680-1", "DSA-4670-1"]
-  suse = ["SUSE-SU-2018:4008-1", "SUSE-SU-2018:4191-1", "SUSE-SU-2019:0786-1"]
-  opensuse = ["openSUSE-SU-2019:1161-1", "openSUSE-SU-2024:11461-1"]
+  suse = [
+    "SUSE-CU-2019:721-1",
+    "SUSE-SU-2018:4008-1",
+    "SUSE-SU-2018:4191-1",
+    "SUSE-SU-2019:0786-1",
+  ]
+  opensuse = [
+    "openSUSE-SU-2018:4053-1",
+    "openSUSE-SU-2018:4256-1",
+    "openSUSE-SU-2019:1161-1",
+    "openSUSE-SU-2024:11461-1",
+  ]
   ubuntu = ["USN-3906-1"]
   mageia = ["MGASA-2018-0493"]
   fedora = ["FEDORA-2019-70d89f8806", "FEDORA-2019-fa3e40f00a"]

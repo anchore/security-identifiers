@@ -9,7 +9,16 @@ allocated = 2025-10-15T14:15:52.831009Z
   bitnami = ["BIT-etcd-2020-15112"]
   go = ["GO-2020-0005"]
   redhat = ["RHSA-2021:0916", "RHSA-2021:1407"]
-  suse = ["SUSE-SU-2020:3760-1"]
+  suse = [
+    "SUSE-CU-2020:783-1",
+    "SUSE-CU-2020:785-1",
+    "SUSE-CU-2020:788-1",
+    "SUSE-CU-2020:789-1",
+    "SUSE-CU-2020:791-1",
+    "SUSE-CU-2020:793-1",
+    "SUSE-SU-2020:3760-1",
+    "SUSE-SU-2024:3656-1",
+  ]
   ubuntu = ["USN-5628-1", "USN-5628-2"]
   fedora = ["FEDORA-2020-cd43b84c16"]
   photon = [

@@ -6,8 +6,17 @@ allocated = 2025-10-15T14:15:00.486546Z
   cve = ["CVE-2015-4474"]
   gcve = ["GCVE-0-2015-4474"]
   github = ["GHSA-jqfp-v42r-59vm"]
-  suse = ["SUSE-SU-2015:1449-1", "SUSE-SU-2015:1476-1", "SUSE-SU-2015:1528-1"]
-  opensuse = ["openSUSE-SU-2024:10071-1"]
+  suse = [
+    "SUSE-SU-2015:1449-1",
+    "SUSE-SU-2015:1476-1",
+    "SUSE-SU-2015:1528-1",
+    "SUSE-SU-2015:2081-1",
+  ]
+  opensuse = [
+    "openSUSE-SU-2015:1389-1",
+    "openSUSE-SU-2015:1390-1",
+    "openSUSE-SU-2024:10071-1",
+  ]
   ubuntu = ["USN-2702-1"]
   cnvd = ["CNVD-2015-05435"]
   enisa = ["EUVD-2015-4494"]

@@ -7,8 +7,17 @@ allocated = 2025-10-15T14:15:01.653863Z
   gcve = ["GCVE-0-2015-2695"]
   github = ["GHSA-px5h-p825-xfmc"]
   debian = ["DLA-340-1", "DSA-3395-1"]
-  suse = ["SUSE-SU-2015:1897-1", "SUSE-SU-2015:1898-1", "SUSE-SU-2015:2294-1"]
-  opensuse = ["openSUSE-SU-2024:10004-1"]
+  suse = [
+    "SUSE-SU-2015:1897-1",
+    "SUSE-SU-2015:1898-1",
+    "SUSE-SU-2015:1898-2",
+    "SUSE-SU-2015:2294-1",
+  ]
+  opensuse = [
+    "openSUSE-SU-2015:1928-1",
+    "openSUSE-SU-2015:1997-1",
+    "openSUSE-SU-2024:10004-1",
+  ]
   ubuntu = ["USN-2810-1"]
   mageia = ["MGASA-2015-0436"]
   cnvd = ["CNVD-2015-07529"]

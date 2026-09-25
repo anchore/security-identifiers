@@ -6,7 +6,17 @@ allocated = 2025-10-15T14:15:14.413673Z
   cve = ["CVE-2015-3243"]
   gcve = ["GCVE-0-2015-3243"]
   github = ["GHSA-mg7r-rgfr-mmj9"]
-  suse = ["SUSE-SU-2018:1937-1", "SUSE-SU-2018:1937-2", "SUSE-SU-2018:2038-1"]
-  opensuse = ["openSUSE-SU-2024:11309-1"]
+  suse = [
+    "SUSE-CU-2019:710-1",
+    "SUSE-SU-2018:1937-1",
+    "SUSE-SU-2018:1937-2",
+    "SUSE-SU-2018:2038-1",
+    "SUSE-SU-2018:2453-1",
+  ]
+  opensuse = [
+    "openSUSE-SU-2018:2019-1",
+    "openSUSE-SU-2018:2166-1",
+    "openSUSE-SU-2024:11309-1",
+  ]
   cnvd = ["CNVD-2015-04548"]
   enisa = ["EUVD-2015-3298"]

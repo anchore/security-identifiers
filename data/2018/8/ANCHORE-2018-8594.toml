@@ -7,8 +7,17 @@ allocated = 2025-10-15T14:15:24.922181Z
   gcve = ["GCVE-0-2018-11813"]
   github = ["GHSA-32p9-664j-q6j6"]
   redhat = ["RHSA-2019:2052"]
-  suse = ["SUSE-SU-2018:1825-1", "SUSE-SU-2019:0711-1", "SUSE-SU-2019:1111-1"]
-  opensuse = ["openSUSE-SU-2019:1118-1", "openSUSE-SU-2024:10952-1"]
+  suse = [
+    "SUSE-CU-2020:858-1",
+    "SUSE-SU-2018:1825-1",
+    "SUSE-SU-2019:0711-1",
+    "SUSE-SU-2019:1111-1",
+  ]
+  opensuse = [
+    "openSUSE-SU-2019:1118-1",
+    "openSUSE-SU-2019:1343-1",
+    "openSUSE-SU-2024:10952-1",
+  ]
   ubuntu = [
     "USN-5336-1",
     "USN-5497-1",

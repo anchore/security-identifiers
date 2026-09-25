@@ -9,7 +9,13 @@ allocated = 2025-10-15T14:16:19.644468Z
   almalinux = ["ALSA-2022:8393"]
   redhat = ["RHSA-2022:8393"]
   rockylinux = ["RLSA-2022:8393"]
-  suse = ["SUSE-SU-2022:2396-1"]
+  suse = [
+    "SUSE-CU-2022:2149-1",
+    "SUSE-IU-2022:953-1",
+    "SUSE-IU-2022:954-1",
+    "SUSE-IU-2022:955-1",
+    "SUSE-SU-2022:2396-1",
+  ]
   opensuse = ["openSUSE-SU-2024:12108-1"]
   ubuntu = ["USN-5447-1"]
   openeuler = ["OESA-2022-1724", "openEuler-SA-2022-1724"]

@@ -7,8 +7,13 @@ allocated = 2025-10-15T14:15:22.236351Z
   gcve = ["GCVE-0-2018-8740"]
   github = ["GHSA-c753-vqf3-vjxh"]
   debian = ["DLA-1633-1", "DLA-2340-1", "DLA-3431-1"]
-  suse = ["SUSE-SU-2019:1208-1", "SUSE-SU-2019:1522-1", "SUSE-SU-2021:3215-1"]
-  opensuse = ["openSUSE-SU-2024:11400-1"]
+  suse = [
+    "SUSE-SU-2019:1208-1",
+    "SUSE-SU-2019:14228-1",
+    "SUSE-SU-2019:1522-1",
+    "SUSE-SU-2021:3215-1",
+  ]
+  opensuse = ["openSUSE-SU-2019:1426-1", "openSUSE-SU-2024:11400-1"]
   ubuntu = ["USN-4205-1", "USN-4394-1"]
   mageia = ["MGASA-2018-0181", "MGASA-2023-0208"]
   cpan = ["CPANSA-DBD-SQLite-2018-8740", "CPANSA-DBD-SQLite-2018-8740-sqlite"]

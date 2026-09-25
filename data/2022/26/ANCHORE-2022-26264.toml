@@ -3,6 +3,67 @@ id = "ANCHORE-2022-26264"
 allocated = 2025-10-15T14:17:47.422859Z
 
   [security.aliases]
-  github = ["GHSA-qq97-vm5h-rrhg"]
-  go = ["GO-2022-0379"]
+  github = ["GHSA-mc8v-mgrf-8f4m", "GHSA-qq97-vm5h-rrhg"]
+  go = ["GO-2022-0257", "GO-2022-0379"]
   chainguard = ["CGA-r76w-6wm4-g4g6", "CGA-v68r-2v6m-52pq"]
+  cve = ["CVE-2021-41190"]
+  gcve = ["GCVE-0-2021-41190"]
+  enisa = ["EUVD-2021-2367"]
+  redhat = ["RHSA-2022:0055", "RHSA-2022:7457"]
+  suse = [
+    "SUSE-CU-2022:1765-1",
+    "SUSE-CU-2022:263-1",
+    "SUSE-CU-2022:309-1",
+    "SUSE-CU-2022:313-1",
+    "SUSE-CU-2023:3473-1",
+    "SUSE-CU-2023:3475-1",
+    "SUSE-IU-2022:282-1",
+    "SUSE-IU-2022:283-1",
+    "SUSE-IU-2022:284-1",
+    "SUSE-IU-2022:357-1",
+    "SUSE-IU-2022:358-1",
+    "SUSE-IU-2022:359-1",
+    "SUSE-IU-2022:814-1",
+    "SUSE-IU-2022:817-1",
+    "SUSE-IU-2022:836-1",
+    "SUSE-IU-2022:853-1",
+    "SUSE-IU-2022:859-1",
+    "SUSE-IU-2022:878-1",
+    "SUSE-SU-2022:0213-1",
+    "SUSE-SU-2022:0334-1",
+    "SUSE-SU-2022:1507-1",
+    "SUSE-SU-2022:23018-1",
+    "SUSE-SU-2023:0187-1",
+    "SUSE-SU-2023:0326-1",
+    "SUSE-SU-2025:02282-1",
+    "SUSE-SU-2025:03540-1",
+    "SUSE-SU-2025:03545-1",
+  ]
+  opensuse = [
+    "openSUSE-SU-2021:1525-1",
+    "openSUSE-SU-2022:0334-1",
+    "openSUSE-SU-2022:23018-1",
+    "openSUSE-SU-2024:11646-1",
+    "openSUSE-SU-2024:11647-1",
+    "openSUSE-SU-2024:11659-1",
+    "openSUSE-SU-2024:11674-1",
+    "openSUSE-SU-2025:15166-1",
+    "openSUSE-SU-2025:15589-1",
+  ]
+  amazonlinux = [
+    "ALAS2DOCKER-2021-014",
+    "ALAS2ECS-2023-025",
+    "ALAS2ECS-2023-026",
+    "ALAS2NITRO-ENCLAVES-2021-014",
+  ]
+  oraclelinux = ["ELSA-2022-7457"]
+  archlinux = ["AVG-2573", "AVG-2574", "AVG-2591"]
+  fedora = [
+    "FEDORA-2021-00a6aec975",
+    "FEDORA-2021-0597342394",
+    "FEDORA-2021-62352983b4",
+    "FEDORA-2021-6789ed60f2",
+    "FEDORA-2021-79ba5abef6",
+    "FEDORA-2021-a9338f491d",
+    "FEDORA-2021-eb2742b148",
+  ]

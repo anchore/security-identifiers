@@ -3,17 +3,32 @@ id = "ANCHORE-2020-15296"
 allocated = 2025-10-15T14:15:55.113648Z
 
   [security.aliases]
-  cve = ["CVE-2020-15157"]
-  gcve = ["GCVE-0-2020-15157"]
-  github = ["GHSA-742w-89gc-8m9c"]
-  go = ["GO-2022-0803"]
+  cve = ["CVE-2020-15157", "CVE-2026-33540"]
+  gcve = ["GCVE-0-2020-15157", "GCVE-0-2026-33540"]
+  github = ["GHSA-3p65-76g6-3w7r", "GHSA-742w-89gc-8m9c"]
+  go = ["GO-2022-0803", "GO-2026-5094"]
   debian = ["DSA-4865-1"]
   redhat = ["RHSA-2020:5634"]
-  suse = ["SUSE-SU-2021:0445-1", "SUSE-SU-2022:23018-1", "SUSE-SU-2022:3312-1"]
+  suse = [
+    "SUSE-CU-2022:1765-1",
+    "SUSE-CU-2022:263-1",
+    "SUSE-CU-2022:309-1",
+    "SUSE-CU-2022:313-1",
+    "SUSE-IU-2022:357-1",
+    "SUSE-IU-2022:358-1",
+    "SUSE-IU-2022:359-1",
+    "SUSE-SU-2021:0445-1",
+    "SUSE-SU-2022:23018-1",
+    "SUSE-SU-2022:3312-1",
+    "SUSE-SU-2026:21560-1",
+    "SUSE-SU-2026:4212-1",
+  ]
   opensuse = [
     "openSUSE-SU-2022:23018-1",
     "openSUSE-SU-2024:10693-1",
     "openSUSE-SU-2024:11757-1",
+    "openSUSE-SU-2026:10631-1",
+    "openSUSE-SU-2026:21483-1",
   ]
   ubuntu = ["USN-4589-1", "USN-4589-2"]
   amazonlinux = ["ALAS2DOCKER-2021-013", "ALAS2NITRO-ENCLAVES-2021-013"]
@@ -22,4 +37,25 @@ allocated = 2025-10-15T14:15:55.113648Z
   fedora_epel = ["FEDORA-EPEL-2020-e816cf1fbc"]
   photon = ["PHSA-2020-0292", "PHSA-2020-3.0-0155"]
   cnvd = ["CNVD-2021-11850"]
-  enisa = ["EUVD-2022-0879"]
+  enisa = ["EUVD-2022-0879", "EUVD-2026-19289"]
+  chainguard = ["CGA-4fxm-pmfg-6hjw"]
+  minimos = [
+    "MINI-27f3-rp82-prhg",
+    "MINI-2c56-9qvf-7468",
+    "MINI-7r77-9chc-xmm2",
+    "MINI-8mqp-39qq-5vc2",
+    "MINI-9h82-vw7q-p4xq",
+    "MINI-c727-qfmp-55h6",
+    "MINI-cx94-m58w-6jcr",
+    "MINI-hg6g-vvxq-hqq2",
+    "MINI-mh8m-whc7-7qwj",
+    "MINI-prf8-gfxp-fw6v",
+    "MINI-q27f-r864-7rqj",
+    "MINI-qcqw-4xvr-9mrf",
+    "MINI-r4c3-q3vg-pw2m",
+    "MINI-r82v-3q9p-p79x",
+    "MINI-r8cm-rf53-5c5p",
+    "MINI-r925-pmmq-j99h",
+    "MINI-x42p-4f3v-prm3",
+    "MINI-xpr2-jv4g-469q",
+  ]

@@ -8,8 +8,19 @@ allocated = 2025-10-15T14:15:03.494852Z
   github = ["GHSA-4p34-xvm4-h22p"]
   debian = ["DSA-3595-1"]
   redhat = ["RHSA-2016:0705", "RHSA-2016:1132"]
-  suse = ["SUSE-SU-2016:1619-1", "SUSE-SU-2016:1620-1"]
+  suse = [
+    "SUSE-CU-2019:719-1",
+    "SUSE-CU-2019:731-1",
+    "SUSE-CU-2019:738-1",
+    "SUSE-SU-2016:1619-1",
+    "SUSE-SU-2016:1620-1",
+  ]
   ubuntu = ["USN-2953-1", "USN-2954-1"]
   mageia = ["MGASA-2016-0182"]
   cnvd = ["CNVD-2016-02593"]
   enisa = ["EUVD-2016-0690"]
+  opensuse = [
+    "openSUSE-SU-2016:1332-1",
+    "openSUSE-SU-2016:1664-1",
+    "openSUSE-SU-2016:1686-1",
+  ]

@@ -7,8 +7,15 @@ allocated = 2025-10-15T14:15:20.370292Z
   gcve = ["GCVE-0-2018-1000030"]
   github = ["GHSA-rwj4-fxr5-gh64"]
   psf = ["PSF-2018-2"]
-  suse = ["SUSE-SU-2018:1372-1", "SUSE-SU-2020:0234-1"]
-  opensuse = ["openSUSE-SU-2024:11202-1"]
+  suse = [
+    "SUSE-CU-2019:706-1",
+    "SUSE-CU-2019:729-1",
+    "SUSE-CU-2019:731-1",
+    "SUSE-CU-2019:733-1",
+    "SUSE-SU-2018:1372-1",
+    "SUSE-SU-2020:0234-1",
+  ]
+  opensuse = ["openSUSE-SU-2018:1415-1", "openSUSE-SU-2024:11202-1"]
   ubuntu = ["USN-3817-1"]
   photon = ["PHSA-2018-0037", "PHSA-2018-0125", "PHSA-2018-1.0-0125"]
   cnvd = ["CNVD-2018-05502"]
