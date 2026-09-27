@@ -6,7 +6,12 @@ allocated = 2026-08-24T12:48:00.396710Z
   cve = ["CVE-2026-75975"]
   gcve = ["GCVE-0-2026-75975"]
   enisa = ["EUVD-2026-64772"]
-  redhat = ["RHSA-2026:60855", "RHSA-2026:60856", "RHSA-2026:60866"]
+  redhat = [
+    "RHSA-2026:60855",
+    "RHSA-2026:60856",
+    "RHSA-2026:60866",
+    "RHSA-2026:71543",
+  ]
   github = ["GHSA-f65p-4m7j-42xc"]
   chainguard = ["CGA-hw9p-v29w-g2vx"]
   minimos = [
@@ -38,7 +43,9 @@ allocated = 2026-08-24T12:48:00.396710Z
     "MINI-pxj2-q294-6rwm",
     "MINI-q3rj-wgjm-7chg",
     "MINI-q8g2-qg7m-73x4",
+    "MINI-vvg3-8jp8-rc5q",
     "MINI-wh9q-6c77-wp4q",
     "MINI-xhmm-cf92-82xh",
     "MINI-xrc7-6qg4-4j6q",
   ]
+  oraclelinux = ["ELSA-2026-71543"]
