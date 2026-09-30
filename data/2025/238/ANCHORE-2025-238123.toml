@@ -12,7 +12,7 @@ allocated = 2025-12-08T03:13:56.415585Z
     "ALAS2023-2026-1495",
     "ALAS2KERNEL-5.15-2026-102",
   ]
-  oraclelinux = ["ELSA-2026-50006"]
+  oraclelinux = ["ELSA-2026-50006", "ELSA-2026-71700"]
   mageia = ["MGASA-2026-0017", "MGASA-2026-0018"]
   ubuntu = [
     "USN-8029-1",
@@ -77,5 +77,10 @@ allocated = 2025-12-08T03:13:56.415585Z
     "SUSE-SU-2026:20876-1",
   ]
   opensuse = ["openSUSE-SU-2026:20145-1"]
-  redhat = ["RHSA-2026:71602", "RHSA-2026:71700"]
-  almalinux = ["ALSA-2026:72467", "ALSA-2026:72468"]
+  redhat = [
+    "RHSA-2026:71602",
+    "RHSA-2026:71700",
+    "RHSA-2026:72467",
+    "RHSA-2026:72468",
+  ]
+  almalinux = ["ALSA-2026:71700", "ALSA-2026:72467", "ALSA-2026:72468"]
