@@ -9,7 +9,12 @@ allocated = 2026-09-30T04:30:30.141970Z
   github = ["GHSA-vxq7-64xx-v4gw"]
   echo = ["ECHO-ba49-d64e-7a3d"]
   pypa = ["PYSEC-2026-4177"]
-  redhat = ["RHSA-2026:69612", "RHSA-2026:84577", "RHSA-2026:84578"]
+  redhat = [
+    "RHSA-2026:69612",
+    "RHSA-2026:84577",
+    "RHSA-2026:84578",
+    "RHSA-2026:85929",
+  ]
   minimos = [
     "MINI-243c-922m-xw5h",
     "MINI-2rxx-8h32-x67v",
@@ -70,4 +75,9 @@ allocated = 2026-09-30T04:30:30.141970Z
   ]
   ubuntu = ["USN-8926-1"]
   almalinux = ["ALSA-2026:84577", "ALSA-2026:84578"]
-  oraclelinux = ["ELSA-2026-84577", "ELSA-2026-84578"]
+  oraclelinux = [
+    "ELSA-2026-84577",
+    "ELSA-2026-84578",
+    "ELSA-2026-85929",
+    "ELSA-2026-85930",
+  ]
