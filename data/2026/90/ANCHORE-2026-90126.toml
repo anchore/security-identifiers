@@ -8,7 +8,11 @@ allocated = 2026-09-25T04:25:55.689978Z
   enisa = ["EUVD-2026-86205"]
   github = ["GHSA-r45r-rr2w-7hc6"]
   debian = ["DSA-6528-1"]
-  amazonlinux = ["ALAS2023-2026-3192", "ALAS2023-2026-3193"]
+  amazonlinux = [
+    "ALAS2023-2026-3192",
+    "ALAS2023-2026-3193",
+    "ALAS2KERNEL-5.10-2026-136",
+  ]
   almalinux = [
     "ALSA-2026:85773",
     "ALSA-2026:85774",
@@ -21,4 +25,5 @@ allocated = 2026-09-25T04:25:55.689978Z
     "RHSA-2026:86033",
     "RHSA-2026:88477",
   ]
-  oraclelinux = ["ELSA-2026-88477"]
+  oraclelinux = ["ELSA-2026-85773", "ELSA-2026-86033", "ELSA-2026-88477"]
+  openeuler = ["OESA-2026-4591", "openEuler-SA-2026-4591"]
