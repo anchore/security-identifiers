@@ -7,11 +7,20 @@ allocated = 2026-10-02T04:29:43.941334Z
   gcve = ["GCVE-0-2026-48005"]
   enisa = ["EUVD-2026-90892"]
   github = ["GHSA-cf5c-qxgw-xx3p"]
-  redhat = ["RHSA-2026:74858", "RHSA-2026:88229", "RHSA-2026:89860"]
+  redhat = [
+    "RHSA-2026:74858",
+    "RHSA-2026:88229",
+    "RHSA-2026:89860",
+    "RHSA-2026:92616",
+  ]
   echo = ["ECHO-7422-cd67-7869"]
   bitnami = ["BIT-apache-2026-48005"]
   minimos = ["MINI-jj42-vjmm-2925"]
-  fedora = ["FEDORA-2026-34b2d69632", "FEDORA-2026-d3cec01bde"]
+  fedora = [
+    "FEDORA-2026-34b2d69632",
+    "FEDORA-2026-b6d445cd3e",
+    "FEDORA-2026-d3cec01bde",
+  ]
   amazonlinux = ["ALAS2-2026-3990", "ALAS2023-2026-3202"]
   debian = ["DSA-6569-1"]
   openeuler = [
@@ -25,4 +34,4 @@ allocated = 2026-10-02T04:29:43.941334Z
     "openEuler-SA-2026-4637",
   ]
   almalinux = ["ALSA-2026:88229", "ALSA-2026:89860", "ALSA-2026:92616"]
-  oraclelinux = ["ELSA-2026-88229", "ELSA-2026-89860"]
+  oraclelinux = ["ELSA-2026-88229", "ELSA-2026-89860", "ELSA-2026-92616"]
