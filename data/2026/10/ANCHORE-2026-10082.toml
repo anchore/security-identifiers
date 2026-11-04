@@ -3,6 +3,19 @@ id = "ANCHORE-2026-10082"
 allocated = 2026-02-24T06:17:05.467219Z
 
   [security.aliases]
-  cve = ["CVE-2026-25984"]
-  gcve = ["GCVE-0-2026-25984"]
+  cve = ["CVE-2026-25984", "CVE-2026-56367"]
+  gcve = ["GCVE-0-2026-25984", "GCVE-0-2026-56367"]
   github = ["GHSA-273h-m46v-96q4"]
+  enisa = ["EUVD-2026-38173"]
+  debian = ["DSA-6383-1"]
+  suse = [
+    "SUSE-SU-2026:22378-1",
+    "SUSE-SU-2026:2877-1",
+    "SUSE-SU-2026:3023-1",
+    "SUSE-SU-2026:3024-1",
+    "SUSE-SU-2026:3053-1",
+  ]
+  opensuse = ["openSUSE-SU-2026:11127-1", "openSUSE-SU-2026:21071-1"]
+  ubuntu = ["USN-8859-1"]
+  echo = ["ECHO-0df6-8de2-95bc"]
+  julia = ["JLSEC-2026-1048"]
