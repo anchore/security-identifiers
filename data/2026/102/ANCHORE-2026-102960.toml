@@ -6,8 +6,16 @@ allocated = 2026-10-16T04:32:36.844083Z
   cve = ["CVE-2026-87018"]
   gcve = ["GCVE-0-2026-87018"]
   enisa = ["EUVD-2026-102318"]
-  redhat = ["RHSA-2026:84657", "RHSA-2026:84706"]
+  redhat = [
+    "RHSA-2026:84657",
+    "RHSA-2026:84706",
+    "RHSA-2026:96088",
+    "RHSA-2026:96094",
+    "RHSA-2026:96226",
+    "RHSA-2026:96234",
+  ]
   amazonlinux = ["ALAS2023-2026-3328", "ALAS2023-2026-3330"]
   github = ["GHSA-qrxm-fqhp-jwvm"]
   echo = ["ECHO-9235-5684-d417"]
   opensuse = ["openSUSE-SU-2026:12421-1"]
+  oraclelinux = ["ELSA-2026-96094", "ELSA-2026-96226"]

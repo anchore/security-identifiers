@@ -11,8 +11,14 @@ allocated = 2026-10-22T14:21:31.754916Z
   amazonlinux = ["ALAS2023-2026-3328", "ALAS2023-2026-3330"]
   bitnami = ["BIT-node-2026-106069", "BIT-node-min-2026-106069"]
   almalinux = ["ALSA-2026:92376", "ALSA-2026:92378"]
-  redhat = ["RHSA-2026:92376", "RHSA-2026:92378"]
-  oraclelinux = ["ELSA-2026-92376", "ELSA-2026-92378"]
+  redhat = [
+    "RHSA-2026:92376",
+    "RHSA-2026:92378",
+    "RHSA-2026:96088",
+    "RHSA-2026:96094",
+    "RHSA-2026:96234",
+  ]
+  oraclelinux = ["ELSA-2026-92376", "ELSA-2026-92378", "ELSA-2026-96094"]
   suse = [
     "SUSE-SU-2026:24600-1",
     "SUSE-SU-2026:4957-1",
