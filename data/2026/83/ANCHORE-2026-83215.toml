@@ -14,9 +14,15 @@ allocated = 2026-09-14T04:19:25.663031Z
     "ALAS2023-2026-3335",
     "ALAS2023-2026-3389",
     "ALAS2KERNEL-5.10-2026-138",
+    "ALAS2KERNEL-5.15-2026-121",
   ]
   debian = ["DSA-6568-1"]
-  redhat = ["RHSA-2026:85321", "RHSA-2026:86033"]
+  redhat = [
+    "RHSA-2026:85321",
+    "RHSA-2026:86033",
+    "RHSA-2026:99133",
+    "RHSA-2026:99135",
+  ]
   almalinux = ["ALSA-2026:85321", "ALSA-2026:86033"]
   oraclelinux = ["ELSA-2026-85321", "ELSA-2026-86033"]
   ubuntu = [
