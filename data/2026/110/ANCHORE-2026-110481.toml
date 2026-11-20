@@ -7,9 +7,17 @@ allocated = 2026-10-28T11:25:45.084829Z
   gcve = ["GCVE-0-2026-99100"]
   enisa = ["EUVD-2026-111586"]
   github = ["GHSA-m5mp-q9hj-5q22"]
-  debian = ["DSA-6602-1"]
+  debian = ["DLA-4904-1", "DLA-4906-1", "DSA-6602-1"]
   suse = [
     "SUSE-SU-2026:24549-1",
     "SUSE-SU-2026:24550-1",
     "SUSE-SU-2026:24619-1",
+    "SUSE-SU-2026:24781-1",
+  ]
+  ubuntu = [
+    "USN-9166-1",
+    "USN-9167-1",
+    "USN-9168-1",
+    "USN-9168-2",
+    "USN-9173-1",
   ]

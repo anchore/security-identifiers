@@ -20,7 +20,13 @@ allocated = 2025-10-15T14:17:23.349825Z
     "SUSE-SU-2026:20300-1",
     "SUSE-SU-2026:20327-1",
   ]
-  ubuntu = ["USN-7445-1", "USN-7448-1"]
+  ubuntu = [
+    "USN-7445-1",
+    "USN-7448-1",
+    "USN-9173-1",
+    "USN-9174-1",
+    "USN-9175-1",
+  ]
   minimos = ["MINI-f2xf-68w9-mj9p"]
   echo = ["ECHO-39e1-ba56-3347"]
   oraclelinux = [
@@ -32,3 +38,4 @@ allocated = 2025-10-15T14:17:23.349825Z
   redhat = ["RHSA-2025:20095", "RHSA-2025:20518"]
   almalinux = ["ALSA-2025:20095", "ALSA-2025:20518"]
   enisa = ["EUVD-2025-2645"]
+  debian = ["DLA-4906-1"]

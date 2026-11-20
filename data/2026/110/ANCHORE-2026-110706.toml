@@ -7,7 +7,7 @@ allocated = 2026-10-28T18:24:27.883093Z
   gcve = ["GCVE-0-2026-99156"]
   enisa = ["EUVD-2026-111908"]
   github = ["GHSA-3wp3-5585-mc8q"]
-  debian = ["DSA-6602-1"]
+  debian = ["DLA-4904-1", "DLA-4906-1", "DSA-6602-1"]
   redhat = ["RHSA-2026:99015", "RHSA-2026:99031"]
   amazonlinux = [
     "ALAS2023-2026-3448",
@@ -16,3 +16,10 @@ allocated = 2026-10-28T18:24:27.883093Z
   ]
   oraclelinux = ["ELSA-2026-99015"]
   almalinux = ["ALSA-2026:99015", "ALSA-2026:99031"]
+  ubuntu = [
+    "USN-9166-1",
+    "USN-9167-1",
+    "USN-9168-1",
+    "USN-9168-2",
+    "USN-9173-1",
+  ]
