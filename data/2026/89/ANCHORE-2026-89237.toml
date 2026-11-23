@@ -6,7 +6,11 @@ allocated = 2026-09-23T04:20:26.550943Z
   cve = ["CVE-2026-89425"]
   gcve = ["GCVE-0-2026-89425"]
   enisa = ["EUVD-2026-85000"]
-  opensuse = ["openSUSE-SU-2026:11876-1", "openSUSE-SU-2026:22034-1"]
+  opensuse = [
+    "openSUSE-SU-2026:11876-1",
+    "openSUSE-SU-2026:22034-1",
+    "openSUSE-SU-2026:22376-1",
+  ]
   suse = ["SUSE-SU-2026:24149-1", "SUSE-SU-2026:4394-1"]
   github = ["GHSA-7hhh-6rmp-j9qf"]
   echo = ["ECHO-2fbe-a75f-db7d"]
@@ -38,6 +42,7 @@ allocated = 2026-09-23T04:20:26.550943Z
     "MINI-6pvh-7f5v-8jpq",
     "MINI-6wgq-v5cw-8v34",
     "MINI-7252-r65p-3fx8",
+    "MINI-7f6q-695m-rx2m",
     "MINI-7w2m-m5c6-r63x",
     "MINI-7w4w-4r6q-wcpj",
     "MINI-7xv9-4m9q-84rg",
@@ -130,6 +135,6 @@ allocated = 2026-09-23T04:20:26.550943Z
     "RHSA-2026:99845",
     "RHSA-2026:99846",
   ]
-  oraclelinux = ["ELSA-2026-86706", "ELSA-2026-90909"]
+  oraclelinux = ["ELSA-2026-86706", "ELSA-2026-90909", "ELSA-2026-98493"]
   chainguard = ["CGA-cqj7-9r6v-794g", "CGA-h7j9-p5mf-m8cm"]
   fedora = ["FEDORA-2026-f20c4144a2"]

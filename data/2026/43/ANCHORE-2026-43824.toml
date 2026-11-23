@@ -11,6 +11,8 @@ allocated = 2026-06-26T05:18:19.463356Z
   github = ["GHSA-32xh-3x3c-6g6h"]
   minimos = ["MINI-w84q-85p5-c5rw", "MINI-xj27-23fq-g3jr"]
   redhat = [
+    "RHSA-2026:100685",
+    "RHSA-2026:100686",
     "RHSA-2026:29017",
     "RHSA-2026:34975",
     "RHSA-2026:55439",
@@ -45,8 +47,18 @@ allocated = 2026-06-26T05:18:19.463356Z
   chainguard = ["CGA-m23j-58c5-rmcc"]
   julia = ["JLSEC-2026-1211"]
   photon = ["PHSA-2026-4.0-1061"]
-  almalinux = ["ALSA-2026:55439", "ALSA-2026:57462"]
-  oraclelinux = ["ELSA-2026-55439", "ELSA-2026-55450", "ELSA-2026-57462"]
+  almalinux = [
+    "ALSA-2026:100685",
+    "ALSA-2026:100686",
+    "ALSA-2026:55439",
+    "ALSA-2026:57462",
+  ]
+  oraclelinux = [
+    "ELSA-2026-100686",
+    "ELSA-2026-55439",
+    "ELSA-2026-55450",
+    "ELSA-2026-57462",
+  ]
   fedora = ["FEDORA-2026-2f88b83676", "FEDORA-2026-f903f9ff11"]
   amazonlinux = ["ALAS2-2026-3953", "ALAS2023-2026-2132"]
   debian = ["DSA-6558-1"]

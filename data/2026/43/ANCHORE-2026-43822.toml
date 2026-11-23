@@ -10,6 +10,8 @@ allocated = 2026-06-26T05:18:18.886192Z
   github = ["GHSA-9crq-qh8v-6xmm"]
   minimos = ["MINI-mhj4-jp68-cpm2", "MINI-pmx3-xcpx-8ggp"]
   redhat = [
+    "RHSA-2026:100685",
+    "RHSA-2026:100686",
     "RHSA-2026:29017",
     "RHSA-2026:34975",
     "RHSA-2026:69125",
@@ -24,7 +26,13 @@ allocated = 2026-06-26T05:18:18.886192Z
   julia = ["JLSEC-2026-1201"]
   ubuntu = ["USN-8651-1"]
   amazonlinux = ["ALAS2023-2026-2132"]
-  almalinux = ["ALSA-2026:69125", "ALSA-2026:80511", "ALSA-2026:92368"]
+  almalinux = [
+    "ALSA-2026:100685",
+    "ALSA-2026:100686",
+    "ALSA-2026:69125",
+    "ALSA-2026:80511",
+    "ALSA-2026:92368",
+  ]
   openeuler = [
     "OESA-2026-4124",
     "OESA-2026-4125",
@@ -37,7 +45,12 @@ allocated = 2026-06-26T05:18:18.886192Z
     "openEuler-SA-2026-4127",
     "openEuler-SA-2026-4128",
   ]
-  oraclelinux = ["ELSA-2026-69125", "ELSA-2026-80511", "ELSA-2026-92368"]
+  oraclelinux = [
+    "ELSA-2026-100686",
+    "ELSA-2026-69125",
+    "ELSA-2026-80511",
+    "ELSA-2026-92368",
+  ]
   suse = [
     "SUSE-SU-2026:4954-1",
     "SUSE-SU-2026:5068-1",

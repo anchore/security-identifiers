@@ -7,8 +7,13 @@ allocated = 2026-10-22T18:29:19.467591Z
   gcve = ["GCVE-0-2026-97631"]
   enisa = ["EUVD-2026-108230"]
   amazonlinux = ["ALAS2-2026-4047"]
-  redhat = ["RHSA-2026:96240"]
-  oraclelinux = ["ELSA-2026-96240"]
+  redhat = [
+    "RHSA-2026:100642",
+    "RHSA-2026:100687",
+    "RHSA-2026:100717",
+    "RHSA-2026:96240",
+  ]
+  oraclelinux = ["ELSA-2026-100717", "ELSA-2026-96240"]
   almalinux = ["ALSA-2026:96240"]
   openeuler = [
     "OESA-2026-4875",

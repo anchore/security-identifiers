@@ -8,7 +8,14 @@ allocated = 2026-09-03T05:08:15.267540Z
   enisa = ["EUVD-2026-70108"]
   github = ["GHSA-7m7j-6vw6-f549"]
   echo = ["ECHO-9c44-f69c-dc26"]
-  redhat = ["RHSA-2026:82378", "RHSA-2026:99593", "RHSA-2026:99595"]
+  redhat = [
+    "RHSA-2026:100637",
+    "RHSA-2026:100638",
+    "RHSA-2026:100643",
+    "RHSA-2026:82378",
+    "RHSA-2026:99593",
+    "RHSA-2026:99595",
+  ]
   openeuler = [
     "OESA-2026-4510",
     "OESA-2026-4511",
@@ -18,5 +25,6 @@ allocated = 2026-09-03T05:08:15.267540Z
     "openEuler-SA-2026-4512",
   ]
   amazonlinux = ["ALAS2-2026-4076", "ALAS2023-2026-3398", "ALAS2MOCK2-2026-003"]
-  almalinux = ["ALSA-2026:99593", "ALSA-2026:99595"]
-  oraclelinux = ["ELSA-2026-99593"]
+  almalinux = ["ALSA-2026:100637", "ALSA-2026:99593", "ALSA-2026:99595"]
+  oraclelinux = ["ELSA-2026-100637", "ELSA-2026-99593"]
+  opensuse = ["openSUSE-SU-2026:12645-1"]
