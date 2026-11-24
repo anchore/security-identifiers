@@ -26,7 +26,9 @@ jobs:
     if: github.repository == 'anchore/security-identifiers' # only run for main repo
     steps:
       - name: Install OS dependencies
-        run: apk add --no-cache git taplo sqlite tar zstd curl oras-cli bash
+        run: |
+          apk add --no-cache git taplo sqlite tar zstd curl oras-cli bash
+          apk upgrade --update
       - name: Configure git
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - name: Install python dependencies
